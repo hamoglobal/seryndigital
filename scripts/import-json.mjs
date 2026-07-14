@@ -19,6 +19,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { upsertDay } from '../lib/db.js';
+import { upsertCompetitorDay } from '../lib/competitorDb.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(__dirname, '..');
@@ -63,4 +64,17 @@ if (latest && latest.date) {
     console.log(`[import-json] re-imported ${latest.date} with full detail (social/alerts/activity log).`);
   }
 }
+// Competitor ("Đối Thủ") data
+const competitorBrandsByDate = readJson('competitor-brands.json') || {};
+const competitorItemsByDate = readJson('competitor-items.json') || {};
+const competitorDates = Object.keys(competitorBrandsByDate);
+for (const date of competitorDates) {
+  upsertCompetitorDay({
+    date,
+    brands: competitorBrandsByDate[date] || [],
+    items: competitorItemsByDate[date] || [],
+  });
+}
+console.log(`[import-json] imported ${competitorDates.length} competitor report dates.`);
+
 console.log('[import-json] done.');

@@ -13,7 +13,9 @@ import {
   fmtDateLabel, fmtDateFull, buildBuckets, sourcesForBucket, dedupeSources, typeStats,
   colorForRisk, softBgForRisk, borderForRisk, labelForRisk, cap,
 } from '@/lib/aggregate';
-import { exportListToPdf } from '@/lib/exportPdf';
+import { buildListPdf, pdfToPreviewUrl, revokePdfPreviewUrl } from '@/lib/exportPdf';
+import PdfPreviewModal from './PdfPreviewModal';
+import TopNav from './TopNav';
 
 const VIEW_MODES = ['day', 'week', 'month', 'year'];
 const MODE_NOUN = { day: 'ngày', week: 'tuần', month: 'tháng', year: 'năm' };
@@ -47,6 +49,22 @@ export default function Dashboard() {
   const [modalCategory, setModalCategory] = useState(null);
   const [channelModal, setChannelModal] = useState(null);
   const [riskModalOpen, setRiskModalOpen] = useState(false);
+  const [pdfPreview, setPdfPreview] = useState(null); // { url, filename, doc }
+
+  async function openPdfPreview({ title, subtitle, items, filename }) {
+    const doc = await buildListPdf({ title, subtitle, items });
+    const url = pdfToPreviewUrl(doc);
+    setPdfPreview(prev => {
+      if (prev) revokePdfPreviewUrl(prev.url);
+      return { url, filename, doc };
+    });
+  }
+  function closePdfPreview() {
+    setPdfPreview(prev => {
+      if (prev) revokePdfPreviewUrl(prev.url);
+      return null;
+    });
+  }
 
   useEffect(() => {
     let cancelled = false;
@@ -191,20 +209,13 @@ export default function Dashboard() {
     <div style={{ minHeight: '100vh', background: 'radial-gradient(1100px 520px at 12% -8%, var(--coral-100), transparent), var(--bg-page)', fontFamily: 'var(--font-sans)', color: 'var(--text-body)' }}>
 
       {/* ============ TOP BAR ============ */}
-      <div style={{ position: 'sticky', top: 0, zIndex: 30, background: 'rgba(251,246,241,0.85)', backdropFilter: 'blur(12px)', borderBottom: '1px solid var(--border-subtle)' }}>
-        <div style={{ maxWidth: 1360, margin: '0 auto', padding: '14px 40px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 16 }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-            <img src="/assets/logo-mark.png" alt="Seryn" style={{ height: 30, width: 'auto', display: 'block' }} />
-            <span style={{ fontFamily: 'var(--font-display)', fontWeight: 600, fontSize: 17, letterSpacing: '0.14em', color: 'var(--seryn-navy)' }}>SERYN</span>
-            <span style={{ fontFamily: 'var(--font-sans)', fontSize: 13, fontWeight: 600, color: 'var(--text-brand)', letterSpacing: '0.02em' }}>digital</span>
-          </div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 10, background: 'var(--surface-card)', border: '1px solid var(--border-subtle)', borderRadius: 'var(--radius-pill)', padding: '7px 16px 7px 7px', boxShadow: 'var(--shadow-sm)' }}>
-            <span style={{ width: 9, height: 9, borderRadius: '50%', background: latestRiskColor, boxShadow: `0 0 0 4px ${latestRiskColorSoft}`, animation: 'pulseDot 2.4s var(--ease-in-out) infinite' }} />
-            <span style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)' }}>Cập nhật {latestDateLabel} ·</span>
-            <span style={{ fontSize: 'var(--text-xs)', fontWeight: 600, color: latestRiskColor }}>{latestRiskLabel}</span>
-          </div>
+      <TopNav statusSlot={
+        <div style={{ display: 'flex', alignItems: 'center', gap: 10, background: 'var(--surface-card)', border: '1px solid var(--border-subtle)', borderRadius: 'var(--radius-pill)', padding: '7px 16px 7px 7px', boxShadow: 'var(--shadow-sm)' }}>
+          <span style={{ width: 9, height: 9, borderRadius: '50%', background: latestRiskColor, boxShadow: `0 0 0 4px ${latestRiskColorSoft}`, animation: 'pulseDot 2.4s var(--ease-in-out) infinite' }} />
+          <span style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)' }}>Cập nhật {latestDateLabel} ·</span>
+          <span style={{ fontSize: 'var(--text-xs)', fontWeight: 600, color: latestRiskColor }}>{latestRiskLabel}</span>
         </div>
-      </div>
+      } />
 
       {/* ============ HERO ============ */}
       <div style={{ maxWidth: 1360, margin: '0 auto', padding: '44px 40px 0' }}>
@@ -480,7 +491,7 @@ export default function Dashboard() {
                 <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-subtle)', marginTop: 4 }}>{modalTotalCount} nguồn duy nhất (đã gộp trùng lặp)</div>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-                <button onClick={() => exportListToPdf({
+                <button onClick={() => openPdfPreview({
                   title: modalTitle,
                   subtitle: `${modalTotalCount} nguồn duy nhất (đã gộp trùng lặp) · ${selBucket.label} · xuất ngày ${fmtDateFull(lastDay.date)}`,
                   items: modalItems.map(m => ({
@@ -543,7 +554,7 @@ export default function Dashboard() {
                 <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-subtle)', marginTop: 4 }}>Danh sách trang / tài khoản</div>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-                <button onClick={() => exportListToPdf({
+                <button onClick={() => openPdfPreview({
                   title: `Kênh hiện diện — ${channelModal}`,
                   subtitle: `${channelModalItems.length} trang / tài khoản · ${fmtDateFull(lastDay.date)}`,
                   items: channelModalItems.map(cm => ({
@@ -572,6 +583,7 @@ export default function Dashboard() {
         </div>
       )}
 
+    <PdfPreviewModal pdfPreview={pdfPreview} onClose={closePdfPreview} />
     </div>
   );
 }

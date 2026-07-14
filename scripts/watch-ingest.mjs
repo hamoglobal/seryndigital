@@ -20,6 +20,7 @@ import { execFileSync } from 'node:child_process';
 import { isFileIngested, recordIngestedFile } from '../lib/db.js';
 import { ingestFile } from './ingest.mjs';
 import { syncToGitHub } from './git-sync.mjs';
+import { runCompetitorWatch } from './competitorWatch.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(__dirname, '..');
@@ -91,7 +92,18 @@ function main() {
   }
   console.log(`[watch-ingest] done. ${ok} ingested, ${failed} failed.`);
 
-  if (ok > 0) {
+  // Also check for new competitor ("Đối Thủ") reports — separate folder,
+  // separate tables, but the same daily cadence, so it rides along with this
+  // job rather than needing its own scheduled task.
+  let competitorNew = 0;
+  try {
+    const competitorResult = runCompetitorWatch();
+    competitorNew = competitorResult.ok;
+  } catch (err) {
+    console.error(`[watch-ingest] competitor-report scan failed (non-fatal): ${err.message}`);
+  }
+
+  if (ok > 0 || competitorNew > 0) {
     console.log('[watch-ingest] exporting data to JSON and syncing to GitHub...');
     try {
       runExportScript();
