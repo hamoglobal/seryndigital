@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap');
+
+:root {
+  /* ---- Seryn Design System tokens (reconstructed from design handoff) ---- */
+  /* Coral / brand */
+  --coral-100: #FCE4DC;
+  --coral-300: #F3B4A2;
+  --coral-500: #F4937E;
+  --coral-600: #F0826B;
+  --brand-strong: #D9694F;
+  --text-brand: #F0826B;
+
+  /* Ivory / surfaces */
+  --ivory-0: #FFFFFF;
+  --ivory-100: #FBF6F1;
+  --ivory-200: #F3EAE1;
+  --surface-card: #FFFFFF;
+  --bg-page: #FBF6F1;
+
+  /* Ink / text */
+  --ink-200: #E4D9CE;
+  --ink-800: #2E2622;
+  --text-body: #2E2622;
+  --text-muted: #7A6F68;
+  --text-subtle: #A79C93;
+  --border-subtle: #ECE3DA;
+  --border-default: #DDD2C8;
+
+  /* Gold / neutral accent */
+  --gold-100: #FBF1DF;
+  --gold-300: #E4CFA0;
+  --gold-500: #CBA868;
+  --gold-600: #C29A57;
+
+  /* Semantic */
+  --success-100: #E3F2E9;
+  --success-500: #4C9A6E;
+  --warning-100: #FBEFDD;
+  --warning-500: #D99A3C;
+  --danger-100: #FBE4DF;
+  --danger-500: #D2553F;
+
+  /* Brand navy override (sampled from real Seryn logo, per handoff) */
+  --seryn-navy: #1B2350;
+  --seryn-navy-soft: #E9EAF1;
+
+  /* Type */
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, sans-serif;
+  --text-2xs: 11px;
+  --text-xs: 12px;
+  --text-sm: 13.5px;
+  --text-md: 16px;
+  --text-lg: 19px;
+  --text-xl: 22px;
+  --text-2xl: 28px;
+  --text-3xl: 34px;
+  --tracking-tighter: -0.01em;
+  --tracking-wider: 0.06em;
+  --tracking-widest: 0.14em;
+  --leading-tight: 1.08;
+  --leading-snug: 1.3;
+  --leading-relaxed: 1.6;
+
+  /* Spacing scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 28px;
+  --space-10: 40px;
+
+  /* Radius */
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-xl: 28px;
+  --radius-pill: 999px;
+
+  /* Shadow (warm-tinted, soft) */
+  --shadow-sm: 0 1px 3px rgba(46,38,34,0.06), 0 1px 2px rgba(46,38,34,0.04);
+  --shadow-md: 0 8px 24px rgba(46,38,34,0.08);
+  --shadow-lg: 0 24px 64px rgba(46,38,34,0.20);
+
+  /* Motion */
+  --dur-fast: 150ms;
+  --dur-base: 220ms;
+  --ease-out: cubic-bezier(0.16,1,0.3,1);
+  --ease-in-out: ease-in-out;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  padding: 0;
+  margin: 0;
+  background: var(--bg-page);
+  color: var(--text-body);
+  font-family: var(--font-sans);
+}
+
+a { color: var(--text-brand); text-decoration: none; }
+a:hover { color: var(--brand-strong); text-decoration: underline; }
+
+@keyframes pulseDot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .45; }
+}
+
+@keyframes chartFadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: var(--ink-200); border-radius: 8px; }
+
+button { font: inherit; }

@@ -1,0 +1,24 @@
+{
+  "name": "seryn-digital-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Seryn Clinic brand-monitoring dashboard - Next.js app backed by SQLite + a daily report ingestion pipeline.",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "seed": "node scripts/seed.mjs",
+    "ingest": "node scripts/ingest.mjs",
+    "watch-ingest": "node scripts/watch-ingest.mjs"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "xlsx": "0.18.5"
+  }
+}

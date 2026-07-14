@@ -1,0 +1,10 @@
+node_modules/
+.next/
+data/*.db
+data/*.db-journal
+.env*.local
+data/*.db-wal
+data/*.db-shm
+
+# private deploy key - never commit
+.ssh/
