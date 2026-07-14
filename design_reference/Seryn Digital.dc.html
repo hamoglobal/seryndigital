@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="_ds/seryn-design-system-019e2b0a-ed45-7e0d-98bd-f843118d3aa0/tokens/fonts.css">
+  <link rel="stylesheet" href="_ds/seryn-design-system-019e2b0a-ed45-7e0d-98bd-f843118d3aa0/tokens/colors.css">
+  <link rel="stylesheet" href="_ds/seryn-design-system-019e2b0a-ed45-7e0d-98bd-f843118d3aa0/tokens/typography.css">
+  <link rel="stylesheet" href="_ds/seryn-design-system-019e2b0a-ed45-7e0d-98bd-f843118d3aa0/tokens/layout.css">
+  <link rel="stylesheet" href="_ds/seryn-design-system-019e2b0a-ed45-7e0d-98bd-f843118d3aa0/tokens/base.css">
+  <link rel="stylesheet" href="_ds/seryn-design-system-019e2b0a-ed45-7e0d-98bd-f843118d3aa0/styles.css">
+  <script src="_ds/seryn-design-system-019e2b0a-ed45-7e0d-98bd-f843118d3aa0/_ds_bundle.js"></script>
+  <style>
+    :root { --seryn-navy: #1B2350; --seryn-navy-soft: #E9EAF1; }
+    @keyframes pulseDot { 0%,100% { opacity:1; } 50% { opacity:.45; } }
+    @keyframes chartFadeIn { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:translateY(0); } }
+    a { color: var(--text-brand); text-decoration: none; }
+    a:hover { color: var(--brand-strong); text-decoration: underline; }
+    body { margin:0; background: var(--bg-page); }
+    ::-webkit-scrollbar { width:8px; height:8px; }
+    ::-webkit-scrollbar-thumb { background: var(--ink-200); border-radius:8px; }
+  </style>
+</helmet>
+
+<div style="min-height:100vh; background: radial-gradient(1100px 520px at 12% -8%, var(--coral-100), transparent), var(--bg-page); font-family: var(--font-sans); color: var(--text-body);">
+
+  <!-- ============ TOP BAR ============ -->
+  <div style="position:sticky; top:0; z-index:30; background:rgba(251,246,241,0.85); backdrop-filter:blur(12px); border-bottom:1px solid var(--border-subtle);">
+    <div style="max-width:1360px; margin:0 auto; padding:14px 40px; display:flex; align-items:center; justify-content:space-between; gap:16px;">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <img src="assets/logo-mark.png" alt="Seryn" style="height:30px; width:auto; display:block;">
+        <span style="font-family:var(--font-display); font-weight:600; font-size:17px; letter-spacing:0.14em; color:var(--seryn-navy);">SERYN</span>
+        <span style="font-family:var(--font-sans); font-size:13px; font-weight:600; color:var(--text-brand); letter-spacing:0.02em;">digital</span>
+      </div>
+      <div style="display:flex; align-items:center; gap:10px; background:var(--surface-card); border:1px solid var(--border-subtle); border-radius:var(--radius-pill); padding:7px 16px 7px 7px; box-shadow:var(--shadow-sm);">
+        <span style="width:9px; height:9px; border-radius:50%; background:{{ latestRiskColor }}; box-shadow:0 0 0 4px {{ latestRiskColorSoft }}; animation: pulseDot 2.4s var(--ease-in-out) infinite;"></span>
+        <span style="font-size:var(--text-xs); color:var(--text-muted);">Cập nhật {{ latestDateLabel }} ·</span>
+        <span style="font-size:var(--text-xs); font-weight:600; color:{{ latestRiskColor }};">{{ latestRiskLabel }}</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ HERO ============ -->
+  <div style="max-width:1360px; margin:0 auto; padding:44px 40px 0;">
+    <div style="display:flex; align-items:flex-end; justify-content:space-between; gap:24px; flex-wrap:wrap;">
+      <div>
+        <span class="seryn-eyebrow" style="display:inline-block; font-family:var(--font-sans); font-size:var(--text-xs); font-weight:600; letter-spacing:var(--tracking-widest); text-transform:uppercase; color:var(--text-brand); margin-bottom:14px;">Giám sát thương hiệu</span>
+        <h1 style="font-family:var(--font-display); font-weight:600; letter-spacing:var(--tracking-tighter); font-size:clamp(32px,4vw,46px); line-height:var(--leading-tight); margin:0; color:var(--seryn-navy);">Giám sát thương hiệu Seryn Clinic</h1>
+        <p style="font-size:var(--text-md); color:var(--text-muted); margin:14px 0 0; max-width:620px; line-height:var(--leading-relaxed);">Hệ thống tổng hợp và phân tích dữ liệu truyền thông, công cụ tìm kiếm và mạng xã hội.</p>
+      </div>
+      <x-import component-from-global-scope="SerynDesignSystem_019e2b.Badge" tone="gold" hint-size="auto,28px">Kỳ báo cáo {{ rangeLabel }}</x-import>
+    </div>
+  </div>
+
+  <!-- ============ PERIOD SELECTOR ============ -->
+  <div style="max-width:1360px; margin:0 auto; padding:28px 40px 0;">
+    <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:14px;">
+      <div style="display:inline-flex; background:var(--ivory-200); padding:4px; border-radius:var(--radius-pill); gap:2px;">
+        <sc-for list="{{ viewModeOptions }}" as="vm" hint-placeholder-count="4">
+          <button onClick="{{ vm.onClick }}" style="border:none; cursor:pointer; padding:8px 20px; border-radius:var(--radius-pill); font-family:var(--font-sans); font-size:var(--text-sm); font-weight:600; background:{{ vm.bg }}; color:{{ vm.color }}; box-shadow:{{ vm.shadow }}; transition:all var(--dur-fast) var(--ease-out);">{{ vm.label }}</button>
+        </sc-for>
+      </div>
+      <div style="position:relative;">
+        <button onClick="{{ onToggleDropdown }}" style="display:flex; align-items:center; gap:10px; font-family:var(--font-sans); font-size:var(--text-sm); font-weight:500; color:var(--text-body); background:var(--surface-card); border:1px solid var(--border-default); border-radius:var(--radius-pill); padding:9px 18px; cursor:pointer; min-width:220px; justify-content:space-between;">
+          <span>{{ selectedPeriodLabel }}</span>
+          <span style="color:var(--text-subtle); font-size:11px;">▾</span>
+        </button>
+        <sc-if value="{{ dropdownOpen }}" hint-placeholder-val="{{ false }}">
+          <div onClick="{{ onToggleDropdown }}" style="position:fixed; inset:0; z-index:40;"></div>
+          <div style="position:absolute; top:calc(100% + 6px); right:0; min-width:240px; max-height:320px; overflow-y:auto; background:var(--surface-card); border:1px solid var(--border-subtle); border-radius:var(--radius-md); box-shadow:var(--shadow-lg); z-index:41; padding:6px;">
+            <sc-for list="{{ periodOptions }}" as="p" hint-placeholder-count="6">
+              <div onClick="{{ p.onClick }}" style="padding:9px 14px; border-radius:var(--radius-sm); cursor:pointer; font-size:var(--text-sm); font-weight:500; background:{{ p.bg }}; color:{{ p.color }};">{{ p.label }}</div>
+            </sc-for>
+          </div>
+        </sc-if>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ KPI ROW ============ -->
+  <div style="max-width:1360px; margin:0 auto; padding:20px 40px 0;">
+    <div style="display:grid; grid-template-columns:repeat(6,1fr); gap:16px;">
+
+      <x-import component-from-global-scope="SerynDesignSystem_019e2b.Card" elevation="sm" interactive="{{ true }}" hint-size="auto,140px" style="grid-column: span 1; cursor:pointer;" onClick="{{ onOpenTotal }}">
+        <div style="font-size:var(--text-2xs); letter-spacing:var(--tracking-wider); text-transform:uppercase; color:var(--text-muted); font-weight:600; margin-bottom:10px;">Tổng nguồn</div>
+        <div style="font-family:var(--font-display); font-size:var(--text-3xl); font-weight:600; color:var(--seryn-navy); line-height:1;">{{ sel.total }}</div>
+        <div style="font-size:var(--text-xs); color:var(--text-subtle); margin-top:8px;">{{ selPeriodLabel }}</div>
+      </x-import>
+
+      <x-import component-from-global-scope="SerynDesignSystem_019e2b.Card" elevation="sm" interactive="{{ true }}" hint-size="auto,140px" style="grid-column: span 1; cursor:pointer;" onClick="{{ onOpenPositive }}">
+        <div style="font-size:var(--text-2xs); letter-spacing:var(--tracking-wider); text-transform:uppercase; color:var(--text-muted); font-weight:600; margin-bottom:10px;">Tích cực</div>
+        <div style="font-family:var(--font-display); font-size:var(--text-3xl); font-weight:600; color:var(--success-500); line-height:1;">{{ sel.positive }}</div>
+        <div style="font-size:var(--text-xs); color:var(--text-subtle); margin-top:8px;">{{ positivePct }}% tổng nguồn</div>
+      </x-import>
+
+      <x-import component-from-global-scope="SerynDesignSystem_019e2b.Card" elevation="sm" interactive="{{ true }}" hint-size="auto,140px" style="grid-column: span 1; cursor:pointer;" onClick="{{ onOpenNeutral }}">
+        <div style="font-size:var(--text-2xs); letter-spacing:var(--tracking-wider); text-transform:uppercase; color:var(--text-muted); font-weight:600; margin-bottom:10px;">Trung tính</div>
+        <div style="font-family:var(--font-display); font-size:var(--text-3xl); font-weight:600; color:var(--gold-600); line-height:1;">{{ sel.neutral }}</div>
+        <div style="font-size:var(--text-xs); color:var(--text-subtle); margin-top:8px;">{{ neutralPct }}% tổng nguồn</div>
+      </x-import>
+
+      <x-import component-from-global-scope="SerynDesignSystem_019e2b.Card" elevation="sm" interactive="{{ true }}" hint-size="auto,140px" style="grid-column: span 1; cursor:pointer;" onClick="{{ onOpenNegative }}">
+        <div style="font-size:var(--text-2xs); letter-spacing:var(--tracking-wider); text-transform:uppercase; color:var(--text-muted); font-weight:600; margin-bottom:10px;">Tiêu cực / cảnh báo</div>
+        <div style="font-family:var(--font-display); font-size:var(--text-3xl); font-weight:600; color:{{ negativeColor }}; line-height:1;">{{ sel.negative }}</div>
+        <div style="font-size:var(--text-xs); color:var(--text-subtle); margin-top:8px;">{{ selRiskDaysNote }}</div>
+      </x-import>
+
+      <x-import component-from-global-scope="SerynDesignSystem_019e2b.Card" elevation="sm" interactive="{{ true }}" hint-size="auto,140px" style="grid-column: span 1; cursor:pointer;" onClick="{{ onOpenNew }}">
+        <div style="font-size:var(--text-2xs); letter-spacing:var(--tracking-wider); text-transform:uppercase; color:var(--text-muted); font-weight:600; margin-bottom:10px;">Nguồn mới</div>
+        <div style="font-family:var(--font-display); font-size:var(--text-3xl); font-weight:600; color:var(--text-brand); line-height:1;">+{{ sel.newSources }}</div>
+        <div style="font-size:var(--text-xs); color:var(--text-subtle); margin-top:8px;">So với kỳ trước · nhấn để xem</div>
+      </x-import>
+
+      <div style="grid-column: span 1; border-radius:var(--radius-xl); padding:var(--space-8); box-shadow:var(--shadow-sm); background:{{ selRiskSoftBg }}; border:1px solid {{ selRiskBorder }}; display:flex; flex-direction:column; justify-content:center;">
+        <div style="font-size:var(--text-2xs); letter-spacing:var(--tracking-wider); text-transform:uppercase; color:var(--text-muted); font-weight:600; margin-bottom:10px;">Trạng thái rủi ro</div>
+        <div style="font-family:var(--font-display); font-size:var(--text-xl); font-weight:600; color:{{ selRiskColor }}; line-height:1.15;">{{ selRiskLabel }}</div>
+        <div style="font-size:var(--text-xs); color:var(--text-muted); margin-top:8px; line-height:var(--leading-snug);">{{ selRiskNoteShown }}</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ============ TREND CHART ============ -->
+  <div style="max-width:1360px; margin:0 auto; padding:28px 40px 0;">
+    <x-import component-from-global-scope="SerynDesignSystem_019e2b.Card" elevation="md" hint-size="100%,420px">
+      <div style="display:flex; align-items:baseline; justify-content:space-between; margin-bottom:20px; flex-wrap:wrap; gap:8px;">
+        <h2 style="font-family:var(--font-display); font-weight:600; font-size:var(--text-xl); color:var(--seryn-navy); margin:0; letter-spacing:var(--tracking-tighter);">Xu hướng nguồn theo thời gian</h2>
+        <div style="display:flex; gap:18px; font-size:var(--text-xs); color:var(--text-muted);">
+          <span><span style="display:inline-block; width:9px; height:9px; border-radius:50%; background:var(--success-500); margin-right:6px;"></span>Tích cực</span>
+          <span><span style="display:inline-block; width:9px; height:9px; border-radius:50%; background:var(--gold-600); margin-right:6px;"></span>Trung tính</span>
+          <span><span style="display:inline-block; width:9px; height:9px; border-radius:50%; background:var(--danger-500); margin-right:6px;"></span>Tiêu cực</span>
+        </div>
+      </div>
+      <sc-if value="{{ chartFallbackNote }}" hint-placeholder-val="{{ false }}">
+        <div style="font-size:var(--text-2xs); color:var(--text-brand); margin:-8px 0 12px;">{{ chartFallbackNote }}</div>
+      </sc-if>
+
+      <svg viewBox="0 0 1080 220" style="width:100%; height:220px; display:block; overflow:visible; animation: chartFadeIn .5s var(--ease-out);">
+        <defs>
+          <linearGradient id="posFillGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="var(--success-500)" stop-opacity="0.28"></stop>
+            <stop offset="100%" stop-color="var(--success-500)" stop-opacity="0"></stop>
+          </linearGradient>
+        </defs>
+        <line x1="0" y1="20" x2="1080" y2="20" stroke="var(--border-subtle)" stroke-width="1"></line>
+        <line x1="0" y1="90" x2="1080" y2="90" stroke="var(--border-subtle)" stroke-width="1"></line>
+        <line x1="0" y1="160" x2="1080" y2="160" stroke="var(--border-subtle)" stroke-width="1"></line>
+        <polygon points="{{ positiveArea }}" fill="url(#posFillGrad)"></polygon>
+        <polyline points="{{ negativeLine }}" fill="none" stroke="var(--danger-500)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></polyline>
+        <polyline points="{{ neutralLine }}" fill="none" stroke="var(--gold-600)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></polyline>
+        <polyline points="{{ positiveLine }}" fill="none" stroke="var(--success-500)" stroke-width="2.75" stroke-linejoin="round" stroke-linecap="round" style="filter:drop-shadow(0 2px 5px rgba(76,154,110,0.35));"></polyline>
+        <sc-for list="{{ chartPoints }}" as="pt" hint-placeholder-count="12">
+          <circle cx="{{ pt.cx }}" cy="{{ pt.cy }}" r="3" fill="var(--success-500)" stroke="var(--ivory-0)" stroke-width="1.5" style="transition:r var(--dur-fast) var(--ease-out), fill var(--dur-fast) var(--ease-out); cursor:pointer;" style-hover="r:6" title="{{ pt.title }}"></circle>
+        </sc-for>
+      </svg>
+      <div style="display:flex; justify-content:space-between; margin-top:6px; font-size:var(--text-2xs); color:var(--text-subtle);">
+        <span>{{ firstDateLabel }}</span>
+        <span>{{ midDateLabel }}</span>
+        <span>{{ lastDateLabel }}</span>
+      </div>
+
+      <div style="margin-top:22px; border-top:1px solid var(--border-subtle); padding-top:18px;">
+        <div style="font-size:var(--text-2xs); letter-spacing:var(--tracking-wider); text-transform:uppercase; color:var(--text-muted); font-weight:600; margin-bottom:10px;">{{ timelineLabel }}</div>
+        <div style="display:flex; gap:3px;">
+          <sc-for list="{{ days }}" as="d" hint-placeholder-count="61">
+            <div title="{{ d.dotTitle }}" style="flex:1 1 0%; min-width:5px; height:22px; border-radius:3px; background:{{ d.dotColor }}; transition:background var(--dur-base) var(--ease-out); cursor:default;" style-hover="transform:scaleY(1.15)"></div>
+          </sc-for>
+        </div>
+      </div>
+    </x-import>
+  </div>
+
+  <!-- ============ DETAIL: SOURCES + SOCIAL ============ -->
+  <div style="max-width:1360px; margin:0 auto; padding:28px 40px 0; display:grid; grid-template-columns: minmax(0,1.4fr) minmax(0,1fr); gap:20px; align-items:start;">
+
+    <x-import component-from-global-scope="SerynDesignSystem_019e2b.Card" elevation="md" hint-size="100%,600px">
+      <div style="display:flex; align-items:baseline; justify-content:space-between; margin-bottom:6px;">
+        <h2 style="font-family:var(--font-display); font-weight:600; font-size:var(--text-xl); color:var(--seryn-navy); margin:0; letter-spacing:var(--tracking-tighter);">Nguồn nổi bật hôm nay</h2>
+        <span style="font-size:var(--text-xs); color:var(--text-subtle);">{{ topSourcesCount }} kết quả · Top10 Google + báo chí</span>
+      </div>
+      <div style="max-height:520px; overflow-y:auto; margin-top:10px; padding-right:4px;">
+        <sc-for list="{{ topSources }}" as="s" hint-placeholder-count="10">
+          <a href="{{ s.url }}" target="_blank" rel="noopener" style="display:flex; align-items:center; gap:14px; padding:13px 6px; border-bottom:1px solid var(--border-subtle); text-decoration:none;">
+            <span style="width:8px; height:8px; min-width:8px; border-radius:50%; background:{{ s.dotColor }};"></span>
+            <span style="flex:1 1 0%; min-width:0; overflow:hidden;">
+              <span style="display:block; font-size:var(--text-sm); font-weight:500; color:var(--text-body); white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">{{ s.title }}</span>
+              <span style="display:block; font-size:var(--text-2xs); color:var(--text-subtle); margin-top:2px;">{{ s.type }}</span>
+            </span>
+            <sc-if value="{{ s.isNew }}" hint-placeholder-val="{{ false }}">
+              <x-import component-from-global-scope="SerynDesignSystem_019e2b.Badge" tone="brand" hint-size="auto,22px">Mới</x-import>
+            </sc-if>
+          </a>
+        </sc-for>
+      </div>
+    </x-import>
+
+    <div style="display:flex; flex-direction:column; gap:20px;">
+      <x-import component-from-global-scope="SerynDesignSystem_019e2b.Card" elevation="md" hint-size="100%,290px">
+        <h2 style="font-family:var(--font-display); font-weight:600; font-size:var(--text-xl); color:var(--seryn-navy); margin:0 0 14px; letter-spacing:var(--tracking-tighter);">Kênh hiện diện</h2>
+        <div style="display:flex; flex-direction:column; gap:2px; max-height:230px; overflow-y:auto;">
+          <sc-for list="{{ channels }}" as="ch" hint-placeholder-count="5">
+            <div onClick="{{ ch.onClick }}" style="display:flex; align-items:center; justify-content:space-between; padding:10px 4px; border-bottom:1px solid var(--border-subtle); cursor:pointer;" style-hover="background:var(--ivory-100)">
+              <span style="font-size:var(--text-sm); font-weight:500; color:var(--text-body);">{{ ch.platform }}</span>
+              <span style="font-size:var(--text-xs); color:var(--text-muted);">{{ ch.count }} trang ›</span>
+            </div>
+          </sc-for>
+        </div>
+      </x-import>
+
+      <x-import component-from-global-scope="SerynDesignSystem_019e2b.Card" elevation="md" hint-size="100%,290px">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:14px;">
+          <h2 style="font-family:var(--font-display); font-weight:600; font-size:var(--text-xl); color:var(--seryn-navy); margin:0; letter-spacing:var(--tracking-tighter);">Cần theo dõi</h2>
+          <x-import component-from-global-scope="SerynDesignSystem_019e2b.Badge" tone="gold" hint-size="auto,22px">{{ watchCount }} Mục</x-import>
+        </div>
+        <div style="display:flex; flex-direction:column; gap:12px; max-height:220px; overflow-y:auto; padding-right:4px;">
+          <sc-for list="{{ watchItems }}" as="w" hint-placeholder-count="2">
+            <div style="border-left:3px solid var(--gold-500); padding:2px 0 2px 12px;">
+              <div style="font-size:var(--text-sm); font-weight:600; color:var(--text-body);">{{ w.type }}</div>
+              <div style="font-size:var(--text-xs); color:var(--text-muted); margin-top:3px; line-height:var(--leading-snug);">{{ w.summary }}</div>
+            </div>
+          </sc-for>
+        </div>
+      </x-import>
+    </div>
+  </div>
+
+  <div style="max-width:1360px; margin:0 auto; padding:28px 40px 56px; text-align:center;">
+    <p style="font-size:var(--text-xs); color:var(--text-subtle);">Dữ liệu tổng hợp tự động từ thư mục báo cáo giám sát hằng ngày · {{ rangeLabel }} · Phòng khám đa khoa Seryn</p>
+  </div>
+
+  <!-- ============ SOURCE LIST MODAL ============ -->
+  <sc-if value="{{ modalOpen }}" hint-placeholder-val="{{ false }}">
+    <div onClick="{{ onCloseModal }}" style="position:fixed; inset:0; background:rgba(36,28,24,0.45); backdrop-filter:blur(3px); display:flex; align-items:center; justify-content:center; z-index:100; padding:32px;">
+      <div onClick="{{ stopClick }}" style="background:var(--surface-card); border-radius:var(--radius-xl); box-shadow:var(--shadow-lg); width:100%; max-width:680px; max-height:80vh; display:flex; flex-direction:column; overflow:hidden;">
+        <div style="display:flex; align-items:center; justify-content:space-between; padding:24px 28px; border-bottom:1px solid var(--border-subtle);">
+          <div>
+            <div style="font-family:var(--font-display); font-size:var(--text-lg); font-weight:600; color:var(--seryn-navy); letter-spacing:var(--tracking-tighter);">{{ modalTitle }}</div>
+            <div style="font-size:var(--text-xs); color:var(--text-subtle); margin-top:4px;">{{ modalCount }} nguồn</div>
+          </div>
+          <button onClick="{{ onCloseModal }}" style="border:none; background:var(--ivory-200); width:32px; height:32px; border-radius:50%; cursor:pointer; font-size:16px; color:var(--text-muted); line-height:1;">×</button>
+        </div>
+        <div style="overflow-y:auto; padding:8px 28px 24px;">
+          <sc-if value="{{ modalHasItems }}" hint-placeholder-val="{{ true }}">
+            <sc-for list="{{ modalItems }}" as="m" hint-placeholder-count="6">
+              <a href="{{ m.url }}" target="_blank" rel="noopener" style="display:flex; align-items:flex-start; gap:12px; padding:14px 0; border-bottom:1px solid var(--border-subtle); text-decoration:none;">
+                <span style="width:8px; height:8px; min-width:8px; margin-top:6px; border-radius:50%; background:{{ m.dotColor }};"></span>
+                <span style="flex:1 1 0%; min-width:0;">
+                  <span style="display:block; font-size:var(--text-sm); font-weight:500; color:var(--text-body);">{{ m.title }}</span>
+                  <span style="display:block; font-size:var(--text-2xs); color:var(--text-subtle); margin-top:3px;">{{ m.type }} · {{ m.dateLabel }}</span>
+                </span>
+              </a>
+            </sc-for>
+          </sc-if>
+          <sc-if value="{{ modalIsEmpty }}" hint-placeholder-val="{{ false }}">
+            <div style="padding:40px 0; text-align:center; color:var(--text-subtle); font-size:var(--text-sm);">Không có nguồn nào trong mục này cho kỳ đã chọn.</div>
+          </sc-if>
+          <sc-if value="{{ modalTruncated }}" hint-placeholder-val="{{ false }}">
+            <div style="padding:16px 0 4px; text-align:center; color:var(--text-subtle); font-size:var(--text-xs);">... và {{ modalHiddenCount }} nguồn khác trong kỳ này (thu hẹp phạm vi để xem đầy đủ)</div>
+          </sc-if>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  <!-- ============ CHANNEL LIST MODAL ============ -->
+  <sc-if value="{{ channelModalOpen }}" hint-placeholder-val="{{ false }}">
+    <div onClick="{{ onCloseChannelModal }}" style="position:fixed; inset:0; background:rgba(36,28,24,0.45); backdrop-filter:blur(3px); display:flex; align-items:center; justify-content:center; z-index:100; padding:32px;">
+      <div onClick="{{ stopClick }}" style="background:var(--surface-card); border-radius:var(--radius-xl); box-shadow:var(--shadow-lg); width:100%; max-width:680px; max-height:80vh; display:flex; flex-direction:column; overflow:hidden;">
+        <div style="display:flex; align-items:center; justify-content:space-between; padding:24px 28px; border-bottom:1px solid var(--border-subtle);">
+          <div>
+            <div style="font-family:var(--font-display); font-size:var(--text-lg); font-weight:600; color:var(--seryn-navy); letter-spacing:var(--tracking-tighter);">{{ channelModalTitle }}</div>
+            <div style="font-size:var(--text-xs); color:var(--text-subtle); margin-top:4px;">Danh sách trang / tài khoản</div>
+          </div>
+          <button onClick="{{ onCloseChannelModal }}" style="border:none; background:var(--ivory-200); width:32px; height:32px; border-radius:50%; cursor:pointer; font-size:16px; color:var(--text-muted); line-height:1;">×</button>
+        </div>
+        <div style="overflow-y:auto; padding:8px 28px 24px;">
+          <sc-if value="{{ channelModalHasItems }}" hint-placeholder-val="{{ true }}">
+            <sc-for list="{{ channelModalItems }}" as="c" hint-placeholder-count="4">
+              <a href="{{ c.url }}" target="_blank" rel="noopener" style="display:flex; align-items:flex-start; gap:12px; padding:14px 0; border-bottom:1px solid var(--border-subtle); text-decoration:none;">
+                <span style="width:8px; height:8px; min-width:8px; margin-top:6px; border-radius:50%; background:{{ c.dotColor }};"></span>
+                <span style="flex:1 1 0%; min-width:0;">
+                  <span style="display:block; font-size:var(--text-sm); font-weight:500; color:var(--text-body);">{{ c.account }}</span>
+                  <span style="display:block; font-size:var(--text-2xs); color:var(--text-subtle); margin-top:3px;">{{ c.accountType }} · {{ c.note }}</span>
+                </span>
+              </a>
+            </sc-for>
+          </sc-if>
+          <sc-if value="{{ channelModalIsEmpty }}" hint-placeholder-val="{{ false }}">
+            <div style="padding:40px 0; text-align:center; color:var(--text-subtle); font-size:var(--text-sm);">Không có trang nào cho kênh này.</div>
+          </sc-if>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { days: null, latest: null, viewMode: 'day', selectedKey: null };
+
+  async componentDidMount() {
+    const mod = await import('./data/seryn-data.js');
+    this.setState({ days: mod.days, latest: mod.latest, sourcesByDay: mod.sourcesByDay });
+  }
+
+  openModal(category) {
+    this.setState({ modalCategory: category });
+  }
+  closeModal() {
+    this.setState({ modalCategory: null });
+  }
+  openChannelModal(platform) {
+    this.setState({ channelModal: platform });
+  }
+  closeChannelModal() {
+    this.setState({ channelModal: null });
+  }
+  cap(s) {
+    if (!s) return s;
+    return s.charAt(0).toUpperCase() + s.slice(1);
+  }
+
+  fmtDateLabel(iso) {
+    if (!iso) return '';
+    const [y, m, d] = iso.split('-');
+    return `${d}/${m}`;
+  }
+  fmtDateFull(iso) {
+    if (!iso) return '';
+    const [y, m, d] = iso.split('-');
+    return `${d}/${m}/${y}`;
+  }
+  isoWeekInfo(iso) {
+    const [y, m, d] = iso.split('-').map(Number);
+    const date = new Date(Date.UTC(y, m - 1, d));
+    const dayNum = (date.getUTCDay() + 6) % 7;
+    date.setUTCDate(date.getUTCDate() - dayNum + 3);
+    const firstThursday = new Date(Date.UTC(date.getUTCFullYear(), 0, 4));
+    const weekNum = 1 + Math.round(((date - firstThursday) / 86400000 - 3 + ((firstThursday.getUTCDay() + 6) % 7)) / 7);
+    return { year: date.getUTCFullYear(), week: weekNum };
+  }
+  riskRank(level) { return level === 'red' ? 2 : level === 'yellow' ? 1 : 0; }
+  worstRisk(a, b) { return this.riskRank(a) >= this.riskRank(b) ? a : b; }
+
+  setViewMode(mode) {
+    this.setState({ viewMode: mode, selectedKey: null, dropdownOpen: false });
+  }
+
+  selectPeriod(key) {
+    this.setState({ selectedKey: key, dropdownOpen: false });
+  }
+  toggleDropdown() {
+    this.setState(s => ({ dropdownOpen: !s.dropdownOpen }));
+  }
+
+  effectiveRiskLevel(d) {
+    // A 'red' flag with zero negative sources is a stale/carry-forward watch item, not a confirmed
+    // violation this period — treat it as 'yellow' so it never contradicts a 0-negative KPI card.
+    if (d.riskLevel === 'red' && (!d.negative || d.negative === 0)) return 'yellow';
+    return d.riskLevel;
+  }
+
+  buildBuckets(days, mode) {
+    if (mode === 'day') {
+      return days.map(d => ({
+        key: d.date,
+        label: this.fmtDateFull(d.date),
+        total: d.total, positive: d.positive, neutral: d.neutral, negative: d.negative,
+        newSources: d.newSources, riskLevel: this.effectiveRiskLevel(d), riskNote: d.riskNote, dayCount: 1, dates: [d.date]
+      }));
+    }
+    const map = new Map();
+    for (const d of days) {
+      let key, label;
+      if (mode === 'week') {
+        const wi = this.isoWeekInfo(d.date);
+        key = `${wi.year}-W${String(wi.week).padStart(2, '0')}`;
+        label = `Tuần ${wi.week}, ${wi.year}`;
+      } else if (mode === 'month') {
+        const [y, m] = d.date.split('-');
+        key = `${y}-${m}`;
+        label = `Tháng ${m}/${y}`;
+      } else {
+        const y = d.date.split('-')[0];
+        key = y;
+        label = `Năm ${y}`;
+      }
+      if (!map.has(key)) {
+        map.set(key, { key, label, total: 0, positive: 0, neutral: 0, negative: 0, newSources: 0, riskLevel: 'green', riskNote: '', dayCount: 0, lastDate: d.date, firstDate: d.date, dates: [] });
+      }
+      const b = map.get(key);
+      b.total += d.total; b.positive += d.positive; b.neutral += d.neutral; b.negative += d.negative;
+      b.newSources += d.newSources;
+      b.riskLevel = this.worstRisk(b.riskLevel, this.effectiveRiskLevel(d));
+      b.dayCount += 1;
+      b.lastDate = d.date;
+      b.dates.push(d.date);
+    }
+    return Array.from(map.values());
+  }
+
+  sourcesForBucket(sourcesByDay, bucket, category) {
+    if (!sourcesByDay) return [];
+    const all = [];
+    for (const date of bucket.dates) {
+      const rows = sourcesByDay[date] || [];
+      all.push(...rows);
+    }
+    if (category === 'positive') return all.filter(s => s.sentiment === 'positive');
+    if (category === 'neutral') return all.filter(s => s.sentiment === 'neutral');
+    if (category === 'negative') return all.filter(s => s.sentiment === 'negative');
+    if (category === 'new') return all.filter(s => s.isNew);
+    return all;
+  }
+
+  colorForRisk(level) {
+    if (level === 'red') return 'var(--danger-500)';
+    if (level === 'yellow') return 'var(--gold-600)';
+    return 'var(--success-500)';
+  }
+  softBgForRisk(level) {
+    if (level === 'red') return 'var(--danger-100)';
+    if (level === 'yellow') return 'var(--gold-100)';
+    return 'var(--success-100)';
+  }
+  borderForRisk(level) {
+    if (level === 'red') return 'var(--coral-300)';
+    if (level === 'yellow') return 'var(--gold-300)';
+    return '#CFE6D8';
+  }
+  labelForRisk(level) {
+    if (level === 'red') return 'CẢNH BÁO ĐỎ';
+    if (level === 'yellow') return 'VÀNG — CẦN THEO DÕI';
+    return 'AN TOÀN';
+  }
+
+  renderVals() {
+    const { days, latest, viewMode, selectedKey, sourcesByDay, modalCategory, dropdownOpen } = this.state;
+    const placeholderDay = { total: 0, positive: 0, neutral: 0, negative: 0, newSources: 0, riskLevel: 'green', riskNote: '', date: '' };
+
+    if (!days || !latest) {
+      return {
+        dayCount: 0, rangeLabel: '', latestDateLabel: '', latestRiskLabel: '', latestRiskColor: 'var(--success-500)',
+        latestRiskColorSoft: 'var(--success-100)',
+        sel: placeholderDay, selPeriodLabel: '', selRiskDaysNote: '', selRiskColor: 'var(--success-500)',
+        selRiskSoftBg: 'var(--success-100)', selRiskBorder: '#CFE6D8', selRiskLabel: '', selRiskNoteShown: '',
+        positivePct: 0, neutralPct: 0, negativeColor: 'var(--success-500)',
+        positiveLine: '', positiveArea: '', neutralLine: '', negativeLine: '',
+        firstDateLabel: '', midDateLabel: '', lastDateLabel: '', days: [], topSources: [], topSourcesCount: 0,
+        channels: [], watchItems: [], watchCount: 0,
+        viewModeOptions: [], periodOptions: [], selectedPeriodKey: '', selectedPeriodLabel: '',
+        dropdownOpen: false, onToggleDropdown: () => {},
+        modalOpen: false, modalTitle: '', modalItems: [], modalCount: 0, modalHasItems: false, modalIsEmpty: true,
+        modalTruncated: false, modalHiddenCount: 0,
+        stopClick: () => {}, onCloseModal: () => {},
+        onOpenTotal: () => {}, onOpenPositive: () => {}, onOpenNeutral: () => {}, onOpenNegative: () => {}, onOpenNew: () => {},
+        chartPoints: [], timelineLabel: '', chartFallbackNote: '',
+        channelModalOpen: false, channelModalItems: [], channelModalTitle: '',
+        channelModalHasItems: false, channelModalIsEmpty: true, onCloseChannelModal: () => {}
+      };
+    }
+
+    const lastDay = days[days.length - 1];
+    const firstDay = days[0];
+
+    // ---- period buckets for the selected view mode ----
+    const mode = viewMode || 'day';
+    const buckets = this.buildBuckets(days, mode);
+    const selBucket = (selectedKey && buckets.find(b => b.key === selectedKey)) || buckets[buckets.length - 1];
+    const selTotal = selBucket.total || 1;
+    const positivePct = Math.round((selBucket.positive / selTotal) * 100);
+    const neutralPct = Math.round((selBucket.neutral / selTotal) * 100);
+
+    const modeNoun = { day: 'ngày', week: 'tuần', month: 'tháng', year: 'năm' }[mode];
+    const selPeriodLabel = mode === 'day' ? 'Google · Báo chí · MXH' : `Gộp ${selBucket.dayCount} ngày trong ${modeNoun}`;
+    const selRiskDaysNote = selBucket.negative > 0 ? `Phát hiện trong ${modeNoun} này` : 'Không phát hiện vi phạm';
+
+    const viewModeOptions = ['day', 'week', 'month', 'year'].map(m => {
+      const active = m === mode;
+      return {
+        label: this.cap({ day: 'ngày', week: 'tuần', month: 'tháng', year: 'năm' }[m]),
+        onClick: () => this.setViewMode(m),
+        bg: active ? 'var(--surface-card)' : 'transparent',
+        color: active ? 'var(--text-brand)' : 'var(--text-muted)',
+        shadow: active ? 'var(--shadow-sm)' : 'none'
+      };
+    });
+    const periodOptions = buckets.slice().reverse().map(b => ({
+      key: b.key, label: b.label,
+      onClick: () => this.selectPeriod(b.key),
+      isSelected: b.key === selBucket.key,
+      bg: b.key === selBucket.key ? 'var(--coral-100)' : 'transparent',
+      color: b.key === selBucket.key ? 'var(--text-brand)' : 'var(--text-body)'
+    }));
+
+    // chart geometry — driven by the buckets for the CURRENT view mode (day/week/month/year)
+    const W = 1080, H = 220, padTop = 20, padBottom = 20;
+    // A single-point "trend" is meaningless (flat line) — when the current granularity only
+    // yields 1-2 buckets, fall back to a finer granularity just for the chart so it still shows
+    // real movement over time (e.g. "year" with only one year on file renders monthly instead).
+    const finerMode = { day: 'day', week: 'day', month: 'week', year: 'month' }[mode];
+    let chartSourceBuckets = this.buildBuckets(days, mode);
+    let chartMode = mode;
+    if (chartSourceBuckets.length < 3 && finerMode !== mode) {
+      chartSourceBuckets = this.buildBuckets(days, finerMode);
+      chartMode = finerMode;
+    }
+    const chartBuckets = chartSourceBuckets.slice().sort((a, b) => a.key < b.key ? -1 : a.key > b.key ? 1 : 0);
+    const chartIsFallback = chartMode !== mode;
+    const maxVal = Math.max(...chartBuckets.map(b => b.total), 1);
+    const scaleY = (v) => padTop + (1 - v / maxVal) * (H - padTop - padBottom);
+    const single = chartBuckets.length < 2;
+    // With a single bucket there's no time axis to plot against — draw a flat line at that
+    // bucket's value spanning the full width instead of a (i/(1-1||1)) triangle to x=0.
+    const scaleX = (i) => single ? (i === 0 ? 0 : W) : (i / (chartBuckets.length - 1)) * W;
+    const lineFor = (getVal) => single
+      ? `0,${scaleY(getVal(chartBuckets[0])).toFixed(1)} ${W},${scaleY(getVal(chartBuckets[0])).toFixed(1)}`
+      : chartBuckets.map((b, i) => `${scaleX(i).toFixed(1)},${scaleY(getVal(b)).toFixed(1)}`).join(' ');
+
+    const positiveLine = lineFor(b => b.positive);
+    const positiveArea = `0,${H - padBottom} ` + positiveLine + ` ${W},${H - padBottom}`;
+    const neutralLine = lineFor(b => b.neutral);
+    const negativeLine = lineFor(b => b.negative);
+    const chartPoints = chartBuckets.map((b, i) => ({
+      cx: scaleX(i).toFixed(1), cy: scaleY(b.positive).toFixed(1),
+      title: `${b.label}: ${b.total} nguồn · ${b.positive} tích cực`
+    }));
+
+    const axisLabel = (b) => chartMode === 'day' ? this.fmtDateLabel(b.key) : b.label;
+    const singleBucket = chartBuckets.length < 2;
+    const chartModeNoun = { day: 'ngày', week: 'tuần', month: 'tháng', year: 'năm' }[chartMode];
+    const chartFallbackNote = chartIsFallback ? `Hiển thị theo ${chartModeNoun} do chỉ có dữ liệu trong một ${modeNoun}` : '';
+    const chartFirstLabel = chartBuckets.length ? axisLabel(chartBuckets[0]) : '';
+    const chartMidLabel = (!singleBucket && chartBuckets.length >= 3) ? axisLabel(chartBuckets[Math.floor((chartBuckets.length - 1) / 2)]) : '';
+    const chartLastLabel = (!singleBucket && chartBuckets.length >= 2) ? axisLabel(chartBuckets[chartBuckets.length - 1]) : '';
+
+    const daysWithDots = chartBuckets.map(b => ({
+      dotColor: this.colorForRisk(b.riskLevel),
+      dotTitle: `${b.label} — ${this.labelForRisk(b.riskLevel)}${b.riskNote ? ' — ' + b.riskNote : ''}`
+    }));
+
+    const topSources = (latest.topSources || []).map(s => {
+      const n = (s.sentiment || '').toLowerCase();
+      let dotColor = 'var(--success-500)';
+      if (n.includes('tieu') || n.includes('tiêu')) dotColor = 'var(--danger-500)';
+      else if (n.includes('trung')) dotColor = 'var(--gold-600)';
+      return { ...s, dotColor };
+    });
+
+    // channels: aggregate social by platform
+    const channelMap = {};
+    (latest.social || []).forEach(s => {
+      const key = s.platform || 'Khác';
+      channelMap[key] = (channelMap[key] || 0) + 1;
+    });
+    const channels = Object.keys(channelMap).map(platform => ({
+      platform, count: channelMap[platform],
+      onClick: () => this.openChannelModal(platform)
+    }));
+
+    const watchItems = (latest.alerts || []).filter(a => {
+      const lvl = (a.level || '').toLowerCase();
+      return lvl.includes('vàng') || lvl.includes('vang');
+    }).map(a => ({ type: a.type, summary: a.summary }));
+
+    // ---- click-through modal: sources list for the selected KPI + period ----
+    const categoryLabels = { total: 'Tổng nguồn', positive: 'Nguồn tích cực', neutral: 'Nguồn trung tính', negative: 'Nguồn tiêu cực / cảnh báo', new: 'Nguồn mới' };
+    const modalOpen = !!modalCategory;
+    let modalItems = [];
+    let modalTitle = '';
+    let modalTotalCount = 0;
+    const MODAL_CAP = 150;
+    if (modalOpen) {
+      const raw = this.sourcesForBucket(sourcesByDay, selBucket, modalCategory);
+      modalTotalCount = raw.length;
+      modalItems = raw.slice(0, MODAL_CAP).map(s => {
+        let dotColor = 'var(--success-500)';
+        if (s.sentiment === 'negative') dotColor = 'var(--danger-500)';
+        else if (s.sentiment === 'neutral') dotColor = 'var(--gold-600)';
+        return { ...s, dotColor, dateLabel: this.fmtDateLabel(s.date) };
+      });
+      modalTitle = `${categoryLabels[modalCategory]} — ${selBucket.label}`;
+    }
+    const modalTruncated = modalTotalCount > MODAL_CAP;
+    const modalHiddenCount = modalTotalCount - MODAL_CAP;
+
+    // ---- channel modal: accounts/pages for a clicked platform ----
+    const { channelModal } = this.state;
+    const channelModalOpen = !!channelModal;
+    let channelModalItems = [];
+    if (channelModalOpen) {
+      channelModalItems = (latest.social || []).filter(s => s.platform === channelModal).map(s => {
+        const n = (s.sentiment || '').toLowerCase();
+        let dotColor = 'var(--success-500)';
+        if (n.includes('tieu') || n.includes('tiêu')) dotColor = 'var(--danger-500)';
+        else if (n.includes('trung')) dotColor = 'var(--gold-600)';
+        return { ...s, dotColor };
+      });
+    }
+
+    return {
+      dayCount: days.length,
+      rangeLabel: `${this.fmtDateLabel(firstDay.date)} – ${this.fmtDateLabel(lastDay.date)}`,
+      latestDateLabel: this.fmtDateLabel(lastDay.date),
+      latestRiskLabel: this.labelForRisk(lastDay.riskLevel),
+      latestRiskColor: this.colorForRisk(lastDay.riskLevel),
+      latestRiskColorSoft: this.softBgForRisk(lastDay.riskLevel),
+      sel: selBucket,
+      selPeriodLabel, selRiskDaysNote,
+      selRiskColor: this.colorForRisk(selBucket.riskLevel),
+      selRiskSoftBg: this.softBgForRisk(selBucket.riskLevel),
+      selRiskBorder: this.borderForRisk(selBucket.riskLevel),
+      selRiskLabel: this.labelForRisk(selBucket.riskLevel),
+      selRiskNoteShown: selBucket.riskNote || (selBucket.riskLevel === 'green' ? 'Không phát hiện nội dung tiêu cực' : `${this.cap(modeNoun)} này có mục cần theo dõi`),
+      positivePct, neutralPct,
+      negativeColor: selBucket.negative > 0 ? 'var(--danger-500)' : 'var(--success-500)',
+      positiveLine, positiveArea, neutralLine, negativeLine, chartPoints, chartFallbackNote,
+      firstDateLabel: chartFirstLabel,
+      midDateLabel: chartMidLabel,
+      lastDateLabel: chartLastLabel,
+      timelineLabel: `Lịch sử trạng thái rủi ro — ${chartBuckets.length} ${chartModeNoun}`,
+      days: daysWithDots,
+      topSources,
+      topSourcesCount: topSources.length,
+      channels,
+      watchItems,
+      watchCount: watchItems.length,
+      channelModalOpen, channelModalItems, channelModalTitle: channelModal || '',
+      channelModalHasItems: channelModalItems.length > 0, channelModalIsEmpty: channelModalItems.length === 0,
+      onCloseChannelModal: () => this.closeChannelModal(),
+      viewModeOptions,
+      periodOptions,
+      selectedPeriodKey: selBucket.key,
+      selectedPeriodLabel: selBucket.label,
+      dropdownOpen: !!dropdownOpen,
+      onToggleDropdown: () => this.toggleDropdown(),
+      modalOpen, modalTitle, modalItems, modalCount: modalTotalCount,
+      modalHasItems: modalItems.length > 0, modalIsEmpty: modalItems.length === 0,
+      modalTruncated, modalHiddenCount,
+      stopClick: (e) => e.stopPropagation(),
+      onCloseModal: () => this.closeModal(),
+      onOpenTotal: () => this.openModal('total'),
+      onOpenPositive: () => this.openModal('positive'),
+      onOpenNeutral: () => this.openModal('neutral'),
+      onOpenNegative: () => this.openModal('negative'),
+      onOpenNew: () => this.openModal('new')
+    };
+  }
+}
+
+</script>
+</body>
+</html>
