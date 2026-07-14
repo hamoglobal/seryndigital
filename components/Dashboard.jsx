@@ -10,9 +10,10 @@ import { useEffect, useState } from 'react';
 import Card from './Card';
 import Badge from './Badge';
 import {
-  fmtDateLabel, fmtDateFull, buildBuckets, sourcesForBucket,
+  fmtDateLabel, fmtDateFull, buildBuckets, sourcesForBucket, dedupeSources, typeStats,
   colorForRisk, softBgForRisk, borderForRisk, labelForRisk, cap,
 } from '@/lib/aggregate';
+import { exportListToPdf } from '@/lib/exportPdf';
 
 const VIEW_MODES = ['day', 'week', 'month', 'year'];
 const MODE_NOUN = { day: 'ngày', week: 'tuần', month: 'tháng', year: 'năm' };
@@ -149,7 +150,7 @@ export default function Dashboard() {
   const midDateLabel = (!singleBucket && chartBuckets.length >= 3) ? axisLabel(chartBuckets[Math.floor((chartBuckets.length - 1) / 2)]) : '';
   const lastDateLabel = (!singleBucket && chartBuckets.length >= 2) ? axisLabel(chartBuckets[chartBuckets.length - 1]) : '';
 
-  const topSources = (latest.topSources || []).map(s => ({ ...s, dotColor: sentimentDotColor(s.sentiment) }));
+  const topSources = dedupeSources(latest.topSources || []).map(s => ({ ...s, dotColor: sentimentDotColor(s.sentiment) }));
 
   const channelMap = {};
   (latest.social || []).forEach(s => { const key = s.platform || 'Khác'; channelMap[key] = (channelMap[key] || 0) + 1; });
@@ -164,13 +165,16 @@ export default function Dashboard() {
   const modalOpen = !!modalCategory;
   let modalItems = [], modalTotalCount = 0;
   if (modalOpen) {
-    const raw = sourcesForBucket(sourcesByDay, selBucket, modalCategory);
+    const raw = dedupeSources(sourcesForBucket(sourcesByDay, selBucket, modalCategory));
     modalTotalCount = raw.length;
-    modalItems = raw.slice(0, MODAL_CAP).map(s => ({ ...s, dotColor: sentimentDotColor(s.sentiment), dateLabel: fmtDateLabel(s.date) }));
+    modalItems = raw.slice(0, MODAL_CAP).map(s => ({ ...s, dotColor: sentimentDotColor(s.sentiment), dateLabel: fmtDateLabel(s.lastDate || s.date) }));
   }
   const modalTruncated = modalTotalCount > MODAL_CAP;
   const modalHiddenCount = modalTotalCount - MODAL_CAP;
   const modalTitle = modalOpen ? `${CATEGORY_LABELS[modalCategory]} — ${selBucket.label}` : '';
+
+  const bucketSourcesDeduped = dedupeSources(sourcesForBucket(sourcesByDay, selBucket, 'total'));
+  const tagStats = typeStats(bucketSourcesDeduped);
 
   const channelModalOpen = !!channelModal;
   const channelModalItems = channelModalOpen
@@ -427,6 +431,41 @@ export default function Dashboard() {
         </div>
       </div>
 
+      {/* ============ TAG / SOURCE-TYPE STATS ============ */}
+      <div style={{ maxWidth: 1360, margin: '0 auto', padding: '28px 40px 0' }}>
+        <Card elevation="md" style={{ padding: 28 }}>
+          <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', marginBottom: 18, flexWrap: 'wrap', gap: 8 }}>
+            <h2 style={{ fontFamily: 'var(--font-display)', fontWeight: 600, fontSize: 'var(--text-xl)', color: 'var(--seryn-navy)', margin: 0, letterSpacing: 'var(--tracking-tighter)' }}>Thống kê theo loại nguồn</h2>
+            <span style={{ fontSize: 'var(--text-xs)', color: 'var(--text-subtle)' }}>{bucketSourcesDeduped.length} nguồn duy nhất (đã gộp trùng lặp) · {selBucket.label}</span>
+          </div>
+          <table style={{ width: '100%', borderCollapse: 'collapse' }}>
+            <thead>
+              <tr>
+                <th style={{ textAlign: 'left', padding: '6px 8px 10px 6px', borderBottom: '1px solid var(--border-subtle)', fontSize: 'var(--text-2xs)', textTransform: 'uppercase', letterSpacing: 'var(--tracking-wider)', color: 'var(--text-muted)', fontWeight: 600 }}>Loại nguồn / tag</th>
+                <th style={{ textAlign: 'right', padding: '6px 8px 10px 6px', borderBottom: '1px solid var(--border-subtle)', fontSize: 'var(--text-2xs)', textTransform: 'uppercase', letterSpacing: 'var(--tracking-wider)', color: 'var(--text-muted)', fontWeight: 600 }}>Số nguồn</th>
+                <th style={{ textAlign: 'left', padding: '6px 8px 10px 6px', borderBottom: '1px solid var(--border-subtle)', fontSize: 'var(--text-2xs)', textTransform: 'uppercase', letterSpacing: 'var(--tracking-wider)', color: 'var(--text-muted)', fontWeight: 600, width: '38%' }}>Tỷ trọng</th>
+              </tr>
+            </thead>
+            <tbody>
+              {tagStats.map((t, i) => (
+                <tr key={i}>
+                  <td style={{ padding: '11px 8px', borderBottom: '1px solid var(--border-subtle)', fontSize: 'var(--text-sm)', fontWeight: 500, color: 'var(--text-body)' }}>{t.label}</td>
+                  <td style={{ padding: '11px 8px', borderBottom: '1px solid var(--border-subtle)', textAlign: 'right', fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--seryn-navy)' }}>{t.count}</td>
+                  <td style={{ padding: '11px 8px', borderBottom: '1px solid var(--border-subtle)' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                      <div style={{ flex: '1 1 0%', height: 6, borderRadius: 3, background: 'var(--ivory-200)', overflow: 'hidden' }}>
+                        <div style={{ width: `${t.pct}%`, height: '100%', background: 'var(--text-brand)', borderRadius: 3 }} />
+                      </div>
+                      <span style={{ fontSize: 'var(--text-xs)', color: 'var(--text-subtle)', minWidth: 32, textAlign: 'right' }}>{t.pct}%</span>
+                    </div>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </Card>
+      </div>
+
       <div style={{ maxWidth: 1360, margin: '0 auto', padding: '28px 40px 56px', textAlign: 'center' }}>
         <p style={{ fontSize: 'var(--text-xs)', color: 'var(--text-subtle)' }}>Dữ liệu tổng hợp tự động từ thư mục báo cáo giám sát hằng ngày · {rangeLabel} · Phòng khám đa khoa Seryn</p>
       </div>
@@ -438,9 +477,23 @@ export default function Dashboard() {
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '24px 28px', borderBottom: '1px solid var(--border-subtle)' }}>
               <div>
                 <div style={{ fontFamily: 'var(--font-display)', fontSize: 'var(--text-lg)', fontWeight: 600, color: 'var(--seryn-navy)', letterSpacing: 'var(--tracking-tighter)' }}>{modalTitle}</div>
-                <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-subtle)', marginTop: 4 }}>{modalTotalCount} nguồn</div>
+                <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-subtle)', marginTop: 4 }}>{modalTotalCount} nguồn duy nhất (đã gộp trùng lặp)</div>
               </div>
-              <button onClick={() => setModalCategory(null)} style={{ border: 'none', background: 'var(--ivory-200)', width: 32, height: 32, borderRadius: '50%', cursor: 'pointer', fontSize: 16, color: 'var(--text-muted)', lineHeight: 1 }}>×</button>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                <button onClick={() => exportListToPdf({
+                  title: modalTitle,
+                  subtitle: `${modalTotalCount} nguồn duy nhất (đã gộp trùng lặp) · ${selBucket.label} · xuất ngày ${fmtDateFull(lastDay.date)}`,
+                  items: modalItems.map(m => ({
+                    heading: m.title,
+                    lines: [
+                      [m.type, m.dateLabel && `Ngày: ${m.dateLabel}`, m.occurrences > 1 ? `Xuất hiện ${m.occurrences} lần` : null].filter(Boolean).join(' · '),
+                      m.url,
+                    ],
+                  })),
+                  filename: `nguon-${modalCategory}-${selBucket.key}.pdf`,
+                })} style={{ border: '1px solid var(--border-default)', background: 'var(--surface-card)', borderRadius: 'var(--radius-pill)', padding: '7px 16px', fontSize: 'var(--text-xs)', fontWeight: 600, color: 'var(--text-brand)', cursor: 'pointer', whiteSpace: 'nowrap' }}>Xuất file PDF</button>
+                <button onClick={() => setModalCategory(null)} style={{ border: 'none', background: 'var(--ivory-200)', width: 32, height: 32, borderRadius: '50%', cursor: 'pointer', fontSize: 16, color: 'var(--text-muted)', lineHeight: 1 }}>×</button>
+              </div>
             </div>
             <div style={{ overflowY: 'auto', padding: '8px 28px 24px' }}>
               {modalItems.length > 0 ? modalItems.map((m, i) => (
@@ -448,7 +501,7 @@ export default function Dashboard() {
                   <span style={{ width: 8, height: 8, minWidth: 8, marginTop: 6, borderRadius: '50%', background: m.dotColor }} />
                   <span style={{ flex: '1 1 0%', minWidth: 0 }}>
                     <span style={{ display: 'block', fontSize: 'var(--text-sm)', fontWeight: 500, color: 'var(--text-body)' }}>{m.title}</span>
-                    <span style={{ display: 'block', fontSize: 'var(--text-2xs)', color: 'var(--text-subtle)', marginTop: 3 }}>{m.type} · {m.dateLabel}</span>
+                    <span style={{ display: 'block', fontSize: 'var(--text-2xs)', color: 'var(--text-subtle)', marginTop: 3 }}>{m.type} · {m.dateLabel}{m.occurrences > 1 ? ` · xuất hiện ${m.occurrences} lần` : ''}</span>
                   </span>
                 </a>
               )) : (
@@ -489,7 +542,18 @@ export default function Dashboard() {
                 <div style={{ fontFamily: 'var(--font-display)', fontSize: 'var(--text-lg)', fontWeight: 600, color: 'var(--seryn-navy)', letterSpacing: 'var(--tracking-tighter)' }}>{channelModal}</div>
                 <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-subtle)', marginTop: 4 }}>Danh sách trang / tài khoản</div>
               </div>
-              <button onClick={() => setChannelModal(null)} style={{ border: 'none', background: 'var(--ivory-200)', width: 32, height: 32, borderRadius: '50%', cursor: 'pointer', fontSize: 16, color: 'var(--text-muted)', lineHeight: 1 }}>×</button>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                <button onClick={() => exportListToPdf({
+                  title: `Kênh hiện diện — ${channelModal}`,
+                  subtitle: `${channelModalItems.length} trang / tài khoản · ${fmtDateFull(lastDay.date)}`,
+                  items: channelModalItems.map(cm => ({
+                    heading: cm.account,
+                    lines: [[cm.accountType, cm.note].filter(Boolean).join(' · '), cm.url],
+                  })),
+                  filename: `kenh-${channelModal}.pdf`,
+                })} style={{ border: '1px solid var(--border-default)', background: 'var(--surface-card)', borderRadius: 'var(--radius-pill)', padding: '7px 16px', fontSize: 'var(--text-xs)', fontWeight: 600, color: 'var(--text-brand)', cursor: 'pointer', whiteSpace: 'nowrap' }}>Xuất file PDF</button>
+                <button onClick={() => setChannelModal(null)} style={{ border: 'none', background: 'var(--ivory-200)', width: 32, height: 32, borderRadius: '50%', cursor: 'pointer', fontSize: 16, color: 'var(--text-muted)', lineHeight: 1 }}>×</button>
+              </div>
             </div>
             <div style={{ overflowY: 'auto', padding: '8px 28px 24px' }}>
               {channelModalItems.length > 0 ? channelModalItems.map((c, i) => (

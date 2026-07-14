@@ -16,6 +16,7 @@
     "watch-ingest": "node scripts/watch-ingest.mjs"
   },
   "dependencies": {
+    "jspdf": "^4.2.1",
     "next": "14.2.5",
     "react": "18.3.1",
     "react-dom": "18.3.1",
