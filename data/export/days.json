@@ -49,7 +49,7 @@
     "positive": 11,
     "neutral": 8,
     "negative": 0,
-    "newSources": 0,
+    "newSources": 2,
     "riskRaw": "✅ AN TOÀN – Không có cảnh báo đỏ",
     "riskLevel": "green",
     "riskNote": ""
@@ -60,7 +60,7 @@
     "positive": 12,
     "neutral": 8,
     "negative": 0,
-    "newSources": 0,
+    "newSources": 1,
     "riskRaw": "✅ AN TOÀN – Không có cảnh báo đỏ",
     "riskLevel": "green",
     "riskNote": ""
@@ -71,7 +71,7 @@
     "positive": 12,
     "neutral": 8,
     "negative": 0,
-    "newSources": 0,
+    "newSources": 1,
     "riskRaw": "✅ AN TOÀN – Không có cảnh báo đỏ",
     "riskLevel": "green",
     "riskNote": ""
@@ -82,7 +82,7 @@
     "positive": 12,
     "neutral": 9,
     "negative": 0,
-    "newSources": 0,
+    "newSources": 1,
     "riskRaw": "✅ AN TOÀN – Không có cảnh báo đỏ",
     "riskLevel": "green",
     "riskNote": ""
@@ -93,7 +93,7 @@
     "positive": 12,
     "neutral": 9,
     "negative": 0,
-    "newSources": 0,
+    "newSources": 1,
     "riskRaw": "✅ AN TOÀN – Không có cảnh báo đỏ",
     "riskLevel": "green",
     "riskNote": ""
@@ -104,7 +104,7 @@
     "positive": 11,
     "neutral": 9,
     "negative": 0,
-    "newSources": 0,
+    "newSources": 3,
     "riskRaw": "✅ AN TOÀN – Không phát hiện cảnh báo đỏ",
     "riskLevel": "green",
     "riskNote": ""
@@ -126,7 +126,7 @@
     "positive": 15,
     "neutral": 7,
     "negative": 0,
-    "newSources": 0,
+    "newSources": 3,
     "riskRaw": "XANH - AN TOÀN",
     "riskLevel": "green",
     "riskNote": ""

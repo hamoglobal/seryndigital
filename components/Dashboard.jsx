@@ -45,6 +45,7 @@ export default function Dashboard() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [modalCategory, setModalCategory] = useState(null);
   const [channelModal, setChannelModal] = useState(null);
+  const [riskModalOpen, setRiskModalOpen] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -296,16 +297,26 @@ export default function Dashboard() {
             <KpiFoot>So với kỳ trước · nhấn để xem</KpiFoot>
           </Card>
 
-          <div style={{
-            borderRadius: 'var(--radius-xl)', padding: 'var(--space-8)', boxShadow: 'var(--shadow-sm)',
-            background: softBgForRisk(selBucket.riskLevel), border: `1px solid ${borderForRisk(selBucket.riskLevel)}`,
-            display: 'flex', flexDirection: 'column', justifyContent: 'center', minHeight: 140,
-          }}>
+          <div
+            onClick={() => selBucket.riskNote && setRiskModalOpen(true)}
+            style={{
+              borderRadius: 'var(--radius-xl)', padding: 'var(--space-8)', boxShadow: 'var(--shadow-sm)',
+              background: softBgForRisk(selBucket.riskLevel), border: `1px solid ${borderForRisk(selBucket.riskLevel)}`,
+              display: 'flex', flexDirection: 'column', justifyContent: 'center',
+              minHeight: 140, maxHeight: 140, overflow: 'hidden',
+              cursor: selBucket.riskNote ? 'pointer' : 'default',
+            }}>
             <KpiLabel>Trạng thái rủi ro</KpiLabel>
             <div style={{ fontFamily: 'var(--font-display)', fontSize: 'var(--text-xl)', fontWeight: 600, color: colorForRisk(selBucket.riskLevel), lineHeight: 1.15 }}>{labelForRisk(selBucket.riskLevel)}</div>
-            <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 8, lineHeight: 'var(--leading-snug)' }}>
+            <div style={{
+              fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 8, lineHeight: 'var(--leading-snug)',
+              display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden',
+            }}>
               {selBucket.riskNote || (selBucket.riskLevel === 'green' ? 'Không phát hiện nội dung tiêu cực' : `${cap(modeNoun)} này có mục cần theo dõi`)}
             </div>
+            {selBucket.riskNote && (
+              <div style={{ fontSize: 'var(--text-2xs)', color: 'var(--text-brand)', marginTop: 4, fontWeight: 600, flexShrink: 0 }}>Xem chi tiết ›</div>
+            )}
           </div>
 
         </div>
@@ -446,6 +457,24 @@ export default function Dashboard() {
               {modalTruncated && (
                 <div style={{ padding: '16px 0 4px', textAlign: 'center', color: 'var(--text-subtle)', fontSize: 'var(--text-xs)' }}>... và {modalHiddenCount} nguồn khác trong kỳ này (thu hẹp phạm vi để xem đầy đủ)</div>
               )}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ============ RISK NOTE DETAIL MODAL ============ */}
+      {riskModalOpen && (
+        <div onClick={() => setRiskModalOpen(false)} style={{ position: 'fixed', inset: 0, background: 'rgba(36,28,24,0.45)', backdropFilter: 'blur(3px)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 100, padding: 32 }}>
+          <div onClick={e => e.stopPropagation()} style={{ background: 'var(--surface-card)', borderRadius: 'var(--radius-xl)', boxShadow: 'var(--shadow-lg)', width: '100%', maxWidth: 640, maxHeight: '80vh', display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '24px 28px', borderBottom: '1px solid var(--border-subtle)' }}>
+              <div>
+                <div style={{ fontFamily: 'var(--font-display)', fontSize: 'var(--text-lg)', fontWeight: 600, color: colorForRisk(selBucket.riskLevel), letterSpacing: 'var(--tracking-tighter)' }}>{labelForRisk(selBucket.riskLevel)}</div>
+                <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-subtle)', marginTop: 4 }}>{selBucket.label}</div>
+              </div>
+              <button onClick={() => setRiskModalOpen(false)} style={{ border: 'none', background: 'var(--ivory-200)', width: 32, height: 32, borderRadius: '50%', cursor: 'pointer', fontSize: 16, color: 'var(--text-muted)', lineHeight: 1 }}>×</button>
+            </div>
+            <div style={{ overflowY: 'auto', padding: '20px 28px 28px', fontSize: 'var(--text-sm)', color: 'var(--text-body)', lineHeight: 'var(--leading-relaxed)', whiteSpace: 'pre-wrap' }}>
+              {selBucket.riskNote || (selBucket.riskLevel === 'green' ? 'Không phát hiện nội dung tiêu cực' : `${cap(modeNoun)} này có mục cần theo dõi`)}
             </div>
           </div>
         </div>

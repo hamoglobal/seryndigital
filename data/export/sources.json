@@ -25,7 +25,7 @@
       "domain": "vnexpress.net",
       "type": "Báo chí (Tier 1)",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-05",
@@ -79,7 +79,7 @@
       "domain": "vietnamnet.vn",
       "type": "Báo chí (Tier 1)",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-05",
@@ -115,7 +115,7 @@
       "domain": "medpro.vn",
       "type": "Owned ecosystem",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     }
   ],
   "2026-05-06": [
@@ -198,7 +198,7 @@
       "domain": "24h.com.vn",
       "type": "Báo chí",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-06",
@@ -207,7 +207,7 @@
       "domain": "vietxinh.com.vn",
       "type": "Báo chí (đăng lại)",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-06",
@@ -627,7 +627,7 @@
       "domain": "thanhnienviet.vn",
       "type": "Báo chí",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-09",
@@ -708,7 +708,7 @@
       "domain": "yersinclinic.com",
       "type": "Không liên quan",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-09",
@@ -773,7 +773,7 @@
       "domain": "vietnamnet.vn",
       "type": "Báo chí lớn",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-10",
@@ -991,7 +991,7 @@
       "domain": "24h.com.vn",
       "type": "Báo chí lớn",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-11",
@@ -1290,7 +1290,7 @@
       "domain": "tuoitre.vn",
       "type": "Báo chí lớn (ngành)",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-12",
@@ -1436,7 +1436,7 @@
       "domain": "medpro.vn",
       "type": "Nền tảng y tế",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-14",
@@ -1573,7 +1573,7 @@
       "domain": "thanhnienviet.vn",
       "type": "Báo chí",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-15",
@@ -1636,7 +1636,7 @@
       "domain": "medpro.vn",
       "type": "Platform đặt khám",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-15",
@@ -1672,7 +1672,7 @@
       "domain": "yersinclinic.com",
       "type": "Phòng khám khác",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     }
   ],
   "2026-05-16": [
@@ -1937,7 +1937,7 @@
       "domain": "yan.vn",
       "type": "Báo chí giải trí",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-17",
@@ -1946,7 +1946,7 @@
       "domain": "thethaovanhoa.vn",
       "type": "Báo chí",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-17",
@@ -1955,7 +1955,7 @@
       "domain": "vietnamnet.vn",
       "type": "Báo chí lớn",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-17",
@@ -2229,7 +2229,7 @@
       "domain": "thethaovanhoa.vn",
       "type": "Tích cực",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-19",
@@ -2256,7 +2256,7 @@
       "domain": "arttimes.vn",
       "type": "Tích cực",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-19",
@@ -2265,7 +2265,7 @@
       "domain": "thanhnienviet.vn",
       "type": "Tích cực",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-19",
@@ -2384,7 +2384,7 @@
       "domain": "afamily.vn",
       "type": "Tích cực",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-20",
@@ -2393,7 +2393,7 @@
       "domain": "vietxinh.com.vn",
       "type": "Tích cực",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-20",
@@ -2530,7 +2530,7 @@
       "domain": "medpro.vn",
       "type": "Trung tính",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-21",
@@ -2539,7 +2539,7 @@
       "domain": "seryn.vn",
       "type": "Tích cực",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     }
   ],
   "2026-05-22": [
@@ -2586,7 +2586,7 @@
       "domain": "arttimes.vn",
       "type": "Tích cực",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-22",
@@ -2750,7 +2750,7 @@
       "domain": "afamily.vn",
       "type": "Tích cực",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-23",
@@ -2905,7 +2905,7 @@
       "domain": "doctogo.vn",
       "type": "Trung tính",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-24",
@@ -2914,7 +2914,7 @@
       "domain": "soytequangninh.gov.vn",
       "type": "Trung tính",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     }
   ],
   "2026-05-25": [
@@ -3024,7 +3024,7 @@
       "domain": "masothue.com",
       "type": "Trung tính",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-25",
@@ -3134,7 +3134,7 @@
       "domain": "masothue.com",
       "type": "Tra cứu MST",
       "sentiment": "neutral",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-26",
@@ -3143,7 +3143,7 @@
       "domain": "thanhnienviet.vn",
       "type": "Báo điện tử",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-26",
@@ -3280,7 +3280,7 @@
       "domain": "vietnamnet.vn",
       "type": "Báo điện tử",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-27",
@@ -3372,7 +3372,7 @@
       "domain": "afamily.vn",
       "type": "Báo điện tử",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-28",
@@ -3563,7 +3563,7 @@
       "domain": "vietxinh.com.vn",
       "type": "Báo điện tử",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-29",
@@ -3572,7 +3572,7 @@
       "domain": "seryn.vn",
       "type": "Website chính thức",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-29",
@@ -3655,7 +3655,7 @@
       "domain": "thethaovanhoa.vn",
       "type": "PR báo chí",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-30",
@@ -3673,7 +3673,7 @@
       "domain": "arttimes.vn",
       "type": "PR báo chí",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-30",
@@ -3792,7 +3792,7 @@
       "domain": "thanhnienviet.vn",
       "type": "PR báo chí",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-05-31",
@@ -3884,7 +3884,7 @@
       "domain": "thethaovanhoa.vn",
       "type": "Báo chí PR",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-01",
@@ -3893,7 +3893,7 @@
       "domain": "yan.vn",
       "type": "Báo chí PR",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-01",
@@ -4048,7 +4048,7 @@
       "domain": "seryn.vn",
       "type": "Báo chí PR",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-02",
@@ -4387,7 +4387,7 @@
       "domain": "",
       "type": "Tích cực",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-05",
@@ -4515,7 +4515,7 @@
       "domain": "seryn.vn",
       "type": "Tích cực",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-06",
@@ -4598,7 +4598,7 @@
       "domain": "seryn.vn",
       "type": "Tích cực",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-07",
@@ -4607,7 +4607,7 @@
       "domain": "seryn.vn",
       "type": "Tích cực",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-07",
@@ -4643,7 +4643,7 @@
       "domain": "seryn.vn",
       "type": "Tích cực",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-07",
@@ -4744,7 +4744,7 @@
       "domain": "thethaovanhoa.vn",
       "type": "Báo chí tích cực",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-08",
@@ -4753,7 +4753,7 @@
       "domain": "yan.vn",
       "type": "Báo chí tích cực",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-08",
@@ -4881,7 +4881,7 @@
       "domain": "afamily.vn",
       "type": "Báo chí tích cực",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-09",
@@ -4890,7 +4890,7 @@
       "domain": "arttimes.vn",
       "type": "Báo chí tích cực",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     }
   ],
   "2026-06-10": [
@@ -5056,7 +5056,7 @@
       "domain": "seryn.vn",
       "type": "Website - Landing page",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-11",
@@ -5065,7 +5065,7 @@
       "domain": "seryn.vn",
       "type": "Website chính thức",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-11",
@@ -5139,7 +5139,7 @@
       "domain": "arttimes.vn",
       "type": "Báo chí tích cực",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-12",
@@ -5148,7 +5148,7 @@
       "domain": "dep.com.vn",
       "type": "Báo chí tích cực",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-12",
@@ -5157,7 +5157,7 @@
       "domain": "afamily.vn",
       "type": "Báo chí tích cực",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-12",
@@ -5202,7 +5202,7 @@
       "domain": "seryn.vn",
       "type": "Website - Tổng hợp báo chí",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-12",
@@ -5211,7 +5211,7 @@
       "domain": "topcv.vn",
       "type": "Hồ sơ doanh nghiệp / tuyển dụng",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-12",
@@ -5220,7 +5220,7 @@
       "domain": "deepai.org",
       "type": "Hồ sơ directory",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-12",
@@ -5431,7 +5431,7 @@
       "domain": "thethaovanhoa.vn",
       "type": "Báo chí",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-15",
@@ -5440,7 +5440,7 @@
       "domain": "yan.vn",
       "type": "Báo chí",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-15",
@@ -5613,7 +5613,7 @@
       "domain": "bookingcare.vn",
       "type": "Danh mục y tế",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-16",
@@ -5631,7 +5631,7 @@
       "domain": "pitchbook.com",
       "type": "Hồ sơ công ty quốc tế",
       "sentiment": "neutral",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-16",
@@ -5824,7 +5824,7 @@
       "domain": "dep.com.vn",
       "type": "Báo chí tích cực",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-18",
@@ -5833,7 +5833,7 @@
       "domain": "vietnamnet.vn",
       "type": "Báo chí tích cực",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-18",
@@ -5842,7 +5842,7 @@
       "domain": "thanhnienviet.vn",
       "type": "Báo chí tích cực",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-18",
@@ -5860,7 +5860,7 @@
       "domain": "seryn.vn",
       "type": "Landing page mới",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-18",
@@ -5869,7 +5869,7 @@
       "domain": "seryn.vn",
       "type": "Profile chuyên gia",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-18",
@@ -5896,7 +5896,7 @@
       "domain": "mbspilates.vn",
       "type": "Danh sách listing",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     }
   ],
   "2026-06-19": [
@@ -5934,7 +5934,7 @@
       "domain": "arttimes.vn",
       "type": "Báo chí tích cực",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-19",
@@ -5979,7 +5979,7 @@
       "domain": "afamily.vn",
       "type": "Báo chí tích cực",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-19",
@@ -5997,7 +5997,7 @@
       "domain": "deepai.org",
       "type": "Listing AI platform",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-19",
@@ -6161,7 +6161,7 @@
       "domain": "topcv.vn",
       "type": "Listing tuyển dụng",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     }
   ],
   "2026-06-21": [
@@ -6444,7 +6444,7 @@
       "domain": "seryn.vn",
       "type": "Blog mới",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-22",
@@ -6453,7 +6453,7 @@
       "domain": "seryn.vn",
       "type": "Blog mới",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-22",
@@ -6462,7 +6462,7 @@
       "domain": "seryn.vn",
       "type": "Blog mới",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-22",
@@ -6471,7 +6471,7 @@
       "domain": "seryn.vn",
       "type": "Blog mới",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-22",
@@ -6480,7 +6480,7 @@
       "domain": "seryn.vn",
       "type": "Blog mới",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-22",
@@ -6489,7 +6489,7 @@
       "domain": "seryn.vn",
       "type": "PR media mới",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-22",
@@ -6498,7 +6498,7 @@
       "domain": "24h.com.vn",
       "type": "Báo chí tích cực",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-22",
@@ -6507,7 +6507,7 @@
       "domain": "seryn.vn",
       "type": "Expert profile mới",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     }
   ],
   "2026-06-23": [
@@ -6581,7 +6581,7 @@
       "domain": "thanhnienviet.vn",
       "type": "Báo chí tích cực",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-23",
@@ -6671,7 +6671,7 @@
       "domain": "seryn.vn",
       "type": "Chi nhánh mới",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-23",
@@ -6808,7 +6808,7 @@
       "domain": "arttimes.vn",
       "type": "Báo chí tích cực",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-24",
@@ -6817,7 +6817,7 @@
       "domain": "24h.com.vn",
       "type": "Báo chí tích cực",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-24",
@@ -6826,7 +6826,7 @@
       "domain": "phunutoday.vn",
       "type": "Báo chí tích cực",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-24",
@@ -7026,7 +7026,7 @@
       "domain": "seryn.vn",
       "type": "Blog chính thức",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-25",
@@ -7035,7 +7035,7 @@
       "domain": "seryn.vn",
       "type": "Blog chính thức",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-25",
@@ -7044,7 +7044,7 @@
       "domain": "seryn.vn",
       "type": "Blog chính thức",
       "sentiment": "unknown",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-25",
@@ -7765,7 +7765,7 @@
       "domain": "thethaovanhoa.vn",
       "type": "Báo chí / PR",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-30",
@@ -7774,7 +7774,7 @@
       "domain": "yan.vn",
       "type": "Tạp chí / giải trí",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-30",
@@ -7783,7 +7783,7 @@
       "domain": "phunutoday.vn",
       "type": "Báo / tạp chí phụ nữ",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-06-30",
@@ -7985,7 +7985,7 @@
       "domain": "seryn.vn",
       "type": "Website chính thức",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-07-06",
@@ -7994,7 +7994,7 @@
       "domain": "timphongkham.vn",
       "type": "Directory",
       "sentiment": "neutral",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-07-06",
@@ -8003,7 +8003,7 @@
       "domain": "seryn.vn",
       "type": "Website chính thức",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-07-06",
@@ -8039,7 +8039,7 @@
       "domain": "24h.com.vn",
       "type": "Báo chí PR",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-07-06",
@@ -8230,7 +8230,7 @@
       "domain": "vietnamnet.vn",
       "type": "Bao chi PR",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-07-07",
@@ -8239,7 +8239,7 @@
       "domain": "seryn.vn",
       "type": "Website - Blog",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-07-07",
@@ -8248,7 +8248,7 @@
       "domain": "seryn.vn",
       "type": "Website - Blog",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-07-07",
@@ -8340,7 +8340,7 @@
       "domain": "seryn.vn",
       "type": "Website chinh thuc",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-07-08",
@@ -8484,7 +8484,7 @@
       "domain": "seryn.vn",
       "type": "Website - Blog",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-07-08",
@@ -8502,7 +8502,7 @@
       "domain": "seryn.vn",
       "type": "Website - Blog",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-07-08",
@@ -8693,7 +8693,7 @@
       "domain": "linkedin.com",
       "type": "Mang xa hoi - Chuyen nghiep",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-07-10",
@@ -8702,7 +8702,7 @@
       "domain": "seryn.vn",
       "type": "Website - Bao chi tong hop",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-07-10",
@@ -9147,7 +9147,7 @@
       "domain": "seryn.vn",
       "type": "Website chinh thuc",
       "sentiment": "positive",
-      "isNew": false
+      "isNew": true
     },
     {
       "date": "2026-07-13",
