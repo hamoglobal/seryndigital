@@ -1,0 +1,13 @@
+node_modules
+.next
+.git
+.ssh
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+reports/incoming
+design_reference
+source_data_samples
+*.zip
+README.md
