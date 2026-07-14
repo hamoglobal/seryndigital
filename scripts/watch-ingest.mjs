@@ -8,11 +8,18 @@
 // table) and never crashes the whole run because one file failed to parse —
 // it logs the failure and keeps going, per the handoff's "handle a missing/late
 // file gracefully" requirement.
+//
+// After ingestion, exports the DB to git-friendly JSON (data/export/*.json)
+// and commits + pushes it to GitHub, so the repo always reflects the latest
+// data. Only runs the export/push step if at least one file was newly
+// ingested (nothing to do otherwise).
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { execFileSync } from 'node:child_process';
 import { isFileIngested, recordIngestedFile } from '../lib/db.js';
 import { ingestFile } from './ingest.mjs';
+import { syncToGitHub } from './git-sync.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(__dirname, '..');
@@ -48,7 +55,13 @@ function listCandidateFiles(dir) {
     .map(f => path.join(dir, f))
     // .xlsx is authoritative over a same-day .csv (per handoff README) — process csv first
     // so that if both exist and are new, the xlsx upsert lands last and wins.
-    .sort((a, b) => (a.endsWith('.csv') ? 0 : 1) - (b.endsWith('.csv') ? 0 : 1));
+    .sort((a, b) => (a.endsWith('.csv') ? 0 : 1) - (b.endsWith('.csv') ? 1 : 0));
+}
+
+function runExportScript() {
+  // export-json.mjs does its work at module top-level; run as a child process
+  // so it gets a clean, synchronous run each time.
+  execFileSync(process.execPath, [path.join(__dirname, 'export-json.mjs')], { stdio: 'inherit' });
 }
 
 function main() {
@@ -77,6 +90,16 @@ function main() {
     }
   }
   console.log(`[watch-ingest] done. ${ok} ingested, ${failed} failed.`);
+
+  if (ok > 0) {
+    console.log('[watch-ingest] exporting data to JSON and syncing to GitHub...');
+    try {
+      runExportScript();
+      syncToGitHub();
+    } catch (err) {
+      console.error(`[watch-ingest] git sync step failed (non-fatal — data is still safe in the local DB): ${err.message}`);
+    }
+  }
 }
 
 main();
