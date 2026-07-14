@@ -50,6 +50,33 @@ If the report-generation job's save location ever changes, set
 `SERYN_INCOMING_DIR` (env var) and both `watch-ingest.mjs` and `seed.mjs` will
 use it instead of the hardcoded default.
 
+## GitHub sync
+
+The app code and a git-friendly JSON snapshot of the data are pushed to
+**https://github.com/hamoglobal/seryndigital** (private repo).
+
+- `data/seryn.db` (the SQLite file itself) stays out of git — binary diffs
+  aren't useful. Instead, `scripts/export-json.mjs` dumps the current database
+  to `data/export/days.json`, `data/export/sources.json`, and
+  `data/export/latest.json` (same shape as the `/api/days`, `/api/sources`,
+  `/api/latest` responses), which *are* tracked — reviewable in a normal
+  commit/PR view on GitHub.
+- Every `watch-ingest.mjs` run that ingests at least one new file
+  automatically runs the export, then commits + pushes `data/export/` via
+  `scripts/git-sync.mjs` (`[git-sync] committed & pushed: ...` in the log
+  confirms it went through). Runs with nothing new to ingest skip this step
+  entirely.
+- Auth is an SSH deploy key (write access, this repo only) at
+  `.ssh/seryn_deploy_key` — git-ignored, never committed. `.ssh/git-ssh-wrapper.sh`
+  wraps `ssh` with that key and the sandbox's outbound proxy config.
+- `git-sync.mjs` does its git work in a fresh disposable shallow clone under
+  the OS temp dir each run rather than operating directly on this project's
+  own `.git` — this project folder is a Windows path bridged into the sandbox
+  that has shown flaky unlink/rename behavior for git's lock files, and a
+  throwaway clone sidesteps that.
+- To push code changes (not just data) after editing the app, run from this
+  folder: `GIT_SSH_COMMAND="'$(pwd)/.ssh/git-ssh-wrapper.sh'" git add -A && git commit -m "..." && git push origin HEAD:main`.
+
 ## Architecture
 
 ```
