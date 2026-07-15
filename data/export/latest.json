@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-14",
+  "date": "2026-07-15",
   "topSources": [
     {
       "title": "Phòng Khám Đa Khoa Seryn | Seryn Clinic (Website)",
@@ -82,7 +82,7 @@
       "isNew": false
     },
     {
-      "title": "Nếp nhăn trên trán phụ nữ rõ nhất ở tuổi nào? - Blog seryn.vn (đã có từ 2026-07-07, bị thiếu trong báo cáo 07-13, không phải nội dung mới)",
+      "title": "Nếp nhăn trên trán phụ nữ - Blog seryn.vn (tái xuất hiện, có từ 2026-07-07)",
       "url": "https://seryn.vn/blog-detail/nep-nhan-tren-tran-phu-nu/",
       "domain": "seryn.vn",
       "type": "Website - Blog",
@@ -122,7 +122,7 @@
       "isNew": false
     },
     {
-      "title": "Trẻ hóa gương mặt: Vì sao liệu trình riêng lẻ không còn được ưa chuộng - AFamily",
+      "title": "Trẻ hóa gương mặt: liệu trình riêng lẻ không còn được ưa chuộng - AFamily",
       "url": "https://afamily.vn/tre-hoa-guong-mat-vi-sao-nhung-lieu-trinh-rieng-le-khong-con-duoc-ua-chuong-236260318171908185.chn",
       "domain": "afamily.vn",
       "type": "Báo chí PR",
@@ -136,6 +136,14 @@
       "type": "Directory",
       "sentiment": "neutral",
       "isNew": false
+    },
+    {
+      "title": "Careers - Công ty CP Hamo Global - Talent.vn",
+      "url": "https://hamoglobal.talent.vn/",
+      "domain": "hamoglobal.talent.vn",
+      "type": "Directory - Tuyển dụng",
+      "sentiment": "neutral",
+      "isNew": true
     },
     {
       "title": "SERYN - Trang công ty LinkedIn chính thức",
@@ -158,14 +166,6 @@
       "url": "https://vietnamnet.vn/tre-hoa-khong-den-tu-skincare-thong-thuong-su-that-phai-dep-it-biet-2503099.html",
       "domain": "vietnamnet.vn",
       "type": "Báo chí PR",
-      "sentiment": "positive",
-      "isNew": false
-    },
-    {
-      "title": "Mỹ phẩm Sulwhasoo có tốt không? Review chi tiết cho da 25+ - Blog seryn.vn",
-      "url": "https://seryn.vn/blog-detail/my-pham-sulwhasoo-co-tot-khong-review-chi-tiet-cho-da-25/",
-      "domain": "seryn.vn",
-      "type": "Website - Blog",
       "sentiment": "positive",
       "isNew": false
     },
@@ -210,7 +210,15 @@
       "isNew": false
     },
     {
-      "title": "Carry-forward: mô tả chi nhánh 45 Xã Đàn, Hà Nội (Clinexa Vietnam, GPHĐ 4903/HNO-GPHĐ) - khác đơn vị/GPHĐ đã xác nhận. Xuất hiện lại trong AI-summary hôm nay, chưa có URL bài viết cụ thể mới để xác minh dứt điểm.",
+      "title": "Không tìm thấy quyết định thanh tra/xử phạt nào nhắc đích danh Seryn Clinic (24 Nguyễn Bỉnh Khiêm)",
+      "url": "-",
+      "domain": "",
+      "type": "Kết quả rà soát",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "title": "Carry-forward: mô tả chi nhánh 45 Xã Đàn, Hà Nội (Clinexa Vietnam, GPHĐ 4903/HNO-GPHĐ) - khác đơn vị/GPHĐ đã xác nhận. Chưa có URL bài viết cụ thể mới để xác minh dứt điểm.",
       "url": "-",
       "domain": "",
       "type": "Kết quả rà soát - cần xác minh",
@@ -293,7 +301,7 @@
     },
     {
       "platform": "Facebook - Nhầm lẫn",
-      "account": "Seren Klinik / Serene Clinic / Sherlyn Clinic (Thái Lan)",
+      "account": "Seren Klinik / Serene Clinic / Sherlyn Clinic (Thái Lan/Thổ Nhĩ Kỳ)",
       "url": "https://www.facebook.com/serenklinik/",
       "accountType": "Không liên quan",
       "sentiment": "Trung tính",
@@ -317,7 +325,7 @@
     },
     {
       "platform": "YouTube - Nhầm lẫn",
-      "account": "Gangnam Seran/Sera/Serena Clinic (quốc tế), Seryn (ban nhạc - Nicotine, Mausoleum)",
+      "account": "Gangnam Seran/Sera/Serena Clinic (quốc tế), Seryn (ban nhạc - Nicotine, Mausoleum, Lonely Boy)",
       "url": "https://www.youtube.com/watch?v=dquYnCJfNL8",
       "accountType": "Không liên quan",
       "sentiment": "Trung tính",
@@ -337,63 +345,69 @@
       "level": "XANH",
       "type": "Không có cảnh báo đỏ nào hôm nay",
       "source": "-",
-      "date": "2026-07-14",
+      "date": "2026-07-15",
       "summary": "Không tìm thấy bất kỳ nội dung lừa đảo, vi phạm, thanh tra, báo điều tra hay phản ánh tiêu cực nào về Seryn Clinic (24 Nguyễn Bỉnh Khiêm) qua 9 từ khóa tìm kiếm và 3 kênh mạng xã hội.",
       "action": "Tiếp tục theo dõi định kỳ"
     },
     {
       "level": "VÀNG",
-      "type": "Thông tin cần xác minh: chi nhánh Hà Nội (carry-forward, ngày phát hiện gốc 2026-05 → tiếp tục đến 2026-07-13)",
+      "type": "Thông tin cần xác minh: chi nhánh Hà Nội (carry-forward, phát hiện gốc 2026-05 → tiếp tục đến 2026-07-15)",
       "source": "AI overview / kết quả tìm kiếm - không có URL bài viết cụ thể mới hôm nay",
-      "date": "2026-07-14",
-      "summary": "Kết quả tìm kiếm 'seryn.vn' hôm nay tiếp tục trả về mô tả 'phòng khám chuyên khoa Da liễu SERYN' chi nhánh 45 Xã Đàn, Hà Nội thuộc Clinexa Vietnam Co., Ltd, GPHĐ 4903/HNO-GPHĐ - khác đơn vị chủ quản/GPHĐ với thông tin đã xác nhận (Medpro Asia, 11149/HCM-GPHĐ, 24 Nguyễn Bỉnh Khiêm). Không có URL/bài viết cụ thể mới để xác minh dứt điểm hôm nay.",
-      "action": "Giữ mức VÀNG carry-forward; đề nghị khách xác minh nội bộ một lần nữa xem đây là lỗi AI-overview hay có cơ sở thật; KHÔNG nâng lên ĐỎ do không có bằng chứng mới"
+      "date": "2026-07-15",
+      "summary": "Kết quả tìm kiếm hôm nay tiếp tục trả về mô tả 'phòng khám chuyên khoa Da liễu SERYN' chi nhánh 45 Xã Đàn, Hà Nội thuộc Clinexa Vietnam Co., Ltd, GPHĐ 4903/HNO-GPHĐ - khác đơn vị chủ quản/GPHĐ với thông tin đã xác nhận (Medpro Asia, 11149/HCM-GPHĐ, 24 Nguyễn Bỉnh Khiêm). Không có URL/bài viết cụ thể mới để xác minh dứt điểm hôm nay.",
+      "action": "Giữ mức VÀNG carry-forward; đề nghị khách xác minh nội bộ xem đây là lỗi AI-overview hay có cơ sở thật; KHÔNG nâng lên ĐỎ do không có bằng chứng mới"
     },
     {
       "level": "VÀNG - CHỜ XÁC NHẬN NỘI BỘ",
       "type": "Hai ID trang Facebook nhân sự 'Thanh Xuân' (carry-forward)",
       "source": "facebook.com/profile.php?id=61551500829974 ; facebook.com/profile.php?id=61551825290264",
-      "date": "2026-07-14",
+      "date": "2026-07-15",
       "summary": "Cả hai ID tiếp tục xuất hiện trong tìm kiếm hôm nay. Chưa nhận được xác nhận từ đội social của khách về việc đây là 2 nhân sự khác nhau hay 1 người dùng 2 tài khoản.",
       "action": "Đề nghị đội social xác nhận nội bộ xem có đúng là 2 nhân sự khác nhau hay 1 người dùng 2 tài khoản"
     }
   ],
   "activityLog": [
     {
-      "time": "08:00",
+      "time": "08:00 (chạy tự động)",
       "step": "Tìm kiếm Google (9 từ khóa)",
-      "result": "OK - 27 nguồn ghi nhận",
+      "result": "OK - 28 nguồn ghi nhận",
       "note": "-"
     },
     {
-      "time": "08:05",
+      "time": "08:03",
       "step": "Kiểm tra MXH (Facebook/TikTok/YouTube)",
       "result": "OK - không có kênh mới, TikTok chính thức vẫn chưa xác định",
       "note": "-"
     },
     {
-      "time": "08:08",
-      "step": "So sánh với báo cáo 2026-07-13",
-      "result": "OK - 0 nguồn mới thực sự (1 blog cũ tái xuất hiện, không tính là mới)",
+      "time": "08:05",
+      "step": "Rà soát rủi ro (lừa đảo/thanh tra/báo điều tra)",
+      "result": "OK - không phát hiện nội dung tiêu cực mới, 0 Cảnh báo Đỏ",
       "note": "-"
     },
     {
-      "time": "08:10",
+      "time": "08:07",
+      "step": "So sánh với báo cáo 2026-07-14",
+      "result": "OK - 1 nguồn mới (hamoglobal.talent.vn), 2 mục Vàng carry-forward không đổi",
+      "note": "-"
+    },
+    {
+      "time": "08:09",
       "step": "Tạo file Excel 5 sheet",
       "result": "OK",
-      "note": "D:\\Seryn Digital\\Seryn Digital\\Bao_cao_Seryn_Monitoring_2026-07-14.xlsx"
+      "note": "D:\\Seryn Digital\\Seryn Digital\\Bao_cao_Seryn_Monitoring_2026-07-15.xlsx"
+    },
+    {
+      "time": "08:11",
+      "step": "Kiểm tra quyền truy cập Shared Drive (search_files parentId)",
+      "result": "OK - folder truy cập được qua Shared Drive",
+      "note": "-"
     },
     {
       "time": "08:12",
-      "step": "Kiểm tra quyền truy cập Shared Drive (search_files)",
-      "result": "OK - folder truy cập được, thấy đủ báo cáo các ngày trước",
-      "note": "-"
-    },
-    {
-      "time": "08:13",
       "step": "Upload Google Drive - Bước 6.1 (Shared Drive trực tiếp)",
-      "result": "OK 6.1 - thành công ngay lần đầu",
-      "note": "https://docs.google.com/spreadsheets/d/1xMEoQp4mH4xJR5no3XcbnzBtR6QgQCwSPKcMAyOZQr0/edit"
+      "result": "OK 6.1 - thành công ngay lần đầu, đã xác minh nội dung (6964 bytes)",
+      "note": "https://docs.google.com/spreadsheets/d/11FUFDfQJY7KUonGlhN0f8L8YRI2cAMFPt57wxiXVCVw/edit"
     }
   ]
 }
