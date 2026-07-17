@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-16",
+  "date": "2026-07-17",
   "topSources": [
     {
       "title": "Phòng Khám Đa Khoa Seryn | Seryn Clinic (Website)",
@@ -82,12 +82,12 @@
       "isNew": false
     },
     {
-      "title": "9+ cách nâng cơ thon gọn mặt cho phụ nữ sau 35 - Blog seryn.vn (bài mới)",
+      "title": "9+ cách nâng cơ thon gọn mặt cho phụ nữ sau 35 - Blog seryn.vn",
       "url": "https://seryn.vn/blog-detail/nang-co-thon-gon-mat/",
       "domain": "seryn.vn",
       "type": "Website - Blog",
       "sentiment": "positive",
-      "isNew": true
+      "isNew": false
     },
     {
       "title": "Phòng Khám Đa Khoa Seryn - TimPhongKham.vn (danh bạ)",
@@ -202,15 +202,15 @@
       "isNew": false
     },
     {
-      "title": "Mỹ phẩm sulwhasoo có tốt không? Review chi tiết cho da 25+ - Blog seryn.vn (bài mới)",
+      "title": "Mỹ phẩm sulwhasoo có tốt không? Review chi tiết cho da 25+ - Blog seryn.vn",
       "url": "https://seryn.vn/blog-detail/my-pham-sulwhasoo-co-tot-khong-review-chi-tiet-cho-da-25/",
       "domain": "seryn.vn",
       "type": "Website - Blog",
       "sentiment": "positive",
-      "isNew": true
+      "isNew": false
     },
     {
-      "title": "Không tìm thấy bài viết tiêu cực/lừa đảo nào nhắc đến Seryn Clinic (24 Nguyễn Bỉnh Khiêm)",
+      "title": "Không tìm thấy bài viết tiêu cực/lừa đảo nào nhắc đến Seryn Clinic (24 Nguyễn Bỉnh Khiêm). Đã kiểm tra thêm bài tổng hợp \"Nhiều cơ sở y tế và thẩm mỹ tại TP.HCM bị xử phạt\" (skinnubeauty.com) - Seryn không có tên trong danh sách.",
       "url": "-",
       "domain": "",
       "type": "Kết quả rà soát",
@@ -226,7 +226,7 @@
       "isNew": false
     },
     {
-      "title": "Carry-forward: mô tả chi nhánh 45 Xã Đàn, Hà Nội (Clinexa Vietnam, GPHĐ 4903/HNO-GPHĐ) - khác đơn vị/GPHĐ đã xác nhận. Chưa có URL bài viết cụ thể mới để xác minh dứt điểm.",
+      "title": "Carry-forward: mô tả chi nhánh 45 Xã Đàn, Hà Nội (Clinexa Vietnam, GPHĐ 4903/HNO-GPHĐ) - khác đơn vị/GPHĐ đã xác nhận. Vẫn chưa có URL bài viết cụ thể mới để xác minh dứt điểm hôm nay.",
       "url": "-",
       "domain": "",
       "type": "Kết quả rà soát - cần xác minh",
@@ -276,14 +276,6 @@
       "note": "Trang chuyên gia làm đẹp, xác nhận lại hôm nay"
     },
     {
-      "platform": "Facebook",
-      "account": "Chuyên gia sắc đẹp Lại Minh Hiếu - Seryn Clinic",
-      "url": "https://www.facebook.com/p/Chuy%C3%AAn-gia-s%E1%BA%AFc-%C4%91%E1%BA%B9p-L%E1%BA%A1i-Minh-Hi%E1%BA%BFu-Seryn-Clinic-61550115911294/",
-      "accountType": "KOL/Chuyên gia",
-      "sentiment": "Tích cực",
-      "note": "Xác nhận lại hôm nay, không đổi"
-    },
-    {
       "platform": "YouTube",
       "account": "Phòng Khám Đa Khoa SERYN",
       "url": "https://www.youtube.com/channel/UCojQ10-ZUGAt4hOpbMqaIZA/about",
@@ -309,7 +301,7 @@
     },
     {
       "platform": "Facebook - Nhầm lẫn",
-      "account": "Seren Klinik / Serene Clinic / Sherlyn Clinic (Thái Lan/Thổ Nhĩ Kỳ, kể cả chi nhánh Chiang Mai mới thấy hôm nay)",
+      "account": "Seren Klinik / Serene Clinic / Sherlyn Clinic (Thái Lan/Thổ Nhĩ Kỳ)",
       "url": "https://www.facebook.com/serenklinik/",
       "accountType": "Không liên quan",
       "sentiment": "Trung tính",
@@ -317,7 +309,7 @@
     },
     {
       "platform": "TikTok - Nhầm lẫn",
-      "account": "Serene/Sherlyn/Sera/Seorin/Sherie Clinic (Thái Lan/Nhật Bản)",
+      "account": "Serene/Sherlyn/Sera/Seorin Clinic (Thái Lan/Nhật Bản)",
       "url": "-",
       "accountType": "Không liên quan",
       "sentiment": "Trung tính",
@@ -333,15 +325,15 @@
     },
     {
       "platform": "YouTube - Nhầm lẫn",
-      "account": "Gangnam Seran/Sera/Serena Clinic (quốc tế), Seryn (ban nhạc - Nicotine, Mausoleum, Lonely Boy)",
-      "url": "https://www.youtube.com/watch?v=dquYnCJfNL8",
+      "account": "Serena Clinic / Sera Clinic (quốc tế), Seryn (ban nhạc)",
+      "url": "https://www.youtube.com/@seraclinic",
       "accountType": "Không liên quan",
       "sentiment": "Trung tính",
       "note": "Trùng tên với các kênh/clinic/ban nhạc quốc tế khác - KHÔNG phải Seryn VN"
     },
     {
       "platform": "Google - Nhầm lẫn",
-      "account": "Thuốc Seryn - Vinmec / Muathuoc.vn / VNRAS / Dược Điển VN",
+      "account": "Thuốc Seryn - Vinmec / Muathuoc.vn / Dược Điển VN",
       "url": "https://www.vinmec.com/vie/bai-viet/cong-dung-thuoc-seryn-vi",
       "accountType": "Không liên quan",
       "sentiment": "Trung tính",
@@ -353,15 +345,15 @@
       "level": "XANH",
       "type": "Không có cảnh báo đỏ nào hôm nay",
       "source": "-",
-      "date": "2026-07-16",
-      "summary": "Không tìm thấy bất kỳ nội dung lừa đảo, vi phạm, thanh tra, báo điều tra hay phản ánh tiêu cực nào về Seryn Clinic (24 Nguyễn Bỉnh Khiêm) qua 9 từ khóa tìm kiếm và 3 kênh mạng xã hội.",
+      "date": "2026-07-17",
+      "summary": "Không tìm thấy bất kỳ nội dung lừa đảo, vi phạm, thanh tra, báo điều tra hay phản ánh tiêu cực nào về Seryn Clinic (24 Nguyễn Bỉnh Khiêm) qua 9 từ khóa tìm kiếm + 3 kênh mạng xã hội. Đã kiểm tra thêm bài tổng hợp về xử phạt cơ sở y tế/thẩm mỹ tại TP.HCM trên skinnubeauty.com - không có tên Seryn.",
       "action": "Tiếp tục theo dõi định kỳ"
     },
     {
       "level": "VÀNG",
-      "type": "Thông tin cần xác minh: chi nhánh Hà Nội (carry-forward, phát hiện gốc 2026-05 → tiếp tục đến 2026-07-16)",
+      "type": "Thông tin cần xác minh: chi nhánh Hà Nội (carry-forward, phát hiện gốc 2026-05 → tiếp tục đến 2026-07-17)",
       "source": "AI overview / kết quả tìm kiếm - không có URL bài viết cụ thể mới hôm nay",
-      "date": "2026-07-16",
+      "date": "2026-07-17",
       "summary": "Kết quả tìm kiếm hôm nay tiếp tục trả về mô tả 'phòng khám chuyên khoa Da liễu SERYN' chi nhánh 45 Xã Đàn, Hà Nội thuộc Clinexa Vietnam Co., Ltd, GPHĐ 4903/HNO-GPHĐ - khác đơn vị chủ quản/GPHĐ với thông tin đã xác nhận (Medpro Asia, 11149/HCM-GPHĐ, 24 Nguyễn Bỉnh Khiêm). Không có URL/bài viết cụ thể mới để xác minh dứt điểm hôm nay.",
       "action": "Giữ mức VÀNG carry-forward; đề nghị khách xác minh nội bộ xem đây là lỗi AI-overview hay có cơ sở thật; KHÔNG nâng lên ĐỎ do không có bằng chứng mới"
     },
@@ -369,7 +361,7 @@
       "level": "VÀNG - CHỜ XÁC NHẬN NỘI BỘ",
       "type": "Hai ID trang Facebook nhân sự 'Thanh Xuân' (carry-forward)",
       "source": "facebook.com/profile.php?id=61551500829974 ; facebook.com/profile.php?id=61551825290264",
-      "date": "2026-07-16",
+      "date": "2026-07-17",
       "summary": "Cả hai ID tiếp tục xuất hiện trong tìm kiếm hôm nay. Chưa nhận được xác nhận từ đội social của khách về việc đây là 2 nhân sự khác nhau hay 1 người dùng 2 tài khoản.",
       "action": "Đề nghị đội social xác nhận nội bộ xem có đúng là 2 nhân sự khác nhau hay 1 người dùng 2 tài khoản"
     }
@@ -390,38 +382,26 @@
     {
       "time": "",
       "step": "Rà soát rủi ro (lừa đảo/thanh tra/báo điều tra)",
-      "result": "OK - không phát hiện nội dung tiêu cực mới, 0 Cảnh báo Đỏ",
+      "result": "OK - không phát hiện nội dung tiêu cực mới, 0 Cảnh báo Đỏ. Đã fetch thêm bài skinnubeauty.com để xác minh danh sách xử phạt không có Seryn.",
       "note": "-"
     },
     {
       "time": "",
-      "step": "So sánh với báo cáo 2026-07-15",
-      "result": "OK - 2 nguồn mới (2 bài blog seryn.vn), 2 mục Vàng carry-forward không đổi",
+      "step": "So sánh với báo cáo 2026-07-16",
+      "result": "OK - 0 nguồn mới, 2 mục Vàng carry-forward không đổi",
       "note": "-"
     },
     {
       "time": "",
       "step": "Tạo file Excel 5 sheet",
       "result": "OK",
-      "note": "D:\\Seryn Digital\\Seryn Digital\\Bao_cao_Seryn_Monitoring_2026-07-16.xlsx"
+      "note": "D:\\Seryn Digital\\Seryn Digital\\Bao_cao_Seryn_Monitoring_2026-07-17.xlsx"
     },
     {
-      "time": "08:16",
-      "step": "Copy file sang thư mục ingest",
-      "result": "OK",
-      "note": "D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\Bao_cao_Seryn_Monitoring_2026-07-16.xlsx"
-    },
-    {
-      "time": "08:18",
+      "time": "08:12",
       "step": "Upload Drive (6.1 Shared Drive aware)",
-      "result": "OK 6.1",
-      "note": "https://docs.google.com/spreadsheets/d/1Pv6nkX32GiX1v6xup4amc3zrIw1GEY0PbuyqobOtRn0/edit"
-    },
-    {
-      "time": "08:18",
-      "step": "Ghi chú lỗi thao tác",
-      "result": "Có 1 file trùng rỗng do lỗi thao tác trung gian (đã bỏ qua)",
-      "note": "https://docs.google.com/spreadsheets/d/1sybu6xP2RK5O7-pMcMzImaXvAbpE0h53AGN9SA-ZjC4/edit (đề nghị khách tự xóa thủ công)"
+      "result": "OK 6.1 - đã xác nhận nội dung 29 dòng đầy đủ",
+      "note": "https://docs.google.com/spreadsheets/d/14GbrErO9er_DVIE-LzbiQet0Urr_GahQp5fVHLOq7ws/edit"
     }
   ]
 }
