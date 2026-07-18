@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-17",
+  "date": "2026-07-18",
   "topSources": [
     {
       "title": "Phòng Khám Đa Khoa Seryn | Seryn Clinic (Website)",
@@ -138,14 +138,6 @@
       "isNew": false
     },
     {
-      "title": "Careers - Công ty CP Hamo Global - Talent.vn",
-      "url": "https://hamoglobal.talent.vn/",
-      "domain": "hamoglobal.talent.vn",
-      "type": "Directory - Tuyển dụng",
-      "sentiment": "neutral",
-      "isNew": false
-    },
-    {
       "title": "SERYN - Trang công ty LinkedIn chính thức",
       "url": "https://www.linkedin.com/company/serynvietnam",
       "domain": "linkedin.com",
@@ -210,7 +202,7 @@
       "isNew": false
     },
     {
-      "title": "Không tìm thấy bài viết tiêu cực/lừa đảo nào nhắc đến Seryn Clinic (24 Nguyễn Bỉnh Khiêm). Đã kiểm tra thêm bài tổng hợp \"Nhiều cơ sở y tế và thẩm mỹ tại TP.HCM bị xử phạt\" (skinnubeauty.com) - Seryn không có tên trong danh sách.",
+      "title": "Không tìm thấy bài viết tiêu cực/lừa đảo nào nhắc đến Seryn Clinic (24 Nguyễn Bỉnh Khiêm) hôm nay",
       "url": "-",
       "domain": "",
       "type": "Kết quả rà soát",
@@ -218,7 +210,7 @@
       "isNew": false
     },
     {
-      "title": "Không tìm thấy quyết định thanh tra/xử phạt nào nhắc đích danh Seryn Clinic (24 Nguyễn Bỉnh Khiêm)",
+      "title": "Không tìm thấy quyết định thanh tra/xử phạt nào nhắc đích danh Seryn Clinic. Đã kiểm tra 2 bài xử phạt mới xuất hiện trên thanhtra.com.vn (21/10/2024, 04/11/2024) — không có tên Seryn",
       "url": "-",
       "domain": "",
       "type": "Kết quả rà soát",
@@ -325,8 +317,8 @@
     },
     {
       "platform": "YouTube - Nhầm lẫn",
-      "account": "Serena Clinic / Sera Clinic (quốc tế), Seryn (ban nhạc)",
-      "url": "https://www.youtube.com/@seraclinic",
+      "account": "Serena Clinic / Sera Clinic (quốc tế), Seryn (ban nhạc Nashville - bài 'Nicotine', 'Mausoleum')",
+      "url": "https://www.youtube.com/channel/UCeEzpEo_w43NYHPOjIWnmJw",
       "accountType": "Không liên quan",
       "sentiment": "Trung tính",
       "note": "Trùng tên với các kênh/clinic/ban nhạc quốc tế khác - KHÔNG phải Seryn VN"
@@ -342,66 +334,80 @@
   ],
   "alerts": [
     {
-      "level": "XANH",
-      "type": "Không có cảnh báo đỏ nào hôm nay",
-      "source": "-",
-      "date": "2026-07-17",
-      "summary": "Không tìm thấy bất kỳ nội dung lừa đảo, vi phạm, thanh tra, báo điều tra hay phản ánh tiêu cực nào về Seryn Clinic (24 Nguyễn Bỉnh Khiêm) qua 9 từ khóa tìm kiếm + 3 kênh mạng xã hội. Đã kiểm tra thêm bài tổng hợp về xử phạt cơ sở y tế/thẩm mỹ tại TP.HCM trên skinnubeauty.com - không có tên Seryn.",
-      "action": "Tiếp tục theo dõi định kỳ"
+      "level": "An toàn",
+      "type": "Không tìm thấy phản ánh lừa đảo/khiếu nại khách hàng nào nhắc đích danh Seryn Clinic (24 Nguyễn Bỉnh Khiêm)",
+      "source": "Kết quả rà soát Google",
+      "date": "2026-07-18",
+      "summary": "",
+      "action": ""
     },
     {
-      "level": "VÀNG",
-      "type": "Thông tin cần xác minh: chi nhánh Hà Nội (carry-forward, phát hiện gốc 2026-05 → tiếp tục đến 2026-07-17)",
-      "source": "AI overview / kết quả tìm kiếm - không có URL bài viết cụ thể mới hôm nay",
-      "date": "2026-07-17",
-      "summary": "Kết quả tìm kiếm hôm nay tiếp tục trả về mô tả 'phòng khám chuyên khoa Da liễu SERYN' chi nhánh 45 Xã Đàn, Hà Nội thuộc Clinexa Vietnam Co., Ltd, GPHĐ 4903/HNO-GPHĐ - khác đơn vị chủ quản/GPHĐ với thông tin đã xác nhận (Medpro Asia, 11149/HCM-GPHĐ, 24 Nguyễn Bỉnh Khiêm). Không có URL/bài viết cụ thể mới để xác minh dứt điểm hôm nay.",
-      "action": "Giữ mức VÀNG carry-forward; đề nghị khách xác minh nội bộ xem đây là lỗi AI-overview hay có cơ sở thật; KHÔNG nâng lên ĐỎ do không có bằng chứng mới"
+      "level": "An toàn",
+      "type": "Không tìm thấy quyết định thanh tra/xử phạt Sở Y tế nào nhắc đích danh Seryn Clinic",
+      "source": "thanhtra.com.vn (2 bài mới, không có tên Seryn)",
+      "date": "2026-07-18",
+      "summary": "",
+      "action": ""
     },
     {
-      "level": "VÀNG - CHỜ XÁC NHẬN NỘI BỘ",
-      "type": "Hai ID trang Facebook nhân sự 'Thanh Xuân' (carry-forward)",
-      "source": "facebook.com/profile.php?id=61551500829974 ; facebook.com/profile.php?id=61551825290264",
-      "date": "2026-07-17",
-      "summary": "Cả hai ID tiếp tục xuất hiện trong tìm kiếm hôm nay. Chưa nhận được xác nhận từ đội social của khách về việc đây là 2 nhân sự khác nhau hay 1 người dùng 2 tài khoản.",
-      "action": "Đề nghị đội social xác nhận nội bộ xem có đúng là 2 nhân sự khác nhau hay 1 người dùng 2 tài khoản"
+      "level": "Trung tính (carry-forward)",
+      "type": "Mô tả chi nhánh 45 Xã Đàn, Hà Nội mang GPHĐ khác (4903/HNO-GPHĐ, thực chất Clinexa Vietnam)",
+      "source": "Chưa có URL bài viết cụ thể mới",
+      "date": "Carry-forward từ các báo cáo trước",
+      "summary": "",
+      "action": ""
+    },
+    {
+      "level": "Trung tính (carry-forward)",
+      "type": "Hai ID Facebook trùng tên 'Thanh Xuân' gắn với Seryn Clinic - chưa xác nhận nội bộ là 1 hay 2 nhân sự",
+      "source": "facebook.com/profile.php?id=61551825290264 và id=61551500829974",
+      "date": "Carry-forward từ các báo cáo trước",
+      "summary": "",
+      "action": ""
     }
   ],
   "activityLog": [
     {
-      "time": "(chạy tự động)",
-      "step": "Tìm kiếm Google (9 từ khóa)",
-      "result": "OK - 29 nguồn ghi nhận",
-      "note": "-"
+      "time": "08:08",
+      "step": "Bước 1 - Tìm kiếm Google",
+      "result": "OK - 9 từ khóa, 27 mục",
+      "note": "Không phát hiện nội dung tiêu cực"
     },
     {
-      "time": "",
-      "step": "Kiểm tra MXH (Facebook/TikTok/YouTube)",
-      "result": "OK - không có kênh mới, TikTok chính thức vẫn chưa xác định",
-      "note": "-"
+      "time": "08:08",
+      "step": "Bước 2 - Kiểm tra MXH",
+      "result": "OK - Facebook/TikTok/YouTube",
+      "note": "Xác nhận lại các kênh chính thức, phân biệt thương hiệu trùng tên"
     },
     {
-      "time": "",
-      "step": "Rà soát rủi ro (lừa đảo/thanh tra/báo điều tra)",
-      "result": "OK - không phát hiện nội dung tiêu cực mới, 0 Cảnh báo Đỏ. Đã fetch thêm bài skinnubeauty.com để xác minh danh sách xử phạt không có Seryn.",
-      "note": "-"
+      "time": "08:08",
+      "step": "Bước 3 - Phân tích rủi ro",
+      "result": "OK - Không có Cảnh báo đỏ mới",
+      "note": "2 mục carry-forward Vàng tiếp tục theo dõi"
     },
     {
-      "time": "",
-      "step": "So sánh với báo cáo 2026-07-16",
-      "result": "OK - 0 nguồn mới, 2 mục Vàng carry-forward không đổi",
-      "note": "-"
+      "time": "08:08",
+      "step": "Bước 4 - So sánh báo cáo trước",
+      "result": "OK - So với 2026-07-17",
+      "note": "Không có nguồn mới"
     },
     {
-      "time": "",
-      "step": "Tạo file Excel 5 sheet",
+      "time": "08:08",
+      "step": "Bước 5 - Tạo Excel",
       "result": "OK",
-      "note": "D:\\Seryn Digital\\Seryn Digital\\Bao_cao_Seryn_Monitoring_2026-07-17.xlsx"
+      "note": "Bao_cao_Seryn_Monitoring_2026-07-18.xlsx"
     },
     {
-      "time": "08:12",
-      "step": "Upload Drive (6.1 Shared Drive aware)",
-      "result": "OK 6.1 - đã xác nhận nội dung 29 dòng đầy đủ",
-      "note": "https://docs.google.com/spreadsheets/d/14GbrErO9er_DVIE-LzbiQet0Urr_GahQp5fVHLOq7ws/edit"
+      "time": "08:10",
+      "step": "Bước 5b - Copy sang incoming",
+      "result": "OK - xlsx + csv, verified byte-identical qua mount fuse",
+      "note": "/Seryn Digital/ và /incoming/ đều là fuse mount thật, diff xác nhận giống hệt"
+    },
+    {
+      "time": "08:10",
+      "step": "Bước 6 - Upload Google Sheets",
+      "result": "OK 6.1 - Upload trực tiếp vào Shared Drive thành công",
+      "note": "https://docs.google.com/spreadsheets/d/1iNtpDArGadlc6D63di4SpZ2_wP8gQ6TV77jjgUtuRLY/edit"
     }
   ]
 }
