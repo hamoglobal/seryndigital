@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-18",
+  "date": "2026-07-19",
   "topSources": [
     {
       "title": "Phòng Khám Đa Khoa Seryn | Seryn Clinic (Website)",
@@ -210,7 +210,7 @@
       "isNew": false
     },
     {
-      "title": "Không tìm thấy quyết định thanh tra/xử phạt nào nhắc đích danh Seryn Clinic. Đã kiểm tra 2 bài xử phạt mới xuất hiện trên thanhtra.com.vn (21/10/2024, 04/11/2024) — không có tên Seryn",
+      "title": "Không tìm thấy quyết định thanh tra/xử phạt nào nhắc đích danh Seryn Clinic. Đã kiểm tra bài xử phạt mới trên danviet.vn (09/07/2026) — không có tên Seryn",
       "url": "-",
       "domain": "",
       "type": "Kết quả rà soát",
@@ -337,15 +337,15 @@
       "level": "An toàn",
       "type": "Không tìm thấy phản ánh lừa đảo/khiếu nại khách hàng nào nhắc đích danh Seryn Clinic (24 Nguyễn Bỉnh Khiêm)",
       "source": "Kết quả rà soát Google",
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "summary": "",
       "action": ""
     },
     {
       "level": "An toàn",
       "type": "Không tìm thấy quyết định thanh tra/xử phạt Sở Y tế nào nhắc đích danh Seryn Clinic",
-      "source": "thanhtra.com.vn (2 bài mới, không có tên Seryn)",
-      "date": "2026-07-18",
+      "source": "danviet.vn (bài mới 09/07/2026, không có tên Seryn)",
+      "date": "2026-07-19",
       "summary": "",
       "action": ""
     },
@@ -383,31 +383,31 @@
       "time": "08:08",
       "step": "Bước 3 - Phân tích rủi ro",
       "result": "OK - Không có Cảnh báo đỏ mới",
-      "note": "2 mục carry-forward Vàng tiếp tục theo dõi"
+      "note": "2 mục carry-forward Vàng tiếp tục theo dõi; đã kiểm tra thêm bài xử phạt danviet.vn 09/07/2026"
     },
     {
       "time": "08:08",
       "step": "Bước 4 - So sánh báo cáo trước",
-      "result": "OK - So với 2026-07-17",
+      "result": "OK - So với 2026-07-18",
       "note": "Không có nguồn mới"
     },
     {
       "time": "08:08",
       "step": "Bước 5 - Tạo Excel",
       "result": "OK",
-      "note": "Bao_cao_Seryn_Monitoring_2026-07-18.xlsx"
+      "note": "Bao_cao_Seryn_Monitoring_2026-07-19.xlsx"
     },
     {
-      "time": "08:10",
+      "time": "08:09",
       "step": "Bước 5b - Copy sang incoming",
       "result": "OK - xlsx + csv, verified byte-identical qua mount fuse",
-      "note": "/Seryn Digital/ và /incoming/ đều là fuse mount thật, diff xác nhận giống hệt"
+      "note": "/Seryn Digital/ và /incoming/ đều là fuse mount thật (xác nhận qua mount|grep), diff xác nhận giống hệt"
     },
     {
-      "time": "08:10",
+      "time": "08:09",
       "step": "Bước 6 - Upload Google Sheets",
       "result": "OK 6.1 - Upload trực tiếp vào Shared Drive thành công",
-      "note": "https://docs.google.com/spreadsheets/d/1iNtpDArGadlc6D63di4SpZ2_wP8gQ6TV77jjgUtuRLY/edit"
+      "note": "https://docs.google.com/spreadsheets/d/1s1pF-QkA2UIFKKy3l1UcEqVXx-hNINsCHbr_1nbp0NE/edit"
     }
   ]
 }
