@@ -746,5 +746,16 @@
     "riskRaw": "XANH - AN TOÀN",
     "riskLevel": "green",
     "riskNote": ""
+  },
+  {
+    "date": "2026-07-20",
+    "total": 29,
+    "positive": 27,
+    "neutral": 18,
+    "negative": 0,
+    "newSources": 2,
+    "riskRaw": "XANH - AN TOÀN",
+    "riskLevel": "green",
+    "riskNote": ""
   }
 ]
