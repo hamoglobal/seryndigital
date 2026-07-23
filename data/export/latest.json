@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-22",
+  "date": "2026-07-23",
   "topSources": [
     {
       "title": "Phòng Khám Đa Khoa Seryn | Seryn Clinic (Website)",
@@ -66,12 +66,12 @@
       "isNew": false
     },
     {
-      "title": "Review làm đẹp tại thẩm mỹ SERYN có tốt như lời đồn? - Blog seryn.vn (bài mới)",
+      "title": "Review làm đẹp tại thẩm mỹ SERYN có tốt như lời đồn? - Blog seryn.vn",
       "url": "https://seryn.vn/blog-detail/review-lam-dep-tai-tham-my-seryn/",
       "domain": "seryn.vn",
       "type": "Website - Blog",
       "sentiment": "positive",
-      "isNew": true
+      "isNew": false
     },
     {
       "title": "Thanh Xuân - Phòng khám Seryn Việt Nam (Facebook - trùng tên với ID đã xác minh chính chủ 61551825290264; carry-forward cần xác minh)",
@@ -122,12 +122,12 @@
       "isNew": false
     },
     {
-      "title": "Điều gì giúp Seryn Clinic nổi bật - YAN.vn (đăng lại cùng nội dung TheThaoVanHoa, báo uy tín)",
+      "title": "Điều gì giúp Seryn Clinic nổi bật - YAN.vn (đăng lại, báo uy tín)",
       "url": "https://www.yan.vn/dieu-gi-giup-seryn-clinic-noi-bat-giua-thi-truong-lam-dep-dang-bao-hoa-333818.html",
       "domain": "yan.vn",
       "type": "Báo chí PR",
       "sentiment": "positive",
-      "isNew": true
+      "isNew": false
     },
     {
       "title": "Hội đồng Y khoa SERYN Clinic tiên phong - Arttimes.vn",
@@ -210,10 +210,26 @@
       "isNew": false
     },
     {
+      "title": "Công ty Cổ phần Quốc tế Medpro Asia - Hồ sơ tuyển dụng TopCV.vn (tái xuất hiện, đã ghi nhận trước đây)",
+      "url": "https://www.topcv.vn/cong-ty/cong-ty-co-phan-quoc-te-medpro-asia/254685.html",
+      "domain": "topcv.vn",
+      "type": "Directory - Hồ sơ hành chính",
+      "sentiment": "neutral",
+      "isNew": false
+    },
+    {
       "title": "Mỹ phẩm sulwhasoo có tốt không? Review chi tiết cho da 25+ - Blog seryn.vn",
       "url": "https://seryn.vn/blog-detail/my-pham-sulwhasoo-co-tot-khong-review-chi-tiet-cho-da-25/",
       "domain": "seryn.vn",
       "type": "Website - Blog",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "title": "Bác sĩ CKI Vũ Trung Hiếu - chuyên gia Seryn - Dep.com.vn (tái xuất hiện, đã ghi nhận trước đây)",
+      "url": "https://dep.com.vn/bac-si-cki-vu-trung-hieu-mot-nep-nhan-khach-hang-nhin-thay-doi-khi-chi-la-phan-noi-cua-su-lao-hoa/",
+      "domain": "dep.com.vn",
+      "type": "Báo chí PR",
       "sentiment": "positive",
       "isNew": false
     },
@@ -224,14 +240,6 @@
       "type": "Nhầm lẫn",
       "sentiment": "neutral",
       "isNew": false
-    },
-    {
-      "title": "[CAN LUU Y] Tóm tắt AI của Google hôm nay mô tả chi tiết \"phản ánh tiêu cực điều trị nha khoa\" - xác minh: thuộc Trustpilot Seren Klinik (Istanbul, NHA KHOA, không liên quan), KHÔNG phải Seryn Clinic VN",
-      "url": "-",
-      "domain": "",
-      "type": "Kết quả rà soát - cần lưu ý phân biệt",
-      "sentiment": "neutral",
-      "isNew": true
     },
     {
       "title": "Không tìm thấy bài viết tiêu cực/lừa đảo nào nhắc đích danh Seryn Clinic (24 Nguyễn Bỉnh Khiêm) hôm nay.",
@@ -261,7 +269,7 @@
   "social": [
     {
       "platform": "Facebook",
-      "account": "Thanh Xuân - Seryn Clinic Việt Nam (nhân sự nội bộ, đã ghi nhận là Owned/Tích cực)",
+      "account": "Thanh Xuân - Seryn Clinic Việt Nam (nhân sự nội bộ, Owned/Tích cực)",
       "url": "https://www.facebook.com/profile.php/?id=61551825290264",
       "accountType": "",
       "sentiment": "Tích cực",
@@ -269,7 +277,7 @@
     },
     {
       "platform": "Facebook",
-      "account": "Phòng khám Seryn Việt Nam (trang chính thức, đã ghi nhận)",
+      "account": "Phòng khám Seryn Việt Nam (trang chính thức)",
       "url": "https://www.facebook.com/p/Ph%C3%B2ng-kh%C3%A1m-Seryn-100094769671762/",
       "accountType": "",
       "sentiment": "Tích cực",
@@ -293,7 +301,7 @@
     },
     {
       "platform": "Facebook",
-      "account": "Chuyên gia sắc đẹp Lại Minh Hiếu - Seryn Clinic (ID thứ 3, carry-forward từ 2026-07-21, chưa xác minh)",
+      "account": "Chuyên gia sắc đẹp Lại Minh Hiếu - Seryn Clinic (ID thứ 3, carry-forward, chưa xác minh)",
       "url": "https://www.facebook.com/p/Chuy%C3%AAn-gia-s%E1%BA%AFc-%C4%91%E1%BA%B9p-L%E1%BA%A1i-Minh-Hi%E1%BA%BFu-Seryn-Clinic-61550115911294/",
       "accountType": "",
       "sentiment": "Trung tính",
@@ -381,7 +389,7 @@
     },
     {
       "platform": "YouTube",
-      "account": "Seryn - kênh không liên quan (nhạc/khác)",
+      "account": "Seryn - kênh không liên quan (ban nhạc indie-folk Nashville)",
       "url": "https://www.youtube.com/channel/UCeEzpEo_w43NYHPOjIWnmJw",
       "accountType": "",
       "sentiment": "Trung tính",
@@ -389,8 +397,8 @@
     },
     {
       "platform": "YouTube",
-      "account": "COMPLETE SERYN - playlist không liên quan",
-      "url": "https://www.youtube.com/playlist?list=PLXHkOptAP6i70B9_GMsep7l6LD8PCya10",
+      "account": "Gangnam Seran Clinic - Hàn Quốc, không liên quan (tái xuất hiện, đã ghi nhận trước đây)",
+      "url": "https://www.youtube.com/@seranclinic",
       "accountType": "",
       "sentiment": "Trung tính",
       "note": ""
@@ -413,7 +421,7 @@
     },
     {
       "platform": "Instagram",
-      "account": "Seren Clinic Aesthetics (@serenclinicinternational) - Istanbul, không liên quan",
+      "account": "Seren Clinic Aesthetics (@serenclinicinternational) - Istanbul, không liên quan (carry-forward)",
       "url": "https://www.instagram.com/serenclinicinternational/",
       "accountType": "",
       "sentiment": "Trung tính",
@@ -425,7 +433,7 @@
       "level": "An toàn",
       "type": "",
       "source": "-",
-      "date": "2026-07-22",
+      "date": "2026-07-23",
       "summary": "Rà soát từ khóa \"Seryn Clinic lừa đảo phản ánh tiêu cực\": không tìm thấy bài viết tiêu cực/lừa đảo nào nhắc đích danh Seryn Clinic (24 Nguyễn Bỉnh Khiêm).",
       "action": ""
     },
@@ -433,7 +441,7 @@
       "level": "An toàn",
       "type": "",
       "source": "-",
-      "date": "2026-07-22",
+      "date": "2026-07-23",
       "summary": "Rà soát từ khóa \"Seryn Clinic Sở Y tế thanh tra xử phạt\": không tìm thấy quyết định thanh tra/xử phạt nào.",
       "action": ""
     },
@@ -449,7 +457,7 @@
       "level": "Trung tính - cần xác minh",
       "type": "",
       "source": "https://www.facebook.com/profile.php/?id=61551500829974",
-      "date": "2026-07-22 (carry-forward từ báo cáo khởi điểm 2026-05-05)",
+      "date": "2026-07-23 (carry-forward từ báo cáo khởi điểm 2026-05-05)",
       "summary": "ID Facebook \"Thanh Xuân - Phòng khám Seryn Việt Nam\" (61551500829974) trùng tên với ID đã xác minh chính chủ (61551825290264).",
       "action": ""
     },
@@ -462,11 +470,11 @@
       "action": ""
     },
     {
-      "level": "Trung tính - cần lưu ý phân biệt (MOI)",
+      "level": "Trung tính - cần lưu ý phân biệt",
       "type": "",
       "source": "https://www.trustpilot.com/review/serenklinik.com (thuộc Seren Klinik, Istanbul - phòng khám NHA KHOA, KHÔNG phải Seryn Clinic VN)",
-      "date": "2026-07-22",
-      "summary": "Tóm tắt AI của Google cho từ khóa \"Seryn Clinic review\" hôm nay mô tả chi tiết \"một số khách phản ánh chỉ giải quyết một phần vấn đề, đau, viêm, khó khăn khi ăn nhai/nói sau điều trị nha khoa\".",
+      "date": "2026-07-22 (carry-forward)",
+      "summary": "Tóm tắt AI của Google cho từ khóa \"Seryn Clinic review\" tiếp tục mô tả chi tiết phản ánh về điều trị nha khoa.",
       "action": ""
     }
   ],
@@ -474,7 +482,7 @@
     {
       "time": "08:00",
       "step": "Bước 1 - Tìm kiếm Google",
-      "result": "OK - 9 từ khóa, 32 nguồn ghi nhận trong Top10 Google",
+      "result": "OK - 9 từ khóa, kết quả ghi nhận trong Top10 Google",
       "note": "xem sheet Top10 Google"
     },
     {
@@ -486,32 +494,26 @@
     {
       "time": "08:09",
       "step": "Bước 3 - Phân tích rủi ro",
-      "result": "OK - không phát hiện Cảnh báo Đỏ mới; 1 lưu ý mới (AI-search conflation Seren Klinik) + carry-forward",
+      "result": "OK - không phát hiện Cảnh báo Đỏ mới; rà soát lừa đảo + thanh tra Sở Y tế đều An toàn; carry-forward Vàng giữ nguyên",
       "note": "xem sheet Canh Bao"
     },
     {
-      "time": "08:11",
+      "time": "08:12",
       "step": "Bước 4 - So sánh báo cáo trước",
-      "result": "OK - đối chiếu với Bao_cao_Seryn_Monitoring_2026-07-21; đánh dấu Mới cột G (3 nguồn mới)",
+      "result": "OK - đối chiếu với Bao_cao_Seryn_Monitoring_2026-07-22 và lịch sử báo cáo trước đó; không có nguồn thực sự mới hôm nay (0 nguồn Mới)",
       "note": "-"
     },
     {
-      "time": "08:13",
+      "time": "08:15",
       "step": "Bước 5 - Tạo báo cáo Excel",
-      "result": "OK - Bao_cao_Seryn_Monitoring_2026-07-22.xlsx, 5 sheet, font Arial",
+      "result": "OK - Bao_cao_Seryn_Monitoring_2026-07-23.xlsx, 5 sheet, font Arial",
       "note": "D:\\Seryn Digital\\Seryn Digital\\"
     },
     {
-      "time": "08:16",
-      "step": "Bước 5b - Copy vào thư mục ingest",
-      "result": "OK - đã copy xlsx+csv sang thư mục incoming, xác nhận fuse mount thật (mount | grep) + diff byte-identical",
-      "note": "D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\"
-    },
-    {
-      "time": "08:19",
+      "time": "08:22",
       "step": "Bước 6 - Upload Google Sheets",
-      "result": "OK 6.1 - Upload trực tiếp vào Shared Drive thành công (thử lần đầu, search_files xác nhận folder truy cập được)",
-      "note": "https://docs.google.com/spreadsheets/d/1eUM8AOOmUmG72w44OnMfB95XbJ6u5SjwjdAGiV-n3bE/edit"
+      "result": "OK 6.1 - Upload trực tiếp vào Shared Drive thành công (search_files xác nhận folder truy cập được, file 7798 bytes)",
+      "note": "https://docs.google.com/spreadsheets/d/1nfhO0Yg59hQjsvyAkcoiq5gfC2s1y6HA9-gXjTvEVqg/edit"
     }
   ]
 }
