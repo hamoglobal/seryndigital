@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-24",
+  "date": "2026-07-25",
   "topSources": [
     {
       "title": "Phòng Khám Đa Khoa Seryn | Seryn Clinic (Website)",
@@ -74,12 +74,12 @@
       "isNew": false
     },
     {
-      "title": "Chuyên gia sắc đẹp Lại Minh Hiếu - Seryn Clinic (Facebook - ID KHÁC #5, cùng tên nhân sự — cần xác minh)",
+      "title": "Chuyên gia sắc đẹp Lại Minh Hiếu - Seryn Clinic (Facebook - ID KHÁC #5, cùng tên nhân sự — carry-forward, cần xác minh)",
       "url": "https://www.facebook.com/p/Chuy%C3%AAn-gia-s%E1%BA%AFc-%C4%91%E1%BA%B9p-L%E1%BA%A1i-Minh-Hi%E1%BA%BFu-Seryn-Clinic-61550115911294/",
       "domain": "facebook.com",
       "type": "Mạng xã hội - cần xác minh",
       "sentiment": "neutral",
-      "isNew": true
+      "isNew": false
     },
     {
       "title": "Trải nghiệm trẻ hóa da cao cấp tại Seryn Clinic - VietnamNet",
@@ -90,26 +90,10 @@
       "isNew": false
     },
     {
-      "title": "Thẩm mỹ quốc tế Serena (@thammyquocteserena) - TikTok (nhầm lẫn)",
-      "url": "https://www.tiktok.com/@thammyquocteserena",
-      "domain": "tiktok.com",
-      "type": "Mạng xã hội - Nhầm lẫn",
-      "sentiment": "neutral",
-      "isNew": false
-    },
-    {
       "title": "Điều gì giúp Seryn Clinic nổi bật - TheThaoVanHoa (Top 10 Leading Brands VN 2026)",
       "url": "https://thethaovanhoa.vn/dieu-gi-giup-seryn-clinic-noi-bat-giua-thi-truong-lam-dep-dang-bao-hoa-20260515100741387.htm",
       "domain": "thethaovanhoa.vn",
       "type": "Báo chí PR",
-      "sentiment": "positive",
-      "isNew": false
-    },
-    {
-      "title": "9+ cách nâng cơ thon gọn mặt cho phụ nữ sau 35 - Blog seryn.vn",
-      "url": "https://seryn.vn/blog-detail/nang-co-thon-gon-mat/",
-      "domain": "seryn.vn",
-      "type": "Website - Blog",
       "sentiment": "positive",
       "isNew": false
     },
@@ -146,12 +130,12 @@
       "isNew": false
     },
     {
-      "title": "Trẻ hóa gương mặt: vì sao liệu trình riêng lẻ không còn được ưa chuộng - Thanh Niên Việt (nguồn mới, đăng lại cùng bài đã có trên AFamily)",
+      "title": "Trẻ hóa gương mặt: vì sao liệu trình riêng lẻ không còn được ưa chuộng - Thanh Niên Việt (đăng lại bài AFamily)",
       "url": "https://thanhnienviet.vn/tre-hoa-guong-mat-vi-sao-nhung-lieu-trinh-rieng-le-khong-con-duoc-ua-chuong-209260318154118679.htm",
       "domain": "thanhnienviet.vn",
       "type": "Báo chí PR",
       "sentiment": "positive",
-      "isNew": true
+      "isNew": false
     },
     {
       "title": "Trẻ Hoá Sera Core - Landing page 2026 - seryn.vn",
@@ -194,19 +178,19 @@
       "isNew": false
     },
     {
+      "title": "Trẻ hóa gương mặt: vì sao liệu trình riêng lẻ không còn được ưa chuộng - AFamily.vn (bài gốc, MỚI xác định URL cụ thể hôm nay)",
+      "url": "https://afamily.vn/tre-hoa-guong-mat-vi-sao-nhung-lieu-trinh-rieng-le-khong-con-duoc-ua-chuong-236260318171908185.chn",
+      "domain": "afamily.vn",
+      "type": "Báo chí PR",
+      "sentiment": "positive",
+      "isNew": true
+    },
+    {
       "title": "Seryn Clinic - Tin tức mới nhất 24h - VnExpress Tag",
       "url": "https://vnexpress.net/tag/seryn-clinic-1890677",
       "domain": "vnexpress.net",
       "type": "Báo chí - Tag",
       "sentiment": "neutral",
-      "isNew": false
-    },
-    {
-      "title": "Bác sĩ CKI Vũ Trung Hiếu - chuyên gia Seryn - Dep.com.vn (tái xuất hiện, đã ghi nhận trước đây)",
-      "url": "https://dep.com.vn/bac-si-cki-vu-trung-hieu-mot-nep-nhan-khach-hang-nhin-thay-doi-khi-chi-la-phan-noi-cua-su-lao-hoa/",
-      "domain": "dep.com.vn",
-      "type": "Báo chí PR",
-      "sentiment": "positive",
       "isNew": false
     },
     {
@@ -234,12 +218,12 @@
       "isNew": false
     },
     {
-      "title": "Kết quả có nhắc 1 vụ việc thanh tra của 'Americare Clinic' (cơ sở KHÁC, không liên quan Seryn) — chỉ ghi nhận để tránh nhầm lẫn.",
-      "url": "https://vietq.vn/americare-clinic-vi-pham-nhieu-loi-nghiem-trong-bi-tuoc-giay-phep-hoat-dong-d210143.html",
-      "domain": "vietq.vn",
+      "title": "Kết quả có nhắc 1 bài viết về 'Americare Clinic' (cơ sở KHÁC, không liên quan Seryn) — chỉ ghi nhận để tránh nhầm lẫn, thay thế bài vietq.vn đã ghi nhận trước đây.",
+      "url": "https://kinhtenet.vn/americare-clinic-lua-dao-that-hay-chi-la-tin-don-2207.html",
+      "domain": "kinhtenet.vn",
       "type": "Nhầm lẫn - không liên quan",
       "sentiment": "neutral",
-      "isNew": false
+      "isNew": true
     },
     {
       "title": "Carry-forward: mô tả chi nhánh 45 Xã Đàn, Hà Nội (Clinexa Vietnam, GPHĐ 4903/HNO-GPHĐ) - khác đơn vị/GPHĐ đã xác nhận. Vẫn chưa có URL bài viết cụ thể mới để xác minh dứt điểm hôm nay.",
@@ -277,7 +261,7 @@
     },
     {
       "platform": "Facebook",
-      "account": "Chuyên gia sắc đẹp Lại Minh Hiếu - Seryn Clinic (ID KHÁC dòng trên, cùng tên nhân sự — cần xác minh)",
+      "account": "Chuyên gia sắc đẹp Lại Minh Hiếu - Seryn Clinic (ID KHÁC, cùng tên nhân sự — carry-forward, cần xác minh)",
       "url": "https://www.facebook.com/p/Chuy%C3%AAn-gia-s%E1%BA%AFc-%C4%91%E1%BA%B9p-L%E1%BA%A1i-Minh-Hi%E1%BA%BFu-Seryn-Clinic-61550115911294/",
       "accountType": "",
       "sentiment": "Trung tính",
@@ -293,7 +277,7 @@
     },
     {
       "platform": "Facebook",
-      "account": "Thanh Xuân - Phòng khám Seryn Việt Nam (ID trùng tên, carry-forward)",
+      "account": "Thanh Xuân - Phòng khám Seryn Việt Nam (ID trùng tên, carry-forward, không xuất hiện lại hôm nay)",
       "url": "https://www.facebook.com/profile.php/?id=61551500829974",
       "accountType": "",
       "sentiment": "Trung tính",
@@ -309,10 +293,10 @@
     },
     {
       "platform": "TikTok",
-      "account": "Thẩm mỹ quốc tế Serena (@thammyquocteserena) - nhầm lẫn thương hiệu, không liên quan",
-      "url": "https://www.tiktok.com/@thammyquocteserena",
+      "account": "Không tìm thấy tài khoản TikTok chính thức của Seryn Clinic hôm nay — chỉ có các thương hiệu trùng tên (Seren/Sera/Seorin Clinic Thái Lan)",
+      "url": "-",
       "accountType": "",
-      "sentiment": "Trung tính",
+      "sentiment": "An toàn",
       "note": ""
     },
     {
@@ -346,7 +330,7 @@
       "type": "",
       "source": "https://www.facebook.com/p/Chuy%C3%AAn-gia-s%E1%BA%AFc-%C4%91%E1%BA%B9p-L%E1%BA%A1i-Minh-Hi%E1%BA%BFu-Seryn-Clinic-61550115911294/",
       "date": "2026-07-24",
-      "summary": "Phát hiện thêm 1 hồ sơ Facebook thứ 2 cùng gắn tên chuyên gia 'Lại Minh Hiếu - Seryn Clinic': ID 61550115911294, khác với ID 61551700769618 đã ghi nhận từ trước. Cả 2 đều tự nhận là trang của cùng một chuyên gia — cần xác minh đâu là trang chính chủ, tương tự tình huống 'Thanh Xuân'.",
+      "summary": "Có 2 hồ sơ Facebook cùng gắn tên chuyên gia 'Lại Minh Hiếu - Seryn Clinic': ID 61551700769618 (đã ghi nhận là trang chính, tích cực) và ID 61550115911294 (chưa xác minh chính chủ). Cả 2 đều tự nhận là trang của cùng một chuyên gia.",
       "action": ""
     }
   ],
@@ -364,34 +348,28 @@
       "note": "Hoàn tất, xem sheet Mang Xa Hoi"
     },
     {
-      "time": "08:07",
+      "time": "08:08",
       "step": "Bước 3 - Phân tích rủi ro",
       "result": "OK - Không có Cảnh báo Đỏ",
       "note": "Xem sheet Canh Bao"
     },
     {
-      "time": "08:08",
-      "step": "Bước 4 - So sánh với báo cáo 2026-07-23",
+      "time": "08:09",
+      "step": "Bước 4 - So sánh với báo cáo 2026-07-24",
       "result": "OK",
       "note": "2 nguồn mới phát hiện"
     },
     {
-      "time": "08:09",
+      "time": "08:10",
       "step": "Bước 5 - Tạo file Excel",
       "result": "OK",
-      "note": "Bao_cao_Seryn_Monitoring_2026-07-24.xlsx"
-    },
-    {
-      "time": "08:10",
-      "step": "Bước 5b - Copy file sang thư mục ingest",
-      "result": "OK (xac minh fuse mount + diff byte-identical)",
-      "note": "/incoming/Bao_cao_Seryn_Monitoring_2026-07-24.xlsx + .csv"
+      "note": "Bao_cao_Seryn_Monitoring_2026-07-25.xlsx"
     },
     {
       "time": "08:11",
       "step": "Bước 6.1 - Upload Google Sheets (Shared Drive)",
       "result": "OK",
-      "note": "https://docs.google.com/spreadsheets/d/1sNIFmlEEDvX5Jum1ixfPh5aZerCojLgS9yKSmCijMVs/edit"
+      "note": "https://docs.google.com/spreadsheets/d/1vXyZzvxxHhv3FyH4d9SbtPPIcuixv9lchRTh1Y_06_Q/edit"
     }
   ]
 }
