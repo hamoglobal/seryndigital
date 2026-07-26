@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-25",
+  "date": "2026-07-26",
   "topSources": [
     {
       "title": "Phòng Khám Đa Khoa Seryn | Seryn Clinic (Website)",
@@ -138,6 +138,14 @@
       "isNew": false
     },
     {
+      "title": "Careers - CÔNG TY CỔ PHẦN HAMO GLOBAL (Tuyển dụng) - MỚI xuất hiện hôm nay, khả năng là đối tác marketing, không phải đơn vị chủ quản",
+      "url": "https://hamoglobal.talent.vn/",
+      "domain": "hamoglobal.talent.vn",
+      "type": "Hồ sơ hành chính/tuyển dụng",
+      "sentiment": "neutral",
+      "isNew": true
+    },
+    {
       "title": "Trẻ Hoá Sera Core - Landing page 2026 - seryn.vn",
       "url": "https://seryn.vn/landing/2026/tre-hoa-sera-core.html",
       "domain": "seryn.vn",
@@ -178,12 +186,12 @@
       "isNew": false
     },
     {
-      "title": "Trẻ hóa gương mặt: vì sao liệu trình riêng lẻ không còn được ưa chuộng - AFamily.vn (bài gốc, MỚI xác định URL cụ thể hôm nay)",
+      "title": "Trẻ hóa gương mặt: vì sao liệu trình riêng lẻ không còn được ưa chuộng - AFamily.vn (bài gốc)",
       "url": "https://afamily.vn/tre-hoa-guong-mat-vi-sao-nhung-lieu-trinh-rieng-le-khong-con-duoc-ua-chuong-236260318171908185.chn",
       "domain": "afamily.vn",
       "type": "Báo chí PR",
       "sentiment": "positive",
-      "isNew": true
+      "isNew": false
     },
     {
       "title": "Seryn Clinic - Tin tức mới nhất 24h - VnExpress Tag",
@@ -216,14 +224,6 @@
       "type": "Kết quả rà soát",
       "sentiment": "positive",
       "isNew": false
-    },
-    {
-      "title": "Kết quả có nhắc 1 bài viết về 'Americare Clinic' (cơ sở KHÁC, không liên quan Seryn) — chỉ ghi nhận để tránh nhầm lẫn, thay thế bài vietq.vn đã ghi nhận trước đây.",
-      "url": "https://kinhtenet.vn/americare-clinic-lua-dao-that-hay-chi-la-tin-don-2207.html",
-      "domain": "kinhtenet.vn",
-      "type": "Nhầm lẫn - không liên quan",
-      "sentiment": "neutral",
-      "isNew": true
     },
     {
       "title": "Carry-forward: mô tả chi nhánh 45 Xã Đàn, Hà Nội (Clinexa Vietnam, GPHĐ 4903/HNO-GPHĐ) - khác đơn vị/GPHĐ đã xác nhận. Vẫn chưa có URL bài viết cụ thể mới để xác minh dứt điểm hôm nay.",
@@ -293,7 +293,7 @@
     },
     {
       "platform": "TikTok",
-      "account": "Không tìm thấy tài khoản TikTok chính thức của Seryn Clinic hôm nay — chỉ có các thương hiệu trùng tên (Seren/Sera/Seorin Clinic Thái Lan)",
+      "account": "Không tìm thấy tài khoản TikTok chính thức của Seryn Clinic hôm nay — chỉ có các kênh Seren/Sera/Serene/Sherlyn/Seorin Clinic quốc tế, không liên quan.",
       "url": "-",
       "accountType": "",
       "sentiment": "An toàn",
@@ -314,7 +314,7 @@
       "type": "",
       "source": "-",
       "date": "trước 2026-07-23",
-      "summary": "Mô tả chi nhánh 45 Xã Đàn, Hà Nội (Clinexa Vietnam, GPHĐ 4903/HNO-GPHĐ) khác đơn vị/GPHĐ đã xác nhận của Seryn Clinic. Chưa có URL bài viết cụ thể mới để xác minh dứt điểm.",
+      "summary": "Mô tả chi nhánh 45 Xã Đàn, Hà Nội (Clinexa Vietnam, GPHĐ 4903/HNO-GPHĐ) khác đơn vị/GPHĐ đã xác nhận (Medpro Asia, 11149/HCM-GPHĐ). Chưa có bằng chứng cụ thể mới hôm nay.",
       "action": ""
     },
     {
@@ -322,7 +322,7 @@
       "type": "",
       "source": "https://www.facebook.com/profile.php/?id=61551500829974",
       "date": "trước 2026-07-23",
-      "summary": "Có 2 hồ sơ Facebook cùng tên 'Thanh Xuân' gắn với Seryn Clinic: ID 61551825290264 (đã xác minh chính chủ) và ID 61551500829974 (chưa xác minh). ID thứ 2 không xuất hiện lại trong kết quả hôm nay nhưng chưa có bằng chứng đã gỡ bỏ.",
+      "summary": "Có 2 hồ sơ Facebook cùng tên 'Thanh Xuân' gắn với Seryn Clinic: ID 61551825290264 (đã xác minh chính chủ) và ID 61551500829974 (chưa xác minh, không xuất hiện lại hôm nay).",
       "action": ""
     },
     {
@@ -330,7 +330,7 @@
       "type": "",
       "source": "https://www.facebook.com/p/Chuy%C3%AAn-gia-s%E1%BA%AFc-%C4%91%E1%BA%B9p-L%E1%BA%A1i-Minh-Hi%E1%BA%BFu-Seryn-Clinic-61550115911294/",
       "date": "2026-07-24",
-      "summary": "Có 2 hồ sơ Facebook cùng gắn tên chuyên gia 'Lại Minh Hiếu - Seryn Clinic': ID 61551700769618 (đã ghi nhận là trang chính, tích cực) và ID 61550115911294 (chưa xác minh chính chủ). Cả 2 đều tự nhận là trang của cùng một chuyên gia.",
+      "summary": "Có 2 hồ sơ Facebook cùng gắn tên chuyên gia 'Lại Minh Hiếu - Seryn Clinic': ID 61551700769618 (chính, xuất hiện thường xuyên) và ID 61550115911294 (cần xác minh).",
       "action": ""
     }
   ],
@@ -355,21 +355,27 @@
     },
     {
       "time": "08:09",
-      "step": "Bước 4 - So sánh với báo cáo 2026-07-24",
+      "step": "Bước 4 - So sánh với báo cáo 2026-07-25",
       "result": "OK",
-      "note": "2 nguồn mới phát hiện"
+      "note": "1 nguồn mới phát hiện (Hamo Global careers)"
     },
     {
       "time": "08:10",
       "step": "Bước 5 - Tạo file Excel",
       "result": "OK",
-      "note": "Bao_cao_Seryn_Monitoring_2026-07-25.xlsx"
+      "note": "Bao_cao_Seryn_Monitoring_2026-07-26.xlsx"
     },
     {
       "time": "08:11",
+      "step": "Bước 5b - Copy file sang thư mục ingest",
+      "result": "OK",
+      "note": "Copy thành công sang D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\ (xlsx + csv, đã diff-check khớp với bản gốc)"
+    },
+    {
+      "time": "08:12",
       "step": "Bước 6.1 - Upload Google Sheets (Shared Drive)",
       "result": "OK",
-      "note": "https://docs.google.com/spreadsheets/d/1vXyZzvxxHhv3FyH4d9SbtPPIcuixv9lchRTh1Y_06_Q/edit"
+      "note": "https://docs.google.com/spreadsheets/d/1McI-6sskmhzoTKMtGlbhu8-xFVIqX4A2i7kb1ml-xiA/edit"
     }
   ]
 }
