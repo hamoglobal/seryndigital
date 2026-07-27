@@ -216,7 +216,7 @@ export default function Dashboard() {
   // ---- "Xuất báo cáo tổng thể" — full branded overview PDF for the selected period ----
   const overviewRiskNote = selBucket.riskNote || (selBucket.riskLevel === 'green' ? 'Không phát hiện nội dung tiêu cực' : `${cap(modeNoun)} này có mục cần theo dõi`);
   const overviewReportData = {
-    eyebrow: 'Giám sát thương hiệu',
+    eyebrow: 'AI AUTO RESEARCH',
     title: `Báo cáo tổng thể — ${selBucket.label}`,
     subtitle: `Kỳ báo cáo ${rangeLabel} · Seryn Clinic`,
     generatedLabel: `Xuất ngày ${fmtDateFull(lastDay.date)}`,
@@ -283,9 +283,9 @@ export default function Dashboard() {
       <div style={{ maxWidth: 1360, margin: '0 auto', padding: '44px 40px 0' }}>
         <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', gap: 24, flexWrap: 'wrap' }}>
           <div>
-            <span style={{ display: 'inline-block', fontFamily: 'var(--font-sans)', fontSize: 'var(--text-xs)', fontWeight: 600, letterSpacing: 'var(--tracking-widest)', textTransform: 'uppercase', color: 'var(--text-brand)', marginBottom: 14 }}>Giám sát thương hiệu</span>
-            <h1 style={{ fontFamily: 'var(--font-display)', fontWeight: 600, letterSpacing: 'var(--tracking-tighter)', fontSize: 'clamp(32px,4vw,46px)', lineHeight: 'var(--leading-tight)', margin: 0, color: 'var(--seryn-navy)' }}>Giám sát thương hiệu Seryn Clinic</h1>
-            <p style={{ fontSize: 'var(--text-md)', color: 'var(--text-muted)', margin: '14px 0 0', maxWidth: 620, lineHeight: 'var(--leading-relaxed)' }}>Hệ thống tổng hợp và phân tích dữ liệu truyền thông, công cụ tìm kiếm và mạng xã hội.</p>
+            <span style={{ display: 'inline-block', fontFamily: 'var(--font-sans)', fontSize: 'var(--text-xs)', fontWeight: 600, letterSpacing: 'var(--tracking-widest)', textTransform: 'uppercase', color: 'var(--text-brand)', marginBottom: 14 }}>AI AUTO RESEARCH</span>
+            <h1 style={{ fontFamily: 'var(--font-display)', fontWeight: 600, letterSpacing: 'var(--tracking-tighter)', fontSize: 'clamp(32px,4vw,46px)', lineHeight: 'var(--leading-tight)', margin: 0, color: 'var(--seryn-navy)' }}>AI AUTO RESEARCH</h1>
+            <p style={{ fontSize: 'var(--text-md)', color: 'var(--text-muted)', margin: '14px 0 0', maxWidth: 620, lineHeight: 'var(--leading-relaxed)' }}>(Hệ thống lắng nghe &amp; cảnh báo tín hiệu truyền thông)</p>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 12 }}>
             <Badge tone="gold" style={{ height: 28, fontSize: 13 }}>Kỳ báo cáo {rangeLabel}</Badge>

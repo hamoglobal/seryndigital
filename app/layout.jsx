@@ -1,8 +1,8 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Seryn Digital — Giám sát thương hiệu',
-  description: 'Dashboard giám sát thương hiệu Seryn Clinic trên Google, báo chí và mạng xã hội.',
+  title: 'Seryn Digital — AI AUTO RESEARCH',
+  description: 'Hệ thống lắng nghe & cảnh báo tín hiệu truyền thông trên Google, báo chí và mạng xã hội.',
 };
 
 export default function RootLayout({ children }) {
