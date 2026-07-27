@@ -130,7 +130,7 @@ export default function Dashboard() {
   const lastDay = days[days.length - 1];
   const firstDay = days[0];
   const mode = viewMode;
-  const buckets = buildBuckets(days, mode);
+  const buckets = buildBuckets(days, mode, sourcesByDay);
   const selBucket = (selectedKey && buckets.find(b => b.key === selectedKey)) || buckets[buckets.length - 1];
   const selTotal = selBucket.total || 1;
   const positivePct = Math.round((selBucket.positive / selTotal) * 100);
@@ -145,10 +145,10 @@ export default function Dashboard() {
   // ---- chart geometry (fine-grained fallback when too few buckets) ----
   const W = 1080, H = 220, padTop = 20, padBottom = 20;
   const finerMode = { day: 'day', week: 'day', month: 'week', year: 'month' }[mode];
-  let chartBuckets = buildBuckets(days, mode);
+  let chartBuckets = buildBuckets(days, mode, sourcesByDay);
   let chartMode = mode;
   if (chartBuckets.length < 3 && finerMode !== mode) {
-    chartBuckets = buildBuckets(days, finerMode);
+    chartBuckets = buildBuckets(days, finerMode, sourcesByDay);
     chartMode = finerMode;
   }
   chartBuckets = chartBuckets.slice().sort((a, b) => (a.key < b.key ? -1 : a.key > b.key ? 1 : 0));
