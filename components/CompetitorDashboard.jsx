@@ -15,7 +15,7 @@ import Card from './Card';
 import Badge from './Badge';
 import TopNav from './TopNav';
 import PdfPreviewModal from './PdfPreviewModal';
-import { buildListPdf, pdfToPreviewUrl, revokePdfPreviewUrl } from '@/lib/exportPdf';
+import { buildListPdf, buildOverviewPdf, pdfToPreviewUrl, revokePdfPreviewUrl, toneRgb } from '@/lib/exportPdf';
 import { fmtDateFull } from '@/lib/aggregate';
 
 function riskColor(level) {
@@ -34,6 +34,11 @@ function riskLabel(level) {
   return 'THẤP';
 }
 const TYPE_LABELS = { bad_news: 'Tin xấu / vi phạm', new_article: 'Bài viết mới' };
+function competitorRiskTone(level) {
+  if (level === 'high') return 'danger';
+  if (level === 'medium') return 'warning';
+  return 'success';
+}
 
 export default function CompetitorDashboard() {
   const [dates, setDates] = useState(null);
@@ -79,6 +84,11 @@ export default function CompetitorDashboard() {
   function closePdfPreview() {
     setPdfPreview(prev => { if (prev) revokePdfPreviewUrl(prev.url); return null; });
   }
+  async function openOverviewPdfPreview(overviewData) {
+    const doc = await buildOverviewPdf(overviewData);
+    const url = pdfToPreviewUrl(doc);
+    setPdfPreview(prev => { if (prev) revokePdfPreviewUrl(prev.url); return { url, filename: overviewData.filename, doc }; });
+  }
 
   if (loadError) {
     return <div style={{ padding: 60, textAlign: 'center', fontFamily: 'var(--font-sans)', color: 'var(--danger-500)' }}>Không tải được dữ liệu đối thủ: {loadError}</div>;
@@ -105,6 +115,37 @@ export default function CompetitorDashboard() {
   const badNewsItems = (brandItems || []).filter(i => i.type === 'bad_news');
   const newArticleItems = (brandItems || []).filter(i => i.type === 'new_article');
 
+  // ---- "Xuất báo cáo tổng thể" — full branded overview PDF of the brand ranking for the selected date ----
+  const overviewReportData = {
+    eyebrow: 'Giám sát đối thủ',
+    title: 'Báo cáo tổng thể — Đối thủ cạnh tranh',
+    subtitle: displayDate ? `Báo cáo ngày ${fmtDateFull(displayDate)} · Seryn Clinic` : 'Seryn Clinic',
+    filename: `bao-cao-tong-the-doi-thu-${displayDate || 'moi-nhat'}.pdf`,
+    kpis: [
+      { label: 'Thương hiệu theo dõi', value: brands.length, tone: 'navy', foot: 'Tổng số thương hiệu cạnh tranh' },
+      { label: 'Rủi ro cao', value: highCount, tone: 'danger', foot: 'Thương hiệu cần chú ý' },
+      { label: 'Tin xấu / vi phạm', value: totalBadNews, tone: 'navy', foot: 'Tổng cộng trong báo cáo' },
+      { label: 'Bài viết mới', value: totalNewArticles, tone: 'brand', foot: 'Tổng cộng trong báo cáo' },
+    ],
+    sections: [
+      {
+        type: 'table', heading: 'Xếp hạng theo mức độ rủi ro', rightNote: `${brands.length} thương hiệu`,
+        columns: [
+          { key: 'brand', label: 'Thương hiệu', width: 0.2, bold: true },
+          { key: 'badNews', label: 'Tin xấu', width: 0.11, align: 'right' },
+          { key: 'newArticles', label: 'Bài viết mới', width: 0.13, align: 'right' },
+          { key: 'riskLabel', label: 'Mức độ rủi ro', width: 0.18, bold: true, colorFn: row => toneRgb(row.tone) },
+          { key: 'note', label: 'Ghi chú', width: 0.38 },
+        ],
+        rows: brands.map(b => ({
+          brand: b.brand, badNews: b.badNews, newArticles: b.newArticles,
+          riskLabel: riskLabel(b.riskLevel), tone: competitorRiskTone(b.riskLevel), note: b.note,
+        })),
+        emptyLabel: 'Chưa có dữ liệu thương hiệu nào cho ngày này.',
+      },
+    ],
+  };
+
   return (
     <div style={{ minHeight: '100vh', background: 'radial-gradient(1100px 520px at 12% -8%, var(--coral-100), transparent), var(--bg-page)', fontFamily: 'var(--font-sans)', color: 'var(--text-body)' }}>
 
@@ -118,9 +159,18 @@ export default function CompetitorDashboard() {
 
       {/* HERO */}
       <div style={{ maxWidth: 1360, margin: '0 auto', padding: '44px 40px 0' }}>
-        <span style={{ display: 'inline-block', fontFamily: 'var(--font-sans)', fontSize: 'var(--text-xs)', fontWeight: 600, letterSpacing: 'var(--tracking-widest)', textTransform: 'uppercase', color: 'var(--text-brand)', marginBottom: 14 }}>Giám sát đối thủ</span>
-        <h1 style={{ fontFamily: 'var(--font-display)', fontWeight: 600, letterSpacing: 'var(--tracking-tighter)', fontSize: 'clamp(32px,4vw,46px)', lineHeight: 'var(--leading-tight)', margin: 0, color: 'var(--seryn-navy)' }}>Theo dõi 14 thương hiệu thẩm mỹ cạnh tranh</h1>
-        <p style={{ fontSize: 'var(--text-md)', color: 'var(--text-muted)', margin: '14px 0 0', maxWidth: 640, lineHeight: 'var(--leading-relaxed)' }}>Tin xấu / vi phạm pháp lý và bài viết mới của các thương hiệu thẩm mỹ cạnh tranh, tổng hợp từ Google, báo chí và mạng xã hội.</p>
+        <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', gap: 24, flexWrap: 'wrap' }}>
+          <div>
+            <span style={{ display: 'inline-block', fontFamily: 'var(--font-sans)', fontSize: 'var(--text-xs)', fontWeight: 600, letterSpacing: 'var(--tracking-widest)', textTransform: 'uppercase', color: 'var(--text-brand)', marginBottom: 14 }}>Giám sát đối thủ</span>
+            <h1 style={{ fontFamily: 'var(--font-display)', fontWeight: 600, letterSpacing: 'var(--tracking-tighter)', fontSize: 'clamp(32px,4vw,46px)', lineHeight: 'var(--leading-tight)', margin: 0, color: 'var(--seryn-navy)' }}>Theo dõi 14 thương hiệu thẩm mỹ cạnh tranh</h1>
+            <p style={{ fontSize: 'var(--text-md)', color: 'var(--text-muted)', margin: '14px 0 0', maxWidth: 640, lineHeight: 'var(--leading-relaxed)' }}>Tin xấu / vi phạm pháp lý và bài viết mới của các thương hiệu thẩm mỹ cạnh tranh, tổng hợp từ Google, báo chí và mạng xã hội.</p>
+          </div>
+          <button onClick={() => openOverviewPdfPreview(overviewReportData)} style={{
+            display: 'flex', alignItems: 'center', gap: 8, border: 'none', background: 'var(--seryn-navy)', color: '#fff',
+            borderRadius: 'var(--radius-pill)', padding: '11px 22px', fontSize: 'var(--text-sm)', fontWeight: 600,
+            cursor: 'pointer', whiteSpace: 'nowrap', boxShadow: 'var(--shadow-sm)',
+          }}>Xuất báo cáo tổng thể</button>
+        </div>
       </div>
 
       {/* DATE PICKER */}

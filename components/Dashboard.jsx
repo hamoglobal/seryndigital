@@ -13,7 +13,7 @@ import {
   fmtDateLabel, fmtDateFull, buildBuckets, sourcesForBucket, dedupeSources, typeStats,
   colorForRisk, softBgForRisk, borderForRisk, labelForRisk, cap,
 } from '@/lib/aggregate';
-import { buildListPdf, pdfToPreviewUrl, revokePdfPreviewUrl } from '@/lib/exportPdf';
+import { buildListPdf, buildOverviewPdf, pdfToPreviewUrl, revokePdfPreviewUrl, sentimentRgb, riskTone } from '@/lib/exportPdf';
 import PdfPreviewModal from './PdfPreviewModal';
 import TopNav from './TopNav';
 
@@ -63,6 +63,14 @@ export default function Dashboard() {
     setPdfPreview(prev => {
       if (prev) revokePdfPreviewUrl(prev.url);
       return null;
+    });
+  }
+  async function openOverviewPdfPreview(overviewData) {
+    const doc = await buildOverviewPdf(overviewData);
+    const url = pdfToPreviewUrl(doc);
+    setPdfPreview(prev => {
+      if (prev) revokePdfPreviewUrl(prev.url);
+      return { url, filename: overviewData.filename, doc };
     });
   }
 
@@ -205,6 +213,60 @@ export default function Dashboard() {
   const latestRiskColor = colorForRisk(lastDay.riskLevel);
   const latestRiskColorSoft = softBgForRisk(lastDay.riskLevel);
 
+  // ---- "Xuất báo cáo tổng thể" — full branded overview PDF for the selected period ----
+  const overviewRiskNote = selBucket.riskNote || (selBucket.riskLevel === 'green' ? 'Không phát hiện nội dung tiêu cực' : `${cap(modeNoun)} này có mục cần theo dõi`);
+  const overviewReportData = {
+    eyebrow: 'Giám sát thương hiệu',
+    title: `Báo cáo tổng thể — ${selBucket.label}`,
+    subtitle: `Kỳ báo cáo ${rangeLabel} · Seryn Clinic`,
+    generatedLabel: `Xuất ngày ${fmtDateFull(lastDay.date)}`,
+    filename: `bao-cao-tong-the-seryn-${selBucket.key}.pdf`,
+    kpis: [
+      { label: 'Tổng nguồn', value: selBucket.total, tone: 'navy', foot: selPeriodLabel },
+      { label: 'Tích cực', value: selBucket.positive, tone: 'success', foot: `${positivePct}% tổng nguồn` },
+      { label: 'Trung tính', value: selBucket.neutral, tone: 'warning', foot: `${neutralPct}% tổng nguồn` },
+      { label: 'Tiêu cực / cảnh báo', value: selBucket.negative, tone: 'danger', foot: selRiskDaysNote },
+      { label: 'Nguồn mới', value: `+${selBucket.newSources}`, tone: 'brand', foot: 'So với kỳ trước' },
+      { label: 'Trạng thái rủi ro', value: labelForRisk(selBucket.riskLevel), tone: riskTone(selBucket.riskLevel), foot: overviewRiskNote },
+    ],
+    sentiment: { positive: selBucket.positive, neutral: selBucket.neutral, negative: selBucket.negative },
+    sections: [
+      {
+        type: 'list', heading: 'Nguồn nổi bật', rightNote: `${topSources.length} kết quả`, numbered: false,
+        items: topSources.map(s => ({
+          heading: s.title,
+          lines: [[s.type, s.isNew ? 'Mới' : null].filter(Boolean).join(' · '), s.url].filter(Boolean),
+          dotColor: sentimentRgb(s.sentiment),
+        })),
+        emptyLabel: 'Không có nguồn nổi bật nào trong kỳ này.',
+      },
+      {
+        type: 'table', heading: 'Kênh hiện diện', rightNote: `${channels.length} kênh`,
+        columns: [
+          { key: 'platform', label: 'Kênh', width: 0.7 },
+          { key: 'count', label: 'Số trang', width: 0.3, align: 'right' },
+        ],
+        rows: channels,
+        emptyLabel: 'Chưa ghi nhận kênh mạng xã hội nào.',
+      },
+      {
+        type: 'list', heading: 'Cần theo dõi', rightNote: `${watchItems.length} mục`, numbered: false,
+        items: watchItems.map(w => ({ heading: w.type, lines: [w.summary] })),
+        emptyLabel: 'Không có mục nào cần theo dõi.',
+      },
+      {
+        type: 'table', heading: 'Thống kê theo loại nguồn', rightNote: `${tagStats.length} loại · ${bucketSourcesDeduped.length} nguồn duy nhất`,
+        columns: [
+          { key: 'label', label: 'Loại nguồn / tag', width: 0.5 },
+          { key: 'count', label: 'Số nguồn', width: 0.2, align: 'right' },
+          { key: 'pct', label: 'Tỷ trọng', width: 0.3, align: 'right' },
+        ],
+        rows: tagStats.map(t => ({ label: t.label, count: t.count, pct: `${t.pct}%` })),
+        emptyLabel: 'Không có dữ liệu thống kê cho kỳ này.',
+      },
+    ],
+  };
+
   return (
     <div style={{ minHeight: '100vh', background: 'radial-gradient(1100px 520px at 12% -8%, var(--coral-100), transparent), var(--bg-page)', fontFamily: 'var(--font-sans)', color: 'var(--text-body)' }}>
 
@@ -225,7 +287,14 @@ export default function Dashboard() {
             <h1 style={{ fontFamily: 'var(--font-display)', fontWeight: 600, letterSpacing: 'var(--tracking-tighter)', fontSize: 'clamp(32px,4vw,46px)', lineHeight: 'var(--leading-tight)', margin: 0, color: 'var(--seryn-navy)' }}>Giám sát thương hiệu Seryn Clinic</h1>
             <p style={{ fontSize: 'var(--text-md)', color: 'var(--text-muted)', margin: '14px 0 0', maxWidth: 620, lineHeight: 'var(--leading-relaxed)' }}>Hệ thống tổng hợp và phân tích dữ liệu truyền thông, công cụ tìm kiếm và mạng xã hội.</p>
           </div>
-          <Badge tone="gold" style={{ height: 28, fontSize: 13 }}>Kỳ báo cáo {rangeLabel}</Badge>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 12 }}>
+            <Badge tone="gold" style={{ height: 28, fontSize: 13 }}>Kỳ báo cáo {rangeLabel}</Badge>
+            <button onClick={() => openOverviewPdfPreview(overviewReportData)} style={{
+              display: 'flex', alignItems: 'center', gap: 8, border: 'none', background: 'var(--seryn-navy)', color: '#fff',
+              borderRadius: 'var(--radius-pill)', padding: '11px 22px', fontSize: 'var(--text-sm)', fontWeight: 600,
+              cursor: 'pointer', whiteSpace: 'nowrap', boxShadow: 'var(--shadow-sm)',
+            }}>Xuất báo cáo tổng thể</button>
+          </div>
         </div>
       </div>
 

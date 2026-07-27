@@ -9,6 +9,11 @@
 // it logs the failure and keeps going, per the handoff's "handle a missing/late
 // file gracefully" requirement.
 //
+// Also checks the separate competitor ("Đối Thủ") report feed on the same
+// run (see competitorWatch.mjs) — this always runs, independent of whether
+// the main Seryn Clinic report had anything new, since the two feeds are on
+// unrelated schedules and either one can have new data on any given day.
+//
 // After ingestion, exports the DB to git-friendly JSON (data/export/*.json)
 // and commits + pushes it to GitHub, so the repo always reflects the latest
 // data. Only runs the export/push step if at least one file was newly
@@ -65,7 +70,7 @@ function runExportScript() {
   execFileSync(process.execPath, [path.join(__dirname, 'export-json.mjs')], { stdio: 'inherit' });
 }
 
-function main() {
+function ingestMainReports() {
   const incomingDir = resolveIncomingDir();
   const files = listCandidateFiles(incomingDir);
   const pending = files.filter(f => !isFileIngested(path.basename(f)));
@@ -75,7 +80,7 @@ function main() {
 
   if (pending.length === 0) {
     console.log('[watch-ingest] nothing new to ingest.');
-    return;
+    return 0;
   }
 
   let ok = 0, failed = 0;
@@ -91,10 +96,15 @@ function main() {
     }
   }
   console.log(`[watch-ingest] done. ${ok} ingested, ${failed} failed.`);
+  return ok;
+}
 
-  // Also check for new competitor ("Đối Thủ") reports — separate folder,
-  // separate tables, but the same daily cadence, so it rides along with this
-  // job rather than needing its own scheduled task.
+function main() {
+  const ok = ingestMainReports();
+
+  // Always check for new competitor ("Đối Thủ") reports — separate folder,
+  // separate tables, own daily cadence — regardless of whether the main
+  // report had anything new today.
   let competitorNew = 0;
   try {
     const competitorResult = runCompetitorWatch();
@@ -111,6 +121,8 @@ function main() {
     } catch (err) {
       console.error(`[watch-ingest] git sync step failed (non-fatal — data is still safe in the local DB): ${err.message}`);
     }
+  } else {
+    console.log('[watch-ingest] nothing new anywhere — skipping export/git-sync.');
   }
 }
 

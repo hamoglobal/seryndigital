@@ -5,6 +5,8 @@ data/*.db-journal
 .env*.local
 data/*.db-wal
 data/*.db-shm
+# FUSE leftover artifacts from the sqlite db being open on a bridged mount — junk, never commit
+data/.fuse_hidden*
 
 # private deploy key - never commit
 .ssh/

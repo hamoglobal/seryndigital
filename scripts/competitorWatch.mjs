@@ -15,10 +15,23 @@ import { ingestCompetitorFile } from './competitorIngest.mjs';
 
 const FILENAME_RE = /^BaoCao_TheoDoi_ThamMy_.*\.xlsx$/i;
 
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const projectRoot = path.resolve(__dirname, '..');
+
+// Priority order for where the competitor report file might be:
+//  1. COMPETITOR_INCOMING_DIR env override.
+//  2/3. The real folder the "bao-cao-tham-my-hang-ngay" report-generation
+//     scheduled task saves to (per its own instructions) — usually
+//     unreachable from this session since "Digital Doi Thu" isn't a
+//     Cowork-connected folder.
+//  4. reports/incoming-competitor/ inside this project — the task also
+//     copies its output here now, so this is the one that actually resolves
+//     day to day.
 const CANDIDATE_DIRS = [
   process.env.COMPETITOR_INCOMING_DIR,
   'D:\\Seryn Digital\\Digital Doi Thu\\Digital Doi Thu',
   'D:\\Seryn Digital\\Digital Doi Thu',
+  path.join(projectRoot, 'reports', 'incoming-competitor'),
 ].filter(Boolean);
 
 function resolveIncomingDir() {
