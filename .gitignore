@@ -8,5 +8,9 @@ data/*.db-shm
 # FUSE leftover artifacts from the sqlite db being open on a bridged mount — junk, never commit
 data/.fuse_hidden*
 
+# raw daily report intake files — local pipeline input only, not repo content
+reports/incoming/
+reports/incoming-competitor/
+
 # private deploy key - never commit
 .ssh/
