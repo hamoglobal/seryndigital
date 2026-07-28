@@ -204,7 +204,7 @@ export default function CompetitorDashboard() {
     statModalRows = (statItems || []).flatMap((it, i) => extractCitations(it.url).map((c, ci) => ({
       key: `${i}-${ci}`,
       heading: c.heading || (it.summary ? it.summary.slice(0, 100) : it.brand),
-      lines: [[it.brand, it.itemDate].filter(Boolean).join(' · '), c.heading ? it.summary : null].filter(Boolean),
+      lines: [it.brand, c.heading ? it.summary : null].filter(Boolean),
       url: c.url,
       dotColor: statModal === 'bad_news' ? 'var(--danger-500)' : 'var(--text-brand)',
     })));
@@ -377,7 +377,7 @@ export default function CompetitorDashboard() {
                   subtitle: `${badNewsRows.length + newArticleRows.length} nguồn có link · Báo cáo ngày ${fmtDateFull(displayDate)}`,
                   items: [...badNewsRows.map(r => ({ ...r, typeLabel: TYPE_LABELS.bad_news })), ...newArticleRows.map(r => ({ ...r, typeLabel: TYPE_LABELS.new_article }))].map(r => ({
                     heading: `[${r.typeLabel}] ${r.heading}`,
-                    lines: [r.summary, [r.itemDate, r.channel].filter(Boolean).join(' · '), r.url].filter(Boolean),
+                    lines: [r.summary, r.channel, r.url].filter(Boolean),
                   })),
                   filename: `doi-thu-${brandModal}-${displayDate}.pdf`,
                 })} style={{ border: '1px solid var(--border-default)', background: 'var(--surface-card)', borderRadius: 'var(--radius-pill)', padding: '7px 16px', fontSize: 'var(--text-xs)', fontWeight: 600, color: 'var(--text-brand)', cursor: 'pointer', whiteSpace: 'nowrap' }}>Xuất file PDF</button>
@@ -395,7 +395,7 @@ export default function CompetitorDashboard() {
                     <a key={r.key} href={r.url} target="_blank" rel="noopener noreferrer" style={{ display: 'block', padding: '12px 0', borderBottom: '1px solid var(--border-subtle)', textDecoration: 'none' }}>
                       <div style={{ fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--text-body)' }}>{r.heading}</div>
                       {r.summary && <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 3, lineHeight: 'var(--leading-snug)' }}>{r.summary}</div>}
-                      <div style={{ fontSize: 'var(--text-2xs)', color: 'var(--text-subtle)', marginTop: 4 }}>{r.itemDate}{r.domain ? ` · ${r.domain}` : ''}</div>
+                      <div style={{ fontSize: 'var(--text-2xs)', color: 'var(--text-subtle)', marginTop: 4 }}>{r.domain || ''}</div>
                     </a>
                   ))}
                 </>
@@ -407,7 +407,7 @@ export default function CompetitorDashboard() {
                     <a key={r.key} href={r.url} target="_blank" rel="noopener noreferrer" style={{ display: 'block', padding: '12px 0', borderBottom: '1px solid var(--border-subtle)', textDecoration: 'none' }}>
                       <div style={{ fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--text-body)' }}>{r.heading}</div>
                       {r.summary && <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 3, lineHeight: 'var(--leading-snug)' }}>{r.summary}</div>}
-                      <div style={{ fontSize: 'var(--text-2xs)', color: 'var(--text-subtle)', marginTop: 4 }}>{r.itemDate}{r.channel ? ` · ${r.channel}` : ''}{r.domain ? ` · ${r.domain}` : ''}</div>
+                      <div style={{ fontSize: 'var(--text-2xs)', color: 'var(--text-subtle)', marginTop: 4 }}>{[r.channel, r.domain].filter(Boolean).join(' · ')}</div>
                     </a>
                   ))}
                 </>

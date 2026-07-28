@@ -566,7 +566,7 @@ export default function Dashboard() {
                   items: modalItems.map(m => ({
                     heading: m.title,
                     lines: [
-                      [m.type, m.dateLabel && `Ngày: ${m.dateLabel}`, m.occurrences > 1 ? `Xuất hiện ${m.occurrences} lần` : null].filter(Boolean).join(' · '),
+                      [m.type, m.occurrences > 1 ? `Xuất hiện ${m.occurrences} lần` : null].filter(Boolean).join(' · '),
                       m.url,
                     ],
                   })),
@@ -581,7 +581,7 @@ export default function Dashboard() {
                   <span style={{ width: 8, height: 8, minWidth: 8, marginTop: 6, borderRadius: '50%', background: m.dotColor }} />
                   <span style={{ flex: '1 1 0%', minWidth: 0 }}>
                     <span style={{ display: 'block', fontSize: 'var(--text-sm)', fontWeight: 500, color: 'var(--text-body)' }}>{m.title}</span>
-                    <span style={{ display: 'block', fontSize: 'var(--text-2xs)', color: 'var(--text-subtle)', marginTop: 3 }}>{m.type} · {m.dateLabel}{m.occurrences > 1 ? ` · xuất hiện ${m.occurrences} lần` : ''}</span>
+                    <span style={{ display: 'block', fontSize: 'var(--text-2xs)', color: 'var(--text-subtle)', marginTop: 3 }}>{m.type}{m.occurrences > 1 ? ` · xuất hiện ${m.occurrences} lần` : ''}</span>
                   </span>
                 </a>
               )) : (
