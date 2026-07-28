@@ -829,10 +829,10 @@
     "total": 35,
     "positive": 20,
     "neutral": 15,
-    "negative": 0.24,
+    "negative": 0,
     "newSources": 1,
-    "riskRaw": "ĐỎ",
-    "riskLevel": "red",
+    "riskRaw": "XANH - AN TOÀN",
+    "riskLevel": "green",
     "riskNote": ""
   },
   {
@@ -840,10 +840,10 @@
     "total": 38,
     "positive": 18,
     "neutral": 17,
-    "negative": 0.24,
+    "negative": 0,
     "newSources": 2,
-    "riskRaw": "ĐỎ",
-    "riskLevel": "red",
+    "riskRaw": "XANH - AN TOÀN",
+    "riskLevel": "green",
     "riskNote": ""
   }
 ]
