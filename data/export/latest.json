@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-27",
+  "date": "2026-07-28",
   "topSources": [
     {
-      "title": "Phòng Khám Đa Khoa Seryn | Seryn Clinic (Website)",
+      "title": "Phòng Khám Đa Khoa Seryn | Seryn Clinic (Website chính thức)",
       "url": "https://seryn.vn/",
       "domain": "seryn.vn",
       "type": "Website chính thức",
@@ -10,11 +10,11 @@
       "isNew": false
     },
     {
-      "title": "Phòng khám Seryn Việt Nam (Facebook - trang chính thức)",
+      "title": "Phòng khám Seryn Việt Nam (Facebook, ID 100094769671762)",
       "url": "https://www.facebook.com/p/Ph%C3%B2ng-kh%C3%A1m-Seryn-100094769671762/",
       "domain": "facebook.com",
       "type": "Mạng xã hội",
-      "sentiment": "positive",
+      "sentiment": "neutral",
       "isNew": false
     },
     {
@@ -34,11 +34,11 @@
       "isNew": false
     },
     {
-      "title": "Lại Minh Hiếu - Phòng khám Seryn Việt Nam (Facebook - chuyên gia)",
+      "title": "Lại Minh Hiếu - Phòng khám Seryn Việt Nam (Facebook, ID 61551700769618)",
       "url": "https://www.facebook.com/61551700769618",
       "domain": "facebook.com",
       "type": "Mạng xã hội",
-      "sentiment": "positive",
+      "sentiment": "neutral",
       "isNew": false
     },
     {
@@ -130,7 +130,7 @@
       "isNew": false
     },
     {
-      "title": "Trẻ hóa gương mặt: vì sao liệu trình riêng lẻ không còn được ưa chuộng - AFamily.vn (bài gốc)",
+      "title": "Trẻ hóa gương mặt: vì sao liệu trình riêng lẻ không còn được ưa chuộng - AFamily.vn",
       "url": "https://afamily.vn/tre-hoa-guong-mat-vi-sao-nhung-lieu-trinh-rieng-le-khong-con-duoc-ua-chuong-236260318171908185.chn",
       "domain": "afamily.vn",
       "type": "Báo chí PR",
@@ -170,6 +170,14 @@
       "isNew": false
     },
     {
+      "title": "Thuốc Seryn - TrungTamThuoc.com (không liên quan)",
+      "url": "https://trungtamthuoc.com/seryn-cap",
+      "domain": "trungtamthuoc.com",
+      "type": "Nhầm lẫn - Thuốc",
+      "sentiment": "neutral",
+      "isNew": true
+    },
+    {
       "title": "Trẻ hóa không đến từ skincare thông thường - VietnamNet",
       "url": "https://vietnamnet.vn/tre-hoa-khong-den-tu-skincare-thong-thuong-su-that-phai-dep-it-biet-2503099.html",
       "domain": "vietnamnet.vn",
@@ -186,12 +194,20 @@
       "isNew": false
     },
     {
-      "title": "Seren Klinik (Istanbul) - Trustpilot/serenklinik.com (không liên quan — xem ghi chú phân loại ở Tong Quan)",
+      "title": "Seren Klinik (Istanbul) - Trustpilot/serenklinik.com (không liên quan — xem ghi chú Tong Quan)",
       "url": "https://www.trustpilot.com/review/serenklinik.com",
       "domain": "trustpilot.com",
       "type": "Nhầm lẫn",
       "sentiment": "neutral",
       "isNew": false
+    },
+    {
+      "title": "Địa điểm Seryn Clinic - Wanderlog (danh bạ du lịch)",
+      "url": "https://wanderlog.com/place/details/1735806",
+      "domain": "wanderlog.com",
+      "type": "Directory",
+      "sentiment": "neutral",
+      "isNew": true
     },
     {
       "title": "Không tìm thấy bài viết tiêu cực/lừa đảo nào nhắc đích danh Seryn Clinic (24 Nguyễn Bỉnh Khiêm) hôm nay.",
@@ -210,18 +226,26 @@
       "isNew": false
     },
     {
-      "title": "Carry-forward: mô tả chi nhánh 45 Xã Đàn, Hà Nội (Clinexa Vietnam, GPHĐ 4903/HNO-GPHĐ) - khác đơn vị/GPHĐ đã xác nhận. Vẫn chưa có URL bài viết cụ thể mới để xác minh dứt điểm hôm nay.",
+      "title": "ĐÃ XÁC MINH: chi nhánh 454 Xã Đàn, Hà Nội (Clinexa Việt Nam, GPHĐ 4903/HNO-GPHĐ cấp 25/03/2026) là cơ sở hợp pháp thứ 2 của thương hiệu — gỡ khỏi carry-forward nghi vấn.",
       "url": "-",
       "domain": "",
-      "type": "Kết quả rà soát - cần xác minh",
+      "type": "Kết quả rà soát - Đã xác minh",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "title": "Carry-forward: Facebook 'Thanh Xuân' trùng tên - ID 61551500829974 không xuất hiện lại trong kết quả hôm nay; giữ carry-forward, chưa đủ bằng chứng xác nhận đã gỡ bỏ.",
+      "url": "https://www.facebook.com/profile.php/?id=61551500829974",
+      "domain": "facebook.com",
+      "type": "Mạng xã hội - cần xác minh",
       "sentiment": "neutral",
       "isNew": false
     },
     {
-      "title": "Carry-forward: Facebook 'Thanh Xuân' trùng tên - ID 61551500829974 không xuất hiện lại trong kết quả hôm nay (ID chính chủ đã xác minh: 61551825290264 — nay đã liệt kê ở sheet Mang Xa Hoi); giữ carry-forward, chưa đủ bằng chứng xác nhận đã gỡ bỏ.",
-      "url": "https://www.facebook.com/profile.php/?id=61551500829974",
-      "domain": "facebook.com",
-      "type": "Mạng xã hội - cần xác minh",
+      "title": "CẬP NHẬT PHÂN LOẠI theo danh sách Facebook chính chủ khách xác nhận (2026-07-27): 3 trang FB tên Seryn (ID 100094769671762, 61551700769618, 61551825290264) không có trong danh sách → hạ xuống Trung tính; ID 61550115911294 có trong danh sách → nâng lên Tích cực. Xem sheet Mang Xa Hoi.",
+      "url": "-",
+      "domain": "",
+      "type": "Ghi chú phân loại quan trọng",
       "sentiment": "neutral",
       "isNew": false
     }
@@ -229,35 +253,35 @@
   "social": [
     {
       "platform": "Facebook",
-      "account": "Phòng khám Seryn Việt Nam",
+      "account": "Phòng khám Seryn Việt Nam (ID 100094769671762)",
       "url": "https://www.facebook.com/p/Ph%C3%B2ng-kh%C3%A1m-Seryn-100094769671762/",
       "accountType": "",
-      "sentiment": "Tích cực",
-      "note": "Fanpage chính thức của thương hiệu"
+      "sentiment": "Trung tính",
+      "note": "Không có trong danh sách Facebook chính chủ đã xác nhận (2026-07-27) — cần khách xác nhận có trùng trang chính thức 'phongkhamserynvietnam' hay không. Hạ từ Tích cực (báo cáo trước) xuống Trung tính chờ xác minh."
     },
     {
       "platform": "Facebook",
-      "account": "Lại Minh Hiếu - Phòng khám Seryn Việt Nam",
+      "account": "Lại Minh Hiếu - Phòng khám Seryn Việt Nam (ID 61551700769618)",
       "url": "https://www.facebook.com/61551700769618",
       "accountType": "",
-      "sentiment": "Tích cực",
-      "note": "Trang cá nhân chuyên gia/nhân sự, gắn thương hiệu"
+      "sentiment": "Trung tính",
+      "note": "Không có trong danh sách Facebook chính chủ đã xác nhận (2026-07-27). Hạ từ Tích cực xuống Trung tính chờ xác minh."
     },
     {
       "platform": "Facebook",
-      "account": "Thanh Xuân - Seryn Clinic Việt Nam (ID 61551825290264, chính chủ đã xác minh)",
+      "account": "Thanh Xuân - Seryn Clinic Việt Nam (ID 61551825290264)",
       "url": "https://www.facebook.com/profile.php/?id=61551825290264",
       "accountType": "",
-      "sentiment": "Tích cực",
-      "note": "Xuất hiện trực tiếp trong kết quả hôm nay; trước đây chỉ ghi nhận qua carry-forward — nay xác nhận đây là trang chính chủ"
+      "sentiment": "Trung tính",
+      "note": "Không có trong danh sách Facebook chính chủ đã xác nhận (2026-07-27). Báo cáo 2026-07-27 từng ghi 'chính chủ đã xác minh' — nay hạ xuống Trung tính, cần khách xác nhận lại."
     },
     {
       "platform": "Facebook",
-      "account": "Chuyên gia sắc đẹp Lại Minh Hiếu - Seryn Clinic (ID 61550115911294, trùng tên nhân sự)",
+      "account": "Chuyên gia sắc đẹp Lại Minh Hiếu - Seryn Clinic (ID 61550115911294)",
       "url": "https://www.facebook.com/p/Chuy%C3%AAn-gia-s%E1%BA%AFc-%C4%91%E1%BA%B9p-L%E1%BA%A1i-Minh-Hi%E1%BA%BFu-Seryn-Clinic-61550115911294/",
       "accountType": "",
-      "sentiment": "Trung tính",
-      "note": "Carry-forward, cần xác minh — ID khác với trang chuyên gia đã xác nhận (dòng #2)"
+      "sentiment": "Tích cực",
+      "note": "CÓ trong danh sách Facebook chính chủ đã xác nhận (2026-07-27) — nâng từ Trung tính (báo cáo trước) lên Tích cực."
     },
     {
       "platform": "Facebook",
@@ -265,7 +289,7 @@
       "url": "https://www.facebook.com/profile.php/?id=61551500829974",
       "accountType": "",
       "sentiment": "Trung tính",
-      "note": "Carry-forward — không xuất hiện lại trong kết quả tìm kiếm hôm nay, chưa đủ bằng chứng xác nhận đã gỡ bỏ"
+      "note": "Carry-forward — không xuất hiện lại trong kết quả tìm kiếm hôm nay, chưa đủ bằng chứng xác nhận đã gỡ bỏ."
     },
     {
       "platform": "YouTube",
@@ -273,7 +297,7 @@
       "url": "https://www.youtube.com/channel/UCojQ10-ZUGAt4hOpbMqaIZA",
       "accountType": "",
       "sentiment": "Tích cực",
-      "note": "Kênh YouTube chính thức"
+      "note": "Kênh YouTube chính thức, có trong kết quả tìm kiếm ổn định."
     },
     {
       "platform": "TikTok",
@@ -281,7 +305,7 @@
       "url": "-",
       "accountType": "",
       "sentiment": "An toàn",
-      "note": "Kết quả rà soát — thương hiệu chưa có/không có kênh TikTok hoạt động được tìm thấy hôm nay"
+      "note": "Kết quả rà soát — thương hiệu chưa có/không có kênh TikTok hoạt động được tìm thấy hôm nay (chỉ thấy thương hiệu trùng tên quốc tế: Seren/Seorin/Sera/Sherie Clinic)."
     }
   ],
   "alerts": [],
@@ -300,27 +324,27 @@
     },
     {
       "time": "Bước 4",
-      "step": "So sánh báo cáo trước (2026-07-26)",
-      "result": "OK — 1 nguồn xuất hiện trực tiếp lần đầu (FB Thanh Xuân ID xác minh)",
+      "step": "So sánh báo cáo trước (2026-07-27)",
+      "result": "OK — 2 nguồn mới (TrungTamThuoc.com, Wanderlog); cập nhật phân loại 4 trang Facebook theo danh sách chính chủ; gỡ carry-forward chi nhánh Hà Nội",
       "note": "-"
     },
     {
       "time": "Bước 5",
       "step": "Tạo báo cáo Excel",
-      "result": "OK — Bao_cao_Seryn_Monitoring_2026-07-27.xlsx",
+      "result": "OK — Bao_cao_Seryn_Monitoring_2026-07-28.xlsx",
       "note": "-"
     },
     {
-      "time": "08:12",
+      "time": "08:14",
       "step": "Upload Drive",
       "result": "OK 6.1 — Shared Drive aware, tạo trực tiếp trong folder khách",
-      "note": "https://docs.google.com/spreadsheets/d/1dg8svYvpO18dUx_bCqu3KWizuLMhDxK7693-K970VWw/edit"
+      "note": "https://docs.google.com/spreadsheets/d/11dLQtLxsYH9sdXYehm5XFInU_yRtPAOAekUKxWZKv6k/edit"
     },
     {
-      "time": "08:13",
+      "time": "08:15",
       "step": "Copy sang incoming (Bước 5b)",
       "result": "OK — đã xác minh fuse mount + diff byte-identical",
-      "note": "/Seryn Digital/.../reports/incoming/Bao_cao_Seryn_Monitoring_2026-07-27.xlsx & .csv"
+      "note": "/Seryn Digital/.../reports/incoming/Bao_cao_Seryn_Monitoring_2026-07-28.xlsx"
     }
   ]
 }

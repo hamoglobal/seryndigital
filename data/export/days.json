@@ -834,5 +834,16 @@
     "riskRaw": "ĐỎ",
     "riskLevel": "red",
     "riskNote": ""
+  },
+  {
+    "date": "2026-07-28",
+    "total": 38,
+    "positive": 18,
+    "neutral": 17,
+    "negative": 0.24,
+    "newSources": 2,
+    "riskRaw": "ĐỎ",
+    "riskLevel": "red",
+    "riskNote": ""
   }
 ]
