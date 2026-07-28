@@ -34,6 +34,7 @@ function riskLabel(level) {
   return 'THẤP';
 }
 const TYPE_LABELS = { bad_news: 'Tin xấu / vi phạm', new_article: 'Bài viết mới' };
+const STAT_LABELS = { total: 'Thương hiệu theo dõi', high: 'Rủi ro cao', bad_news: 'Tin xấu / vi phạm', new_article: 'Bài viết mới' };
 function competitorRiskTone(level) {
   if (level === 'high') return 'danger';
   if (level === 'medium') return 'warning';
@@ -49,6 +50,8 @@ export default function CompetitorDashboard() {
   const [brandModal, setBrandModal] = useState(null); // brand name
   const [brandItems, setBrandItems] = useState(null);
   const [pdfPreview, setPdfPreview] = useState(null);
+  const [statModal, setStatModal] = useState(null); // 'total' | 'high' | 'bad_news' | 'new_article'
+  const [statItems, setStatItems] = useState(null); // detail items for bad_news/new_article stat modals
 
   useEffect(() => {
     let cancelled = false;
@@ -75,6 +78,17 @@ export default function CompetitorDashboard() {
       .catch(err => !cancelled && setLoadError(err.message || String(err)));
     return () => { cancelled = true; };
   }, [brandModal, brandData?.date]);
+
+  useEffect(() => {
+    if (statModal !== 'bad_news' && statModal !== 'new_article') { setStatItems(null); return; }
+    if (!brandData?.date) return;
+    let cancelled = false;
+    setStatItems(null);
+    fetch(`/api/competitors/items?date=${brandData.date}&type=${statModal}`)
+      .then(r => r.json()).then(d => { if (!cancelled) setStatItems(d); })
+      .catch(err => !cancelled && setLoadError(err.message || String(err)));
+    return () => { cancelled = true; };
+  }, [statModal, brandData?.date]);
 
   async function openPdfPreview({ title, subtitle, items, filename }) {
     const doc = await buildListPdf({ title, subtitle, items });
@@ -114,6 +128,32 @@ export default function CompetitorDashboard() {
   const modalBrand = brandModal ? brands.find(b => b.brand === brandModal) : null;
   const badNewsItems = (brandItems || []).filter(i => i.type === 'bad_news');
   const newArticleItems = (brandItems || []).filter(i => i.type === 'new_article');
+
+  // ---- KPI click-through stat modal ("Đối Thủ" side of the click-to-detail pattern used in the main Seryn Digital dashboard) ----
+  const statModalOpen = !!statModal;
+  const statModalLoading = (statModal === 'bad_news' || statModal === 'new_article') && statItems === null;
+  let statModalRows = [];
+  if (statModal === 'total') {
+    statModalRows = brands.map(b => ({
+      key: b.brand, heading: b.brand,
+      lines: [`${b.badNews} tin xấu · ${b.newArticles} bài viết mới · ${riskLabel(b.riskLevel)}`, b.note].filter(Boolean),
+      dotColor: riskColor(b.riskLevel),
+    }));
+  } else if (statModal === 'high') {
+    statModalRows = brands.filter(b => b.riskLevel === 'high').map(b => ({
+      key: b.brand, heading: b.brand,
+      lines: [`${b.badNews} tin xấu · ${b.newArticles} bài viết mới`, b.note].filter(Boolean),
+      dotColor: riskColor(b.riskLevel),
+    }));
+  } else if (statModal === 'bad_news' || statModal === 'new_article') {
+    statModalRows = (statItems || []).map((it, i) => ({
+      key: i, heading: it.title || it.summary?.slice(0, 60) || '(không có tiêu đề)',
+      lines: [[it.brand, it.itemDate, it.channel || it.domain].filter(Boolean).join(' · '), it.summary].filter(Boolean),
+      url: it.url,
+      dotColor: statModal === 'bad_news' ? 'var(--danger-500)' : 'var(--text-brand)',
+    }));
+  }
+  const statModalTitle = statModalOpen ? `${STAT_LABELS[statModal]} — ${fmtDateFull(displayDate)}` : '';
 
   // ---- "Xuất báo cáo tổng thể" — full branded overview PDF of the brand ranking for the selected date ----
   const overviewReportData = {
@@ -208,19 +248,19 @@ export default function CompetitorDashboard() {
       {/* KPI ROW */}
       <div style={{ maxWidth: 1360, margin: '0 auto', padding: '20px 40px 0' }}>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: 16 }}>
-          <Card elevation="sm" style={{ minHeight: 120 }}>
+          <Card elevation="sm" onClick={() => setStatModal('total')} style={{ minHeight: 120, cursor: 'pointer' }}>
             <div style={{ fontSize: 'var(--text-2xs)', letterSpacing: 'var(--tracking-wider)', textTransform: 'uppercase', color: 'var(--text-muted)', fontWeight: 600, marginBottom: 10 }}>Thương hiệu theo dõi</div>
             <div style={{ fontFamily: 'var(--font-display)', fontSize: 'var(--text-3xl)', fontWeight: 600, color: 'var(--seryn-navy)', lineHeight: 1 }}>{brands.length}</div>
           </Card>
-          <Card elevation="sm" style={{ minHeight: 120 }}>
+          <Card elevation="sm" onClick={() => setStatModal('high')} style={{ minHeight: 120, cursor: 'pointer' }}>
             <div style={{ fontSize: 'var(--text-2xs)', letterSpacing: 'var(--tracking-wider)', textTransform: 'uppercase', color: 'var(--text-muted)', fontWeight: 600, marginBottom: 10 }}>Rủi ro cao</div>
             <div style={{ fontFamily: 'var(--font-display)', fontSize: 'var(--text-3xl)', fontWeight: 600, color: 'var(--danger-500)', lineHeight: 1 }}>{highCount}</div>
           </Card>
-          <Card elevation="sm" style={{ minHeight: 120 }}>
+          <Card elevation="sm" onClick={() => setStatModal('bad_news')} style={{ minHeight: 120, cursor: 'pointer' }}>
             <div style={{ fontSize: 'var(--text-2xs)', letterSpacing: 'var(--tracking-wider)', textTransform: 'uppercase', color: 'var(--text-muted)', fontWeight: 600, marginBottom: 10 }}>Tin xấu / vi phạm</div>
             <div style={{ fontFamily: 'var(--font-display)', fontSize: 'var(--text-3xl)', fontWeight: 600, color: 'var(--seryn-navy)', lineHeight: 1 }}>{totalBadNews}</div>
           </Card>
-          <Card elevation="sm" style={{ minHeight: 120 }}>
+          <Card elevation="sm" onClick={() => setStatModal('new_article')} style={{ minHeight: 120, cursor: 'pointer' }}>
             <div style={{ fontSize: 'var(--text-2xs)', letterSpacing: 'var(--tracking-wider)', textTransform: 'uppercase', color: 'var(--text-muted)', fontWeight: 600, marginBottom: 10 }}>Bài viết mới</div>
             <div style={{ fontFamily: 'var(--font-display)', fontSize: 'var(--text-3xl)', fontWeight: 600, color: 'var(--text-brand)', lineHeight: 1 }}>{totalNewArticles}</div>
           </Card>
@@ -318,6 +358,53 @@ export default function CompetitorDashboard() {
               )}
               {badNewsItems.length === 0 && newArticleItems.length === 0 && (
                 <div style={{ padding: '40px 0', textAlign: 'center', color: 'var(--text-subtle)', fontSize: 'var(--text-sm)' }}>Không có mục chi tiết nào cho thương hiệu này trong báo cáo ngày {fmtDateFull(displayDate)}.</div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* STAT DETAIL MODAL — click-through from the 4 KPI cards above */}
+      {statModalOpen && (
+        <div onClick={() => setStatModal(null)} style={{ position: 'fixed', inset: 0, background: 'rgba(36,28,24,0.45)', backdropFilter: 'blur(3px)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 100, padding: 32 }}>
+          <div onClick={e => e.stopPropagation()} style={{ background: 'var(--surface-card)', borderRadius: 'var(--radius-xl)', boxShadow: 'var(--shadow-lg)', width: '100%', maxWidth: 680, maxHeight: '80vh', display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '24px 28px', borderBottom: '1px solid var(--border-subtle)' }}>
+              <div>
+                <div style={{ fontFamily: 'var(--font-display)', fontSize: 'var(--text-lg)', fontWeight: 600, color: 'var(--seryn-navy)', letterSpacing: 'var(--tracking-tighter)' }}>{statModalTitle}</div>
+                <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-subtle)', marginTop: 4 }}>{statModalRows.length} mục</div>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                <button onClick={() => openPdfPreview({
+                  title: statModalTitle,
+                  subtitle: `${statModalRows.length} mục · Báo cáo ngày ${fmtDateFull(displayDate)} · Seryn Clinic`,
+                  items: statModalRows.map(r => ({ heading: r.heading, lines: r.lines })),
+                  filename: `doi-thu-thong-ke-${statModal}-${displayDate || 'moi-nhat'}.pdf`,
+                })} style={{ border: '1px solid var(--border-default)', background: 'var(--surface-card)', borderRadius: 'var(--radius-pill)', padding: '7px 16px', fontSize: 'var(--text-xs)', fontWeight: 600, color: 'var(--text-brand)', cursor: 'pointer', whiteSpace: 'nowrap' }}>Xuất file PDF</button>
+                <button onClick={() => setStatModal(null)} style={{ border: 'none', background: 'var(--ivory-200)', width: 32, height: 32, borderRadius: '50%', cursor: 'pointer', fontSize: 16, color: 'var(--text-muted)', lineHeight: 1 }}>×</button>
+              </div>
+            </div>
+            <div style={{ overflowY: 'auto', padding: '8px 28px 24px' }}>
+              {statModalRows.length > 0 ? statModalRows.map((r, i) => {
+                const inner = (
+                  <>
+                    <span style={{ width: 8, height: 8, minWidth: 8, marginTop: 6, borderRadius: '50%', background: r.dotColor }} />
+                    <span style={{ flex: '1 1 0%', minWidth: 0 }}>
+                      <span style={{ display: 'block', fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--text-body)' }}>{r.heading}</span>
+                      {r.lines.map((line, li) => (
+                        <span key={li} style={{ display: 'block', fontSize: li === 0 ? 'var(--text-xs)' : 'var(--text-2xs)', color: li === 0 ? 'var(--text-muted)' : 'var(--text-subtle)', marginTop: 3, lineHeight: 'var(--leading-snug)' }}>{line}</span>
+                      ))}
+                    </span>
+                  </>
+                );
+                return r.url ? (
+                  <a key={r.key ?? i} href={r.url} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'flex-start', gap: 12, padding: '14px 0', borderBottom: '1px solid var(--border-subtle)', textDecoration: 'none' }}>{inner}</a>
+                ) : (
+                  <div key={r.key ?? i} style={{ display: 'flex', alignItems: 'flex-start', gap: 12, padding: '14px 0', borderBottom: '1px solid var(--border-subtle)' }}>{inner}</div>
+                );
+              }) : (
+                <div style={{ padding: '40px 0', textAlign: 'center', color: 'var(--text-subtle)', fontSize: 'var(--text-sm)' }}>
+                  {statModalLoading ? 'Đang tải…' : 'Không có dữ liệu cho mục này trong báo cáo ngày ' + (displayDate ? fmtDateFull(displayDate) : '') + '.'}
+                </div>
               )}
             </div>
           </div>
