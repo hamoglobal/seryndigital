@@ -35,6 +35,48 @@ function riskLabel(level) {
 }
 const TYPE_LABELS = { bad_news: 'Tin xấu / vi phạm', new_article: 'Bài viết mới' };
 const STAT_LABELS = { total: 'Thương hiệu theo dõi', high: 'Rủi ro cao', bad_news: 'Tin xấu / vi phạm', new_article: 'Bài viết mới' };
+
+// The report's "Nguồn (URL)" cell isn't a clean single URL: depending on the
+// report-generation era it's a bare publisher name ("Báo Dân Trí"), a
+// placeholder ("—" / "Không có"), a bare domain with no scheme
+// ("kangjinsejung.com.vn"), or — most commonly for the current format — one
+// or more "Tiêu đề bài viết (https://...)" citations packed into one cell,
+// semicolon-separated. Rendering that raw string as a single href is what
+// produced the broken links. This extracts the real, individually-clickable
+// URL(s) actually present in the cell and drops anything without one, per
+// the requirement to only show sources that have a real recorded link.
+function extractCitations(raw) {
+  const s = String(raw ?? '').trim();
+  if (!s) return [];
+  if (['—', '-', 'khong co', 'không có', 'n/a', 'na'].includes(s.toLowerCase())) return [];
+  const out = [];
+  const seen = new Set();
+  // "Title text (https://example.com/article)" — the common packed format.
+  const pairRe = /([^;]*?)\(((https?:\/\/[^\s()]+))\)/g;
+  let m;
+  while ((m = pairRe.exec(s))) {
+    const url = m[2].trim();
+    if (seen.has(url)) continue;
+    seen.add(url);
+    out.push({ heading: m[1].replace(/^[;,\s]+|[;,\s]+$/g, '').trim(), url });
+  }
+  // Any bare http(s) URLs not already captured above (covers cells that are
+  // just newline/space/semicolon-separated URLs with no "Title (...)" wrapper).
+  const bareRe = /https?:\/\/[^\s()]+/g;
+  while ((m = bareRe.exec(s))) {
+    const url = m[0].replace(/[)\].,;]+$/, '');
+    if (seen.has(url)) continue;
+    seen.add(url);
+    out.push({ heading: '', url });
+  }
+  if (out.length > 0) return out;
+  // Bare domain, no scheme, single token (e.g. "kangjinsejung.com.vn") — the
+  // exact source as recorded, just missing "https://".
+  if (!s.includes(' ') && !s.includes('\n') && /^[a-z0-9.-]+\.[a-z]{2,}(\/[^\s]*)?$/i.test(s)) {
+    return [{ heading: '', url: `https://${s}` }];
+  }
+  return [];
+}
 function competitorRiskTone(level) {
   if (level === 'high') return 'danger';
   if (level === 'medium') return 'warning';
@@ -126,8 +168,19 @@ export default function CompetitorDashboard() {
   const datesDesc = dates.slice().reverse();
 
   const modalBrand = brandModal ? brands.find(b => b.brand === brandModal) : null;
-  const badNewsItems = (brandItems || []).filter(i => i.type === 'bad_news');
-  const newArticleItems = (brandItems || []).filter(i => i.type === 'new_article');
+  // Flatten each DB item into its real, individually-linkable citation(s);
+  // items with no recorded URL are dropped entirely (not shown, not counted).
+  function toCitationRows(items, keyPrefix) {
+    return items.flatMap((it, i) => extractCitations(it.url).map((c, ci) => ({
+      key: `${keyPrefix}-${i}-${ci}`,
+      heading: c.heading || (it.summary ? it.summary.slice(0, 100) : it.brand),
+      summary: c.heading ? it.summary : null, // avoid showing the same text twice when there's no distinct article title
+      itemDate: it.itemDate, domain: it.domain, channel: it.channel,
+      url: c.url,
+    })));
+  }
+  const badNewsRows = toCitationRows((brandItems || []).filter(i => i.type === 'bad_news'), 'bn');
+  const newArticleRows = toCitationRows((brandItems || []).filter(i => i.type === 'new_article'), 'na');
 
   // ---- KPI click-through stat modal ("Đối Thủ" side of the click-to-detail pattern used in the main Seryn Digital dashboard) ----
   const statModalOpen = !!statModal;
@@ -146,12 +199,15 @@ export default function CompetitorDashboard() {
       dotColor: riskColor(b.riskLevel),
     }));
   } else if (statModal === 'bad_news' || statModal === 'new_article') {
-    statModalRows = (statItems || []).map((it, i) => ({
-      key: i, heading: it.title || it.summary?.slice(0, 60) || '(không có tiêu đề)',
-      lines: [[it.brand, it.itemDate, it.channel || it.domain].filter(Boolean).join(' · '), it.summary].filter(Boolean),
-      url: it.url,
+    // Flatten each DB item into its real citation(s); items with no recorded
+    // URL are dropped entirely rather than shown with a broken/placeholder link.
+    statModalRows = (statItems || []).flatMap((it, i) => extractCitations(it.url).map((c, ci) => ({
+      key: `${i}-${ci}`,
+      heading: c.heading || (it.summary ? it.summary.slice(0, 100) : it.brand),
+      lines: [[it.brand, it.itemDate].filter(Boolean).join(' · '), c.heading ? it.summary : null].filter(Boolean),
+      url: c.url,
       dotColor: statModal === 'bad_news' ? 'var(--danger-500)' : 'var(--text-brand)',
-    }));
+    })));
   }
   const statModalTitle = statModalOpen ? `${STAT_LABELS[statModal]} — ${fmtDateFull(displayDate)}` : '';
 
@@ -318,10 +374,10 @@ export default function CompetitorDashboard() {
               <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
                 <button onClick={() => openPdfPreview({
                   title: `Đối thủ — ${brandModal}`,
-                  subtitle: `${(brandItems || []).length} mục · Báo cáo ngày ${fmtDateFull(displayDate)}`,
-                  items: (brandItems || []).map(it => ({
-                    heading: `[${TYPE_LABELS[it.type] || it.type}] ${it.title || it.summary?.slice(0, 60) || '(không có tiêu đề)'}`,
-                    lines: [it.summary, [it.itemDate, it.channel].filter(Boolean).join(' · '), it.url].filter(Boolean),
+                  subtitle: `${badNewsRows.length + newArticleRows.length} nguồn có link · Báo cáo ngày ${fmtDateFull(displayDate)}`,
+                  items: [...badNewsRows.map(r => ({ ...r, typeLabel: TYPE_LABELS.bad_news })), ...newArticleRows.map(r => ({ ...r, typeLabel: TYPE_LABELS.new_article }))].map(r => ({
+                    heading: `[${r.typeLabel}] ${r.heading}`,
+                    lines: [r.summary, [r.itemDate, r.channel].filter(Boolean).join(' · '), r.url].filter(Boolean),
                   })),
                   filename: `doi-thu-${brandModal}-${displayDate}.pdf`,
                 })} style={{ border: '1px solid var(--border-default)', background: 'var(--surface-card)', borderRadius: 'var(--radius-pill)', padding: '7px 16px', fontSize: 'var(--text-xs)', fontWeight: 600, color: 'var(--text-brand)', cursor: 'pointer', whiteSpace: 'nowrap' }}>Xuất file PDF</button>
@@ -332,32 +388,32 @@ export default function CompetitorDashboard() {
               {modalBrand && modalBrand.note && (
                 <div style={{ margin: '14px 0', padding: '12px 14px', borderRadius: 'var(--radius-md)', background: riskSoftBg(modalBrand.riskLevel), fontSize: 'var(--text-sm)', color: 'var(--text-body)' }}>{modalBrand.note}</div>
               )}
-              {badNewsItems.length > 0 && (
+              {badNewsRows.length > 0 && (
                 <>
-                  <div style={{ fontSize: 'var(--text-2xs)', textTransform: 'uppercase', letterSpacing: 'var(--tracking-wider)', color: 'var(--text-muted)', fontWeight: 600, margin: '18px 0 8px' }}>Tin xấu / vi phạm ({badNewsItems.length})</div>
-                  {badNewsItems.map((it, i) => (
-                    <a key={i} href={it.url} target="_blank" rel="noopener noreferrer" style={{ display: 'block', padding: '12px 0', borderBottom: '1px solid var(--border-subtle)', textDecoration: 'none' }}>
-                      <div style={{ fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--text-body)' }}>{it.title}</div>
-                      <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 3, lineHeight: 'var(--leading-snug)' }}>{it.summary}</div>
-                      <div style={{ fontSize: 'var(--text-2xs)', color: 'var(--text-subtle)', marginTop: 4 }}>{it.itemDate}{it.domain ? ` · ${it.domain}` : ''}</div>
+                  <div style={{ fontSize: 'var(--text-2xs)', textTransform: 'uppercase', letterSpacing: 'var(--tracking-wider)', color: 'var(--text-muted)', fontWeight: 600, margin: '18px 0 8px' }}>Tin xấu / vi phạm ({badNewsRows.length})</div>
+                  {badNewsRows.map(r => (
+                    <a key={r.key} href={r.url} target="_blank" rel="noopener noreferrer" style={{ display: 'block', padding: '12px 0', borderBottom: '1px solid var(--border-subtle)', textDecoration: 'none' }}>
+                      <div style={{ fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--text-body)' }}>{r.heading}</div>
+                      {r.summary && <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 3, lineHeight: 'var(--leading-snug)' }}>{r.summary}</div>}
+                      <div style={{ fontSize: 'var(--text-2xs)', color: 'var(--text-subtle)', marginTop: 4 }}>{r.itemDate}{r.domain ? ` · ${r.domain}` : ''}</div>
                     </a>
                   ))}
                 </>
               )}
-              {newArticleItems.length > 0 && (
+              {newArticleRows.length > 0 && (
                 <>
-                  <div style={{ fontSize: 'var(--text-2xs)', textTransform: 'uppercase', letterSpacing: 'var(--tracking-wider)', color: 'var(--text-muted)', fontWeight: 600, margin: '18px 0 8px' }}>Bài viết mới ({newArticleItems.length})</div>
-                  {newArticleItems.map((it, i) => (
-                    <a key={i} href={it.url} target="_blank" rel="noopener noreferrer" style={{ display: 'block', padding: '12px 0', borderBottom: '1px solid var(--border-subtle)', textDecoration: 'none' }}>
-                      <div style={{ fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--text-body)' }}>{it.title}</div>
-                      <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 3, lineHeight: 'var(--leading-snug)' }}>{it.summary}</div>
-                      <div style={{ fontSize: 'var(--text-2xs)', color: 'var(--text-subtle)', marginTop: 4 }}>{it.itemDate}{it.channel ? ` · ${it.channel}` : ''}{it.domain ? ` · ${it.domain}` : ''}</div>
+                  <div style={{ fontSize: 'var(--text-2xs)', textTransform: 'uppercase', letterSpacing: 'var(--tracking-wider)', color: 'var(--text-muted)', fontWeight: 600, margin: '18px 0 8px' }}>Bài viết mới ({newArticleRows.length})</div>
+                  {newArticleRows.map(r => (
+                    <a key={r.key} href={r.url} target="_blank" rel="noopener noreferrer" style={{ display: 'block', padding: '12px 0', borderBottom: '1px solid var(--border-subtle)', textDecoration: 'none' }}>
+                      <div style={{ fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--text-body)' }}>{r.heading}</div>
+                      {r.summary && <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 3, lineHeight: 'var(--leading-snug)' }}>{r.summary}</div>}
+                      <div style={{ fontSize: 'var(--text-2xs)', color: 'var(--text-subtle)', marginTop: 4 }}>{r.itemDate}{r.channel ? ` · ${r.channel}` : ''}{r.domain ? ` · ${r.domain}` : ''}</div>
                     </a>
                   ))}
                 </>
               )}
-              {badNewsItems.length === 0 && newArticleItems.length === 0 && (
-                <div style={{ padding: '40px 0', textAlign: 'center', color: 'var(--text-subtle)', fontSize: 'var(--text-sm)' }}>Không có mục chi tiết nào cho thương hiệu này trong báo cáo ngày {fmtDateFull(displayDate)}.</div>
+              {badNewsRows.length === 0 && newArticleRows.length === 0 && (
+                <div style={{ padding: '40px 0', textAlign: 'center', color: 'var(--text-subtle)', fontSize: 'var(--text-sm)' }}>Không có nguồn nào có link hợp lệ cho thương hiệu này trong báo cáo ngày {fmtDateFull(displayDate)}.</div>
               )}
             </div>
           </div>
