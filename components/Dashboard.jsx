@@ -13,8 +13,12 @@ import {
   fmtDateLabel, fmtDateFull, buildBuckets, sourcesForBucket, dedupeSources, typeStats,
   colorForRisk, softBgForRisk, borderForRisk, labelForRisk, cap,
 } from '@/lib/aggregate';
-import { buildListPdf, buildOverviewPdf, pdfToPreviewUrl, revokePdfPreviewUrl, sentimentRgb, riskTone } from '@/lib/exportPdf';
+import {
+  buildListPdf, buildOverviewPdf, buildRecommendationsPdf, pdfToPreviewUrl, revokePdfPreviewUrl, sentimentRgb, riskTone,
+} from '@/lib/exportPdf';
+import { buildSerynRecommendations } from '@/lib/recommendations';
 import PdfPreviewModal from './PdfPreviewModal';
+import RecommendationsModal from './RecommendationsModal';
 import TopNav from './TopNav';
 
 const VIEW_MODES = ['day', 'week', 'month', 'year'];
@@ -50,6 +54,9 @@ export default function Dashboard() {
   const [channelModal, setChannelModal] = useState(null);
   const [riskModalOpen, setRiskModalOpen] = useState(false);
   const [pdfPreview, setPdfPreview] = useState(null); // { url, filename, doc }
+  const [competitors, setCompetitors] = useState(null); // { date, brands } from /api/competitors/brands, feeds "Khuyến nghị Seryn"
+  const [recoModalOpen, setRecoModalOpen] = useState(false);
+  const [recoExporting, setRecoExporting] = useState(false);
 
   async function openPdfPreview({ title, subtitle, items, filename }) {
     const doc = await buildListPdf({ title, subtitle, items });
@@ -73,6 +80,19 @@ export default function Dashboard() {
       return { url, filename: overviewData.filename, doc };
     });
   }
+  async function openRecommendationsPdfPreview(pdfData) {
+    setRecoExporting(true);
+    try {
+      const doc = await buildRecommendationsPdf(pdfData);
+      const url = pdfToPreviewUrl(doc);
+      setPdfPreview(prev => {
+        if (prev) revokePdfPreviewUrl(prev.url);
+        return { url, filename: pdfData.filename, doc };
+      });
+    } finally {
+      setRecoExporting(false);
+    }
+  }
 
   useEffect(() => {
     let cancelled = false;
@@ -92,6 +112,18 @@ export default function Dashboard() {
         if (!cancelled) setLoadError(err.message || String(err));
       }
     })();
+    return () => { cancelled = true; };
+  }, []);
+
+  // Fetches independently of the days/sources/latest load above: "Khuyến nghị
+  // Seryn" degrades gracefully (buildSerynRecommendations treats competitors
+  // as optional) if the competitor-monitoring feed is unavailable, so a
+  // failure here must never block the main dashboard from rendering.
+  useEffect(() => {
+    let cancelled = false;
+    fetch('/api/competitors/brands').then(r => r.json()).then(d => {
+      if (!cancelled) setCompetitors(d);
+    }).catch(() => { /* non-fatal — recommendations just note competitor data is missing */ });
     return () => { cancelled = true; };
   }, []);
 
@@ -267,6 +299,15 @@ export default function Dashboard() {
     ],
   };
 
+  // ---- "Khuyến nghị Seryn" — daily/weekly marketing advisory built from the
+  // same selected-period brand data above plus the latest competitor snapshot
+  // (see lib/recommendations.js). Pure/cheap, so recomputed on every render
+  // rather than cached in state; `competitors` is null until its fetch
+  // resolves, which buildSerynRecommendations handles gracefully.
+  const recoData = buildSerynRecommendations({
+    selBucket, lastDay, days, mode, modeNoun, rangeLabel, channels, tagStats, watchItems, competitors,
+  });
+
   return (
     <div style={{ minHeight: '100vh', background: 'radial-gradient(1100px 520px at 12% -8%, var(--coral-100), transparent), var(--bg-page)', fontFamily: 'var(--font-sans)', color: 'var(--text-body)' }}>
 
@@ -294,6 +335,11 @@ export default function Dashboard() {
               borderRadius: 'var(--radius-pill)', padding: '11px 22px', fontSize: 'var(--text-sm)', fontWeight: 600,
               cursor: 'pointer', whiteSpace: 'nowrap', boxShadow: 'var(--shadow-sm)',
             }}>Xuất báo cáo tổng thể</button>
+            <button onClick={() => setRecoModalOpen(true)} style={{
+              display: 'flex', alignItems: 'center', gap: 8, border: '1px solid var(--seryn-navy)', background: 'var(--surface-card)', color: 'var(--seryn-navy)',
+              borderRadius: 'var(--radius-pill)', padding: '11px 22px', fontSize: 'var(--text-sm)', fontWeight: 600,
+              cursor: 'pointer', whiteSpace: 'nowrap', boxShadow: 'var(--shadow-sm)',
+            }}>Khuyến nghị Seryn</button>
           </div>
         </div>
       </div>
@@ -651,6 +697,27 @@ export default function Dashboard() {
           </div>
         </div>
       )}
+
+    {recoModalOpen && (
+      <RecommendationsModal
+        data={recoData}
+        competitorDataMissing={!competitors}
+        exporting={recoExporting}
+        onClose={() => setRecoModalOpen(false)}
+        onExportPdf={() => openRecommendationsPdfPreview({
+          eyebrow: 'Seryn Clinic · Cố vấn Marketing',
+          title: 'Khuyến nghị Seryn',
+          subtitle: `${recoData.periodLabel} · Seryn Clinic`,
+          generatedLabel: `Xuất ngày ${fmtDateFull(lastDay.date)}`,
+          filename: `khuyen-nghi-seryn-${selBucket.key}.pdf`,
+          postureLabel: recoData.posture?.label,
+          postureTone: recoData.posture?.tone,
+          headline: recoData.headline,
+          daily: recoData.daily,
+          weekly: recoData.weekly,
+        })}
+      />
+    )}
 
     <PdfPreviewModal pdfPreview={pdfPreview} onClose={closePdfPreview} />
     </div>
