@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-28",
+  "date": "2026-07-29",
   "topSources": [
     {
       "title": "Phòng Khám Đa Khoa Seryn | Seryn Clinic (Website chính thức)",
@@ -138,6 +138,14 @@
       "isNew": false
     },
     {
+      "title": "Trẻ hóa gương mặt: vì sao liệu trình riêng lẻ không còn được ưa chuộng - ThanhNienViet.vn (syndicate, lần đầu ghi nhận)",
+      "url": "https://thanhnienviet.vn/tre-hoa-guong-mat-vi-sao-nhung-lieu-trinh-rieng-le-khong-con-duoc-ua-chuong-209260318154118679.htm",
+      "domain": "thanhnienviet.vn",
+      "type": "Báo chí PR",
+      "sentiment": "positive",
+      "isNew": true
+    },
+    {
       "title": "Trẻ Hoá Sera Core - Landing page 2026 - seryn.vn",
       "url": "https://seryn.vn/landing/2026/tre-hoa-sera-core.html",
       "domain": "seryn.vn",
@@ -175,7 +183,7 @@
       "domain": "trungtamthuoc.com",
       "type": "Nhầm lẫn - Thuốc",
       "sentiment": "neutral",
-      "isNew": true
+      "isNew": false
     },
     {
       "title": "Trẻ hóa không đến từ skincare thông thường - VietnamNet",
@@ -183,6 +191,14 @@
       "domain": "vietnamnet.vn",
       "type": "Báo chí PR",
       "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "title": "Công ty Cổ phần Quốc tế Medpro Asia - TopCV.vn (hồ sơ hành chính)",
+      "url": "https://www.topcv.vn/cong-ty/cong-ty-co-phan-quoc-te-medpro-asia/254685.html",
+      "domain": "topcv.vn",
+      "type": "Hồ sơ hành chính/tuyển dụng",
+      "sentiment": "neutral",
       "isNew": false
     },
     {
@@ -207,7 +223,7 @@
       "domain": "wanderlog.com",
       "type": "Directory",
       "sentiment": "neutral",
-      "isNew": true
+      "isNew": false
     },
     {
       "title": "Không tìm thấy bài viết tiêu cực/lừa đảo nào nhắc đích danh Seryn Clinic (24 Nguyễn Bỉnh Khiêm) hôm nay.",
@@ -224,30 +240,6 @@
       "type": "Kết quả rà soát",
       "sentiment": "positive",
       "isNew": false
-    },
-    {
-      "title": "ĐÃ XÁC MINH: chi nhánh 454 Xã Đàn, Hà Nội (Clinexa Việt Nam, GPHĐ 4903/HNO-GPHĐ cấp 25/03/2026) là cơ sở hợp pháp thứ 2 của thương hiệu — gỡ khỏi carry-forward nghi vấn.",
-      "url": "-",
-      "domain": "",
-      "type": "Kết quả rà soát - Đã xác minh",
-      "sentiment": "positive",
-      "isNew": false
-    },
-    {
-      "title": "Carry-forward: Facebook 'Thanh Xuân' trùng tên - ID 61551500829974 không xuất hiện lại trong kết quả hôm nay; giữ carry-forward, chưa đủ bằng chứng xác nhận đã gỡ bỏ.",
-      "url": "https://www.facebook.com/profile.php/?id=61551500829974",
-      "domain": "facebook.com",
-      "type": "Mạng xã hội - cần xác minh",
-      "sentiment": "neutral",
-      "isNew": false
-    },
-    {
-      "title": "CẬP NHẬT PHÂN LOẠI theo danh sách Facebook chính chủ khách xác nhận (2026-07-27): 3 trang FB tên Seryn (ID 100094769671762, 61551700769618, 61551825290264) không có trong danh sách → hạ xuống Trung tính; ID 61550115911294 có trong danh sách → nâng lên Tích cực. Xem sheet Mang Xa Hoi.",
-      "url": "-",
-      "domain": "",
-      "type": "Ghi chú phân loại quan trọng",
-      "sentiment": "neutral",
-      "isNew": false
     }
   ],
   "social": [
@@ -257,7 +249,7 @@
       "url": "https://www.facebook.com/p/Ph%C3%B2ng-kh%C3%A1m-Seryn-100094769671762/",
       "accountType": "",
       "sentiment": "Trung tính",
-      "note": "Không có trong danh sách Facebook chính chủ đã xác nhận (2026-07-27) — cần khách xác nhận có trùng trang chính thức 'phongkhamserynvietnam' hay không. Hạ từ Tích cực (báo cáo trước) xuống Trung tính chờ xác minh."
+      "note": "Không có trong danh sách Facebook chính chủ đã xác nhận (2026-07-27) — carry-forward, chờ khách xác nhận có trùng trang 'phongkhamserynvietnam' hay không."
     },
     {
       "platform": "Facebook",
@@ -265,7 +257,7 @@
       "url": "https://www.facebook.com/61551700769618",
       "accountType": "",
       "sentiment": "Trung tính",
-      "note": "Không có trong danh sách Facebook chính chủ đã xác nhận (2026-07-27). Hạ từ Tích cực xuống Trung tính chờ xác minh."
+      "note": "Không có trong danh sách Facebook chính chủ đã xác nhận (2026-07-27) — carry-forward."
     },
     {
       "platform": "Facebook",
@@ -273,7 +265,7 @@
       "url": "https://www.facebook.com/profile.php/?id=61551825290264",
       "accountType": "",
       "sentiment": "Trung tính",
-      "note": "Không có trong danh sách Facebook chính chủ đã xác nhận (2026-07-27). Báo cáo 2026-07-27 từng ghi 'chính chủ đã xác minh' — nay hạ xuống Trung tính, cần khách xác nhận lại."
+      "note": "Không có trong danh sách Facebook chính chủ đã xác nhận (2026-07-27) — carry-forward, chờ khách xác nhận lại."
     },
     {
       "platform": "Facebook",
@@ -281,7 +273,7 @@
       "url": "https://www.facebook.com/p/Chuy%C3%AAn-gia-s%E1%BA%AFc-%C4%91%E1%BA%B9p-L%E1%BA%A1i-Minh-Hi%E1%BA%BFu-Seryn-Clinic-61550115911294/",
       "accountType": "",
       "sentiment": "Tích cực",
-      "note": "CÓ trong danh sách Facebook chính chủ đã xác nhận (2026-07-27) — nâng từ Trung tính (báo cáo trước) lên Tích cực."
+      "note": "CÓ trong danh sách Facebook chính chủ đã xác nhận (2026-07-27)."
     },
     {
       "platform": "Facebook",
@@ -305,7 +297,7 @@
       "url": "-",
       "accountType": "",
       "sentiment": "An toàn",
-      "note": "Kết quả rà soát — thương hiệu chưa có/không có kênh TikTok hoạt động được tìm thấy hôm nay (chỉ thấy thương hiệu trùng tên quốc tế: Seren/Seorin/Sera/Sherie Clinic)."
+      "note": "Kết quả rà soát — thương hiệu chưa có/không có kênh TikTok hoạt động được tìm thấy hôm nay (chỉ thấy thương hiệu trùng tên quốc tế: Seorin/Sera/Seren Clinic)."
     }
   ],
   "alerts": [],
@@ -324,27 +316,27 @@
     },
     {
       "time": "Bước 4",
-      "step": "So sánh báo cáo trước (2026-07-27)",
-      "result": "OK — 2 nguồn mới (TrungTamThuoc.com, Wanderlog); cập nhật phân loại 4 trang Facebook theo danh sách chính chủ; gỡ carry-forward chi nhánh Hà Nội",
+      "step": "So sánh báo cáo trước (2026-07-28)",
+      "result": "OK — 1 nguồn mới (ThanhNienViet.vn); phân loại giữ nguyên theo danh sách chính chủ; 2 mục carry-forward tiếp tục theo dõi",
       "note": "-"
     },
     {
       "time": "Bước 5",
       "step": "Tạo báo cáo Excel",
-      "result": "OK — Bao_cao_Seryn_Monitoring_2026-07-28.xlsx",
+      "result": "OK — Bao_cao_Seryn_Monitoring_2026-07-29.xlsx",
       "note": "-"
     },
     {
-      "time": "08:14",
-      "step": "Upload Drive",
-      "result": "OK 6.1 — Shared Drive aware, tạo trực tiếp trong folder khách",
-      "note": "https://docs.google.com/spreadsheets/d/11dLQtLxsYH9sdXYehm5XFInU_yRtPAOAekUKxWZKv6k/edit"
+      "time": "08:10",
+      "step": "Copy sang incoming (Bước 5b)",
+      "result": "OK — đã xác minh fuse mount (mount | grep incoming) + diff byte-identical (xlsx & csv)",
+      "note": "/sessions/.../mnt/incoming/Bao_cao_Seryn_Monitoring_2026-07-29.xlsx"
     },
     {
-      "time": "08:15",
-      "step": "Copy sang incoming (Bước 5b)",
-      "result": "OK — đã xác minh fuse mount + diff byte-identical",
-      "note": "/Seryn Digital/.../reports/incoming/Bao_cao_Seryn_Monitoring_2026-07-28.xlsx"
+      "time": "08:12",
+      "step": "Upload Drive (Bước 6.1)",
+      "result": "OK 6.1 — Shared Drive aware, tạo trực tiếp trong folder khách; xác minh nội dung qua read_file_content",
+      "note": "https://docs.google.com/spreadsheets/d/1nQneFNO4xOktuTFI9TztB8j60LUSO2lALDnXo0AwY7w/edit"
     }
   ]
 }
