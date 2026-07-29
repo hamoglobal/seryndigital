@@ -2,11 +2,14 @@
 
 // components/RecommendationsModal.jsx
 // "Khuyến nghị Seryn" — in-app presentation of the advisory report built by
-// lib/recommendations.js: an executive headline + prioritized daily-action /
-// weekly-strategy lists, styled with the same design tokens as the rest of
-// the dashboard. `onExportPdf` hands off to Dashboard.jsx, which builds the
-// matching branded PDF (lib/exportPdf.js#buildRecommendationsPdf) and opens
-// it in the shared PdfPreviewModal — this component only renders the on-screen view.
+// lib/recommendations.js: a verdict ("đã đi đúng hướng chưa?", computed
+// against the prior period of the same granularity) plus a mode-appropriate
+// recommendation list, driven by whichever Ngày/Tuần/Tháng/Năm period the
+// dashboard's own period switcher currently has selected. Styled with the
+// same design tokens as the rest of the dashboard. `onExportPdf` hands off
+// to Dashboard.jsx, which builds the matching branded PDF
+// (lib/exportPdf.js#buildRecommendationsPdf) and opens it in the shared
+// PdfPreviewModal — this component only renders the on-screen view.
 
 const TONE_STYLES = {
   danger: { color: 'var(--danger-500)', bg: 'var(--danger-100)', border: 'var(--coral-300)' },
@@ -73,7 +76,7 @@ function Section({ title, subtitle, items, emptyLabel }) {
  */
 export default function RecommendationsModal({ data, competitorDataMissing, onClose, onExportPdf, exporting }) {
   if (!data) return null;
-  const postureT = tone(data.posture?.tone);
+  const verdictT = tone(data.verdict?.tone);
 
   return (
     <div onClick={onClose} style={{ position: 'fixed', inset: 0, background: 'rgba(36,28,24,0.55)', backdropFilter: 'blur(3px)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 100, padding: 32 }}>
@@ -99,13 +102,13 @@ export default function RecommendationsModal({ data, competitorDataMissing, onCl
         {/* BODY */}
         <div style={{ overflowY: 'auto', padding: '22px 28px 32px', display: 'flex', flexDirection: 'column', gap: 26 }}>
 
-          {/* Headline / posture */}
-          <div style={{ background: postureT.bg, border: `1px solid ${postureT.border}`, borderRadius: 'var(--radius-lg)', padding: '18px 20px' }}>
+          {/* Verdict — "đã đi đúng hướng chưa?" for the currently-selected Ngày/Tuần/Tháng/Năm period */}
+          <div style={{ background: verdictT.bg, border: `1px solid ${verdictT.border}`, borderRadius: 'var(--radius-lg)', padding: '18px 20px' }}>
             <span style={{
               display: 'inline-block', fontSize: 'var(--text-2xs)', fontWeight: 700, letterSpacing: '0.04em', textTransform: 'uppercase',
-              color: postureT.color, background: 'var(--surface-card)', borderRadius: 'var(--radius-pill)', padding: '4px 12px', marginBottom: 10,
-            }}>{data.posture?.label}</span>
-            <p style={{ margin: 0, fontSize: 'var(--text-sm)', color: 'var(--text-body)', lineHeight: 'var(--leading-relaxed)' }}>{data.headline}</p>
+              color: verdictT.color, background: 'var(--surface-card)', borderRadius: 'var(--radius-pill)', padding: '4px 12px', marginBottom: 10,
+            }}>{data.verdict?.label}</span>
+            <p style={{ margin: 0, fontSize: 'var(--text-sm)', color: 'var(--text-body)', lineHeight: 'var(--leading-relaxed)' }}>{data.verdict?.reasoning}</p>
             {competitorDataMissing && (
               <p style={{ margin: '10px 0 0', fontSize: 'var(--text-2xs)', color: 'var(--text-subtle)', fontStyle: 'italic' }}>
                 * Chưa tải được dữ liệu đối thủ tại thời điểm tạo khuyến nghị — các mục liên quan đến đối thủ có thể chưa đầy đủ.
@@ -114,17 +117,10 @@ export default function RecommendationsModal({ data, competitorDataMissing, onCl
           </div>
 
           <Section
-            title="Hành động hằng ngày"
-            subtitle={`${data.daily?.length || 0} khuyến nghị · kiểm tra mỗi sáng`}
-            items={data.daily}
-            emptyLabel="Không có khuyến nghị hằng ngày nào cho dữ liệu hiện tại."
-          />
-
-          <Section
-            title="Chiến lược hằng tuần"
-            subtitle={`${data.weekly?.length || 0} khuyến nghị · rà soát đầu tuần`}
-            items={data.weekly}
-            emptyLabel="Không có khuyến nghị hằng tuần nào cho dữ liệu hiện tại."
+            title={data.itemsSectionTitle}
+            subtitle={`${data.items?.length || 0} khuyến nghị`}
+            items={data.items}
+            emptyLabel="Không có khuyến nghị nào cho kỳ này."
           />
 
           <p style={{ margin: 0, fontSize: 'var(--text-2xs)', color: 'var(--text-subtle)', lineHeight: 'var(--leading-relaxed)', borderTop: '1px solid var(--border-subtle)', paddingTop: 16 }}>

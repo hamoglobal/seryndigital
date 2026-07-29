@@ -164,6 +164,11 @@ export default function Dashboard() {
   const mode = viewMode;
   const buckets = buildBuckets(days, mode, sourcesByDay);
   const selBucket = (selectedKey && buckets.find(b => b.key === selectedKey)) || buckets[buckets.length - 1];
+  // Immediately preceding bucket of the SAME granularity as `mode` (previous
+  // day/week/month/year) — feeds "Khuyến nghị Seryn"'s verdict (đã đi đúng
+  // hướng chưa?), which compares the selected period against it.
+  const selBucketIndex = buckets.findIndex(b => b.key === selBucket.key);
+  const prevBucket = selBucketIndex > 0 ? buckets[selBucketIndex - 1] : null;
   const selTotal = selBucket.total || 1;
   const positivePct = Math.round((selBucket.positive / selTotal) * 100);
   const neutralPct = Math.round((selBucket.neutral / selTotal) * 100);
@@ -299,13 +304,15 @@ export default function Dashboard() {
     ],
   };
 
-  // ---- "Khuyến nghị Seryn" — daily/weekly marketing advisory built from the
-  // same selected-period brand data above plus the latest competitor snapshot
-  // (see lib/recommendations.js). Pure/cheap, so recomputed on every render
+  // ---- "Khuyến nghị Seryn" — mode-aware marketing advisory: switching the
+  // period switcher (Ngày/Tuần/Tháng/Năm) changes `mode`/`selBucket`/
+  // `prevBucket` above, so the verdict + recommendation list here are always
+  // computed from whichever granularity is currently selected (see
+  // lib/recommendations.js). Pure/cheap, so recomputed on every render
   // rather than cached in state; `competitors` is null until its fetch
   // resolves, which buildSerynRecommendations handles gracefully.
   const recoData = buildSerynRecommendations({
-    selBucket, lastDay, days, mode, modeNoun, rangeLabel, channels, tagStats, watchItems, competitors,
+    mode, modeNoun, selBucket, prevBucket, lastDay, days, channels, tagStats, watchItems, competitors,
   });
 
   return (
@@ -706,15 +713,15 @@ export default function Dashboard() {
         onClose={() => setRecoModalOpen(false)}
         onExportPdf={() => openRecommendationsPdfPreview({
           eyebrow: 'Seryn Clinic · Cố vấn Marketing',
-          title: 'Khuyến nghị Seryn',
-          subtitle: `${recoData.periodLabel} · Seryn Clinic`,
+          title: `Khuyến nghị Seryn — ${recoData.periodLabel}`,
+          subtitle: `${cap(modeNoun)} đang chọn: ${recoData.periodLabel} · Seryn Clinic`,
           generatedLabel: `Xuất ngày ${fmtDateFull(lastDay.date)}`,
-          filename: `khuyen-nghi-seryn-${selBucket.key}.pdf`,
-          postureLabel: recoData.posture?.label,
-          postureTone: recoData.posture?.tone,
-          headline: recoData.headline,
-          daily: recoData.daily,
-          weekly: recoData.weekly,
+          filename: `khuyen-nghi-seryn-${mode}-${selBucket.key}.pdf`,
+          verdictLabel: recoData.verdict?.label,
+          verdictTone: recoData.verdict?.tone,
+          reasoning: recoData.verdict?.reasoning,
+          itemsSectionTitle: recoData.itemsSectionTitle,
+          items: recoData.items,
         })}
       />
     )}
