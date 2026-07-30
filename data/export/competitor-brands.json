@@ -9474,8 +9474,8 @@
   "2026-07-30": [
     {
       "brand": "Bệnh viện thẩm mỹ Kangnam",
-      "badNews": 0,
-      "newArticles": 0,
+      "badNews": 4,
+      "newArticles": 1,
       "riskLevel": "high",
       "riskRaw": "Cao",
       "note": "Vi phạm trải rộng nhiều cơ sở/chi nhánh, có tước chứng chỉ hành nghề bác sĩ và đang bị kiểm tra (1/2026).",
@@ -9483,44 +9483,80 @@
     },
     {
       "brand": "Lavender By Chang",
-      "badNews": 0,
-      "newArticles": 0,
+      "badNews": 3,
+      "newArticles": 1,
       "riskLevel": "high",
       "riskRaw": "Cao",
       "note": "Vi phạm mang tính hệ thống qua nhiều năm (2019-2024), từng đổi tên sau vi phạm.",
       "mainSources": ""
     },
     {
-      "brand": "Thanh Hằng Beauty Medi",
-      "badNews": 0,
-      "newArticles": 0,
-      "riskLevel": "medium",
-      "riskRaw": "Trung bình",
-      "note": "Có vi phạm về nhân sự và quảng cáo, mức độ trung bình, chưa ghi nhận đình chỉ dài hạn.",
-      "mainSources": ""
-    },
-    {
-      "brand": "Thẩm mỹ Hongkong",
-      "badNews": 0,
-      "newArticles": 0,
-      "riskLevel": "high",
-      "riskRaw": "Cao",
-      "note": "Bị phản ánh thực hiện dịch vụ vượt phạm vi giấy phép (laser/tia sóng) — Sở Y tế Hà Nội xác nhận chưa cấp phép phòng khám da liễu.",
-      "mainSources": ""
-    },
-    {
       "brand": "Thẩm mỹ Seoul",
-      "badNews": 0,
-      "newArticles": 0,
+      "badNews": 3,
+      "newArticles": 1,
       "riskLevel": "high",
       "riskRaw": "Cao",
       "note": "Nhóm thương hiệu 'Seoul' có nhiều pháp nhân bị đình chỉ hoạt động dài hạn (18 tháng) và phạt nặng (210 triệu đồng).",
       "mainSources": ""
     },
     {
+      "brand": "Thẩm mỹ viện Xuân Hương",
+      "badNews": 3,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Có cơ sở cùng tên bị đình chỉ do vi phạm nghiêm trọng (không đăng ký kinh doanh, dùng sản phẩm không nhãn) — cần xác minh có trùng thương hiệu theo dõi.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ KangJin Sejung",
+      "badNews": 3,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Bị xử phạt lặp lại nhiều lần (quảng cáo sai, nhân sự không chứng chỉ, đình chỉ 3 tháng).",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thanh Hằng Beauty Medi",
+      "badNews": 2,
+      "newArticles": 1,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "Có vi phạm về nhân sự và quảng cáo, mức độ trung bình, chưa ghi nhận đình chỉ dài hạn.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Bally",
+      "badNews": 2,
+      "newArticles": 1,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "Vi phạm quảng cáo và dịch vụ xâm lấn trái phép được phản ánh nhưng chưa có mức phạt cụ thể gần đây.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Ngọc Dung",
+      "badNews": 1,
+      "newArticles": 2,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Từng bị tước giấy phép hoạt động 3 tháng do vượt phạm vi chuyên môn — vi phạm nghiêm trọng dù đã xảy ra trước đây.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Hongkong",
+      "badNews": 1,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Bị phản ánh thực hiện dịch vụ vượt phạm vi giấy phép (laser/tia sóng) — Sở Y tế Hà Nội xác nhận chưa cấp phép phòng khám da liễu.",
+      "mainSources": ""
+    },
+    {
       "brand": "Thẩm mỹ Thu Cúc",
-      "badNews": 0,
-      "newArticles": 0,
+      "badNews": 1,
+      "newArticles": 1,
       "riskLevel": "low",
       "riskRaw": "Thấp",
       "note": "Không ghi nhận vi phạm qua tra cứu.",
@@ -9528,26 +9564,17 @@
     },
     {
       "brand": "Thẩm mỹ viện Dr. Thái Hà",
-      "badNews": 0,
-      "newArticles": 0,
+      "badNews": 1,
+      "newArticles": 1,
       "riskLevel": "low",
       "riskRaw": "Thấp",
       "note": "Không ghi nhận vi phạm qua tra cứu.",
       "mainSources": ""
     },
     {
-      "brand": "Thẩm mỹ viện Ngọc Dung",
-      "badNews": 0,
-      "newArticles": 0,
-      "riskLevel": "high",
-      "riskRaw": "Cao",
-      "note": "Từng bị tước giấy phép hoạt động 3 tháng do vượt phạm vi chuyên môn — vi phạm nghiêm trọng dù đã xảy ra trước đây.",
-      "mainSources": ""
-    },
-    {
       "brand": "Thẩm mỹ viện VITA Clinic",
-      "badNews": 0,
-      "newArticles": 0,
+      "badNews": 1,
+      "newArticles": 1,
       "riskLevel": "low",
       "riskRaw": "Thấp",
       "note": "Không ghi nhận vi phạm qua tra cứu.",
@@ -9555,47 +9582,20 @@
     },
     {
       "brand": "Thẩm mỹ viện VietCharm",
-      "badNews": 0,
-      "newArticles": 0,
+      "badNews": 1,
+      "newArticles": 1,
       "riskLevel": "low",
       "riskRaw": "Thấp",
       "note": "Không ghi nhận vi phạm qua tra cứu.",
       "mainSources": ""
     },
     {
-      "brand": "Thẩm mỹ viện Xuân Hương",
-      "badNews": 0,
-      "newArticles": 0,
-      "riskLevel": "high",
-      "riskRaw": "Cao",
-      "note": "Có cơ sở cùng tên bị đình chỉ do vi phạm nghiêm trọng (không đăng ký kinh doanh, dùng sản phẩm không nhãn) — cần xác minh có trùng thương hiệu theo dõi.",
-      "mainSources": ""
-    },
-    {
-      "brand": "Viện thẩm mỹ Bally",
-      "badNews": 0,
-      "newArticles": 0,
-      "riskLevel": "medium",
-      "riskRaw": "Trung bình",
-      "note": "Vi phạm quảng cáo và dịch vụ xâm lấn trái phép được phản ánh nhưng chưa có mức phạt cụ thể gần đây.",
-      "mainSources": ""
-    },
-    {
       "brand": "Viện thẩm mỹ Dr. Hải Lê",
-      "badNews": 0,
-      "newArticles": 0,
+      "badNews": 1,
+      "newArticles": 1,
       "riskLevel": "low",
       "riskRaw": "Thấp",
       "note": "Không ghi nhận vi phạm; vừa được Bộ Y tế cấp phép hoạt động theo mô hình bệnh viện chuyên khoa.",
-      "mainSources": ""
-    },
-    {
-      "brand": "Viện thẩm mỹ KangJin Sejung",
-      "badNews": 0,
-      "newArticles": 0,
-      "riskLevel": "high",
-      "riskRaw": "Cao",
-      "note": "Bị xử phạt lặp lại nhiều lần (quảng cáo sai, nhân sự không chứng chỉ, đình chỉ 3 tháng).",
       "mainSources": ""
     }
   ]
