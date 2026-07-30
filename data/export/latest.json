@@ -244,7 +244,7 @@
   ],
   "social": [
     {
-      "platform": "",
+      "platform": "Facebook",
       "account": "Chuyên gia sắc đẹp Lại Minh Hiếu - Seryn Clinic (ID 61550115911294)",
       "url": "https://www.facebook.com/p/Chuy%C3%AAn-gia-s%E1%BA%AFc-%C4%91%E1%BA%B9p-L%E1%BA%A1i-Minh-Hi%E1%BA%BFu-Seryn-Clinic-61550115911294/",
       "accountType": "",
@@ -252,7 +252,7 @@
       "note": "Có trong danh sách kênh xác nhận chính thức (KOL nội bộ)"
     },
     {
-      "platform": "",
+      "platform": "Facebook",
       "account": "Phòng khám Seryn Việt Nam (ID 100094769671762)",
       "url": "https://www.facebook.com/p/Ph%C3%B2ng-kh%C3%A1m-Seryn-100094769671762/",
       "accountType": "",
@@ -260,7 +260,7 @@
       "note": "Chưa có trong danh sách xác nhận — theo dõi"
     },
     {
-      "platform": "",
+      "platform": "Facebook",
       "account": "Lại Minh Hiếu - Phòng khám Seryn Việt Nam (ID 61551700769618)",
       "url": "https://www.facebook.com/61551700769618",
       "accountType": "",
@@ -268,7 +268,7 @@
       "note": "Chưa có trong danh sách xác nhận — theo dõi"
     },
     {
-      "platform": "",
+      "platform": "Facebook",
       "account": "Thanh Xuân - Phòng khám Seryn Việt Nam (ID 61551500829974)",
       "url": "https://www.facebook.com/profile.php/?id=61551500829974",
       "accountType": "",
@@ -276,7 +276,7 @@
       "note": "Chưa xác minh — trùng mẫu tên 'Thanh Xuân', carry-forward"
     },
     {
-      "platform": "",
+      "platform": "Facebook",
       "account": "Thanh Xuân - Seryn Clinic Việt Nam (ID 61551825290264)",
       "url": "https://www.facebook.com/profile.php/?id=61551825290264",
       "accountType": "",
@@ -284,7 +284,7 @@
       "note": "Chưa xác minh — trùng mẫu tên 'Thanh Xuân', carry-forward"
     },
     {
-      "platform": "",
+      "platform": "Facebook",
       "account": "Seren Clinic (Phaya Thai) / Seren Klinik (Istanbul) / Seren Clinic & Serene Clinic (Chiang Mai)",
       "url": "https://www.facebook.com/serenclinic/ ; https://www.facebook.com/serenklinik/",
       "accountType": "",
@@ -292,7 +292,7 @@
       "note": "Thương hiệu trùng tên, không liên quan Seryn VN"
     },
     {
-      "platform": "",
+      "platform": "TikTok",
       "account": "Không tìm thấy kênh TikTok chính thức nào của Seryn Clinic",
       "url": "-",
       "accountType": "",
@@ -300,7 +300,7 @@
       "note": "Kết quả rà soát"
     },
     {
-      "platform": "",
+      "platform": "TikTok",
       "account": "Seorin Clinic (Bangkok) / Sera Clinic (Thái Lan) / Seren Clinic (Chiang Mai)",
       "url": "https://www.tiktok.com/@seraclinic",
       "accountType": "",
@@ -308,7 +308,7 @@
       "note": "Thương hiệu trùng tên, không liên quan Seryn VN"
     },
     {
-      "platform": "",
+      "platform": "YouTube",
       "account": "Phòng Khám Đa Khoa SERYN (kênh chính thức)",
       "url": "https://www.youtube.com/channel/UCojQ10-ZUGAt4hOpbMqaIZA",
       "accountType": "",
@@ -316,7 +316,7 @@
       "note": "Kênh YouTube chính thức"
     },
     {
-      "platform": "",
+      "platform": "YouTube",
       "account": "Seryn - \"Nicotine\" (ban nhạc Seryn, Nashville — không liên quan)",
       "url": "https://www.youtube.com/watch?v=dquYnCJfNL8",
       "accountType": "",
@@ -324,7 +324,7 @@
       "note": "Thương hiệu trùng tên, không liên quan"
     },
     {
-      "platform": "",
+      "platform": "YouTube",
       "account": "Seren Clinic / Sera Clinic / Gangnam Seran Clinic / Serena Clinic",
       "url": "https://www.youtube.com/watch?v=zbvYBL9ACIY",
       "accountType": "",
@@ -334,28 +334,28 @@
   ],
   "alerts": [
     {
-      "level": "",
-      "type": "",
+      "level": "Trung tính",
+      "type": "Trùng mẫu tên Facebook 'Thanh Xuân'",
       "source": "",
       "date": "Trước 2026-07-27 (carry-forward)",
       "summary": "4 ID Facebook khác nhau gắn tên 'Thanh Xuân' + Seryn được ghi nhận (2 trong danh sách xác nhận chính thức, 2 ID mới hôm nay: 61551500829974, 61551825290264). Chưa có bằng chứng giả mạo hay gian lận cụ thể.",
-      "action": ""
+      "action": "Tiếp tục theo dõi; xác minh trực tiếp với khách hàng nếu số lượng ID tiếp tục tăng"
     },
     {
-      "level": "",
-      "type": "",
+      "level": "Trung tính",
+      "type": "Rủi ro nhận diện sai — Trustpilot 'Seren Klinik'",
       "source": "",
       "date": "2026-07-22 (carry-forward)",
       "summary": "Tóm tắt AI của WebSearch cho từ khóa 'Seryn Clinic review' lặp lại nội dung Trustpilot của Seren Klinik (Istanbul, nha khoa, serenklinik.com) — không liên quan đến Seryn Clinic VN. Đã xác minh nguồn URL, loại trừ khỏi rủi ro thực.",
-      "action": ""
+      "action": "Không cần hành động — chỉ lưu ý khi đọc tóm tắt AI của từ khóa này"
     },
     {
-      "level": "",
-      "type": "",
+      "level": "Trung tính",
+      "type": "Chênh lệch nhỏ địa chỉ chi nhánh Hà Nội trong tóm tắt AI",
       "source": "",
       "date": "2026-07-30 (mới)",
       "summary": "Tóm tắt AI mô tả địa chỉ chi nhánh Hà Nội là '45 Xã Đàn' thay vì '454 Xã Đàn' theo hồ sơ xác nhận. Khả năng cao là lỗi rút gọn của công cụ tìm kiếm.",
-      "action": ""
+      "action": "Theo dõi lần xuất hiện tiếp theo; nếu lặp lại từ nguồn báo chí/directory thực (không phải tóm tắt AI) thì xác minh lại giấy phép"
     }
   ],
   "activityLog": [
