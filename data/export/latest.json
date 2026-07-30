@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-29",
+  "date": "2026-07-30",
   "topSources": [
     {
       "title": "Phòng Khám Đa Khoa Seryn | Seryn Clinic (Website chính thức)",
@@ -18,12 +18,12 @@
       "isNew": false
     },
     {
-      "title": "Phòng Khám Đa Khoa SERYN - YouTube (kênh chính thức)",
-      "url": "https://www.youtube.com/channel/UCojQ10-ZUGAt4hOpbMqaIZA/about",
-      "domain": "youtube.com",
+      "title": "Thanh Xuân - Phòng khám Seryn Việt Nam (Facebook, ID 61551500829974, chưa xác minh)",
+      "url": "https://www.facebook.com/profile.php/?id=61551500829974",
+      "domain": "facebook.com",
       "type": "Mạng xã hội",
-      "sentiment": "positive",
-      "isNew": false
+      "sentiment": "neutral",
+      "isNew": true
     },
     {
       "title": "Seryn Clinic chuẩn hóa quy trình thăm khám trẻ hóa da - VnExpress",
@@ -42,11 +42,11 @@
       "isNew": false
     },
     {
-      "title": "Phòng Khám Đa Khoa Seryn - DeepAI Profile",
-      "url": "https://deepai.org/profile/serynclinic",
-      "domain": "deepai.org",
-      "type": "Directory",
-      "sentiment": "neutral",
+      "title": "Phòng Khám Đa Khoa SERYN - YouTube (kênh chính thức)",
+      "url": "https://www.youtube.com/channel/UCojQ10-ZUGAt4hOpbMqaIZA/about",
+      "domain": "youtube.com",
+      "type": "Mạng xã hội",
+      "sentiment": "positive",
       "isNew": false
     },
     {
@@ -58,9 +58,17 @@
       "isNew": false
     },
     {
-      "title": "Hội đồng Y khoa SERYN Clinic tiên phong - Eva.vn",
-      "url": "https://eva.vn/bi-quyet-lam-dep/hoi-dong-y-khoa-seryn-clinic-tien-phong-mo-goc-nhin-moi-trong-tre-hoa-lan-da-tai-viet-nam-c280a664272.html",
-      "domain": "eva.vn",
+      "title": "Nguyễn Ngọc Vinh - Trang chuyên gia (seryn.vn, lần đầu ghi nhận)",
+      "url": "https://seryn.vn/expert/nguyen-ngoc-vinh/",
+      "domain": "seryn.vn",
+      "type": "Website chính thức",
+      "sentiment": "positive",
+      "isNew": true
+    },
+    {
+      "title": "Điều gì giúp Seryn Clinic nổi bật - YAN.vn (đăng lại, báo uy tín)",
+      "url": "https://www.yan.vn/dieu-gi-giup-seryn-clinic-noi-bat-giua-thi-truong-lam-dep-dang-bao-hoa-333818.html",
+      "domain": "yan.vn",
       "type": "Báo chí PR",
       "sentiment": "positive",
       "isNew": false
@@ -74,11 +82,11 @@
       "isNew": false
     },
     {
-      "title": "Điều gì giúp Seryn Clinic nổi bật - YAN.vn (đăng lại, báo uy tín)",
-      "url": "https://www.yan.vn/dieu-gi-giup-seryn-clinic-noi-bat-giua-thi-truong-lam-dep-dang-bao-hoa-333818.html",
-      "domain": "yan.vn",
-      "type": "Báo chí PR",
-      "sentiment": "positive",
+      "title": "Phòng Khám Đa Khoa Seryn - DeepAI Profile",
+      "url": "https://deepai.org/profile/serynclinic",
+      "domain": "deepai.org",
+      "type": "Directory",
+      "sentiment": "neutral",
       "isNew": false
     },
     {
@@ -98,27 +106,43 @@
       "isNew": false
     },
     {
-      "title": "Hội đồng Y khoa SERYN Clinic tiên phong - Arttimes.vn",
-      "url": "https://arttimes.vn/nhip-cau-doanh-nghiep/hoi-dong-y-khoa-seryn-clinic-tien-phong-mo-goc-nhin-moi-trong-tre-hoa-lan-da-tai-viet-nam-c56a75643.html",
-      "domain": "arttimes.vn",
+      "title": "Hội đồng Y khoa SERYN Clinic tiên phong - Eva.vn",
+      "url": "https://eva.vn/bi-quyet-lam-dep/hoi-dong-y-khoa-seryn-clinic-tien-phong-mo-goc-nhin-moi-trong-tre-hoa-lan-da-tai-viet-nam-c280a664272.html",
+      "domain": "eva.vn",
       "type": "Báo chí PR",
       "sentiment": "positive",
       "isNew": false
     },
     {
-      "title": "Phòng Khám Đa Khoa Seryn - TimPhongKham.vn (danh bạ)",
-      "url": "https://timphongkham.vn/clinics/15247-phong-kham-da-khoa-seryn",
-      "domain": "timphongkham.vn",
+      "title": "Phòng Khám Đa Khoa Seryn - DeepAI Profile",
+      "url": "https://deepai.org/profile/serynclinic",
+      "domain": "deepai.org",
       "type": "Directory",
       "sentiment": "neutral",
       "isNew": false
     },
     {
-      "title": "Careers - CÔNG TY CỔ PHẦN HAMO GLOBAL (Tuyển dụng, đối tác marketing, không phải đơn vị chủ quản)",
-      "url": "https://hamoglobal.talent.vn/",
-      "domain": "hamoglobal.talent.vn",
-      "type": "Hồ sơ hành chính/tuyển dụng",
-      "sentiment": "neutral",
+      "title": "Phòng Khám Đa Khoa SERYN - YouTube",
+      "url": "https://www.youtube.com/channel/UCojQ10-ZUGAt4hOpbMqaIZA",
+      "domain": "youtube.com",
+      "type": "Mạng xã hội",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "title": "Điều gì giúp Seryn Clinic nổi bật - TheThaoVanHoa",
+      "url": "https://thethaovanhoa.vn/dieu-gi-giup-seryn-clinic-noi-bat-giua-thi-truong-lam-dep-dang-bao-hoa-20260515100741387.htm",
+      "domain": "thethaovanhoa.vn",
+      "type": "Báo chí PR",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "title": "Trẻ hóa gương mặt: vì sao liệu trình riêng lẻ không còn được ưa chuộng - ThanhNienViet.vn",
+      "url": "https://thanhnienviet.vn/tre-hoa-guong-mat-vi-sao-nhung-lieu-trinh-rieng-le-khong-con-duoc-ua-chuong-209260318154118679.htm",
+      "domain": "thanhnienviet.vn",
+      "type": "Báo chí PR",
+      "sentiment": "positive",
       "isNew": false
     },
     {
@@ -130,22 +154,6 @@
       "isNew": false
     },
     {
-      "title": "Trẻ hóa gương mặt: vì sao liệu trình riêng lẻ không còn được ưa chuộng - AFamily.vn",
-      "url": "https://afamily.vn/tre-hoa-guong-mat-vi-sao-nhung-lieu-trinh-rieng-le-khong-con-duoc-ua-chuong-236260318171908185.chn",
-      "domain": "afamily.vn",
-      "type": "Báo chí PR",
-      "sentiment": "positive",
-      "isNew": false
-    },
-    {
-      "title": "Trẻ hóa gương mặt: vì sao liệu trình riêng lẻ không còn được ưa chuộng - ThanhNienViet.vn (syndicate, lần đầu ghi nhận)",
-      "url": "https://thanhnienviet.vn/tre-hoa-guong-mat-vi-sao-nhung-lieu-trinh-rieng-le-khong-con-duoc-ua-chuong-209260318154118679.htm",
-      "domain": "thanhnienviet.vn",
-      "type": "Báo chí PR",
-      "sentiment": "positive",
-      "isNew": true
-    },
-    {
       "title": "Trẻ Hoá Sera Core - Landing page 2026 - seryn.vn",
       "url": "https://seryn.vn/landing/2026/tre-hoa-sera-core.html",
       "domain": "seryn.vn",
@@ -154,18 +162,10 @@
       "isNew": false
     },
     {
-      "title": "vietnamfinance.vn đưa tin về SERYN (đăng lại trên seryn.vn)",
-      "url": "https://seryn.vn/newspapers/vietnamfinance-vn-en/",
-      "domain": "seryn.vn",
-      "type": "Website - Báo chí tổng hợp",
-      "sentiment": "positive",
-      "isNew": false
-    },
-    {
-      "title": "Thuốc Seryn - Tăng cường trí nhớ - Dược Điển Việt Nam (không liên quan)",
-      "url": "https://duocdienvietnam.com/luuanh/san-pham/thuoc-seryn/",
-      "domain": "duocdienvietnam.com",
-      "type": "Nhầm lẫn - Thuốc",
+      "title": "Phòng Khám Đa Khoa Seryn - DeepAI Profile",
+      "url": "https://deepai.org/profile/serynclinic",
+      "domain": "deepai.org",
+      "type": "Directory",
       "sentiment": "neutral",
       "isNew": false
     },
@@ -173,14 +173,6 @@
       "title": "Seryn – Siêu thị thuốc việt (Muathuoc.vn, không liên quan)",
       "url": "https://www.muathuoc.vn/seryn",
       "domain": "muathuoc.vn",
-      "type": "Nhầm lẫn - Thuốc",
-      "sentiment": "neutral",
-      "isNew": false
-    },
-    {
-      "title": "Thuốc Seryn - TrungTamThuoc.com (không liên quan)",
-      "url": "https://trungtamthuoc.com/seryn-cap",
-      "domain": "trungtamthuoc.com",
       "type": "Nhầm lẫn - Thuốc",
       "sentiment": "neutral",
       "isNew": false
@@ -199,6 +191,14 @@
       "domain": "topcv.vn",
       "type": "Hồ sơ hành chính/tuyển dụng",
       "sentiment": "neutral",
+      "isNew": false
+    },
+    {
+      "title": "Trẻ hóa gương mặt: vì sao liệu trình riêng lẻ không còn được ưa chuộng - AFamily.vn",
+      "url": "https://afamily.vn/tre-hoa-guong-mat-vi-sao-nhung-lieu-trinh-rieng-le-khong-con-duoc-ua-chuong-236260318171908185.chn",
+      "domain": "afamily.vn",
+      "type": "Báo chí PR",
+      "sentiment": "positive",
       "isNew": false
     },
     {
@@ -244,99 +244,138 @@
   ],
   "social": [
     {
-      "platform": "Facebook",
-      "account": "Phòng khám Seryn Việt Nam (ID 100094769671762)",
-      "url": "https://www.facebook.com/p/Ph%C3%B2ng-kh%C3%A1m-Seryn-100094769671762/",
-      "accountType": "",
-      "sentiment": "Trung tính",
-      "note": "Không có trong danh sách Facebook chính chủ đã xác nhận (2026-07-27) — carry-forward, chờ khách xác nhận có trùng trang 'phongkhamserynvietnam' hay không."
-    },
-    {
-      "platform": "Facebook",
-      "account": "Lại Minh Hiếu - Phòng khám Seryn Việt Nam (ID 61551700769618)",
-      "url": "https://www.facebook.com/61551700769618",
-      "accountType": "",
-      "sentiment": "Trung tính",
-      "note": "Không có trong danh sách Facebook chính chủ đã xác nhận (2026-07-27) — carry-forward."
-    },
-    {
-      "platform": "Facebook",
-      "account": "Thanh Xuân - Seryn Clinic Việt Nam (ID 61551825290264)",
-      "url": "https://www.facebook.com/profile.php/?id=61551825290264",
-      "accountType": "",
-      "sentiment": "Trung tính",
-      "note": "Không có trong danh sách Facebook chính chủ đã xác nhận (2026-07-27) — carry-forward, chờ khách xác nhận lại."
-    },
-    {
-      "platform": "Facebook",
+      "platform": "",
       "account": "Chuyên gia sắc đẹp Lại Minh Hiếu - Seryn Clinic (ID 61550115911294)",
       "url": "https://www.facebook.com/p/Chuy%C3%AAn-gia-s%E1%BA%AFc-%C4%91%E1%BA%B9p-L%E1%BA%A1i-Minh-Hi%E1%BA%BFu-Seryn-Clinic-61550115911294/",
       "accountType": "",
       "sentiment": "Tích cực",
-      "note": "CÓ trong danh sách Facebook chính chủ đã xác nhận (2026-07-27)."
+      "note": "Có trong danh sách kênh xác nhận chính thức (KOL nội bộ)"
     },
     {
-      "platform": "Facebook",
-      "account": "Thanh Xuân trùng tên (ID 61551500829974)",
+      "platform": "",
+      "account": "Phòng khám Seryn Việt Nam (ID 100094769671762)",
+      "url": "https://www.facebook.com/p/Ph%C3%B2ng-kh%C3%A1m-Seryn-100094769671762/",
+      "accountType": "",
+      "sentiment": "Trung tính",
+      "note": "Chưa có trong danh sách xác nhận — theo dõi"
+    },
+    {
+      "platform": "",
+      "account": "Lại Minh Hiếu - Phòng khám Seryn Việt Nam (ID 61551700769618)",
+      "url": "https://www.facebook.com/61551700769618",
+      "accountType": "",
+      "sentiment": "Trung tính",
+      "note": "Chưa có trong danh sách xác nhận — theo dõi"
+    },
+    {
+      "platform": "",
+      "account": "Thanh Xuân - Phòng khám Seryn Việt Nam (ID 61551500829974)",
       "url": "https://www.facebook.com/profile.php/?id=61551500829974",
       "accountType": "",
       "sentiment": "Trung tính",
-      "note": "Carry-forward — không xuất hiện lại trong kết quả tìm kiếm hôm nay, chưa đủ bằng chứng xác nhận đã gỡ bỏ."
+      "note": "Chưa xác minh — trùng mẫu tên 'Thanh Xuân', carry-forward"
     },
     {
-      "platform": "YouTube",
+      "platform": "",
+      "account": "Thanh Xuân - Seryn Clinic Việt Nam (ID 61551825290264)",
+      "url": "https://www.facebook.com/profile.php/?id=61551825290264",
+      "accountType": "",
+      "sentiment": "Trung tính",
+      "note": "Chưa xác minh — trùng mẫu tên 'Thanh Xuân', carry-forward"
+    },
+    {
+      "platform": "",
+      "account": "Seren Clinic (Phaya Thai) / Seren Klinik (Istanbul) / Seren Clinic & Serene Clinic (Chiang Mai)",
+      "url": "https://www.facebook.com/serenclinic/ ; https://www.facebook.com/serenklinik/",
+      "accountType": "",
+      "sentiment": "Trung tính",
+      "note": "Thương hiệu trùng tên, không liên quan Seryn VN"
+    },
+    {
+      "platform": "",
+      "account": "Không tìm thấy kênh TikTok chính thức nào của Seryn Clinic",
+      "url": "-",
+      "accountType": "",
+      "sentiment": "An toàn",
+      "note": "Kết quả rà soát"
+    },
+    {
+      "platform": "",
+      "account": "Seorin Clinic (Bangkok) / Sera Clinic (Thái Lan) / Seren Clinic (Chiang Mai)",
+      "url": "https://www.tiktok.com/@seraclinic",
+      "accountType": "",
+      "sentiment": "Trung tính",
+      "note": "Thương hiệu trùng tên, không liên quan Seryn VN"
+    },
+    {
+      "platform": "",
       "account": "Phòng Khám Đa Khoa SERYN (kênh chính thức)",
       "url": "https://www.youtube.com/channel/UCojQ10-ZUGAt4hOpbMqaIZA",
       "accountType": "",
       "sentiment": "Tích cực",
-      "note": "Kênh YouTube chính thức, có trong kết quả tìm kiếm ổn định."
+      "note": "Kênh YouTube chính thức"
     },
     {
-      "platform": "TikTok",
-      "account": "Không tìm thấy kênh TikTok chính thức của Seryn Clinic (24 Nguyễn Bỉnh Khiêm)",
-      "url": "-",
+      "platform": "",
+      "account": "Seryn - \"Nicotine\" (ban nhạc Seryn, Nashville — không liên quan)",
+      "url": "https://www.youtube.com/watch?v=dquYnCJfNL8",
       "accountType": "",
-      "sentiment": "An toàn",
-      "note": "Kết quả rà soát — thương hiệu chưa có/không có kênh TikTok hoạt động được tìm thấy hôm nay (chỉ thấy thương hiệu trùng tên quốc tế: Seorin/Sera/Seren Clinic)."
+      "sentiment": "Trung tính",
+      "note": "Thương hiệu trùng tên, không liên quan"
+    },
+    {
+      "platform": "",
+      "account": "Seren Clinic / Sera Clinic / Gangnam Seran Clinic / Serena Clinic",
+      "url": "https://www.youtube.com/watch?v=zbvYBL9ACIY",
+      "accountType": "",
+      "sentiment": "Trung tính",
+      "note": "Thương hiệu trùng tên, không liên quan Seryn VN"
     }
   ],
-  "alerts": [],
+  "alerts": [
+    {
+      "level": "",
+      "type": "",
+      "source": "",
+      "date": "Trước 2026-07-27 (carry-forward)",
+      "summary": "4 ID Facebook khác nhau gắn tên 'Thanh Xuân' + Seryn được ghi nhận (2 trong danh sách xác nhận chính thức, 2 ID mới hôm nay: 61551500829974, 61551825290264). Chưa có bằng chứng giả mạo hay gian lận cụ thể.",
+      "action": ""
+    },
+    {
+      "level": "",
+      "type": "",
+      "source": "",
+      "date": "2026-07-22 (carry-forward)",
+      "summary": "Tóm tắt AI của WebSearch cho từ khóa 'Seryn Clinic review' lặp lại nội dung Trustpilot của Seren Klinik (Istanbul, nha khoa, serenklinik.com) — không liên quan đến Seryn Clinic VN. Đã xác minh nguồn URL, loại trừ khỏi rủi ro thực.",
+      "action": ""
+    },
+    {
+      "level": "",
+      "type": "",
+      "source": "",
+      "date": "2026-07-30 (mới)",
+      "summary": "Tóm tắt AI mô tả địa chỉ chi nhánh Hà Nội là '45 Xã Đàn' thay vì '454 Xã Đàn' theo hồ sơ xác nhận. Khả năng cao là lỗi rút gọn của công cụ tìm kiếm.",
+      "action": ""
+    }
+  ],
   "activityLog": [
     {
-      "time": "Bước 1-2",
-      "step": "Tìm kiếm Google + Mạng xã hội",
-      "result": "OK — 9 từ khóa Google + 3 nền tảng MXH đã rà soát",
-      "note": "-"
+      "time": "08:11",
+      "step": "Tạo báo cáo Excel + CSV (Bước 5)",
+      "result": "OK",
+      "note": "D:\\Seryn Digital\\Seryn Digital\\Bao_cao_Seryn_Monitoring_2026-07-30.xlsx"
     },
     {
-      "time": "Bước 3",
-      "step": "Phân tích rủi ro",
-      "result": "OK — không phát hiện nội dung Tiêu cực có bằng chứng cụ thể",
-      "note": "-"
-    },
-    {
-      "time": "Bước 4",
-      "step": "So sánh báo cáo trước (2026-07-28)",
-      "result": "OK — 1 nguồn mới (ThanhNienViet.vn); phân loại giữ nguyên theo danh sách chính chủ; 2 mục carry-forward tiếp tục theo dõi",
-      "note": "-"
-    },
-    {
-      "time": "Bước 5",
-      "step": "Tạo báo cáo Excel",
-      "result": "OK — Bao_cao_Seryn_Monitoring_2026-07-29.xlsx",
-      "note": "-"
-    },
-    {
-      "time": "08:10",
-      "step": "Copy sang incoming (Bước 5b)",
-      "result": "OK — đã xác minh fuse mount (mount | grep incoming) + diff byte-identical (xlsx & csv)",
-      "note": "/sessions/.../mnt/incoming/Bao_cao_Seryn_Monitoring_2026-07-29.xlsx"
+      "time": "08:11",
+      "step": "Copy sang thư mục ingest (Bước 5b)",
+      "result": "OK - xác minh fuse mount + diff byte-identical",
+      "note": "D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\Bao_cao_Seryn_Monitoring_2026-07-30.xlsx"
     },
     {
       "time": "08:12",
       "step": "Upload Drive (Bước 6.1)",
-      "result": "OK 6.1 — Shared Drive aware, tạo trực tiếp trong folder khách; xác minh nội dung qua read_file_content",
-      "note": "https://docs.google.com/spreadsheets/d/1nQneFNO4xOktuTFI9TztB8j60LUSO2lALDnXo0AwY7w/edit"
+      "result": "OK - tạo trực tiếp trong Shared Drive khách, đã xác minh nội dung",
+      "note": "https://docs.google.com/spreadsheets/d/1vNF8rVch9SaTqzfcPmlAwhGoAuCd0sRHFuSuB2km-IU/edit"
     }
   ]
 }
