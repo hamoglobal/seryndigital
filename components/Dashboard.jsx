@@ -11,7 +11,7 @@ import Card from './Card';
 import Badge from './Badge';
 import {
   fmtDateLabel, fmtDateFull, buildBuckets, sourcesForBucket, dedupeSources, typeStats,
-  colorForRisk, softBgForRisk, borderForRisk, labelForRisk, cap,
+  colorForRisk, softBgForRisk, borderForRisk, labelForRisk, cap, canonicalizeSourceType,
 } from '@/lib/aggregate';
 import {
   buildListPdf, buildOverviewPdf, buildRecommendationsPdf, pdfToPreviewUrl, revokePdfPreviewUrl, sentimentRgb, riskTone,
@@ -41,6 +41,45 @@ function rawSentimentDotColor(rawLabel) {
   return 'var(--success-500)';
 }
 
+// Fixed, on-brand palette for "Thống kê theo loại nguồn" — one distinct hue
+// per tag. canonicalizeSourceType() only ever returns one of a known, small,
+// fixed set of Vietnamese category labels (see TYPE_CATEGORY_RULES in
+// lib/aggregate.js) plus 'Khác'/'Chưa phân loại', so those are mapped to
+// colors directly — guarantees no two *simultaneously visible* tags collide.
+// Anything outside that known set (shouldn't happen, but defensive) falls
+// back to a hash of the label into the same palette.
+const TAG_COLOR_PALETTE = [
+  '#F0826B', '#1B2350', '#4C9A6E', '#C29A57', '#4472CA',
+  '#B85C9E', '#2FA8A0', '#D2553F', '#8C5E3C', '#7A6FE0',
+];
+const TAG_LABEL_COLORS = {
+  'Báo chí / PR': '#F0826B',
+  'Website chính thức': '#4472CA',
+  'Mạng xã hội': '#1B2350',
+  'Y tế / Dược phẩm': '#4C9A6E',
+  'Rủi ro / Rà soát': '#D2553F',
+  'Directory / Hồ sơ / Tuyển dụng': '#C29A57',
+  'Không liên quan / Nhầm thương hiệu': '#8C5E3C',
+  'Chưa phân loại': '#7A6FE0',
+  'Khác': '#2FA8A0',
+};
+function hashToIndex(str, mod) {
+  let h = 0;
+  for (let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) >>> 0;
+  return h % mod;
+}
+function colorForTag(label) {
+  return TAG_LABEL_COLORS[label] || TAG_COLOR_PALETTE[hashToIndex(label || '', TAG_COLOR_PALETTE.length)];
+}
+function slugifyTag(label) {
+  return (label || 'khac')
+    .normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .replace(/đ/gi, 'd')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)/g, '') || 'khac';
+}
+
 export default function Dashboard() {
   const [days, setDays] = useState(null);
   const [latest, setLatest] = useState(null);
@@ -52,6 +91,7 @@ export default function Dashboard() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [modalCategory, setModalCategory] = useState(null);
   const [channelModal, setChannelModal] = useState(null);
+  const [tagModal, setTagModal] = useState(null);
   const [riskModalOpen, setRiskModalOpen] = useState(false);
   const [pdfPreview, setPdfPreview] = useState(null); // { url, filename, doc }
   const [competitors, setCompetitors] = useState(null); // { date, brands } from /api/competitors/brands, feeds "Khuyến nghị Seryn"
@@ -238,6 +278,14 @@ export default function Dashboard() {
 
   const bucketSourcesDeduped = dedupeSources(sourcesForBucket(sourcesByDay, selBucket, 'total'));
   const tagStats = typeStats(bucketSourcesDeduped);
+
+  // ---- "Thống kê theo loại nguồn" row click-through modal ----
+  const tagModalOpen = !!tagModal;
+  const tagModalItems = tagModalOpen
+    ? bucketSourcesDeduped
+        .filter(s => canonicalizeSourceType(s.type) === tagModal)
+        .map(s => ({ ...s, dotColor: sentimentDotColor(s.sentiment), dateLabel: fmtDateLabel(s.lastDate || s.date) }))
+    : [];
 
   const channelModalOpen = !!channelModal;
   const channelModalItems = channelModalOpen
@@ -580,20 +628,32 @@ export default function Dashboard() {
               </tr>
             </thead>
             <tbody>
-              {tagStats.map((t, i) => (
-                <tr key={i}>
-                  <td style={{ padding: '11px 8px', borderBottom: '1px solid var(--border-subtle)', fontSize: 'var(--text-sm)', fontWeight: 500, color: 'var(--text-body)' }}>{t.label}</td>
-                  <td style={{ padding: '11px 8px', borderBottom: '1px solid var(--border-subtle)', textAlign: 'right', fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--seryn-navy)' }}>{t.count}</td>
-                  <td style={{ padding: '11px 8px', borderBottom: '1px solid var(--border-subtle)' }}>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-                      <div style={{ flex: '1 1 0%', height: 6, borderRadius: 3, background: 'var(--ivory-200)', overflow: 'hidden' }}>
-                        <div style={{ width: `${t.pct}%`, height: '100%', background: 'var(--text-brand)', borderRadius: 3 }} />
+              {tagStats.map((t, i) => {
+                const tagColor = colorForTag(t.label);
+                return (
+                  <tr
+                    key={i}
+                    className="tag-stat-row"
+                    onClick={() => setTagModal(t.label)}
+                    title="Nhấn để xem danh sách nguồn"
+                    style={{ '--tag-ring-color': `${tagColor}55` }}
+                  >
+                    <td style={{ padding: '11px 8px', borderBottom: '1px solid var(--border-subtle)', fontSize: 'var(--text-sm)', fontWeight: 500, color: 'var(--text-body)' }}>
+                      <span className="tag-dot" style={{ display: 'inline-block', width: 9, height: 9, minWidth: 9, borderRadius: '50%', background: tagColor, marginRight: 10, verticalAlign: 'middle' }} />
+                      {t.label}
+                    </td>
+                    <td style={{ padding: '11px 8px', borderBottom: '1px solid var(--border-subtle)', textAlign: 'right', fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--seryn-navy)' }}>{t.count} ›</td>
+                    <td style={{ padding: '11px 8px', borderBottom: '1px solid var(--border-subtle)' }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                        <div style={{ flex: '1 1 0%', height: 6, borderRadius: 3, background: 'var(--ivory-200)', overflow: 'hidden' }}>
+                          <div style={{ width: `${t.pct}%`, height: '100%', background: tagColor, borderRadius: 3 }} />
+                        </div>
+                        <span style={{ fontSize: 'var(--text-xs)', color: 'var(--text-subtle)', minWidth: 32, textAlign: 'right' }}>{t.pct}%</span>
                       </div>
-                      <span style={{ fontSize: 'var(--text-xs)', color: 'var(--text-subtle)', minWidth: 32, textAlign: 'right' }}>{t.pct}%</span>
-                    </div>
-                  </td>
-                </tr>
-              ))}
+                    </td>
+                  </tr>
+                );
+              })}
             </tbody>
           </table>
         </Card>
@@ -642,6 +702,51 @@ export default function Dashboard() {
               )}
               {modalTruncated && (
                 <div style={{ padding: '16px 0 4px', textAlign: 'center', color: 'var(--text-subtle)', fontSize: 'var(--text-xs)' }}>... và {modalHiddenCount} nguồn khác trong kỳ này (thu hẹp phạm vi để xem đầy đủ)</div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ============ TAG / SOURCE-TYPE LIST MODAL ============ */}
+      {tagModalOpen && (
+        <div onClick={() => setTagModal(null)} style={{ position: 'fixed', inset: 0, background: 'rgba(36,28,24,0.45)', backdropFilter: 'blur(3px)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 100, padding: 32 }}>
+          <div onClick={e => e.stopPropagation()} style={{ background: 'var(--surface-card)', borderRadius: 'var(--radius-xl)', boxShadow: 'var(--shadow-lg)', width: '100%', maxWidth: 680, maxHeight: '80vh', display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '24px 28px', borderBottom: '1px solid var(--border-subtle)' }}>
+              <div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                  <span style={{ width: 10, height: 10, minWidth: 10, borderRadius: '50%', background: colorForTag(tagModal) }} />
+                  <div style={{ fontFamily: 'var(--font-display)', fontSize: 'var(--text-lg)', fontWeight: 600, color: 'var(--seryn-navy)', letterSpacing: 'var(--tracking-tighter)' }}>{tagModal}</div>
+                </div>
+                <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-subtle)', marginTop: 4 }}>{tagModalItems.length} nguồn duy nhất (đã gộp trùng lặp) · {selBucket.label}</div>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                <button onClick={() => openPdfPreview({
+                  title: `Thống kê theo loại nguồn — ${tagModal}`,
+                  subtitle: `${tagModalItems.length} nguồn duy nhất (đã gộp trùng lặp) · ${selBucket.label} · xuất ngày ${fmtDateFull(lastDay.date)}`,
+                  items: tagModalItems.map(m => ({
+                    heading: m.title,
+                    lines: [
+                      [m.type, m.occurrences > 1 ? `Xuất hiện ${m.occurrences} lần` : null].filter(Boolean).join(' · '),
+                      m.url,
+                    ],
+                  })),
+                  filename: `loai-nguon-${slugifyTag(tagModal)}-${selBucket.key}.pdf`,
+                })} style={{ border: '1px solid var(--border-default)', background: 'var(--surface-card)', borderRadius: 'var(--radius-pill)', padding: '7px 16px', fontSize: 'var(--text-xs)', fontWeight: 600, color: 'var(--text-brand)', cursor: 'pointer', whiteSpace: 'nowrap' }}>Xuất file PDF</button>
+                <button onClick={() => setTagModal(null)} style={{ border: 'none', background: 'var(--ivory-200)', width: 32, height: 32, borderRadius: '50%', cursor: 'pointer', fontSize: 16, color: 'var(--text-muted)', lineHeight: 1 }}>×</button>
+              </div>
+            </div>
+            <div style={{ overflowY: 'auto', padding: '8px 28px 24px' }}>
+              {tagModalItems.length > 0 ? tagModalItems.map((m, i) => (
+                <a key={i} href={m.url} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'flex-start', gap: 12, padding: '14px 0', borderBottom: '1px solid var(--border-subtle)', textDecoration: 'none' }}>
+                  <span style={{ width: 8, height: 8, minWidth: 8, marginTop: 6, borderRadius: '50%', background: m.dotColor }} />
+                  <span style={{ flex: '1 1 0%', minWidth: 0 }}>
+                    <span style={{ display: 'block', fontSize: 'var(--text-sm)', fontWeight: 500, color: 'var(--text-body)' }}>{m.title}</span>
+                    <span style={{ display: 'block', fontSize: 'var(--text-2xs)', color: 'var(--text-subtle)', marginTop: 3 }}>{m.type}{m.occurrences > 1 ? ` · xuất hiện ${m.occurrences} lần` : ''}</span>
+                  </span>
+                </a>
+              )) : (
+                <div style={{ padding: '40px 0', textAlign: 'center', color: 'var(--text-subtle)', fontSize: 'var(--text-sm)' }}>Không có nguồn nào cho loại này trong kỳ đã chọn.</div>
               )}
             </div>
           </div>
