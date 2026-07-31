@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-30",
+  "date": "2026-07-31",
   "topSources": [
     {
-      "title": "Phòng Khám Đa Khoa Seryn | Seryn Clinic (Website chính thức)",
+      "title": "Phòng Khám Đa Khoa Seryn (Website chính thức)",
       "url": "https://seryn.vn/",
       "domain": "seryn.vn",
       "type": "Website chính thức",
@@ -23,7 +23,7 @@
       "domain": "facebook.com",
       "type": "Mạng xã hội",
       "sentiment": "neutral",
-      "isNew": true
+      "isNew": false
     },
     {
       "title": "Seryn Clinic chuẩn hóa quy trình thăm khám trẻ hóa da - VnExpress",
@@ -58,15 +58,15 @@
       "isNew": false
     },
     {
-      "title": "Nguyễn Ngọc Vinh - Trang chuyên gia (seryn.vn, lần đầu ghi nhận)",
+      "title": "Nguyễn Ngọc Vinh - Trang chuyên gia (seryn.vn)",
       "url": "https://seryn.vn/expert/nguyen-ngoc-vinh/",
       "domain": "seryn.vn",
       "type": "Website chính thức",
       "sentiment": "positive",
-      "isNew": true
+      "isNew": false
     },
     {
-      "title": "Điều gì giúp Seryn Clinic nổi bật - YAN.vn (đăng lại, báo uy tín)",
+      "title": "Điều gì giúp Seryn Clinic nổi bật - YAN.vn (báo uy tín)",
       "url": "https://www.yan.vn/dieu-gi-giup-seryn-clinic-noi-bat-giua-thi-truong-lam-dep-dang-bao-hoa-333818.html",
       "domain": "yan.vn",
       "type": "Báo chí PR",
@@ -218,23 +218,7 @@
       "isNew": false
     },
     {
-      "title": "Địa điểm Seryn Clinic - Wanderlog (danh bạ du lịch)",
-      "url": "https://wanderlog.com/place/details/1735806",
-      "domain": "wanderlog.com",
-      "type": "Directory",
-      "sentiment": "neutral",
-      "isNew": false
-    },
-    {
-      "title": "Không tìm thấy bài viết tiêu cực/lừa đảo nào nhắc đích danh Seryn Clinic (24 Nguyễn Bỉnh Khiêm) hôm nay.",
-      "url": "-",
-      "domain": "",
-      "type": "Kết quả rà soát",
-      "sentiment": "positive",
-      "isNew": false
-    },
-    {
-      "title": "Không tìm thấy quyết định thanh tra/xử phạt nào nhắc đích danh Seryn Clinic trong kết quả tìm kiếm hôm nay.",
+      "title": "Không tìm thấy bài viết tiêu cực/lừa đảo/quyết định thanh tra nào nhắc đích danh Seryn Clinic (24 Nguyễn Bỉnh Khiêm) hôm nay.",
       "url": "-",
       "domain": "",
       "type": "Kết quả rà soát",
@@ -245,35 +229,11 @@
   "social": [
     {
       "platform": "Facebook",
-      "account": "Chuyên gia sắc đẹp Lại Minh Hiếu - Seryn Clinic (ID 61550115911294)",
-      "url": "https://www.facebook.com/p/Chuy%C3%AAn-gia-s%E1%BA%AFc-%C4%91%E1%BA%B9p-L%E1%BA%A1i-Minh-Hi%E1%BA%BFu-Seryn-Clinic-61550115911294/",
-      "accountType": "",
-      "sentiment": "Tích cực",
-      "note": "Có trong danh sách kênh xác nhận chính thức (KOL nội bộ)"
-    },
-    {
-      "platform": "Facebook",
       "account": "Phòng khám Seryn Việt Nam (ID 100094769671762)",
       "url": "https://www.facebook.com/p/Ph%C3%B2ng-kh%C3%A1m-Seryn-100094769671762/",
       "accountType": "",
       "sentiment": "Trung tính",
-      "note": "Chưa có trong danh sách xác nhận — theo dõi"
-    },
-    {
-      "platform": "Facebook",
-      "account": "Lại Minh Hiếu - Phòng khám Seryn Việt Nam (ID 61551700769618)",
-      "url": "https://www.facebook.com/61551700769618",
-      "accountType": "",
-      "sentiment": "Trung tính",
-      "note": "Chưa có trong danh sách xác nhận — theo dõi"
-    },
-    {
-      "platform": "Facebook",
-      "account": "Thanh Xuân - Phòng khám Seryn Việt Nam (ID 61551500829974)",
-      "url": "https://www.facebook.com/profile.php/?id=61551500829974",
-      "accountType": "",
-      "sentiment": "Trung tính",
-      "note": "Chưa xác minh — trùng mẫu tên 'Thanh Xuân', carry-forward"
+      "note": "Không nằm trong danh sách kênh xác nhận chính thức; chưa có bằng chứng giả mạo — chờ xác minh (carry-forward)."
     },
     {
       "platform": "Facebook",
@@ -281,31 +241,31 @@
       "url": "https://www.facebook.com/profile.php/?id=61551825290264",
       "accountType": "",
       "sentiment": "Trung tính",
-      "note": "Chưa xác minh — trùng mẫu tên 'Thanh Xuân', carry-forward"
+      "note": "Trùng tên 'Thanh Xuân' với ID 61551500829974 (mục Top10 Google #3) — carry-forward chờ khách hàng xác minh, không nâng cấp Đỏ."
     },
     {
       "platform": "Facebook",
-      "account": "Seren Clinic (Phaya Thai) / Seren Klinik (Istanbul) / Seren Clinic & Serene Clinic (Chiang Mai)",
-      "url": "https://www.facebook.com/serenclinic/ ; https://www.facebook.com/serenklinik/",
+      "account": "Lại Minh Hiếu - Phòng khám Seryn Việt Nam (ID 61551700769618)",
+      "url": "https://www.facebook.com/61551700769618?locale=lt_LT",
       "accountType": "",
       "sentiment": "Trung tính",
-      "note": "Thương hiệu trùng tên, không liên quan Seryn VN"
+      "note": "Có thể là trang nhân viên/cộng tác viên; không nằm trong danh sách kênh xác nhận."
     },
     {
-      "platform": "TikTok",
-      "account": "Không tìm thấy kênh TikTok chính thức nào của Seryn Clinic",
+      "platform": "Facebook (không liên quan)",
+      "account": "Seren Klinik / Seren clinic Chiang Mai / Serene Clinic Chiang Mai / Seren Clinic Aesthetics (Istanbul, IG)",
       "url": "-",
       "accountType": "",
-      "sentiment": "An toàn",
-      "note": "Kết quả rà soát"
+      "sentiment": "Trung tính",
+      "note": "Thương hiệu trùng tên, KHÔNG liên quan đến Seryn Clinic Việt Nam (Thái Lan/Thổ Nhĩ Kỳ)."
     },
     {
       "platform": "TikTok",
-      "account": "Seorin Clinic (Bangkok) / Sera Clinic (Thái Lan) / Seren Clinic (Chiang Mai)",
-      "url": "https://www.tiktok.com/@seraclinic",
+      "account": "Không tìm thấy tài khoản TikTok chính thức nào của Seryn Clinic Việt Nam hôm nay.",
+      "url": "-",
       "accountType": "",
       "sentiment": "Trung tính",
-      "note": "Thương hiệu trùng tên, không liên quan Seryn VN"
+      "note": "Kết quả chỉ trả về các thương hiệu trùng tên không liên quan: Seren Clinic (Chiang Mai), Seorin Clinic (Bangkok), Sera Clinic (Thái Lan)."
     },
     {
       "platform": "YouTube",
@@ -313,69 +273,77 @@
       "url": "https://www.youtube.com/channel/UCojQ10-ZUGAt4hOpbMqaIZA",
       "accountType": "",
       "sentiment": "Tích cực",
-      "note": "Kênh YouTube chính thức"
+      "note": "Kênh YouTube chính thức của thương hiệu."
     },
     {
-      "platform": "YouTube",
-      "account": "Seryn - \"Nicotine\" (ban nhạc Seryn, Nashville — không liên quan)",
-      "url": "https://www.youtube.com/watch?v=dquYnCJfNL8",
+      "platform": "YouTube (không liên quan)",
+      "account": "Seryn (band Nashville, indie-folk) - kênh 'Seryn' / playlist 'COMPLETE SERYN'",
+      "url": "https://www.youtube.com/channel/UCeEzpEo_w43NYHPOjIWnmJw",
       "accountType": "",
       "sentiment": "Trung tính",
-      "note": "Thương hiệu trùng tên, không liên quan"
-    },
-    {
-      "platform": "YouTube",
-      "account": "Seren Clinic / Sera Clinic / Gangnam Seran Clinic / Serena Clinic",
-      "url": "https://www.youtube.com/watch?v=zbvYBL9ACIY",
-      "accountType": "",
-      "sentiment": "Trung tính",
-      "note": "Thương hiệu trùng tên, không liên quan Seryn VN"
+      "note": "Trùng tên với ban nhạc Mỹ, KHÔNG liên quan đến Seryn Clinic."
     }
   ],
   "alerts": [
     {
-      "level": "Trung tính",
-      "type": "Trùng mẫu tên Facebook 'Thanh Xuân'",
-      "source": "",
-      "date": "Trước 2026-07-27 (carry-forward)",
-      "summary": "4 ID Facebook khác nhau gắn tên 'Thanh Xuân' + Seryn được ghi nhận (2 trong danh sách xác nhận chính thức, 2 ID mới hôm nay: 61551500829974, 61551825290264). Chưa có bằng chứng giả mạo hay gian lận cụ thể.",
-      "action": "Tiếp tục theo dõi; xác minh trực tiếp với khách hàng nếu số lượng ID tiếp tục tăng"
+      "level": "",
+      "type": "Sai lệch số GPHĐ trong tóm tắt AI tìm kiếm (11149/HCM-GPHĐ vs. 1149/HCM-GPHĐ đã xác nhận)",
+      "source": "Kết quả WebSearch \"Seryn Clinic 24 Nguyễn Bỉnh Khiêm\" ngày 2026-07-31",
+      "date": "2026-07-31",
+      "summary": "",
+      "action": ""
     },
     {
-      "level": "Trung tính",
-      "type": "Rủi ro nhận diện sai — Trustpilot 'Seren Klinik'",
-      "source": "",
-      "date": "2026-07-22 (carry-forward)",
-      "summary": "Tóm tắt AI của WebSearch cho từ khóa 'Seryn Clinic review' lặp lại nội dung Trustpilot của Seren Klinik (Istanbul, nha khoa, serenklinik.com) — không liên quan đến Seryn Clinic VN. Đã xác minh nguồn URL, loại trừ khỏi rủi ro thực.",
-      "action": "Không cần hành động — chỉ lưu ý khi đọc tóm tắt AI của từ khóa này"
-    },
-    {
-      "level": "Trung tính",
-      "type": "Chênh lệch nhỏ địa chỉ chi nhánh Hà Nội trong tóm tắt AI",
-      "source": "",
-      "date": "2026-07-30 (mới)",
-      "summary": "Tóm tắt AI mô tả địa chỉ chi nhánh Hà Nội là '45 Xã Đàn' thay vì '454 Xã Đàn' theo hồ sơ xác nhận. Khả năng cao là lỗi rút gọn của công cụ tìm kiếm.",
-      "action": "Theo dõi lần xuất hiện tiếp theo; nếu lặp lại từ nguồn báo chí/directory thực (không phải tóm tắt AI) thì xác minh lại giấy phép"
+      "level": "",
+      "type": "ID Facebook 'Thanh Xuân' trùng tên, chưa nằm trong danh sách kênh xác nhận chính thức",
+      "source": "facebook.com/profile.php?id=61551500829974 ; facebook.com/profile.php?id=61551825290264",
+      "date": "2026-07-31",
+      "summary": "",
+      "action": ""
     }
   ],
   "activityLog": [
     {
-      "time": "08:11",
-      "step": "Tạo báo cáo Excel + CSV (Bước 5)",
-      "result": "OK",
-      "note": "D:\\Seryn Digital\\Seryn Digital\\Bao_cao_Seryn_Monitoring_2026-07-30.xlsx"
+      "time": "08:07",
+      "step": "Bước 1 - Tìm kiếm Google (9 từ khóa)",
+      "result": "OK - 28 kết quả thu thập",
+      "note": "-"
+    },
+    {
+      "time": "08:08",
+      "step": "Bước 2 - Kiểm tra mạng xã hội (Facebook/TikTok/YouTube)",
+      "result": "OK - 7 mục ghi nhận (5 liên quan + 2 nhóm không liên quan)",
+      "note": "-"
+    },
+    {
+      "time": "08:08",
+      "step": "Bước 3 - Phân tích rủi ro",
+      "result": "OK - Không phát hiện Cảnh báo Đỏ; 2 mục Vàng carry-forward giữ nguyên",
+      "note": "-"
+    },
+    {
+      "time": "08:09",
+      "step": "Bước 4 - So sánh với báo cáo 2026-07-30",
+      "result": "OK - Không có nguồn mới hôm nay",
+      "note": "-"
+    },
+    {
+      "time": "08:10",
+      "step": "Bước 5 - Tạo báo cáo Excel",
+      "result": "OK - 5 sheet, font Arial",
+      "note": "Bao_cao_Seryn_Monitoring_2026-07-31.xlsx"
     },
     {
       "time": "08:11",
-      "step": "Copy sang thư mục ingest (Bước 5b)",
-      "result": "OK - xác minh fuse mount + diff byte-identical",
-      "note": "D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\Bao_cao_Seryn_Monitoring_2026-07-30.xlsx"
+      "step": "Bước 5b - Copy file sang thư mục ingest",
+      "result": "OK - copy thành công, xác nhận fuse mount thật + diff byte-identical (xlsx + csv)",
+      "note": "D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\Bao_cao_Seryn_Monitoring_2026-07-31.xlsx"
     },
     {
       "time": "08:12",
-      "step": "Upload Drive (Bước 6.1)",
-      "result": "OK - tạo trực tiếp trong Shared Drive khách, đã xác minh nội dung",
-      "note": "https://docs.google.com/spreadsheets/d/1vNF8rVch9SaTqzfcPmlAwhGoAuCd0sRHFuSuB2km-IU/edit"
+      "step": "Bước 6 - Upload Google Sheets",
+      "result": "OK 6.1 - upload thành công vào Shared Drive khách ngay lần thử đầu",
+      "note": "https://docs.google.com/spreadsheets/d/1NjXT4P1_E5bVFkwyLb4n-OhaS8qGBxCHdtlCABuhnXU/edit"
     }
   ]
 }
