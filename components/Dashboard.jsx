@@ -10,7 +10,7 @@ import { useEffect, useState } from 'react';
 import Card from './Card';
 import Badge from './Badge';
 import {
-  fmtDateLabel, fmtDateFull, buildBuckets, sourcesForBucket, dedupeSources, typeStats,
+  fmtDateLabel, fmtDateFull, buildBuckets, sourcesForBucket, dedupedSourcesForBucket, dedupeSources, typeStats,
   colorForRisk, softBgForRisk, borderForRisk, labelForRisk, cap, canonicalizeSourceType,
 } from '@/lib/aggregate';
 import {
@@ -264,11 +264,18 @@ export default function Dashboard() {
     return lvl.includes('vàng') || lvl.includes('vang');
   }).map(a => ({ type: a.type, summary: a.summary }));
 
+  // Deduped once for the selected bucket and reused below for the KPI
+  // click-through modal, the tag-stats table, and the tag modal — this is
+  // the same resolved list buildBuckets() used to compute selBucket's KPI
+  // numbers, so every one of those numbers matches exactly what its modal
+  // shows (see dedupedSourcesForBucket in lib/aggregate.js).
+  const bucketSourcesDeduped = dedupedSourcesForBucket(sourcesByDay, selBucket);
+
   // ---- KPI click-through modal ----
   const modalOpen = !!modalCategory;
   let modalItems = [], modalTotalCount = 0;
   if (modalOpen) {
-    const raw = dedupeSources(sourcesForBucket(sourcesByDay, selBucket, modalCategory));
+    const raw = sourcesForBucket(bucketSourcesDeduped, modalCategory);
     modalTotalCount = raw.length;
     modalItems = raw.slice(0, MODAL_CAP).map(s => ({ ...s, dotColor: sentimentDotColor(s.sentiment), dateLabel: fmtDateLabel(s.lastDate || s.date) }));
   }
@@ -276,7 +283,6 @@ export default function Dashboard() {
   const modalHiddenCount = modalTotalCount - MODAL_CAP;
   const modalTitle = modalOpen ? `${CATEGORY_LABELS[modalCategory]} — ${selBucket.label}` : '';
 
-  const bucketSourcesDeduped = dedupeSources(sourcesForBucket(sourcesByDay, selBucket, 'total'));
   const tagStats = typeStats(bucketSourcesDeduped);
 
   // ---- "Thống kê theo loại nguồn" row click-through modal ----
