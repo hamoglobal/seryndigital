@@ -26,12 +26,17 @@ const MODE_NOUN = { day: 'ngày', week: 'tuần', month: 'tháng', year: 'năm' 
 const MODAL_CAP = 150;
 const CATEGORY_LABELS = {
   total: 'Tổng nguồn', positive: 'Nguồn tích cực', neutral: 'Nguồn trung tính',
-  negative: 'Nguồn tiêu cực / cảnh báo', new: 'Nguồn mới',
+  negative: 'Nguồn tiêu cực / cảnh báo', new: 'Nguồn mới', unclassified: 'Nguồn chưa phân loại',
 };
 
 function sentimentDotColor(sentiment) {
   if (sentiment === 'negative') return 'var(--danger-500)';
   if (sentiment === 'neutral') return 'var(--gold-600)';
+  // Rows the parser couldn't classify (missing/undetected "Đánh giá" column
+  // on that report date — see 'unclassified' in lib/aggregate.js) aren't
+  // positive; falling through to the success-green default would visually
+  // mislabel them, so call them out with a neutral grey dot instead.
+  if (!sentiment || sentiment === 'unknown') return 'var(--text-muted)';
   return 'var(--success-500)';
 }
 function rawSentimentDotColor(rawLabel) {
@@ -319,6 +324,12 @@ export default function Dashboard() {
       { label: 'Tiêu cực / cảnh báo', value: selBucket.negative, tone: 'danger', foot: selRiskDaysNote },
       { label: 'Nguồn mới', value: `+${selBucket.newSources}`, tone: 'brand', foot: 'So với kỳ trước' },
       { label: 'Trạng thái rủi ro', value: labelForRisk(selBucket.riskLevel), tone: riskTone(selBucket.riskLevel), foot: overviewRiskNote },
+      // Only shown when the period includes report dates whose "Đánh giá"
+      // column the parser couldn't detect (see the KPI-row footnote above) —
+      // otherwise this would always read 0 and add noise to every PDF.
+      ...(selBucket.unclassified > 0
+        ? [{ label: 'Chưa phân loại', value: selBucket.unclassified, tone: 'navy', foot: 'Thiếu dữ liệu đánh giá gốc' }]
+        : []),
     ],
     sentiment: { positive: selBucket.positive, neutral: selBucket.neutral, negative: selBucket.negative },
     sections: [
@@ -462,6 +473,20 @@ export default function Dashboard() {
             <KpiLabel>Tổng nguồn</KpiLabel>
             <KpiValue color="var(--seryn-navy)">{selBucket.total}</KpiValue>
             <KpiFoot>{selPeriodLabel}</KpiFoot>
+            {/* Only the legacy report dates whose "Đánh giá" column the parser
+                couldn't detect leave a gap here — this is why Tích cực % +
+                Trung tính % (+ Tiêu cực) can fall short of 100% for a period
+                that spans one of those dates (e.g. "Năm"). Surfaced here,
+                click-through, instead of silently vanishing from the count. */}
+            {selBucket.unclassified > 0 && (
+              <div
+                onClick={(e) => { e.stopPropagation(); setModalCategory('unclassified'); }}
+                title="Nguồn có trong báo cáo nhưng thiếu dữ liệu đánh giá (Tích cực/Trung tính/Tiêu cực) do lỗi định dạng báo cáo gốc ở ngày đó — không tính được vào 3 mục bên cạnh."
+                style={{ fontSize: 'var(--text-2xs)', color: 'var(--text-muted)', marginTop: 6, textDecoration: 'underline', cursor: 'pointer' }}
+              >
+                {selBucket.unclassified} chưa phân loại ({Math.round((selBucket.unclassified / selTotal) * 100)}%)
+              </div>
+            )}
           </Card>
 
           <Card elevation="sm" onClick={() => setModalCategory('positive')} style={{ minHeight: 140, cursor: 'pointer' }}>
