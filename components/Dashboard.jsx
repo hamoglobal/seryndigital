@@ -216,8 +216,6 @@ export default function Dashboard() {
   const selBucketIndex = buckets.findIndex(b => b.key === selBucket.key);
   const prevBucket = selBucketIndex > 0 ? buckets[selBucketIndex - 1] : null;
   const selTotal = selBucket.total || 1;
-  const positivePct = Math.round((selBucket.positive / selTotal) * 100);
-  const neutralPct = Math.round((selBucket.neutral / selTotal) * 100);
   const modeNoun = MODE_NOUN[mode];
   const selPeriodLabel = mode === 'day' ? 'Google · Báo chí · MXH' : `Gộp ${selBucket.dayCount} ngày trong ${modeNoun}`;
   const selRiskDaysNote = selBucket.negative > 0 ? `Phát hiện trong ${modeNoun} này` : 'Không phát hiện vi phạm';
@@ -339,8 +337,8 @@ export default function Dashboard() {
     filename: `bao-cao-tong-the-seryn-${selBucket.key}.pdf`,
     kpis: [
       { label: 'Tổng nguồn', value: selBucket.total, tone: 'navy', foot: selPeriodLabel },
-      { label: 'Tích cực', value: selBucket.positive, tone: 'success', foot: `${positivePct}% tổng nguồn` },
-      { label: 'Trung tính', value: selBucket.neutral, tone: 'warning', foot: `${neutralPct}% tổng nguồn` },
+      { label: 'Tích cực', value: selBucket.positive, tone: 'success' },
+      { label: 'Trung tính', value: selBucket.neutral, tone: 'warning' },
       { label: 'Tiêu cực / cảnh báo', value: selBucket.negative, tone: 'danger', foot: selRiskDaysNote },
       { label: 'Nguồn mới', value: `+${selBucket.newSources}`, tone: 'brand', foot: 'So với kỳ trước' },
       { label: 'Trạng thái rủi ro', value: labelForRisk(selBucket.riskLevel), tone: riskTone(selBucket.riskLevel), foot: overviewRiskNote },
@@ -512,13 +510,11 @@ export default function Dashboard() {
           <Card elevation="sm" onClick={() => setModalCategory('positive')} style={{ minHeight: 140, cursor: 'pointer' }}>
             <KpiLabel>Tích cực</KpiLabel>
             <KpiValue color="var(--success-500)">{selBucket.positive}</KpiValue>
-            <KpiFoot>{positivePct}% tổng nguồn</KpiFoot>
           </Card>
 
           <Card elevation="sm" onClick={() => setModalCategory('neutral')} style={{ minHeight: 140, cursor: 'pointer' }}>
             <KpiLabel>Trung tính</KpiLabel>
             <KpiValue color="var(--gold-600)">{selBucket.neutral}</KpiValue>
-            <KpiFoot>{neutralPct}% tổng nguồn</KpiFoot>
           </Card>
 
           <Card elevation="sm" onClick={() => setModalCategory('negative')} style={{ minHeight: 140, cursor: 'pointer' }}>
