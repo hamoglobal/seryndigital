@@ -102,6 +102,7 @@ export default function Dashboard() {
   const [competitors, setCompetitors] = useState(null); // { date, brands } from /api/competitors/brands, feeds "Khuyến nghị Seryn"
   const [recoModalOpen, setRecoModalOpen] = useState(false);
   const [recoExporting, setRecoExporting] = useState(false);
+  const [chartHoverIndex, setChartHoverIndex] = useState(null); // index into chartBuckets — drives the trend-chart hover tooltip
 
   async function openPdfPreview({ title, subtitle, items, filename }) {
     const doc = await buildListPdf({ title, subtitle, items });
@@ -246,11 +247,30 @@ export default function Dashboard() {
   const positiveArea = `0,${H - padBottom} ` + positiveLine + ` ${W},${H - padBottom}`;
   const neutralLine = lineFor(b => b.neutral);
   const negativeLine = lineFor(b => b.negative);
-  const chartPoints = chartBuckets.map((b, i) => ({
-    cx: scaleX(i).toFixed(1), cy: scaleY(b.positive).toFixed(1),
-    title: `${b.label}: ${b.total} nguồn · ${b.positive} tích cực`,
-  }));
   const axisLabel = (b) => (chartMode === 'day' ? fmtDateLabel(b.key) : b.label);
+  // Full date/period label for the hover tooltip (fuller than the compact
+  // axis label above — e.g. "31/07/2026" instead of "31/07" for day mode;
+  // week/month/year buckets already carry a fully descriptive label).
+  const tooltipLabel = (b) => (chartMode === 'day' ? fmtDateFull(b.key) : b.label);
+  // One entry per bucket: its x/y position on each of the 3 series (for the
+  // marker dots) plus the full stat breakdown the hover tooltip displays.
+  const chartPoints = chartBuckets.map((b, i) => ({
+    x: scaleX(i),
+    yPositive: scaleY(b.positive), yNeutral: scaleY(b.neutral), yNegative: scaleY(b.negative),
+    label: tooltipLabel(b), total: b.total, positive: b.positive, neutral: b.neutral, negative: b.negative,
+  }));
+  // Invisible full-height hover bands, one per bucket, each spanning the
+  // midpoint to its neighbors — lets the user hover anywhere near a point
+  // (not just exactly on the tiny dot) and always resolves to one bucket.
+  const chartHoverBands = chartBuckets.map((b, i) => {
+    const x = scaleX(i);
+    const start = i === 0 ? 0 : (scaleX(i - 1) + x) / 2;
+    const end = i === chartBuckets.length - 1 ? W : (x + scaleX(i + 1)) / 2;
+    return { start, width: Math.max(end - start, 0.001) };
+  });
+  // Guard against a stale index from before a mode/period switch shrank
+  // chartPoints out from under it.
+  const hoveredPoint = (chartHoverIndex !== null && chartHoverIndex < chartPoints.length) ? chartPoints[chartHoverIndex] : null;
   const singleBucket = chartBuckets.length < 2;
   const chartModeNoun = MODE_NOUN[chartMode];
   const chartFallbackNote = chartIsFallback ? `Hiển thị theo ${chartModeNoun} do chỉ có dữ liệu trong một ${modeNoun}` : '';
@@ -551,26 +571,76 @@ export default function Dashboard() {
           </div>
           {chartFallbackNote && <div style={{ fontSize: 'var(--text-2xs)', color: 'var(--text-brand)', margin: '-8px 0 12px' }}>{chartFallbackNote}</div>}
 
-          <svg viewBox={`0 0 ${W} ${H}`} style={{ width: '100%', height: 220, display: 'block', overflow: 'visible', animation: 'chartFadeIn .5s var(--ease-out)' }}>
-            <defs>
-              <linearGradient id="posFillGrad" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="0%" stopColor="var(--success-500)" stopOpacity="0.28" />
-                <stop offset="100%" stopColor="var(--success-500)" stopOpacity="0" />
-              </linearGradient>
-            </defs>
-            <line x1="0" y1="20" x2={W} y2="20" stroke="var(--border-subtle)" strokeWidth="1" />
-            <line x1="0" y1="90" x2={W} y2="90" stroke="var(--border-subtle)" strokeWidth="1" />
-            <line x1="0" y1="160" x2={W} y2="160" stroke="var(--border-subtle)" strokeWidth="1" />
-            <polygon points={positiveArea} fill="url(#posFillGrad)" />
-            <polyline points={negativeLine} fill="none" stroke="var(--danger-500)" strokeWidth="2" strokeLinejoin="round" strokeLinecap="round" />
-            <polyline points={neutralLine} fill="none" stroke="var(--gold-600)" strokeWidth="2" strokeLinejoin="round" strokeLinecap="round" />
-            <polyline points={positiveLine} fill="none" stroke="var(--success-500)" strokeWidth="2.75" strokeLinejoin="round" strokeLinecap="round" style={{ filter: 'drop-shadow(0 2px 5px rgba(76,154,110,0.35))' }} />
-            {chartPoints.map((pt, i) => (
-              <circle key={i} cx={pt.cx} cy={pt.cy} r="3" fill="var(--success-500)" stroke="var(--ivory-0)" strokeWidth="1.5" style={{ cursor: 'pointer' }}>
-                <title>{pt.title}</title>
-              </circle>
-            ))}
-          </svg>
+          <div style={{ position: 'relative' }}>
+            <svg
+              viewBox={`0 0 ${W} ${H}`}
+              style={{ width: '100%', height: 220, display: 'block', overflow: 'visible', animation: 'chartFadeIn .5s var(--ease-out)' }}
+              onMouseLeave={() => setChartHoverIndex(null)}
+            >
+              <defs>
+                <linearGradient id="posFillGrad" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor="var(--success-500)" stopOpacity="0.28" />
+                  <stop offset="100%" stopColor="var(--success-500)" stopOpacity="0" />
+                </linearGradient>
+              </defs>
+              <line x1="0" y1="20" x2={W} y2="20" stroke="var(--border-subtle)" strokeWidth="1" />
+              <line x1="0" y1="90" x2={W} y2="90" stroke="var(--border-subtle)" strokeWidth="1" />
+              <line x1="0" y1="160" x2={W} y2="160" stroke="var(--border-subtle)" strokeWidth="1" />
+              <polygon points={positiveArea} fill="url(#posFillGrad)" />
+              <polyline points={negativeLine} fill="none" stroke="var(--danger-500)" strokeWidth="2" strokeLinejoin="round" strokeLinecap="round" />
+              <polyline points={neutralLine} fill="none" stroke="var(--gold-600)" strokeWidth="2" strokeLinejoin="round" strokeLinecap="round" />
+              <polyline points={positiveLine} fill="none" stroke="var(--success-500)" strokeWidth="2.75" strokeLinejoin="round" strokeLinecap="round" style={{ filter: 'drop-shadow(0 2px 5px rgba(76,154,110,0.35))' }} />
+              {chartPoints.map((pt, i) => (
+                <circle key={i} cx={pt.x} cy={pt.yPositive} r="3" fill="var(--success-500)" stroke="var(--ivory-0)" strokeWidth="1.5" style={{ pointerEvents: 'none' }} />
+              ))}
+              {/* Hovered point: vertical guideline + a highlighted marker on all
+                  3 series (not just the positive line) so the tooltip's three
+                  numbers each have a visible anchor on the chart. */}
+              {hoveredPoint && (
+                <g style={{ pointerEvents: 'none' }}>
+                  <line x1={hoveredPoint.x} y1={padTop} x2={hoveredPoint.x} y2={H - padBottom} stroke="var(--seryn-navy)" strokeWidth="1" strokeDasharray="3 3" opacity="0.35" />
+                  <circle cx={hoveredPoint.x} cy={hoveredPoint.yNegative} r="4.5" fill="var(--danger-500)" stroke="var(--ivory-0)" strokeWidth="1.5" />
+                  <circle cx={hoveredPoint.x} cy={hoveredPoint.yNeutral} r="4.5" fill="var(--gold-600)" stroke="var(--ivory-0)" strokeWidth="1.5" />
+                  <circle cx={hoveredPoint.x} cy={hoveredPoint.yPositive} r="4.5" fill="var(--success-500)" stroke="var(--ivory-0)" strokeWidth="1.5" style={{ filter: 'drop-shadow(0 1px 3px rgba(76,154,110,0.45))' }} />
+                </g>
+              )}
+              {/* Invisible full-height hover targets, one per bucket, each
+                  spanning the midpoint to its neighbors — makes the whole
+                  vertical slice around a point hoverable/tappable, not just
+                  the 3px dot itself. */}
+              {chartHoverBands.map((band, i) => (
+                <rect
+                  key={i} x={band.start} y={0} width={band.width} height={H} fill="transparent"
+                  style={{ cursor: 'pointer' }}
+                  onMouseEnter={() => setChartHoverIndex(i)}
+                  onFocus={() => setChartHoverIndex(i)}
+                  onClick={() => setChartHoverIndex(i)}
+                  tabIndex={0}
+                  role="button"
+                  aria-label={`${chartPoints[i].label}: ${chartPoints[i].total} nguồn · ${chartPoints[i].positive} tích cực · ${chartPoints[i].neutral} trung tính · ${chartPoints[i].negative} tiêu cực`}
+                />
+              ))}
+            </svg>
+
+            {hoveredPoint && (() => {
+              const leftPct = Math.min(Math.max((hoveredPoint.x / W) * 100, 12), 88);
+              const topPx = Math.max(Math.min(hoveredPoint.yPositive, hoveredPoint.yNeutral, hoveredPoint.yNegative) - 92, 0);
+              return (
+                <div style={{
+                  position: 'absolute', left: `${leftPct}%`, top: topPx, transform: 'translateX(-50%)',
+                  background: 'var(--seryn-navy)', color: '#fff', borderRadius: 'var(--radius-md)',
+                  padding: '10px 14px', fontSize: 'var(--text-xs)', lineHeight: 1.6, whiteSpace: 'nowrap',
+                  boxShadow: 'var(--shadow-lg)', pointerEvents: 'none', zIndex: 5,
+                }}>
+                  <div style={{ fontWeight: 600, marginBottom: 4, letterSpacing: 'var(--tracking-tighter)' }}>{hoveredPoint.label}</div>
+                  <div style={{ opacity: 0.85, marginBottom: 2 }}>Tổng nguồn: <strong>{hoveredPoint.total}</strong></div>
+                  <div><span style={{ color: 'var(--success-500)' }}>●</span> Tích cực: <strong>{hoveredPoint.positive}</strong></div>
+                  <div><span style={{ color: 'var(--gold-600)' }}>●</span> Trung tính: <strong>{hoveredPoint.neutral}</strong></div>
+                  <div><span style={{ color: 'var(--danger-500)' }}>●</span> Tiêu cực: <strong>{hoveredPoint.negative}</strong></div>
+                </div>
+              );
+            })()}
+          </div>
           <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: 6, fontSize: 'var(--text-2xs)', color: 'var(--text-subtle)' }}>
             <span>{firstDateLabel}</span><span>{midDateLabel}</span><span>{lastDateLabel}</span>
           </div>
