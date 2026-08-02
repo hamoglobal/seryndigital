@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-01",
+  "date": "2026-08-02",
   "topSources": [
     {
       "title": "Seryn Clinic: Phòng Khám Đa Khoa Seryn (Website chính thức)",
@@ -79,7 +79,7 @@
       "domain": "vinmec.com",
       "type": "Nhầm lẫn - Thuốc",
       "sentiment": "neutral",
-      "isNew": true
+      "isNew": false
     },
     {
       "title": "Điều gì giúp Seryn Clinic nổi bật - YAN.vn (báo uy tín)",
@@ -127,14 +127,6 @@
       "domain": "arttimes.vn",
       "type": "Báo chí PR",
       "sentiment": "positive",
-      "isNew": true
-    },
-    {
-      "title": "Trẻ hóa gương mặt: vì sao liệu trình riêng lẻ không còn được ưa chuộng - ThanhNienViet.vn",
-      "url": "https://thanhnienviet.vn/tre-hoa-guong-mat-vi-sao-nhung-lieu-trinh-rieng-le-khong-con-duoc-ua-chuong-209260318154118679.htm",
-      "domain": "thanhnienviet.vn",
-      "type": "Báo chí PR",
-      "sentiment": "positive",
       "isNew": false
     },
     {
@@ -150,6 +142,14 @@
       "url": "https://seryn.vn/landing/2026/tre-hoa-sera-core.html",
       "domain": "seryn.vn",
       "type": "Website chính thức",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "title": "Seryn Clinic - GPHĐ 11149/HCM-GPHĐ theo tóm tắt AI (xem mục theo dõi #1 Tong Quan)",
+      "url": "https://thethaovanhoa.vn/dieu-gi-giup-seryn-clinic-noi-bat-giua-thi-truong-lam-dep-dang-bao-hoa-20260515100741387.htm",
+      "domain": "thethaovanhoa.vn",
+      "type": "Báo chí PR",
       "sentiment": "positive",
       "isNew": false
     },
@@ -178,18 +178,18 @@
       "isNew": false
     },
     {
-      "title": "Seryn – Siêu thị thuốc việt (Muathuoc.vn, không liên quan)",
-      "url": "https://www.muathuoc.vn/seryn",
-      "domain": "muathuoc.vn",
-      "type": "Nhầm lẫn - Thuốc",
+      "title": "MedPro Group - Wikipedia (nhầm lẫn thương hiệu, không liên quan)",
+      "url": "https://en.wikipedia.org/wiki/MedPro_Group",
+      "domain": "en.wikipedia.org",
+      "type": "Nhầm lẫn",
       "sentiment": "neutral",
       "isNew": false
     },
     {
-      "title": "Seryn Clinic - Tin tức mới nhất 24h - VnExpress Tag",
-      "url": "https://vnexpress.net/tag/seryn-clinic-1890677",
-      "domain": "vnexpress.net",
-      "type": "Báo chí - Tag",
+      "title": "Seryn – Siêu thị thuốc việt (Muathuoc.vn, không liên quan)",
+      "url": "https://www.muathuoc.vn/seryn",
+      "domain": "muathuoc.vn",
+      "type": "Nhầm lẫn - Thuốc",
       "sentiment": "neutral",
       "isNew": false
     },
@@ -207,10 +207,10 @@
       "domain": "wanderlog.com",
       "type": "Directory",
       "sentiment": "neutral",
-      "isNew": true
+      "isNew": false
     },
     {
-      "title": "Không tìm thấy bài viết tiêu cực/lừa đảo/quyết định thanh tra nào nhắc đích danh Seryn Clinic (24 Nguyễn Bỉnh Khiêm) hôm nay. (Lưu ý: tóm tắt AI có nhắc '45 Xã Đàn' cho chi nhánh Hà Nội — xem mục theo dõi #4 ở sheet Tong Quan)",
+      "title": "Không tìm thấy bài viết tiêu cực/lừa đảo/quyết định thanh tra nào nhắc đích danh Seryn Clinic (24 Nguyễn Bỉnh Khiêm) hôm nay.",
       "url": "-",
       "domain": "",
       "type": "Kết quả rà soát",
@@ -225,7 +225,7 @@
       "url": "https://www.facebook.com/p/Chuy%C3%AAn-gia-s%E1%BA%AFc-%C4%91%E1%BA%B9p-L%E1%BA%A1i-Minh-Hi%E1%BA%BFu-Seryn-Clinic-61550115911294/",
       "accountType": "",
       "sentiment": "Tích cực",
-      "note": "Nằm trong danh sách kênh xác nhận chính thức (staff/KOL) — lần đầu được nhận diện và phân loại trong báo cáo hằng ngày."
+      "note": "Nằm trong danh sách kênh xác nhận chính thức (staff/KOL)."
     },
     {
       "platform": "Facebook",
@@ -233,7 +233,7 @@
       "url": "https://www.facebook.com/p/Ph%C3%B2ng-kh%C3%A1m-Seryn-100094769671762/",
       "accountType": "",
       "sentiment": "Trung tính",
-      "note": "Không nằm trong danh sách kênh xác nhận chính thức; chưa có bằng chứng giả mạo — chờ xác minh (carry-forward)."
+      "note": "Không nằm trong danh sách kênh xác nhận chính thức; chưa có bằng chứng giả mạo — carry-forward chờ xác minh."
     },
     {
       "platform": "Facebook",
@@ -257,7 +257,7 @@
       "url": "https://www.facebook.com/61551700769618?locale=lt_LT",
       "accountType": "",
       "sentiment": "Trung tính",
-      "note": "Có thể là trang nhân viên/cộng tác viên; không nằm trong danh sách kênh xác nhận (khác ID với trang Lại Minh Hiếu đã xác nhận ở dòng 1)."
+      "note": "Có thể là trang nhân viên/cộng tác viên; không nằm trong danh sách kênh xác nhận (khác ID với trang đã xác nhận)."
     },
     {
       "platform": "Facebook (không liên quan)",
@@ -296,8 +296,8 @@
     {
       "level": "",
       "type": "Sai lệch số GPHĐ trong tóm tắt AI tìm kiếm (11149/HCM-GPHĐ vs. 1149/HCM-GPHĐ đã xác nhận)",
-      "source": "Kết quả WebSearch \"Seryn Clinic 24 Nguyễn Bỉnh Khiêm\" ngày 2026-08-01",
-      "date": "2026-08-01",
+      "source": "Kết quả WebSearch \"Seryn Clinic 24 Nguyễn Bỉnh Khiêm\" ngày 2026-08-02",
+      "date": "2026-08-02",
       "summary": "",
       "action": ""
     },
@@ -305,15 +305,15 @@
       "level": "",
       "type": "ID Facebook 'Thanh Xuân' trùng tên, chưa nằm trong danh sách kênh xác nhận chính thức",
       "source": "facebook.com/profile.php?id=61551500829974 ; facebook.com/profile.php?id=61551825290264",
-      "date": "2026-08-01",
+      "date": "2026-08-02",
       "summary": "",
       "action": ""
     },
     {
       "level": "",
-      "type": "Sai lệch địa chỉ chi nhánh Hà Nội trong tóm tắt AI tìm kiếm ('45 Xã Đàn' vs. '454 Xã Đàn' đã xác nhận)",
-      "source": "Kết quả WebSearch \"Seryn Clinic lừa đảo phản ánh tiêu cực\" ngày 2026-08-01",
-      "date": "2026-08-01",
+      "type": "Sai lệch địa chỉ chi nhánh Hà Nội trong tóm tắt AI tìm kiếm ('45 Xã Đàn' vs. '454 Xã Đàn' đã xác nhận) — không lặp lại hôm nay",
+      "source": "Ghi nhận lần đầu trong kết quả WebSearch ngày 2026-08-01",
+      "date": "2026-08-02",
       "summary": "",
       "action": ""
     }
@@ -323,25 +323,31 @@
       "time": "08:05",
       "step": "Bước 1-2: Tìm kiếm Google + MXH",
       "result": "OK",
-      "note": "9 từ khóa Google + 3 site:search MXH hoàn tất, 35 nguồn ghi nhận"
+      "note": "9 từ khóa Google + 3 site:search MXH hoàn tất, 35 nguồn ghi nhận (0 mới so với 2026-08-01)"
     },
     {
       "time": "08:08",
-      "step": "Bước 5: Tạo file Excel",
+      "step": "Bước 3-4: Phân loại & so sánh báo cáo trước",
       "result": "OK",
-      "note": "Bao_cao_Seryn_Monitoring_2026-08-01.xlsx lưu tại D:\\Seryn Digital\\Seryn Digital"
+      "note": "Đối chiếu với Bao_cao_Seryn_Monitoring_2026-08-01.xlsx — không phát hiện nguồn mới, không có Cảnh báo Đỏ"
     },
     {
       "time": "08:09",
+      "step": "Bước 5: Tạo file Excel",
+      "result": "OK",
+      "note": "Bao_cao_Seryn_Monitoring_2026-08-02.xlsx + .csv lưu tại D:\\Seryn Digital\\Seryn Digital"
+    },
+    {
+      "time": "08:10",
       "step": "Bước 5b: Copy sang thư mục ingest",
       "result": "OK",
-      "note": "Copy sang D:\\APP Seryn\\seryn-digital-app\\reports\\incoming — verify fuse mount + diff byte-identical"
+      "note": "Copy sang D:\\APP Seryn\\seryn-digital-app\\reports\\incoming — verify fuse mount (mount|grep) + diff byte-identical OK cho .xlsx và .csv"
     },
     {
       "time": "08:11",
       "step": "Bước 6: Upload Google Sheets",
       "result": "OK 6.1 (Shared Drive trực tiếp)",
-      "note": "https://docs.google.com/spreadsheets/d/1uWOGF19Fm7ILJfvEjduz7qREAJ9CRRgkYWZyQ5UrmuI/edit"
+      "note": "https://docs.google.com/spreadsheets/d/1M75dsWAjHHikIjD0-oXfP3iXr1H1VQF9UQprmgUm4X4/edit — Lưu ý: 1 file placeholder rỗng bị tạo nhầm trước đó (ID 1QdgWqsA4I5yUcJuQrXRcYetrwaLHVvr_Nu8M_8H6GC0, tên trùng) — cần khách xóa thủ công vì MCP không có tool xóa file"
     }
   ]
 }
