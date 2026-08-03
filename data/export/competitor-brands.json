@@ -9598,5 +9598,517 @@
       "note": "Không ghi nhận vi phạm; vừa được Bộ Y tế cấp phép hoạt động theo mô hình bệnh viện chuyên khoa.",
       "mainSources": ""
     }
+  ],
+  "2026-07-31": [
+    {
+      "brand": "Lavender By Chang",
+      "badNews": 10,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Vi phạm mang tính hệ thống, lặp lại nhiều năm (2016, 2018, 2019, 2021, 2023, 2024-2025) chủ yếu về quảng cáo sai phép và nhân sự không đăng ký hành nghề.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ KangJin Sejung",
+      "badNews": 7,
+      "newArticles": 2,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Bị xử phạt lặp lại nhiều lần qua nhiều năm vì quảng cáo sai sự thật/dùng từ ngữ so sánh tuyệt đối, nằm trong danh sách cơ sở hành nghề y bị xử phạt hàng loạt.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Ngọc Dung",
+      "badNews": 6,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Từng bị tước giấy phép hoạt động 3 tháng và phạt 94 triệu đồng do vượt phạm vi chuyên môn — vi phạm nghiêm trọng dù đã xảy ra trước đây; nhiều bài viết đặt nghi vấn về giấy phép.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Bệnh viện thẩm mỹ Kangnam",
+      "badNews": 5,
+      "newArticles": 2,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Vi phạm trải rộng ở nhiều cơ sở/chi nhánh trong hệ thống (Hà Nội, Sài Gòn, Bình Định), có tước chứng chỉ hành nghề bác sĩ và nghi vấn tài chính.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thanh Hằng Beauty Medi",
+      "badNews": 5,
+      "newArticles": 2,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "Có lịch sử vi phạm về quảng cáo thuốc chưa cấp phép, nhân sự hành nghề không phép; chưa ghi nhận vi phạm/tin xấu mới trong đợt tra cứu hôm nay.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Seoul",
+      "badNews": 5,
+      "newArticles": 2,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Nhóm thương hiệu mang tên 'Seoul' có nhiều pháp nhân khác nhau (Seoul Center, Seoul ID, New Seoul, Seoul Spa) từng bị đình chỉ hoạt động dài hạn (18 tháng) và phạt nặng (tới 210 triệu đồng) — dễ gây nhầm lẫn thương hiệu, cần theo dõi sát.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Xuân Hương",
+      "badNews": 4,
+      "newArticles": 3,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Ghi nhận cơ sở cùng tên 'Xuân Hương' tại Tiền Giang/Mỹ Tho bị buộc dừng hoạt động do nhiều vi phạm nghiêm trọng — CẦN XÁC MINH đây có phải cùng pháp nhân với thương hiệu đang theo dõi (trụ sở 19-21 Bùi Thị Xuân, Hà Nội) hay là cơ sở trùng tên khác, tránh nhầm lẫn thương hiệu.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Bally",
+      "badNews": 2,
+      "newArticles": 2,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "Có phản ánh vi phạm quảng cáo và thực hiện dịch vụ xâm lấn trái phép nhưng đều là thông tin cũ (khoảng 2018); không tìm thấy quyết định xử phạt cụ thể mới trong đợt tra cứu hôm nay.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Dr. Hải Lê",
+      "badNews": 1,
+      "newArticles": 3,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không ghi nhận vi phạm/tin xấu; vừa được Bộ Y tế cấp phép hoạt động theo mô hình bệnh viện chuyên khoa thẩm mỹ (3/2026).",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Thu Cúc",
+      "badNews": 1,
+      "newArticles": 2,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không ghi nhận vi phạm/tin xấu qua tra cứu hôm nay.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Hongkong",
+      "badNews": 1,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Bị phản ánh thực hiện dịch vụ laser vượt phạm vi giấy phép; Sở Y tế Hà Nội xác nhận chưa cấp phép phòng khám da liễu cho cơ sở này.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Dr. Thái Hà",
+      "badNews": 1,
+      "newArticles": 1,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không ghi nhận vi phạm/tin xấu liên quan trực tiếp; các vi phạm về quảng cáo tại Hà Nội tìm thấy thuộc về cơ sở khác (Sline, Hoàng Tuấn, Hoàng Sơn, Asia, D'Vincy), không phải Dr. Thái Hà.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VITA Clinic",
+      "badNews": 1,
+      "newArticles": 1,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không ghi nhận vi phạm/tin xấu qua tra cứu hôm nay.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VietCharm",
+      "badNews": 1,
+      "newArticles": 1,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không ghi nhận vi phạm/tin xấu qua tra cứu hôm nay (kết quả liên quan chỉ là các cơ sở khác như Khơ Thị).",
+      "mainSources": ""
+    }
+  ],
+  "2026-08-01": [
+    {
+      "brand": "Thẩm mỹ Seoul",
+      "badNews": 5,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Nhóm thương hiệu mang tên 'Seoul' có nhiều pháp nhân khác nhau (Seoul Center, New Seoul, Seoul Spa) từng bị đình chỉ hoạt động dài hạn (18 tháng) và phạt nặng (tới 210 triệu đồng) — dễ gây nhầm lẫn thương hiệu, cần theo dõi sát và xác minh đúng pháp nhân.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ KangJin Sejung",
+      "badNews": 5,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Lịch sử vi phạm lặp lại nhiều lần qua nhiều năm (quảng cáo sai phép, nhân sự hành nghề không đăng ký); nhiều cơ sở cùng thương hiệu Kangzin/KangJin từng bị đóng cửa hàng loạt.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Bệnh viện thẩm mỹ Kangnam",
+      "badNews": 4,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Sự cố y khoa nghiêm trọng và nghi vấn che giấu thông tin theo phản ánh báo chí; nhiều chi nhánh từng bị xử phạt vi phạm quảng cáo; từng ghi nhận các ca tử vong sau phẫu thuật trong quá khứ (2019, 2022).",
+      "mainSources": ""
+    },
+    {
+      "brand": "Lavender By Chang",
+      "badNews": 4,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Vi phạm mang tính hệ thống, lặp lại nhiều năm (2016, 2018, 2019, 2021, 2023...) chủ yếu về quảng cáo sai phép và nhân sự không đăng ký hành nghề.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Ngọc Dung",
+      "badNews": 3,
+      "newArticles": 2,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Từng bị tước giấy phép hoạt động 3 tháng và phạt 94 triệu đồng do cung cấp dịch vụ vượt phạm vi chuyên môn — vi phạm nghiêm trọng dù đã xảy ra trước đây; công ty còn nợ bảo hiểm xã hội.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thanh Hằng Beauty Medi",
+      "badNews": 3,
+      "newArticles": 1,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "Có lịch sử vi phạm về quảng cáo thuốc/dịch vụ chưa cấp phép, nhân sự hành nghề không phép; chưa ghi nhận vi phạm mới trong đợt tra cứu hôm nay.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Thu Cúc",
+      "badNews": 3,
+      "newArticles": 1,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "Có vụ án hình sự nhân viên chiếm đoạt tiền khách hàng (đã xét xử) và tiền sử bị đình chỉ/phạt vì từ chối tiếp nhận bệnh nhân COVID-19; đây là các sự việc mang tính cá nhân/quá khứ hơn là vi phạm hệ thống về giấy phép hành nghề.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Bally",
+      "badNews": 3,
+      "newArticles": 1,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "Có phản ánh vi phạm quảng cáo và thực hiện dịch vụ xâm lấn vượt phạm vi giấy phép (chỉ được cấp phép bán lẻ mỹ phẩm) nhưng đây là các thông tin cũ; không tìm thấy quyết định xử phạt cụ thể mới trong đợt tra cứu hôm nay.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Hongkong",
+      "badNews": 2,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Bị phản ánh thực hiện dịch vụ laser vượt phạm vi giấy phép; Sở Y tế Hà Nội xác nhận chưa cấp phép phòng khám da liễu cho cơ sở này.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Xuân Hương",
+      "badNews": 2,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Ghi nhận cơ sở cùng tên 'Xuân Hương' tại Mỹ Tho, Tiền Giang bị buộc dừng hoạt động do nhiều vi phạm nghiêm trọng — CẦN XÁC MINH đây có phải cùng pháp nhân với thương hiệu đang theo dõi hay là cơ sở trùng tên khác, tránh nhầm lẫn thương hiệu.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Dr. Thái Hà",
+      "badNews": 1,
+      "newArticles": 1,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không ghi nhận vi phạm/tin xấu liên quan trực tiếp; các vi phạm quảng cáo tìm thấy tại Hà Nội thuộc về các cơ sở khác (Sline, Hoàng Tuấn, Hoàng Sơn, Asia, D'Vincy), không phải Dr. Thái Hà.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VITA Clinic",
+      "badNews": 1,
+      "newArticles": 1,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không ghi nhận vi phạm/tin xấu qua tra cứu hôm nay.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VietCharm",
+      "badNews": 1,
+      "newArticles": 1,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không ghi nhận vi phạm/tin xấu qua tra cứu hôm nay; các kết quả liên quan tới 'xử phạt thẩm mỹ' trả về là cơ sở khác (Khơ Thị), không phải VietCharm.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Dr. Hải Lê",
+      "badNews": 1,
+      "newArticles": 1,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không ghi nhận vi phạm/tin xấu trong đợt tra cứu hôm nay; vừa công bố giấy phép hoạt động theo mô hình bệnh viện chuyên khoa thẩm mỹ (3/2026). Lưu ý: cần phân biệt với cơ sở 'Dr. Vinh Lê' (tên gần giống) từng bị xử phạt 106 triệu đồng và tước giấy phép — không phải cùng thương hiệu.",
+      "mainSources": ""
+    }
+  ],
+  "2026-08-02": [
+    {
+      "brand": "Bệnh viện thẩm mỹ Kangnam",
+      "badNews": 4,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Seoul",
+      "badNews": 4,
+      "newArticles": 0,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Thu Cúc",
+      "badNews": 3,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ KangJin Sejung",
+      "badNews": 3,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Lavender By Chang",
+      "badNews": 2,
+      "newArticles": 1,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thanh Hằng Beauty Medi",
+      "badNews": 2,
+      "newArticles": 1,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Ngọc Dung",
+      "badNews": 2,
+      "newArticles": 1,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Xuân Hương",
+      "badNews": 2,
+      "newArticles": 1,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Bally",
+      "badNews": 2,
+      "newArticles": 1,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Hongkong",
+      "badNews": 2,
+      "newArticles": 0,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VITA Clinic",
+      "badNews": 0,
+      "newArticles": 1,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Dr. Hải Lê",
+      "badNews": 0,
+      "newArticles": 1,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Dr. Thái Hà",
+      "badNews": 0,
+      "newArticles": 0,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VietCharm",
+      "badNews": 0,
+      "newArticles": 0,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "",
+      "mainSources": ""
+    }
+  ],
+  "2026-08-03": [
+    {
+      "brand": "Bệnh viện thẩm mỹ Kangnam",
+      "badNews": 3,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Lavender By Chang",
+      "badNews": 2,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thanh Hằng Beauty Medi",
+      "badNews": 2,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Hongkong",
+      "badNews": 2,
+      "newArticles": 1,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Seoul",
+      "badNews": 2,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Thu Cúc",
+      "badNews": 2,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Ngọc Dung",
+      "badNews": 2,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Bally",
+      "badNews": 2,
+      "newArticles": 1,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ KangJin Sejung",
+      "badNews": 2,
+      "newArticles": 1,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Xuân Hương",
+      "badNews": 1,
+      "newArticles": 2,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Dr. Hải Lê",
+      "badNews": 1,
+      "newArticles": 2,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VietCharm",
+      "badNews": 1,
+      "newArticles": 0,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Dr. Thái Hà",
+      "badNews": 0,
+      "newArticles": 1,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VITA Clinic",
+      "badNews": 0,
+      "newArticles": 1,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "",
+      "mainSources": ""
+    }
   ]
 }
