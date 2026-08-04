@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-03",
+  "date": "2026-08-04",
   "topSources": [
     {
       "title": "Seryn Clinic: Phòng Khám Đa Khoa Seryn (Website chính thức)",
@@ -122,6 +122,14 @@
       "isNew": false
     },
     {
+      "title": "Hội đồng Y khoa SERYN Clinic tiên phong - Arttimes.vn (đăng lại, cùng nội dung với Eva.vn)",
+      "url": "https://arttimes.vn/nhip-cau-doanh-nghiep/hoi-dong-y-khoa-seryn-clinic-tien-phong-mo-goc-nhin-moi-trong-tre-hoa-lan-da-tai-viet-nam-c56a75643.html",
+      "domain": "arttimes.vn",
+      "type": "Báo chí PR",
+      "sentiment": "positive",
+      "isNew": true
+    },
+    {
       "title": "Phòng Khám Đa Khoa SERYN - YouTube (kênh chính thức)",
       "url": "https://www.youtube.com/channel/UCojQ10-ZUGAt4hOpbMqaIZA",
       "domain": "youtube.com",
@@ -154,6 +162,22 @@
       "isNew": false
     },
     {
+      "title": "seryn.vn (Elder Scrolls Online 'Seryn' - trùng ký tự, nhân vật game, KHÔNG liên quan clinic)",
+      "url": "https://elderscrolls.fandom.com/wiki/Seryn_(Online)",
+      "domain": "elderscrolls.fandom.com",
+      "type": "Nhầm lẫn - Khác",
+      "sentiment": "neutral",
+      "isNew": false
+    },
+    {
+      "title": "80+ 'Seryn' profiles - LinkedIn (directory tự động, không phải hồ sơ Seryn Clinic cụ thể)",
+      "url": "https://www.linkedin.com/pub/dir/Seryn/+",
+      "domain": "linkedin.com",
+      "type": "Directory",
+      "sentiment": "neutral",
+      "isNew": false
+    },
+    {
       "title": "Trẻ hóa không đến từ skincare thông thường - VietnamNet",
       "url": "https://vietnamnet.vn/tre-hoa-khong-den-tu-skincare-thong-thuong-su-that-phai-dep-it-biet-2503099.html",
       "domain": "vietnamnet.vn",
@@ -170,11 +194,11 @@
       "isNew": false
     },
     {
-      "title": "Trẻ hóa gương mặt: vì sao liệu trình riêng lẻ không còn được ưa chuộng - ThanhNienViet.vn (đăng lại)",
-      "url": "https://thanhnienviet.vn/tre-hoa-guong-mat-vi-sao-nhung-lieu-trinh-rieng-le-khong-con-duoc-ua-chuong-209260318154118679.htm",
-      "domain": "thanhnienviet.vn",
-      "type": "Báo chí PR",
-      "sentiment": "positive",
+      "title": "Công ty Cổ phần Quốc tế Medpro Asia - Hồ sơ tuyển dụng TopCV",
+      "url": "https://www.topcv.vn/cong-ty/cong-ty-co-phan-quoc-te-medpro-asia/254685.html",
+      "domain": "topcv.vn",
+      "type": "Hồ sơ tuyển dụng",
+      "sentiment": "neutral",
       "isNew": true
     },
     {
@@ -190,14 +214,6 @@
       "url": "https://vnexpress.net/tag/seryn-clinic-1890677",
       "domain": "vnexpress.net",
       "type": "Directory",
-      "sentiment": "neutral",
-      "isNew": true
-    },
-    {
-      "title": "Seryn – Siêu thị thuốc việt (Muathuoc.vn, không liên quan)",
-      "url": "https://www.muathuoc.vn/seryn",
-      "domain": "muathuoc.vn",
-      "type": "Nhầm lẫn - Thuốc",
       "sentiment": "neutral",
       "isNew": false
     },
@@ -218,20 +234,52 @@
       "isNew": false
     },
     {
-      "title": "Thanh Xuân - Seryn Clinic Việt Nam (Facebook, ID 61551825290264, chưa xác minh)",
-      "url": "https://www.facebook.com/profile.php/?id=61551825290264",
-      "domain": "facebook.com",
-      "type": "Mạng xã hội",
-      "sentiment": "neutral",
-      "isNew": true
-    },
-    {
       "title": "Không tìm thấy bài viết tiêu cực/lừa đảo/quyết định thanh tra nào nhắc đích danh Seryn Clinic (24 Nguyễn Bỉnh Khiêm) hôm nay.",
       "url": "-",
       "domain": "",
       "type": "Kết quả rà soát",
       "sentiment": "positive",
       "isNew": false
+    },
+    {
+      "title": "(Lưu ý: 454 Xã Đàn trên thực tế là địa chỉ của Viện thẩm mỹ Mega Gangnam, KHÔNG phải Seryn — loại khỏi phạm vi giám sát vì không chứa từ khóa 'Seryn')",
+      "url": "-",
+      "domain": "",
+      "type": "Ghi chú đối chiếu",
+      "sentiment": "neutral",
+      "isNew": false
+    },
+    {
+      "title": "Seryn cáp - thuốc trị sa sút trí tuệ - Trungtamthuoc.com (nhầm lẫn thương hiệu thuốc, không liên quan clinic)",
+      "url": "https://trungtamthuoc.com/seryn-cap",
+      "domain": "trungtamthuoc.com",
+      "type": "Nhầm lẫn - Thuốc",
+      "sentiment": "neutral",
+      "isNew": true
+    },
+    {
+      "title": "Điều gì giúp Seryn Clinic nổi bật - YAN.vn (đăng lại)",
+      "url": "https://www.yan.vn/dieu-gi-giup-seryn-clinic-noi-bat-giua-thi-truong-lam-dep-dang-bao-hoa-333818.html",
+      "domain": "yan.vn",
+      "type": "Báo chí PR",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "title": "Trải nghiệm trẻ hóa da cao cấp tại Seryn Clinic - VietnamNet (đăng lại)",
+      "url": "https://vietnamnet.vn/trai-nghiem-tre-hoa-da-cao-cap-tai-seryn-clinic-2529809.html",
+      "domain": "vietnamnet.vn",
+      "type": "Báo chí PR",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "title": "Bác sĩ CKI Vũ Trung Hiếu: một nếp nhăn khách hàng nhìn thấy... - Dep.com.vn",
+      "url": "https://dep.com.vn/bac-si-cki-vu-trung-hieu-mot-nep-nhan-khach-hang-nhin-thay-doi-khi-chi-la-phan-noi-cua-su-lao-hoa/",
+      "domain": "dep.com.vn",
+      "type": "Báo chí PR",
+      "sentiment": "positive",
+      "isNew": true
     }
   ],
   "social": [
@@ -249,7 +297,15 @@
       "url": "https://www.facebook.com/profile.php/?id=61551825290264",
       "accountType": "",
       "sentiment": "Trung tính",
-      "note": "Chưa xác minh — carry-forward vụ trùng tên 'Thanh Xuân' (đã có 2 ID khác trước đó)"
+      "note": "Chưa xác minh — carry-forward vụ trùng tên 'Thanh Xuân'"
+    },
+    {
+      "platform": "Facebook",
+      "account": "Thanh Xuân - Phòng khám Seryn Việt Nam (ID 61551500829974)",
+      "url": "https://www.facebook.com/profile.php/?id=61551500829974",
+      "accountType": "",
+      "sentiment": "Trung tính",
+      "note": "Chưa xác minh — carry-forward vụ trùng tên 'Thanh Xuân'"
     },
     {
       "platform": "Facebook",
@@ -281,7 +337,7 @@
       "url": "-",
       "accountType": "",
       "sentiment": "Kết quả rà soát",
-      "note": "Kết quả trả về chủ yếu là các thương hiệu trùng tên (Seren/Seorin/Sera Clinic Thái Lan) — không liên quan"
+      "note": "Kết quả trả về chủ yếu là các thương hiệu trùng tên (Seren/Seorin/Sera/Serena Clinic Thái Lan, Istanbul...) — không liên quan"
     },
     {
       "platform": "Facebook (name-alike)",
@@ -295,46 +351,22 @@
   "alerts": [],
   "activityLog": [
     {
-      "time": "08:09",
-      "step": "Bước 1 - Tìm kiếm Google (9 từ khóa)",
-      "result": "OK",
-      "note": "-"
-    },
-    {
-      "time": "08:09",
-      "step": "Bước 2 - Kiểm tra MXH (Facebook/TikTok/YouTube)",
-      "result": "OK",
-      "note": "-"
-    },
-    {
-      "time": "08:09",
-      "step": "Bước 3 - Phân tích rủi ro",
-      "result": "OK - Không phát hiện Cảnh báo Đỏ",
-      "note": "-"
-    },
-    {
-      "time": "08:09",
-      "step": "Bước 4 - So sánh báo cáo trước (2026-08-02)",
-      "result": "OK - 4 nguồn mới",
-      "note": "-"
-    },
-    {
-      "time": "08:09",
-      "step": "Bước 5 - Tạo file Excel",
-      "result": "OK",
-      "note": "D:\\Seryn Digital\\Seryn Digital/Bao_cao_Seryn_Monitoring_2026-08-03.xlsx"
+      "time": "08:12",
+      "step": "Upload Google Drive",
+      "result": "OK 6.1 (upload trực tiếp vào Shared Drive folder)",
+      "note": "https://docs.google.com/spreadsheets/d/1b8GKeqHshkgleS1b5byXXLTyWbaahNSE2j4NiRp2wK8/edit"
     },
     {
       "time": "08:11",
-      "step": "Bước 5b - Copy file sang thư mục ingest",
-      "result": "OK - đã copy .xlsx và .csv, xác nhận fuse mount + md5sum khớp",
-      "note": "D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\Bao_cao_Seryn_Monitoring_2026-08-03.xlsx"
+      "step": "Copy file sang ingest",
+      "result": "OK (đã xác nhận fuse mount + diff byte-identical)",
+      "note": "/APP Seryn/seryn-digital-app/reports/incoming/Bao_cao_Seryn_Monitoring_2026-08-04.xlsx + .csv"
     },
     {
-      "time": "08:11",
-      "step": "Bước 6 - Upload Google Sheets",
-      "result": "OK 6.1 - upload trực tiếp vào Shared Drive khách, xác nhận nội dung đầy đủ (3555 bytes)",
-      "note": "https://docs.google.com/spreadsheets/d/1ZKUAAOFxpyXve_Y91P78DDH_87MIf9g0SZ04f97FMpA/edit"
+      "time": "08:10",
+      "step": "Rà soát Cảnh báo Đỏ",
+      "result": "Không phát hiện nội dung tiêu cực/lừa đảo/thanh tra",
+      "note": "Xem sheet Canh Bao"
     }
   ]
 }

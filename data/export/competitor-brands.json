@@ -10110,5 +10110,133 @@
       "note": "",
       "mainSources": ""
     }
+  ],
+  "2026-08-04": [
+    {
+      "brand": "Thanh Hằng Beauty Medi",
+      "badNews": 4,
+      "newArticles": 1,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "Có lịch sử vi phạm về quảng cáo thuốc chưa cấp phép, sử dụng nhân sự hành nghề không phép; chưa ghi nhận vi phạm/tin xấu mới trong đợt tra cứu hôm nay.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Bệnh viện thẩm mỹ Kangnam",
+      "badNews": 3,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Hệ thống có nhiều chi nhánh/thương hiệu liên quan (Kangnam, Mega Kangnam) liên tục bị xử phạt ở nhiều tỉnh thành; có vụ việc tước chứng chỉ hành nghề bác sĩ — mức độ rủi ro pháp lý cao và lặp lại.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Lavender By Chang",
+      "badNews": 3,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Liên tục bị Thanh tra Sở Y tế TP.HCM xử phạt qua nhiều đợt vì vi phạm quảng cáo và giấy phép hoạt động; là thương hiệu có tần suất bị 'tuýt còi' cao trong danh sách theo dõi.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Seoul",
+      "badNews": 3,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Nhiều cơ sở gắn thương hiệu 'Seoul' (Seoul Center, Seoul ID, New Seoul) từng bị xử phạt/đình chỉ hoạt động; đáng chú ý Seoul ID (Biên Hòa) đang trong thời gian đình chỉ 18 tháng có hiệu lực đến 20/05/2026 — cần xác minh đã hết hạn đình chỉ hay chưa.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ KangJin Sejung",
+      "badNews": 3,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Lịch sử bị xử phạt lặp lại nhiều lần qua nhiều năm vì quảng cáo sai sự thật/dùng từ ngữ so sánh tuyệt đối và vi phạm niêm yết giá; không phát hiện vi phạm mới phát sinh trong đợt tra cứu hôm nay.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Xuân Hương",
+      "badNews": 2,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Một cơ sở gắn tên 'Xuân Hương' tại Mỹ Tho, Tiền Giang bị buộc dừng hoạt động vì nhiều vi phạm nghiêm trọng (không hóa đơn, không chứng chỉ hành nghề). Cần lưu ý khả năng trùng tên với chuỗi Thẩm mỹ viện Xuân Hương thương hiệu lớn (35 năm) — cần xác minh thêm mối liên hệ pháp nhân.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Bally",
+      "badNews": 2,
+      "newArticles": 1,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "Có lịch sử vi phạm quảng cáo (dùng từ ngữ tuyệt đối 'số 1') và thực hiện dịch vụ xâm lấn (tiêm filler, độn cằm) khi chưa được cấp phép; chưa ghi nhận vi phạm mới trong đợt tra cứu hôm nay.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Thu Cúc",
+      "badNews": 1,
+      "newArticles": 3,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không phát hiện tin xấu/vi phạm pháp lý trong đợt tra cứu hôm nay; hoạt động quảng bá thương hiệu và mở rộng chi nhánh diễn ra bình thường.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VITA Clinic",
+      "badNews": 1,
+      "newArticles": 2,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không phát hiện tin xấu/vi phạm pháp lý trong đợt tra cứu hôm nay.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Dr. Hải Lê",
+      "badNews": 1,
+      "newArticles": 2,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không phát hiện tin xấu/vi phạm trong đợt tra cứu hôm nay; cơ sở vừa chính thức được Bộ Y tế cấp phép hoạt động dưới mô hình bệnh viện chuyên khoa thẩm mỹ.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Hongkong",
+      "badNews": 1,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Đại diện Sở Y tế Hà Nội khẳng định chưa cấp phép phòng khám da liễu cho cơ sở tại 51 Hàng Gà — dấu hiệu hoạt động vượt phạm vi cho phép, cần theo dõi sát.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Dr. Thái Hà",
+      "badNews": 1,
+      "newArticles": 1,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không phát hiện tin xấu/vi phạm pháp lý trong đợt tra cứu hôm nay.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Ngọc Dung",
+      "badNews": 1,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Từng bị tước giấy phép hoạt động khám chữa bệnh 3 tháng và phạt 94 triệu đồng (chi nhánh Nguyễn Thái Học) — vi phạm nghiêm trọng dù đã xảy ra trước đây; cần theo dõi thêm các chi nhánh khác.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VietCharm",
+      "badNews": 1,
+      "newArticles": 1,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không phát hiện tin xấu/vi phạm pháp lý liên quan trực tiếp đến VietCharm trong đợt tra cứu hôm nay; kết quả tìm kiếm chủ yếu là thông tin giới thiệu dịch vụ.",
+      "mainSources": ""
+    }
   ]
 }
