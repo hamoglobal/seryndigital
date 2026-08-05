@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-04",
+  "date": "2026-08-05",
   "topSources": [
     {
       "title": "Seryn Clinic: Phòng Khám Đa Khoa Seryn (Website chính thức)",
@@ -127,7 +127,7 @@
       "domain": "arttimes.vn",
       "type": "Báo chí PR",
       "sentiment": "positive",
-      "isNew": true
+      "isNew": false
     },
     {
       "title": "Phòng Khám Đa Khoa SERYN - YouTube (kênh chính thức)",
@@ -162,7 +162,23 @@
       "isNew": false
     },
     {
-      "title": "seryn.vn (Elder Scrolls Online 'Seryn' - trùng ký tự, nhân vật game, KHÔNG liên quan clinic)",
+      "title": "Trẻ hóa gương mặt: liệu trình riêng lẻ không còn được ưa chuộng - ThanhNienViet.vn (đăng lại nội dung AFamily.vn; báo CHƯA nằm trong danh sách báo uy tín đã xác nhận hợp tác — giữ Trung tính, theo dõi xác minh)",
+      "url": "https://thanhnienviet.vn/tre-hoa-guong-mat-vi-sao-nhung-lieu-trinh-rieng-le-khong-con-duoc-ua-chuong-209260318154118679.htm",
+      "domain": "thanhnienviet.vn",
+      "type": "Báo chí PR (chưa xác nhận)",
+      "sentiment": "neutral",
+      "isNew": true
+    },
+    {
+      "title": "Experience premium skin rejuvenation at Seryn Clinic - Vietnam.vn/en (bản dịch tiếng Anh, đăng lại nội dung VietnamNet; trang tổng hợp/aggregator, CHƯA nằm trong danh sách báo xác nhận)",
+      "url": "https://www.vietnam.vn/en/trai-nghiem-tre-hoa-da-cao-cap-tai-seryn-clinic",
+      "domain": "vietnam.vn",
+      "type": "Directory/Aggregator",
+      "sentiment": "neutral",
+      "isNew": true
+    },
+    {
+      "title": "\"Seryn\" (Online) - The Elder Scrolls Wiki - Fandom (nhân vật trò chơi điện tử, trùng ký tự, KHÔNG liên quan clinic)",
       "url": "https://elderscrolls.fandom.com/wiki/Seryn_(Online)",
       "domain": "elderscrolls.fandom.com",
       "type": "Nhầm lẫn - Khác",
@@ -170,12 +186,20 @@
       "isNew": false
     },
     {
-      "title": "80+ 'Seryn' profiles - LinkedIn (directory tự động, không phải hồ sơ Seryn Clinic cụ thể)",
+      "title": "80+ \"Seryn\" profiles - LinkedIn (directory tự động, không phải hồ sơ Seryn Clinic cụ thể)",
       "url": "https://www.linkedin.com/pub/dir/Seryn/+",
       "domain": "linkedin.com",
       "type": "Directory",
       "sentiment": "neutral",
       "isNew": false
+    },
+    {
+      "title": "Seryn – Siêu thị thuốc việt - Muathuoc.vn (nhầm lẫn thương hiệu thuốc, không liên quan clinic; cùng loại với Vinmec/Trungtamthuoc đã ghi nhận)",
+      "url": "https://www.muathuoc.vn/seryn",
+      "domain": "muathuoc.vn",
+      "type": "Nhầm lẫn - Thuốc",
+      "sentiment": "neutral",
+      "isNew": true
     },
     {
       "title": "Trẻ hóa không đến từ skincare thông thường - VietnamNet",
@@ -199,7 +223,7 @@
       "domain": "topcv.vn",
       "type": "Hồ sơ tuyển dụng",
       "sentiment": "neutral",
-      "isNew": true
+      "isNew": false
     },
     {
       "title": "MedPro Group - Wikipedia (nhầm lẫn thương hiệu, không liên quan)",
@@ -255,7 +279,7 @@
       "domain": "trungtamthuoc.com",
       "type": "Nhầm lẫn - Thuốc",
       "sentiment": "neutral",
-      "isNew": true
+      "isNew": false
     },
     {
       "title": "Điều gì giúp Seryn Clinic nổi bật - YAN.vn (đăng lại)",
@@ -279,7 +303,7 @@
       "domain": "dep.com.vn",
       "type": "Báo chí PR",
       "sentiment": "positive",
-      "isNew": true
+      "isNew": false
     }
   ],
   "social": [
@@ -337,36 +361,42 @@
       "url": "-",
       "accountType": "",
       "sentiment": "Kết quả rà soát",
-      "note": "Kết quả trả về chủ yếu là các thương hiệu trùng tên (Seren/Seorin/Sera/Serena Clinic Thái Lan, Istanbul...) — không liên quan"
+      "note": "Kết quả trả về chủ yếu là các thương hiệu trùng tên (Seren/Seorin/Sherie/Sera Clinic Thái Lan, Istanbul...) — không liên quan"
     },
     {
-      "platform": "Facebook (name-alike)",
-      "account": "Seren Clinic / Seren Klinik / Serene Clinic (Thái Lan, Thổ Nhĩ Kỳ)",
+      "platform": "Facebook/YouTube (name-alike)",
+      "account": "Seren Clinic / Seren Klinik / Serene Clinic (Thái Lan, Thổ Nhĩ Kỳ); ban nhạc 'Seryn' (Nashville, bài Nicotine trên YouTube)",
       "url": "-",
       "accountType": "",
       "sentiment": "Trung tính",
-      "note": "Thương hiệu trùng tên, không liên quan Seryn Clinic Việt Nam — không tính là rủi ro"
+      "note": "Thương hiệu/tên riêng trùng tên, không liên quan Seryn Clinic Việt Nam — không tính là rủi ro"
     }
   ],
   "alerts": [],
   "activityLog": [
     {
       "time": "08:12",
-      "step": "Upload Google Drive",
-      "result": "OK 6.1 (upload trực tiếp vào Shared Drive folder)",
-      "note": "https://docs.google.com/spreadsheets/d/1b8GKeqHshkgleS1b5byXXLTyWbaahNSE2j4NiRp2wK8/edit"
-    },
-    {
-      "time": "08:11",
-      "step": "Copy file sang ingest",
-      "result": "OK (đã xác nhận fuse mount + diff byte-identical)",
-      "note": "/APP Seryn/seryn-digital-app/reports/incoming/Bao_cao_Seryn_Monitoring_2026-08-04.xlsx + .csv"
-    },
-    {
-      "time": "08:10",
       "step": "Rà soát Cảnh báo Đỏ",
-      "result": "Không phát hiện nội dung tiêu cực/lừa đảo/thanh tra",
+      "result": "Không phát hiện nội dung tiêu cực/lừa đảo/thanh tra (15 từ khóa Google + 18 truy vấn MXH)",
       "note": "Xem sheet Canh Bao"
+    },
+    {
+      "time": "08:13",
+      "step": "Copy file sang ingest",
+      "result": "OK (đã xác nhận fuse mount + diff byte-identical, md5 khớp)",
+      "note": "/incoming/Bao_cao_Seryn_Monitoring_2026-08-05.xlsx + .csv"
+    },
+    {
+      "time": "08:14",
+      "step": "Upload Google Drive",
+      "result": "OK 6.1 (upload trực tiếp vào Shared Drive folder qua create_file, đã xác minh nội dung đầy đủ 38 dòng Top10 Google + 8 dòng MXH + KPI)",
+      "note": "https://docs.google.com/spreadsheets/d/1aaZnKbm7uqpxnHLkKpkZ_1ukEZmIm5ITd7SXFxYvJRM/edit"
+    },
+    {
+      "time": "08:13",
+      "step": "Ghi chú dọn dẹp",
+      "result": "Có 1 file test placeholder tạo nhầm trong lúc kiểm tra kết nối (nội dung rút gọn 1 dòng) — đề nghị khách xóa thủ công, không phải báo cáo chính thức",
+      "note": "https://docs.google.com/spreadsheets/d/1T9hBYua8_QMCmd7nPLLsKK6XZJwti6cxkGH3HRzZVE4/edit"
     }
   ]
 }
