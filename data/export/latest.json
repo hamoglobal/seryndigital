@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-05",
+  "date": "2026-08-06",
   "topSources": [
     {
       "title": "Seryn Clinic: Phòng Khám Đa Khoa Seryn (Website chính thức)",
@@ -162,20 +162,20 @@
       "isNew": false
     },
     {
-      "title": "Trẻ hóa gương mặt: liệu trình riêng lẻ không còn được ưa chuộng - ThanhNienViet.vn (đăng lại nội dung AFamily.vn; báo CHƯA nằm trong danh sách báo uy tín đã xác nhận hợp tác — giữ Trung tính, theo dõi xác minh)",
+      "title": "Trẻ hóa gương mặt: liệu trình riêng lẻ không còn được ưa chuộng - ThanhNienViet.vn (đăng lại AFamily.vn; báo chưa xác nhận hợp tác — giữ Trung tính)",
       "url": "https://thanhnienviet.vn/tre-hoa-guong-mat-vi-sao-nhung-lieu-trinh-rieng-le-khong-con-duoc-ua-chuong-209260318154118679.htm",
       "domain": "thanhnienviet.vn",
       "type": "Báo chí PR (chưa xác nhận)",
       "sentiment": "neutral",
-      "isNew": true
+      "isNew": false
     },
     {
-      "title": "Experience premium skin rejuvenation at Seryn Clinic - Vietnam.vn/en (bản dịch tiếng Anh, đăng lại nội dung VietnamNet; trang tổng hợp/aggregator, CHƯA nằm trong danh sách báo xác nhận)",
+      "title": "Experience premium skin rejuvenation at Seryn Clinic - Vietnam.vn/en (aggregator, đăng lại VietnamNet)",
       "url": "https://www.vietnam.vn/en/trai-nghiem-tre-hoa-da-cao-cap-tai-seryn-clinic",
       "domain": "vietnam.vn",
       "type": "Directory/Aggregator",
       "sentiment": "neutral",
-      "isNew": true
+      "isNew": false
     },
     {
       "title": "\"Seryn\" (Online) - The Elder Scrolls Wiki - Fandom (nhân vật trò chơi điện tử, trùng ký tự, KHÔNG liên quan clinic)",
@@ -194,12 +194,12 @@
       "isNew": false
     },
     {
-      "title": "Seryn – Siêu thị thuốc việt - Muathuoc.vn (nhầm lẫn thương hiệu thuốc, không liên quan clinic; cùng loại với Vinmec/Trungtamthuoc đã ghi nhận)",
+      "title": "Seryn – Siêu thị thuốc việt - Muathuoc.vn (nhầm lẫn thương hiệu thuốc, không liên quan clinic)",
       "url": "https://www.muathuoc.vn/seryn",
       "domain": "muathuoc.vn",
       "type": "Nhầm lẫn - Thuốc",
       "sentiment": "neutral",
-      "isNew": true
+      "isNew": false
     },
     {
       "title": "Trẻ hóa không đến từ skincare thông thường - VietnamNet",
@@ -258,7 +258,7 @@
       "isNew": false
     },
     {
-      "title": "Không tìm thấy bài viết tiêu cực/lừa đảo/quyết định thanh tra nào nhắc đích danh Seryn Clinic (24 Nguyễn Bỉnh Khiêm) hôm nay.",
+      "title": "Không tìm thấy bài viết tiêu cực/lừa đảo/quyết định thanh tra nào nhắc đích danh Seryn Clinic hôm nay (kết quả duy nhất không liên quan: 'Americare Clinic lừa đảo').",
       "url": "-",
       "domain": "",
       "type": "Kết quả rà soát",
@@ -266,7 +266,15 @@
       "isNew": false
     },
     {
-      "title": "(Lưu ý: 454 Xã Đàn trên thực tế là địa chỉ của Viện thẩm mỹ Mega Gangnam, KHÔNG phải Seryn — loại khỏi phạm vi giám sát vì không chứa từ khóa 'Seryn')",
+      "title": "Kết quả trùng lặp với các từ khóa khác (DeepAI, VietnamNet, VnExpress, TheThaoVanHoa, seryn.vn/blog, Eva.vn) — không phát sinh nguồn mới",
+      "url": "-",
+      "domain": "",
+      "type": "Kết quả rà soát",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "title": "(Lưu ý: kết quả Google chủ yếu trả về Viện thẩm mỹ Mega Gangnam tại 454 Xã Đàn — thương hiệu khác, không phải Seryn; bao gồm 1 thread 'lừa đảo' về Mega Gangnam, KHÔNG liên quan Seryn)",
       "url": "-",
       "domain": "",
       "type": "Ghi chú đối chiếu",
@@ -361,11 +369,11 @@
       "url": "-",
       "accountType": "",
       "sentiment": "Kết quả rà soát",
-      "note": "Kết quả trả về chủ yếu là các thương hiệu trùng tên (Seren/Seorin/Sherie/Sera Clinic Thái Lan, Istanbul...) — không liên quan"
+      "note": "Kết quả trả về chủ yếu là các thương hiệu trùng tên (Seren/Seorin/Sherlyn/Sera Clinic Thái Lan...) — không liên quan"
     },
     {
-      "platform": "Facebook/YouTube (name-alike)",
-      "account": "Seren Clinic / Seren Klinik / Serene Clinic (Thái Lan, Thổ Nhĩ Kỳ); ban nhạc 'Seryn' (Nashville, bài Nicotine trên YouTube)",
+      "platform": "Facebook/TikTok/YouTube (name-alike)",
+      "account": "Seren Clinic / Seren Klinik / Serene Clinic (Thái Lan, Thổ Nhĩ Kỳ); Seorin Clinic, Sherlyn Clinic, Sera Clinic (Thái Lan); ban nhạc 'Seryn' (Nashville); kênh nghệ sĩ 'Seryn Armstrong' (YouTube)",
       "url": "-",
       "accountType": "",
       "sentiment": "Trung tính",
@@ -375,28 +383,34 @@
   "alerts": [],
   "activityLog": [
     {
-      "time": "08:12",
+      "time": "--:--",
       "step": "Rà soát Cảnh báo Đỏ",
-      "result": "Không phát hiện nội dung tiêu cực/lừa đảo/thanh tra (15 từ khóa Google + 18 truy vấn MXH)",
+      "result": "Không phát hiện nội dung tiêu cực/lừa đảo/thanh tra (16 từ khóa Google + 18 truy vấn MXH)",
       "note": "Xem sheet Canh Bao"
     },
     {
-      "time": "08:13",
+      "time": "--:--",
+      "step": "Tạo báo cáo Excel",
+      "result": "OK — 5 sheet, 38 nguồn duy nhất (19 Tích cực / 19 Trung tính / 0 Đỏ)",
+      "note": "Bao_cao_Seryn_Monitoring_2026-08-06.xlsx"
+    },
+    {
+      "time": "08:11",
+      "step": "Tạo báo cáo Excel",
+      "result": "OK — 5 sheet, 38 nguồn duy nhất (19 Tích cực / 19 Trung tính / 0 Đỏ)",
+      "note": "Bao_cao_Seryn_Monitoring_2026-08-06.xlsx"
+    },
+    {
+      "time": "08:12",
       "step": "Copy file sang ingest",
       "result": "OK (đã xác nhận fuse mount + diff byte-identical, md5 khớp)",
-      "note": "/incoming/Bao_cao_Seryn_Monitoring_2026-08-05.xlsx + .csv"
-    },
-    {
-      "time": "08:14",
-      "step": "Upload Google Drive",
-      "result": "OK 6.1 (upload trực tiếp vào Shared Drive folder qua create_file, đã xác minh nội dung đầy đủ 38 dòng Top10 Google + 8 dòng MXH + KPI)",
-      "note": "https://docs.google.com/spreadsheets/d/1aaZnKbm7uqpxnHLkKpkZ_1ukEZmIm5ITd7SXFxYvJRM/edit"
+      "note": "/incoming/Bao_cao_Seryn_Monitoring_2026-08-06.xlsx + .csv"
     },
     {
       "time": "08:13",
-      "step": "Ghi chú dọn dẹp",
-      "result": "Có 1 file test placeholder tạo nhầm trong lúc kiểm tra kết nối (nội dung rút gọn 1 dòng) — đề nghị khách xóa thủ công, không phải báo cáo chính thức",
-      "note": "https://docs.google.com/spreadsheets/d/1T9hBYua8_QMCmd7nPLLsKK6XZJwti6cxkGH3HRzZVE4/edit"
+      "step": "Upload Google Drive",
+      "result": "OK 6.1 (upload trực tiếp vào Shared Drive folder qua create_file, xác nhận parentId khớp folder khách)",
+      "note": "https://docs.google.com/spreadsheets/d/1R-V7cxuIoiB-cmYG6cCUuloE1PygnBqUbZDOrO8PSaY/edit"
     }
   ]
 }
