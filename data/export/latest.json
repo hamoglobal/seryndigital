@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-06",
+  "date": "2026-08-07",
   "topSources": [
     {
       "title": "Seryn Clinic: Phòng Khám Đa Khoa Seryn (Website chính thức)",
@@ -258,7 +258,7 @@
       "isNew": false
     },
     {
-      "title": "Không tìm thấy bài viết tiêu cực/lừa đảo/quyết định thanh tra nào nhắc đích danh Seryn Clinic hôm nay (kết quả duy nhất không liên quan: 'Americare Clinic lừa đảo').",
+      "title": "Không tìm thấy bài viết tiêu cực/lừa đảo/quyết định thanh tra nào nhắc đích danh Seryn Clinic hôm nay (kết quả không liên quan: 'Americare Clinic lừa đảo').",
       "url": "-",
       "domain": "",
       "type": "Kết quả rà soát",
@@ -274,7 +274,7 @@
       "isNew": false
     },
     {
-      "title": "(Lưu ý: kết quả Google chủ yếu trả về Viện thẩm mỹ Mega Gangnam tại 454 Xã Đàn — thương hiệu khác, không phải Seryn; bao gồm 1 thread 'lừa đảo' về Mega Gangnam, KHÔNG liên quan Seryn)",
+      "title": "(Lưu ý: kết quả Google chủ yếu trả về Viện thẩm mỹ Mega Gangnam tại 454 Xã Đàn — thương hiệu khác, không phải Seryn; gồm 1 thread 'lừa đảo' về Mega Gangnam (webtretho.com), KHÔNG liên quan Seryn. Đồng thời ghi nhận 'Phòng khám chuyên khoa Da liễu SERYN' tại '45 Xã Đàn' — carry-forward chênh lệch địa chỉ.)",
       "url": "-",
       "domain": "",
       "type": "Ghi chú đối chiếu",
@@ -369,11 +369,11 @@
       "url": "-",
       "accountType": "",
       "sentiment": "Kết quả rà soát",
-      "note": "Kết quả trả về chủ yếu là các thương hiệu trùng tên (Seren/Seorin/Sherlyn/Sera Clinic Thái Lan...) — không liên quan"
+      "note": "Kết quả trả về chủ yếu là các thương hiệu trùng tên (Seren/Seorin/Sherie/Sera Clinic Thái Lan...) — không liên quan"
     },
     {
       "platform": "Facebook/TikTok/YouTube (name-alike)",
-      "account": "Seren Clinic / Seren Klinik / Serene Clinic (Thái Lan, Thổ Nhĩ Kỳ); Seorin Clinic, Sherlyn Clinic, Sera Clinic (Thái Lan); ban nhạc 'Seryn' (Nashville); kênh nghệ sĩ 'Seryn Armstrong' (YouTube)",
+      "account": "Seren Clinic / Seren Klinik (Thái Lan, Thổ Nhĩ Kỳ); Serene Clinic; Seorin Clinic, Sherie Clinic, Sera Clinic (Thái Lan); ban nhạc 'Seryn' (Nashville, bài Nicotine); kênh nghệ sĩ 'Seryn Armstrong' (YouTube)",
       "url": "-",
       "accountType": "",
       "sentiment": "Trung tính",
@@ -383,34 +383,22 @@
   "alerts": [],
   "activityLog": [
     {
-      "time": "--:--",
-      "step": "Rà soát Cảnh báo Đỏ",
-      "result": "Không phát hiện nội dung tiêu cực/lừa đảo/thanh tra (16 từ khóa Google + 18 truy vấn MXH)",
-      "note": "Xem sheet Canh Bao"
-    },
-    {
-      "time": "--:--",
-      "step": "Tạo báo cáo Excel",
-      "result": "OK — 5 sheet, 38 nguồn duy nhất (19 Tích cực / 19 Trung tính / 0 Đỏ)",
-      "note": "Bao_cao_Seryn_Monitoring_2026-08-06.xlsx"
-    },
-    {
       "time": "08:11",
-      "step": "Tạo báo cáo Excel",
-      "result": "OK — 5 sheet, 38 nguồn duy nhất (19 Tích cực / 19 Trung tính / 0 Đỏ)",
-      "note": "Bao_cao_Seryn_Monitoring_2026-08-06.xlsx"
+      "step": "Upload Drive (6.1)",
+      "result": "OK - upload trực tiếp vào Shared Drive khách",
+      "note": "https://docs.google.com/spreadsheets/d/1vEiAjLqQv1uUOzeDdrVwST9UWa0zYlWzWsf2yonk3RY/edit"
     },
     {
-      "time": "08:12",
-      "step": "Copy file sang ingest",
-      "result": "OK (đã xác nhận fuse mount + diff byte-identical, md5 khớp)",
-      "note": "/incoming/Bao_cao_Seryn_Monitoring_2026-08-06.xlsx + .csv"
+      "time": "08:10",
+      "step": "Copy file sang incoming (5b)",
+      "result": "OK - xlsx + csv, verified fuse mount + diff byte-identical",
+      "note": "/incoming/Bao_cao_Seryn_Monitoring_2026-08-07.xlsx|.csv"
     },
     {
-      "time": "08:13",
-      "step": "Upload Google Drive",
-      "result": "OK 6.1 (upload trực tiếp vào Shared Drive folder qua create_file, xác nhận parentId khớp folder khách)",
-      "note": "https://docs.google.com/spreadsheets/d/1R-V7cxuIoiB-cmYG6cCUuloE1PygnBqUbZDOrO8PSaY/edit"
+      "time": "08:10",
+      "step": "Lưu báo cáo gốc (Bước 5)",
+      "result": "OK - 5 sheet, Arial, màu theo tiêu chí phân loại",
+      "note": "D:\\Seryn Digital\\Seryn Digital\\Bao_cao_Seryn_Monitoring_2026-08-07.xlsx"
     }
   ]
 }
