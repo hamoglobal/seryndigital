@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-08",
+  "date": "2026-08-09",
   "topSources": [
     {
       "title": "Seryn Clinic: Phòng Khám Đa Khoa Seryn (Website chính thức)",
@@ -122,12 +122,12 @@
       "isNew": false
     },
     {
-      "title": "Hội đồng Y khoa SERYN Clinic tiên phong - Arttimes.vn (đăng lại, cùng nội dung Eva.vn)",
-      "url": "https://arttimes.vn/nhip-cau-doanh-nghiep/hoi-dong-y-khoa-seryn-clinic-tien-phong-mo-goc-nhin-moi-trong-tre-hoa-lan-da-tai-viet-nam-c56a75643.html",
-      "domain": "arttimes.vn",
-      "type": "Báo chí PR",
-      "sentiment": "positive",
-      "isNew": false
+      "title": "Phòng Khám Đa Khoa Seryn - hồ sơ TimPhongKham.vn (directory tự động)",
+      "url": "https://timphongkham.vn/clinics/15247-phong-kham-da-khoa-seryn",
+      "domain": "timphongkham.vn",
+      "type": "Directory",
+      "sentiment": "neutral",
+      "isNew": true
     },
     {
       "title": "Trẻ Hoá Sera Core - Landing page 2026 - seryn.vn",
@@ -159,7 +159,7 @@
       "domain": "seryn.vn",
       "type": "Website - Blog",
       "sentiment": "positive",
-      "isNew": true
+      "isNew": false
     },
     {
       "title": "Experience premium skin rejuvenation - Vietnam.vn/en (aggregator, đăng lại VietnamNet)",
@@ -178,36 +178,12 @@
       "isNew": false
     },
     {
-      "title": "80+ \"Seryn\" profiles - LinkedIn (directory tự động)",
-      "url": "https://www.linkedin.com/pub/dir/Seryn/+",
-      "domain": "linkedin.com",
-      "type": "Directory",
-      "sentiment": "neutral",
-      "isNew": false
-    },
-    {
       "title": "Seryn – Siêu thị thuốc việt - Muathuoc.vn (nhầm lẫn thuốc)",
       "url": "https://www.muathuoc.vn/seryn",
       "domain": "muathuoc.vn",
       "type": "Nhầm lẫn - Thuốc",
       "sentiment": "neutral",
       "isNew": false
-    },
-    {
-      "title": "Seryn Archives - The Kessler Theater (ban nhạc Mỹ, KHÔNG liên quan)",
-      "url": "https://thekessler.org/bands/seryn/",
-      "domain": "thekessler.org",
-      "type": "Nhầm lẫn - Khác",
-      "sentiment": "neutral",
-      "isNew": true
-    },
-    {
-      "title": "SERYN ELECTRICAL LIMITED (UK) - LinkedIn (KHÔNG liên quan)",
-      "url": "https://uk.linkedin.com/company/seryn-electrical-limited",
-      "domain": "uk.linkedin.com",
-      "type": "Nhầm lẫn - Khác",
-      "sentiment": "neutral",
-      "isNew": true
     },
     {
       "title": "Trẻ hóa không đến từ skincare thông thường - VietnamNet",
@@ -234,14 +210,6 @@
       "isNew": false
     },
     {
-      "title": "MedPro Group - Wikipedia (nhầm lẫn thương hiệu, không liên quan)",
-      "url": "https://en.wikipedia.org/wiki/MedPro_Group",
-      "domain": "en.wikipedia.org",
-      "type": "Nhầm lẫn",
-      "sentiment": "neutral",
-      "isNew": false
-    },
-    {
       "title": "Seryn Clinic - Trang Tag tin tức tự động - VnExpress (directory)",
       "url": "https://vnexpress.net/tag/seryn-clinic-1890677",
       "domain": "vnexpress.net",
@@ -250,7 +218,7 @@
       "isNew": false
     },
     {
-      "title": "Seren Klinik (Istanbul) - Trustpilot/serenklinik.com (KHÔNG liên quan — nha khoa Istanbul)",
+      "title": "Seren Klinik (Istanbul) - Trustpilot/serenklinik.com (KHÔNG liên quan — nha khoa Istanbul, false-positive đã biết)",
       "url": "https://www.trustpilot.com/review/serenklinik.com",
       "domain": "trustpilot.com",
       "type": "Nhầm lẫn",
@@ -282,7 +250,7 @@
       "isNew": false
     },
     {
-      "title": "(Google trả về chủ yếu Viện thẩm mỹ Mega Gangnam tại 454 Xã Đàn — thương hiệu KHÁC, không phải Seryn. Ghi nhận lại 'Phòng khám chuyên khoa Da liễu SERYN' tại '45 Xã Đàn' — carry-forward chênh lệch địa chỉ so với GPHĐ '454 Xã Đàn')",
+      "title": "Google trả về chủ yếu Viện thẩm mỹ Mega Gangnam tại 454 Xã Đàn (thương hiệu KHÁC, không phải Seryn — kể cả 1 bài phản ánh 'lừa đảo' về Mega Gangnam, KHÔNG liên quan Seryn). Seryn Hà Nội tiếp tục được mô tả tại '45 Xã Đàn' — carry-forward chênh lệch địa chỉ so với GPHĐ '454 Xã Đàn'",
       "url": "-",
       "domain": "",
       "type": "Ghi chú đối chiếu",
@@ -296,6 +264,14 @@
       "type": "Nhầm lẫn - Thuốc",
       "sentiment": "neutral",
       "isNew": false
+    },
+    {
+      "title": "Địa chỉ MỚI được nhắc tới: tầng 18 tòa VNTA, 68 Dương Đình Nghệ, Cầu Giấy, Hà Nội — KHÔNG có trong danh sách kênh/địa chỉ xác nhận, cần khách xác minh (carry-forward)",
+      "url": "-",
+      "domain": "",
+      "type": "Ghi chú đối chiếu",
+      "sentiment": "neutral",
+      "isNew": true
     },
     {
       "title": "Điều gì giúp Seryn Clinic nổi bật - YAN.vn (đăng lại)",
@@ -337,7 +313,7 @@
       "url": "https://www.facebook.com/profile.php?id=61551825290264",
       "accountType": "",
       "sentiment": "Trung tính",
-      "note": "ID Facebook MỚI, KHÔNG có trong danh sách xác nhận — carry-forward vụ trùng tên 'Thanh Xuân' (nay 3 ID khác nhau)"
+      "note": "Carry-forward, KHÔNG có trong danh sách xác nhận — vụ trùng tên 'Thanh Xuân'"
     },
     {
       "platform": "Facebook",
@@ -354,6 +330,14 @@
       "accountType": "",
       "sentiment": "Trung tính",
       "note": "Carry-forward, không có trong danh sách xác nhận"
+    },
+    {
+      "platform": "Facebook",
+      "account": "",
+      "url": "https://www.facebook.com/profile.php/?id=61551500829974",
+      "accountType": "",
+      "sentiment": "Trung tính",
+      "note": "Carry-forward — nay 3 trang/ID mang tên 'Thanh Xuân' liên kết Seryn, KHÔNG có trong danh sách xác nhận"
     },
     {
       "platform": "Facebook",
@@ -382,18 +366,10 @@
     {
       "platform": "YouTube",
       "account": "",
-      "url": "https://www.youtube.com/channel/UCeEzpEo_w43NYHPOjIWnmJw/videos",
+      "url": "https://www.youtube.com/watch?v=dquYnCJfNL8",
       "accountType": "",
       "sentiment": "Trung tính",
-      "note": "Trùng tên, chưa xác định liên quan Seryn Clinic VN hay không — cần xác minh"
-    },
-    {
-      "platform": "YouTube",
-      "account": "",
-      "url": "https://www.youtube.com/playlist?list=PLXHkOptAP6i70B9_GMsep7l6LD8PCya10",
-      "accountType": "",
-      "sentiment": "Trung tính",
-      "note": "Không rõ nội dung liên quan"
+      "note": "Trùng tên, KHÔNG liên quan Seryn Clinic VN"
     },
     {
       "platform": "Facebook",
@@ -513,7 +489,7 @@
       "url": "https://www.youtube.com/channel/UCojQ10-ZUGAt4hOpbMqaIZA",
       "accountType": "",
       "sentiment": "Tích cực",
-      "note": "Trùng lặp; Seryn Armstrong là kênh nghệ thuật cá nhân KHÔNG liên quan"
+      "note": "Trùng lặp; Seryn Armstrong là kênh nghệ thuật cá nhân KHÔNG liên quan (đã ghi nhận trước đây)"
     }
   ],
   "alerts": [
@@ -530,7 +506,7 @@
       "type": "Trùng tên 'Thanh Xuân' trên Facebook",
       "source": "",
       "date": "Trước 2026-07-27; ID thứ 3 phát hiện 2026-08-08",
-      "summary": "Có nhiều trang/ID Facebook gắn tên người 'Thanh Xuân' + Seryn: ID 61551500829974 (Phòng khám Seryn VN) và ID 61551825290264 (Seryn Clinic VN, mới phát hiện hôm nay) — cả 2 đều KHÔNG có trong danh sách kênh xác nhận chính thức (danh sách xác nhận có ID 61551569680928 riêng).",
+      "summary": "Có nhiều trang/ID Facebook gắn tên người 'Thanh Xuân' + Seryn: ID 61551500829974 và ID 61551825290264 — cả 2 đều KHÔNG có trong danh sách kênh xác nhận chính thức (danh sách xác nhận có ID 61551569680928 riêng).",
       "action": ""
     },
     {
@@ -540,50 +516,52 @@
       "date": "2026-07-22",
       "summary": "WebSearch AI-summary tiếp tục trộn nội dung Trustpilot của Seren Klinik (nha khoa Istanbul, không liên quan) vào kết quả từ khóa này. Seryn Clinic VN không có dịch vụ nha khoa nên mọi phản ánh nha khoa chắc chắn KHÔNG liên quan.",
       "action": ""
+    },
+    {
+      "level": "",
+      "type": "Địa chỉ chi nhánh Hà Nội thứ 2 chưa xác minh",
+      "source": "",
+      "date": "2026-08-09 (MỚI)",
+      "summary": "Kết quả Google mô tả thêm một địa điểm Seryn tại tầng 18 tòa nhà VNTA, 68 Dương Đình Nghệ, Cầu Giấy, Hà Nội — không có trong danh sách địa chỉ/kênh xác nhận của khách hàng trong bộ nhớ dự án.",
+      "action": ""
     }
   ],
   "activityLog": [
     {
-      "time": "08:10",
+      "time": "08:35",
       "step": "Bước 1 - Tìm kiếm Google",
       "result": "OK — 16/16 từ khóa",
       "note": "-"
     },
     {
-      "time": "08:10",
+      "time": "08:35",
       "step": "Bước 2 - Kiểm tra MXH",
       "result": "OK — 6 từ khóa x 3 nền tảng = 18/18 lượt tìm kiếm",
       "note": "-"
     },
     {
-      "time": "08:10",
+      "time": "08:35",
       "step": "Bước 3 - Phân tích rủi ro",
       "result": "OK — Không phát hiện Cảnh báo đỏ",
       "note": "-"
     },
     {
-      "time": "08:10",
+      "time": "08:35",
       "step": "Bước 4 - So sánh báo cáo hôm qua",
-      "result": "OK — đối chiếu với Bao_cao_Seryn_Monitoring_2026-08-07.csv (sheet Top10 Google)",
+      "result": "OK — đối chiếu với Bao_cao_Seryn_Monitoring_2026-08-08.xlsx (sheet Top10 Google + Mang Xa Hoi)",
       "note": "-"
     },
     {
-      "time": "08:10",
+      "time": "08:36",
       "step": "Bước 5 - Tạo file Excel",
       "result": "OK",
-      "note": "Bao_cao_Seryn_Monitoring_2026-08-08.xlsx"
+      "note": "Bao_cao_Seryn_Monitoring_2026-08-09.xlsx"
     },
     {
-      "time": "08:11",
-      "step": "Bước 5b - Copy sang thư mục ingest",
-      "result": "OK — verified fuse mount + diff byte-identical (xlsx + csv)",
-      "note": "/APP Seryn/seryn-digital-app/reports/incoming/"
-    },
-    {
-      "time": "08:13",
+      "time": "08:38",
       "step": "Bước 6 - Upload Google Sheets",
       "result": "OK 6.1 (Shared Drive trực tiếp, không cần workaround)",
-      "note": "https://docs.google.com/spreadsheets/d/1TxZIqS2obv5qkbOuk6DuUVEcBvWgj3ZINFzjHDD6nAA/edit"
+      "note": "https://docs.google.com/spreadsheets/d/1HftuzVxxCSCHdoYKbbeBP3mPtUPSnHBWYmGn_6TJYqU/edit"
     }
   ]
 }
