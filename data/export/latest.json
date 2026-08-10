@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-09",
+  "date": "2026-08-10",
   "topSources": [
     {
       "title": "Seryn Clinic: Phòng Khám Đa Khoa Seryn (Website chính thức)",
@@ -127,7 +127,7 @@
       "domain": "timphongkham.vn",
       "type": "Directory",
       "sentiment": "neutral",
-      "isNew": true
+      "isNew": false
     },
     {
       "title": "Trẻ Hoá Sera Core - Landing page 2026 - seryn.vn",
@@ -154,7 +154,7 @@
       "isNew": false
     },
     {
-      "title": "9+ Cách xóa nhăn trán hiện đại - Blog seryn.vn",
+      "title": "9+ Cách xóa nhăn trán hiện đại - Blog seryn.vn (không xuất hiện trực tiếp hôm nay, carry-forward)",
       "url": "https://seryn.vn/blog-detail/xoa-nhan-tran/",
       "domain": "seryn.vn",
       "type": "Website - Blog",
@@ -170,9 +170,9 @@
       "isNew": false
     },
     {
-      "title": "\"Seryn\" (Online) - The Elder Scrolls Wiki (nhân vật game, KHÔNG liên quan)",
-      "url": "https://elderscrolls.fandom.com/wiki/Seryn_(Online)",
-      "domain": "elderscrolls.fandom.com",
+      "title": "Seryn Electrical Limited (UK) — công ty điện khác, tên trùng, KHÔNG liên quan",
+      "url": "https://uk.linkedin.com/company/seryn-electrical-limited",
+      "domain": "uk.linkedin.com",
       "type": "Nhầm lẫn - Khác",
       "sentiment": "neutral",
       "isNew": false
@@ -210,7 +210,7 @@
       "isNew": false
     },
     {
-      "title": "Seryn Clinic - Trang Tag tin tức tự động - VnExpress (directory)",
+      "title": "Seryn Clinic - Trang Tag tin tức tự động - VnExpress (directory, carry-forward)",
       "url": "https://vnexpress.net/tag/seryn-clinic-1890677",
       "domain": "vnexpress.net",
       "type": "Directory",
@@ -226,7 +226,7 @@
       "isNew": false
     },
     {
-      "title": "Seryn Clinic - hồ sơ địa điểm trên Wanderlog.com (directory tự động)",
+      "title": "Seryn Clinic - hồ sơ địa điểm trên Wanderlog.com (directory tự động, carry-forward)",
       "url": "https://wanderlog.com/place/details/1735806",
       "domain": "wanderlog.com",
       "type": "Directory",
@@ -242,7 +242,7 @@
       "isNew": false
     },
     {
-      "title": "Kết quả trùng lặp với các từ khóa khác — không phát sinh nguồn mới",
+      "title": "Kết quả trùng lặp với các từ khóa khác (YAN, VietnamNet, TheThaoVanHoa, seryn.vn) — không phát sinh nguồn mới",
       "url": "-",
       "domain": "",
       "type": "Kết quả rà soát",
@@ -250,7 +250,7 @@
       "isNew": false
     },
     {
-      "title": "Google trả về chủ yếu Viện thẩm mỹ Mega Gangnam tại 454 Xã Đàn (thương hiệu KHÁC, không phải Seryn — kể cả 1 bài phản ánh 'lừa đảo' về Mega Gangnam, KHÔNG liên quan Seryn). Seryn Hà Nội tiếp tục được mô tả tại '45 Xã Đàn' — carry-forward chênh lệch địa chỉ so với GPHĐ '454 Xã Đàn'",
+      "title": "Google trả về chủ yếu Viện thẩm mỹ Mega Gangnam tại 454 Xã Đàn (thương hiệu KHÁC, không phải Seryn — kể cả 1 bài phản ánh 'lừa đảo' về Mega Gangnam trên webtretho.com, KHÔNG liên quan Seryn). Seryn Hà Nội tiếp tục được mô tả tại '45 Xã Đàn' — carry-forward chênh lệch địa chỉ so với GPHĐ '454 Xã Đàn'",
       "url": "-",
       "domain": "",
       "type": "Ghi chú đối chiếu",
@@ -266,12 +266,12 @@
       "isNew": false
     },
     {
-      "title": "Địa chỉ MỚI được nhắc tới: tầng 18 tòa VNTA, 68 Dương Đình Nghệ, Cầu Giấy, Hà Nội — KHÔNG có trong danh sách kênh/địa chỉ xác nhận, cần khách xác minh (carry-forward)",
+      "title": "Địa chỉ tầng 18 tòa VNTA, 68 Dương Đình Nghệ, Cầu Giấy, Hà Nội tiếp tục xuất hiện — KHÔNG có trong danh sách kênh/địa chỉ xác nhận, carry-forward từ 2026-08-09",
       "url": "-",
       "domain": "",
       "type": "Ghi chú đối chiếu",
       "sentiment": "neutral",
-      "isNew": true
+      "isNew": false
     },
     {
       "title": "Điều gì giúp Seryn Clinic nổi bật - YAN.vn (đăng lại)",
@@ -337,7 +337,7 @@
       "url": "https://www.facebook.com/profile.php/?id=61551500829974",
       "accountType": "",
       "sentiment": "Trung tính",
-      "note": "Carry-forward — nay 3 trang/ID mang tên 'Thanh Xuân' liên kết Seryn, KHÔNG có trong danh sách xác nhận"
+      "note": "Carry-forward — 3 trang/ID mang tên 'Thanh Xuân' liên kết Seryn, KHÔNG có trong danh sách xác nhận"
     },
     {
       "platform": "Facebook",
@@ -358,7 +358,7 @@
     {
       "platform": "YouTube",
       "account": "",
-      "url": "https://www.youtube.com/channel/UCojQ10-ZUGAt4hOpbMqaIZA/videos",
+      "url": "https://www.youtube.com/channel/UCojQ10-ZUGAt4hOpbMqaIZA",
       "accountType": "",
       "sentiment": "Tích cực",
       "note": "Kênh YouTube chính thức"
@@ -369,7 +369,7 @@
       "url": "https://www.youtube.com/watch?v=dquYnCJfNL8",
       "accountType": "",
       "sentiment": "Trung tính",
-      "note": "Trùng tên, KHÔNG liên quan Seryn Clinic VN"
+      "note": "Trùng tên, KHÔNG liên quan Seryn Clinic VN (carry-forward)"
     },
     {
       "platform": "Facebook",
@@ -489,7 +489,7 @@
       "url": "https://www.youtube.com/channel/UCojQ10-ZUGAt4hOpbMqaIZA",
       "accountType": "",
       "sentiment": "Tích cực",
-      "note": "Trùng lặp; Seryn Armstrong là kênh nghệ thuật cá nhân KHÔNG liên quan (đã ghi nhận trước đây)"
+      "note": "Trùng lặp; Seryn Armstrong là kênh cá nhân KHÔNG liên quan (carry-forward)"
     }
   ],
   "alerts": [
@@ -498,7 +498,7 @@
       "type": "Chênh lệch địa chỉ chi nhánh Hà Nội",
       "source": "",
       "date": "Trước 2026-07-27 (carry-forward nhiều đợt)",
-      "summary": "GPHĐ 4903/HNO-GPHĐ ghi địa chỉ '454 Xã Đàn', nhưng nhiều kết quả Google mô tả trụ sở tại 'Tòa nhà 45 Xã Đàn' (thiếu 1 chữ số). Có thể là lỗi biên tập của báo/web, không phải dấu hiệu cơ sở giả mạo.",
+      "summary": "GPHĐ 4903/HNO-GPHĐ ghi địa chỉ '454 Xã Đàn', nhưng nhiều kết quả Google (kể cả tóm tắt AI hôm nay) tiếp tục mô tả trụ sở tại 'Tòa nhà 45 Xã Đàn' (thiếu 1 chữ số). Có thể là lỗi biên tập của báo/web, không phải dấu hiệu cơ sở giả mạo.",
       "action": ""
     },
     {
@@ -521,47 +521,61 @@
       "level": "",
       "type": "Địa chỉ chi nhánh Hà Nội thứ 2 chưa xác minh",
       "source": "",
-      "date": "2026-08-09 (MỚI)",
+      "date": "2026-08-09",
       "summary": "Kết quả Google mô tả thêm một địa điểm Seryn tại tầng 18 tòa nhà VNTA, 68 Dương Đình Nghệ, Cầu Giấy, Hà Nội — không có trong danh sách địa chỉ/kênh xác nhận của khách hàng trong bộ nhớ dự án.",
+      "action": ""
+    },
+    {
+      "level": "",
+      "type": "Chênh lệch số GPHĐ TP.HCM ghi nhận nội bộ",
+      "source": "",
+      "date": "2026-08-10 (MỚI - điều chỉnh)",
+      "summary": "Báo cáo các ngày trước ghi GPHĐ TP.HCM là '1149/HCM-GPHĐ'; đối chiếu hôm nay với thông tin xác nhận mới nhất và tóm tắt AI từ VnExpress cho thấy số đúng là '11149/HCM-GPHĐ'. Đây là điều chỉnh hành chính nội bộ, KHÔNG phải dấu hiệu rủi ro.",
       "action": ""
     }
   ],
   "activityLog": [
     {
-      "time": "08:35",
+      "time": "08:08",
       "step": "Bước 1 - Tìm kiếm Google",
       "result": "OK — 16/16 từ khóa",
       "note": "-"
     },
     {
-      "time": "08:35",
+      "time": "08:14",
       "step": "Bước 2 - Kiểm tra MXH",
       "result": "OK — 6 từ khóa x 3 nền tảng = 18/18 lượt tìm kiếm",
       "note": "-"
     },
     {
-      "time": "08:35",
+      "time": "08:16",
       "step": "Bước 3 - Phân tích rủi ro",
       "result": "OK — Không phát hiện Cảnh báo đỏ",
       "note": "-"
     },
     {
-      "time": "08:35",
+      "time": "08:16",
       "step": "Bước 4 - So sánh báo cáo hôm qua",
-      "result": "OK — đối chiếu với Bao_cao_Seryn_Monitoring_2026-08-08.xlsx (sheet Top10 Google + Mang Xa Hoi)",
+      "result": "OK — đối chiếu với Bao_cao_Seryn_Monitoring_2026-08-09.xlsx (sheet Top10 Google + Mang Xa Hoi); không có nguồn mới",
       "note": "-"
     },
     {
-      "time": "08:36",
+      "time": "08:20",
       "step": "Bước 5 - Tạo file Excel",
       "result": "OK",
-      "note": "Bao_cao_Seryn_Monitoring_2026-08-09.xlsx"
+      "note": "Bao_cao_Seryn_Monitoring_2026-08-10.xlsx"
     },
     {
-      "time": "08:38",
+      "time": "08:22",
       "step": "Bước 6 - Upload Google Sheets",
       "result": "OK 6.1 (Shared Drive trực tiếp, không cần workaround)",
-      "note": "https://docs.google.com/spreadsheets/d/1HftuzVxxCSCHdoYKbbeBP3mPtUPSnHBWYmGn_6TJYqU/edit"
+      "note": "https://docs.google.com/spreadsheets/d/1-sMZt75ijjmLGs7NErQAnqnYZ8qI45uxf8Etn_X9EVU/edit"
+    },
+    {
+      "time": "08:23",
+      "step": "Bước 5b - Copy ingest folder",
+      "result": "OK - xác nhận fuse mount + diff byte-identical (xlsx & csv)",
+      "note": "/D:/APP Seryn/seryn-digital-app/reports/incoming/"
     }
   ]
 }

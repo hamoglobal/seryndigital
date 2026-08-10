@@ -977,5 +977,16 @@
     "riskRaw": "XANH - AN TOÀN",
     "riskLevel": "green",
     "riskNote": ""
+  },
+  {
+    "date": "2026-08-10",
+    "total": 55,
+    "positive": 21,
+    "neutral": 34,
+    "negative": 0,
+    "newSources": 0,
+    "riskRaw": "STT Vấn đề Mô tả Ngày phát hiện lần đầu (ước tính) Trạng thái hôm nay",
+    "riskLevel": "green",
+    "riskNote": ""
   }
 ]
