@@ -988,5 +988,16 @@
     "riskRaw": "STT Vấn đề Mô tả Ngày phát hiện lần đầu (ước tính) Trạng thái hôm nay",
     "riskLevel": "green",
     "riskNote": ""
+  },
+  {
+    "date": "2026-08-11",
+    "total": 57,
+    "positive": 23,
+    "neutral": 34,
+    "negative": 0,
+    "newSources": 3,
+    "riskRaw": "STT Vấn đề Mô tả Ngày phát hiện lần đầu (ước tính) Trạng thái hôm nay",
+    "riskLevel": "green",
+    "riskNote": ""
   }
 ]
