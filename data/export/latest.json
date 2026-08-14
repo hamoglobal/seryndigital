@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-12",
+  "date": "2026-08-14",
   "topSources": [
     {
       "title": "Seryn Clinic: Phòng Khám Đa Khoa Seryn (Website chính thức)",
@@ -305,7 +305,7 @@
       "url": "https://www.facebook.com/p/Chuy%C3%AAn-gia-s%E1%BA%AFc-%C4%91%E1%BA%B9p-L%E1%BA%A1i-Minh-Hi%E1%BA%BFu-Seryn-Clinic-61550115911294/",
       "accountType": "",
       "sentiment": "Tích cực",
-      "note": "CÓ trong danh sách kênh chính chủ đã xác nhận (trang KOL nội bộ) — lần đầu xuất hiện trong SERP"
+      "note": "CÓ trong danh sách kênh chính chủ đã xác nhận (trang KOL nội bộ) — tiếp tục xuất hiện ổn định"
     },
     {
       "platform": "Facebook",
@@ -329,7 +329,7 @@
       "url": "https://www.facebook.com/profile.php/?id=61551825290264",
       "accountType": "",
       "sentiment": "Trung tính",
-      "note": "Carry-forward — ID 'Thanh Xuân' thứ 2, hôm nay xuất hiện trực tiếp trong SERP"
+      "note": "Carry-forward — ID 'Thanh Xuân' thứ 2"
     },
     {
       "platform": "Facebook",
@@ -353,7 +353,7 @@
       "url": "-",
       "accountType": "",
       "sentiment": "Trung tính",
-      "note": "@seryngymnast (hôm qua) không tái xuất hiện; chưa ghi nhận hiện diện TikTok của Seryn Clinic"
+      "note": "Chưa ghi nhận hiện diện TikTok của Seryn Clinic"
     },
     {
       "platform": "YouTube",
@@ -369,7 +369,7 @@
       "url": "https://www.youtube.com/channel/UCeEzpEo_w43NYHPOjIWnmJw/videos",
       "accountType": "",
       "sentiment": "Trung tính",
-      "note": "Carry-forward từ 2026-08-11, không liên quan"
+      "note": "Carry-forward, không liên quan"
     },
     {
       "platform": "Facebook",
@@ -536,46 +536,46 @@
   ],
   "activityLog": [
     {
-      "time": "08:05",
+      "time": "10:32",
       "step": "Bước 1 - Tìm kiếm Google",
-      "result": "OK — 16/16 từ khóa",
+      "result": "OK — 16/16 từ khóa (chạy tự động theo lịch seryn-brand-monitoring-daily)",
       "note": "-"
     },
     {
-      "time": "08:10",
+      "time": "10:41",
       "step": "Bước 2 - Kiểm tra MXH",
       "result": "OK — 6 từ khóa x 3 nền tảng = 18/18 lượt tìm kiếm",
       "note": "-"
     },
     {
-      "time": "08:12",
+      "time": "10:42",
       "step": "Bước 3 - Phân tích rủi ro",
-      "result": "OK — Không phát hiện Cảnh báo đỏ; xác minh ID FB 61550115911294 thuộc danh sách kênh chính chủ (→ Tích cực); hamogroup.com.vn không tải được nội dung → loại vòng lọc 1",
+      "result": "OK — Không phát hiện Cảnh báo đỏ; 5 mục Vàng carry-forward tiếp tục, không có bằng chứng mới để nâng cấp",
       "note": "-"
     },
     {
-      "time": "08:13",
+      "time": "10:43",
       "step": "Bước 4 - So sánh báo cáo hôm qua",
-      "result": "OK — đối chiếu Bao_cao_Seryn_Monitoring_2026-08-11.xlsx; 1 nguồn mới (FB chính chủ Lại Minh Hiếu - Seryn Clinic)",
+      "result": "OK — đối chiếu Bao_cao_Seryn_Monitoring_2026-08-13.xlsx; 0 nguồn mới, toàn bộ 61 nguồn trùng khớp",
       "note": "-"
     },
     {
-      "time": "08:15",
+      "time": "10:44",
       "step": "Bước 5 - Tạo file Excel + CSV",
       "result": "OK",
-      "note": "Bao_cao_Seryn_Monitoring_2026-08-12.xlsx / .csv"
+      "note": "Bao_cao_Seryn_Monitoring_2026-08-14.xlsx / .csv"
     },
     {
-      "time": "08:16",
+      "time": "10:50",
       "step": "Bước 5b - Copy ingest folder",
-      "result": "OK - xác nhận fuse mount + diff byte-identical (xlsx & csv)",
+      "result": "OK - xác nhận mount path + diff byte-identical (xlsx & csv)",
       "note": "D:/APP Seryn/seryn-digital-app/reports/incoming/"
     },
     {
-      "time": "08:18",
+      "time": "10:52",
       "step": "Bước 6 - Upload Google Sheets",
-      "result": "OK 6.1 (Shared Drive trực tiếp, không cần workaround)",
-      "note": "https://docs.google.com/spreadsheets/d/1QyYpscZn4CjXOckgcLqoQr00smM8KtQFsSDJWy7Lm0E/edit"
+      "result": "OK 6.1 (Shared Drive trực tiếp qua create_file; lần thử 1 tạo file rỗng do lỗi thao tác nội bộ, đã tạo lại file đúng nội dung ở lần thử 2 — file rỗng dư 'Báo Cáo Seryn - 2026-08-14 - Daily Monitoring' cần khách xoá thủ công)",
+      "note": "https://docs.google.com/spreadsheets/d/1jbq1fMqoRNRfYUqdnAxLXqhT2jR6ouAClSGKfCfrQeU/edit"
     }
   ]
 }
