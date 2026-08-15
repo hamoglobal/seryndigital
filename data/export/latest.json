@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-14",
+  "date": "2026-08-15",
   "topSources": [
     {
       "title": "Seryn Clinic: Phòng Khám Đa Khoa Seryn (Website chính thức)",
@@ -242,7 +242,7 @@
       "isNew": false
     },
     {
-      "title": "Tóm tắt AI tiếp tục mô tả Seryn Hà Nội tại 'tòa 45 Xã Đàn' (thiếu số 4 so với địa chỉ xác nhận 454 Xã Đàn) — carry-forward Vàng",
+      "title": "Tóm tắt AI tiếp tục mô tả Seryn Hà Nội tại 'tòa 45 Xã Đàn' (thiếu số 4 so với địa chỉ xác nhận 454 Xã Đàn) — carry-forward Vàng, nhiều khả năng lỗi rớt số của tóm tắt AI",
       "url": "-",
       "domain": "",
       "type": "Ghi chú đối chiếu",
@@ -274,7 +274,7 @@
       "isNew": false
     },
     {
-      "title": "Điều gì giúp Seryn Clinic nổi bật - YAN.vn (đăng lại); toplist.vn & mbspilates.vn xuất hiện trong SERP nhưng đã xác minh KHÔNG chứa từ 'Seryn' (loại vòng lọc 1)",
+      "title": "Điều gì giúp Seryn Clinic nổi bật - YAN.vn (đăng lại); toplist.vn, bookingcare.vn & mbspilates.vn xuất hiện trong SERP nhưng đã xác minh KHÔNG chứa từ 'Seryn' (loại vòng lọc 1)",
       "url": "https://www.yan.vn/dieu-gi-giup-seryn-clinic-noi-bat-giua-thi-truong-lam-dep-dang-bao-hoa-333818.html",
       "domain": "yan.vn",
       "type": "Báo chí PR",
@@ -366,7 +366,7 @@
     {
       "platform": "YouTube",
       "account": "",
-      "url": "https://www.youtube.com/channel/UCeEzpEo_w43NYHPOjIWnmJw/videos",
+      "url": "https://www.youtube.com/watch?v=dquYnCJfNL8",
       "accountType": "",
       "sentiment": "Trung tính",
       "note": "Carry-forward, không liên quan"
@@ -536,46 +536,46 @@
   ],
   "activityLog": [
     {
-      "time": "10:32",
+      "time": "08:00",
       "step": "Bước 1 - Tìm kiếm Google",
       "result": "OK — 16/16 từ khóa (chạy tự động theo lịch seryn-brand-monitoring-daily)",
       "note": "-"
     },
     {
-      "time": "10:41",
+      "time": "08:03",
       "step": "Bước 2 - Kiểm tra MXH",
       "result": "OK — 6 từ khóa x 3 nền tảng = 18/18 lượt tìm kiếm",
       "note": "-"
     },
     {
-      "time": "10:42",
+      "time": "08:04",
       "step": "Bước 3 - Phân tích rủi ro",
       "result": "OK — Không phát hiện Cảnh báo đỏ; 5 mục Vàng carry-forward tiếp tục, không có bằng chứng mới để nâng cấp",
       "note": "-"
     },
     {
-      "time": "10:43",
+      "time": "08:05",
       "step": "Bước 4 - So sánh báo cáo hôm qua",
-      "result": "OK — đối chiếu Bao_cao_Seryn_Monitoring_2026-08-13.xlsx; 0 nguồn mới, toàn bộ 61 nguồn trùng khớp",
+      "result": "OK — đối chiếu Bao_cao_Seryn_Monitoring_2026-08-14.xlsx (đọc trực tiếp qua openpyxl); 0 nguồn mới, toàn bộ 61 nguồn trùng khớp",
       "note": "-"
     },
     {
-      "time": "10:44",
+      "time": "08:06",
       "step": "Bước 5 - Tạo file Excel + CSV",
       "result": "OK",
-      "note": "Bao_cao_Seryn_Monitoring_2026-08-14.xlsx / .csv"
+      "note": "Bao_cao_Seryn_Monitoring_2026-08-15.xlsx / .csv"
     },
     {
-      "time": "10:50",
+      "time": "08:07",
       "step": "Bước 5b - Copy ingest folder",
-      "result": "OK - xác nhận mount path + diff byte-identical (xlsx & csv)",
+      "result": "ĐANG THỰC HIỆN",
       "note": "D:/APP Seryn/seryn-digital-app/reports/incoming/"
     },
     {
-      "time": "10:52",
+      "time": "08:08",
       "step": "Bước 6 - Upload Google Sheets",
-      "result": "OK 6.1 (Shared Drive trực tiếp qua create_file; lần thử 1 tạo file rỗng do lỗi thao tác nội bộ, đã tạo lại file đúng nội dung ở lần thử 2 — file rỗng dư 'Báo Cáo Seryn - 2026-08-14 - Daily Monitoring' cần khách xoá thủ công)",
-      "note": "https://docs.google.com/spreadsheets/d/1jbq1fMqoRNRfYUqdnAxLXqhT2jR6ouAClSGKfCfrQeU/edit"
+      "result": "ĐANG THỰC HIỆN",
+      "note": "-"
     }
   ]
 }
