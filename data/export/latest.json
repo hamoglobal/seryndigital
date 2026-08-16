@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-15",
+  "date": "2026-08-16",
   "topSources": [
     {
       "title": "Seryn Clinic: Phòng Khám Đa Khoa Seryn (Website chính thức)",
@@ -210,7 +210,7 @@
       "isNew": false
     },
     {
-      "title": "Không có nền tảng review độc lập nào chứa đánh giá tiêu cực về Seryn Clinic hôm nay; SERP chủ yếu trả nguồn chính thức + Seren/Serene (loại)",
+      "title": "Không có nền tảng review độc lập nào chứa đánh giá tiêu cực về Seryn Clinic hôm nay; SERP chủ yếu trả nguồn chính thức + Seren/Serene/Instagram Seren Clinic Aesthetics Istanbul (loại)",
       "url": "-",
       "domain": "",
       "type": "Kết quả rà soát",
@@ -266,7 +266,7 @@
       "isNew": false
     },
     {
-      "title": "Tóm tắt AI: chi nhánh Hà Nội thuộc 'Công ty Clinexa Việt Nam' — KHỚP pháp nhân xác nhận (CTCP Clinexa Việt Nam, GPHĐ 4903/HNO-GPHĐ); địa chỉ tầng 18 VNTA, 68 Dương Đình Nghệ, Cầu Giấy tiếp tục xuất hiện, chưa xác minh",
+      "title": "Tóm tắt AI: chi nhánh Hà Nội thuộc 'Công ty Clinexa Việt Nam' — KHỚP pháp nhân xác nhận (CTCP Clinexa Việt Nam, GPHĐ 4903/HNO-GPHĐ); địa chỉ tầng 18 VNTA, 68 Dương Đình Nghệ, Cầu Giấy + SĐT 02439369898/hotline 0923457788 tiếp tục xuất hiện, chưa xác minh (SĐT là chi tiết mới trong tóm tắt AI, không phải nguồn link mới)",
       "url": "-",
       "domain": "",
       "type": "Ghi chú đối chiếu",
@@ -274,7 +274,7 @@
       "isNew": false
     },
     {
-      "title": "Điều gì giúp Seryn Clinic nổi bật - YAN.vn (đăng lại); toplist.vn, bookingcare.vn & mbspilates.vn xuất hiện trong SERP nhưng đã xác minh KHÔNG chứa từ 'Seryn' (loại vòng lọc 1)",
+      "title": "Điều gì giúp Seryn Clinic nổi bật - YAN.vn (đăng lại); toplist.vn, bookingcare.vn, mbspilates.vn & Viện Thẩm Mỹ Hà Nội (FB) xuất hiện trong SERP nhưng đã xác minh KHÔNG chứa từ 'Seryn' (loại vòng lọc 1)",
       "url": "https://www.yan.vn/dieu-gi-giup-seryn-clinic-noi-bat-giua-thi-truong-lam-dep-dang-bao-hoa-333818.html",
       "domain": "yan.vn",
       "type": "Báo chí PR",
@@ -522,7 +522,7 @@
       "type": "Địa chỉ chi nhánh Hà Nội thứ 2 chưa xác minh",
       "source": "",
       "date": "2026-08-09",
-      "summary": "Tóm tắt Google mô tả thêm địa điểm Seryn tại tầng 18 tòa VNTA, 68 Dương Đình Nghệ, Cầu Giấy, Hà Nội",
+      "summary": "Tóm tắt Google mô tả thêm địa điểm Seryn tại tầng 18 tòa VNTA, 68 Dương Đình Nghệ, Cầu Giấy, Hà Nội. Hôm nay bổ sung SĐT 02439369898 / hotline 0923457788 (khác hotline HCM) — chưa xác minh",
       "action": ""
     },
     {
@@ -536,46 +536,46 @@
   ],
   "activityLog": [
     {
-      "time": "08:00",
+      "time": "08:10",
       "step": "Bước 1 - Tìm kiếm Google",
       "result": "OK — 16/16 từ khóa (chạy tự động theo lịch seryn-brand-monitoring-daily)",
       "note": "-"
     },
     {
-      "time": "08:03",
+      "time": "08:13",
       "step": "Bước 2 - Kiểm tra MXH",
       "result": "OK — 6 từ khóa x 3 nền tảng = 18/18 lượt tìm kiếm",
       "note": "-"
     },
     {
-      "time": "08:04",
+      "time": "08:14",
       "step": "Bước 3 - Phân tích rủi ro",
-      "result": "OK — Không phát hiện Cảnh báo đỏ; 5 mục Vàng carry-forward tiếp tục, không có bằng chứng mới để nâng cấp",
+      "result": "OK — Không phát hiện Cảnh báo đỏ; 5 mục Vàng carry-forward tiếp tục, không có bằng chứng mới để nâng cấp; 1 chi tiết bổ sung (SĐT chi nhánh Hà Nội) ghi nhận vào carry-forward #4",
       "note": "-"
     },
     {
-      "time": "08:05",
+      "time": "08:15",
       "step": "Bước 4 - So sánh báo cáo hôm qua",
-      "result": "OK — đối chiếu Bao_cao_Seryn_Monitoring_2026-08-14.xlsx (đọc trực tiếp qua openpyxl); 0 nguồn mới, toàn bộ 61 nguồn trùng khớp",
+      "result": "OK — đối chiếu Bao_cao_Seryn_Monitoring_2026-08-15.xlsx (đọc trực tiếp qua openpyxl); 0 nguồn mới, toàn bộ 61 nguồn trùng khớp",
       "note": "-"
     },
     {
-      "time": "08:06",
+      "time": "08:16",
       "step": "Bước 5 - Tạo file Excel + CSV",
       "result": "OK",
-      "note": "Bao_cao_Seryn_Monitoring_2026-08-15.xlsx / .csv"
+      "note": "Bao_cao_Seryn_Monitoring_2026-08-16.xlsx / .csv"
     },
     {
-      "time": "08:07",
+      "time": "08:17",
       "step": "Bước 5b - Copy ingest folder",
-      "result": "ĐANG THỰC HIỆN",
-      "note": "D:/APP Seryn/seryn-digital-app/reports/incoming/"
+      "result": "OK — copy thành công, xác nhận fuse mount + diff byte-identical",
+      "note": "D:/APP Seryn/seryn-digital-app/reports/incoming/Bao_cao_Seryn_Monitoring_2026-08-16.xlsx"
     },
     {
-      "time": "08:08",
+      "time": "08:18",
       "step": "Bước 6 - Upload Google Sheets",
-      "result": "ĐANG THỰC HIỆN",
-      "note": "-"
+      "result": "OK 6.1 — upload trực tiếp vào Shared Drive khách thành công (không cần workaround)",
+      "note": "https://docs.google.com/spreadsheets/d/1h0wmRqzt16zFsFaCg-BibDNZmamE_qtngjgyq2Rls8o/edit"
     }
   ]
 }
