@@ -11646,5 +11646,261 @@
       "note": "Chưa ghi nhận tin xấu",
       "mainSources": ""
     }
+  ],
+  "2026-08-16": [
+    {
+      "brand": "Bệnh viện thẩm mỹ Kangnam",
+      "badNews": 8,
+      "newArticles": 3,
+      "riskLevel": "high",
+      "riskRaw": "Rất cao",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Lavender By Chang",
+      "badNews": 6,
+      "newArticles": 2,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ KangJin Sejung",
+      "badNews": 6,
+      "newArticles": 2,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thanh Hằng Beauty Medi",
+      "badNews": 5,
+      "newArticles": 3,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Ngọc Dung",
+      "badNews": 5,
+      "newArticles": 1,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Seoul",
+      "badNews": 4,
+      "newArticles": 2,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Lưu ý: nhiều pháp nhân/cơ sở cùng dùng tên 'Seoul' (Seoul Center, Seoul Spa, New Seoul, Seoul Academy...) — cần xác định rõ pháp nhân cụ thể trước khi hành động, tránh nhầm lẫn giữa các cơ sở.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Bally",
+      "badNews": 4,
+      "newArticles": 1,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Xuân Hương",
+      "badNews": 3,
+      "newArticles": 3,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Lưu ý: có thể tồn tại 2 cơ sở khác nhau cùng tên 'Xuân Hương' — (a) cơ sở tại Mỹ Tho, Tiền Giang (dính vi phạm 05-2025); (b) hệ thống Viện Thẩm mỹ Xuân Hương tại Hà Nội (19-21 Bùi Thị Xuân). Cần xác minh có cùng chuỗi hay không.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Thu Cúc",
+      "badNews": 3,
+      "newArticles": 2,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Hongkong",
+      "badNews": 2,
+      "newArticles": 0,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VITA Clinic",
+      "badNews": 1,
+      "newArticles": 2,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Dr. Hải Lê",
+      "badNews": 1,
+      "newArticles": 2,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Lưu ý: tránh nhầm với thương hiệu khác 'Dr. Vinh Lê' (từng bị phạt 106 triệu đồng, tước giấy phép) — không cùng đơn vị với Dr. Hải Lê.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Dr. Thái Hà",
+      "badNews": 0,
+      "newArticles": 0,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Lưu ý quan trọng: tránh nhầm với 'Phòng khám Đa khoa Thái Hà' (11 Thái Hà, Trung Liệt) — phòng khám đa khoa khác, từng bị tố 'vẽ bệnh, tính tiền quá mức' (nguồn: https://vov.vn/phap-luat/phong-kham-da-khoa-thai-ha-bi-to-ve-benh-tinh-tien-va-co-dau-hieu-tron-thue-post1218351.vov) — KHÔNG cùng đơn vị với Dr. Thái Hà da liễu-thẩm mỹ.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VietCharm",
+      "badNews": 0,
+      "newArticles": 0,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Lưu ý: 'VietCharm Show' (show ẩm thực/văn hóa tại Dinh Độc Lập, TP.HCM) là thương hiệu khác, không liên quan đến thẩm mỹ viện VietCharm.",
+      "mainSources": ""
+    }
+  ],
+  "2026-08-17": [
+    {
+      "brand": "Thanh Hằng Beauty Medi",
+      "badNews": 5,
+      "newArticles": 2,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Seoul",
+      "badNews": 5,
+      "newArticles": 2,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Có nhiều pháp nhân/cơ sở khác nhau cùng dùng tên \"Seoul\" (Seoul Center, Seoul ID, Seoul Spa, New Seoul...) — cần xác định rõ pháp nhân cụ thể trước khi hành động, tránh nhầm lẫn giữa các cơ sở.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ KangJin Sejung",
+      "badNews": 5,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Lavender By Chang",
+      "badNews": 4,
+      "newArticles": 2,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Bệnh viện thẩm mỹ Kangnam",
+      "badNews": 3,
+      "newArticles": 3,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Cần xác minh \"Viện thẩm mỹ Mega Kangnam\" (Quy Nhơn) có phải cùng hệ thống với Bệnh viện thẩm mỹ Kangnam hay là đơn vị nhượng quyền/liên kết thương hiệu riêng.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Xuân Hương",
+      "badNews": 2,
+      "newArticles": 3,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "LƯU Ý QUAN TRỌNG: chưa xác minh được cơ sở \"thẩm mỹ Xuân Hương\" tại 277 Trần Ngọc Giải, Mỹ Tho, Tiền Giang (bị đình chỉ hoạt động) có cùng hệ thống/thương hiệu với \"Viện Thẩm mỹ Xuân Hương\" tại 19-21 Bùi Thị Xuân, Hà Nội (đơn vị đang theo dõi) hay là cơ sở trùng tên, độc lập. Địa chỉ \"2B-2C Hồ Xuân Hương\" (TP.HCM) là tên đường, KHÔNG phải thương hiệu Xuân Hương — không nhầm lẫn.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Bally",
+      "badNews": 2,
+      "newArticles": 1,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Hongkong",
+      "badNews": 2,
+      "newArticles": 0,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Ngọc Dung",
+      "badNews": 1,
+      "newArticles": 3,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Thu Cúc",
+      "badNews": 0,
+      "newArticles": 2,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Dr. Hải Lê",
+      "badNews": 0,
+      "newArticles": 2,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Kết quả tìm kiếm về vi phạm chủ yếu liên quan \"Thẩm mỹ viện Dr. Vinh Lê\" (bị phạt 106 triệu đồng, tước giấy phép 2 tháng) — đây là thương hiệu KHÁC, không phải Dr. Hải Lê. Không tìm thấy tin xấu trực tiếp của Viện thẩm mỹ Dr. Hải Lê trong ngày hôm nay.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VITA Clinic",
+      "badNews": 0,
+      "newArticles": 1,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Dr. Thái Hà",
+      "badNews": 0,
+      "newArticles": 0,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Cần phân biệt với \"Phòng khám Đa khoa Thái Hà\" (một phòng khám đa khoa khác — không liên quan tới Dr. Thái Hà da liễu-thẩm mỹ) nếu xuất hiện trong tin tức các ngày sau.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VietCharm",
+      "badNews": 0,
+      "newArticles": 0,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "",
+      "mainSources": ""
+    }
   ]
 }
