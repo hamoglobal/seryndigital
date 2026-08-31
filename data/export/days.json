@@ -1065,5 +1065,115 @@
     "riskRaw": "STT Vấn đề Mô tả Ngày phát hiện lần đầu (ước tính) Trạng thái hôm nay",
     "riskLevel": "green",
     "riskNote": ""
+  },
+  {
+    "date": "2026-08-18",
+    "total": 61,
+    "positive": 27,
+    "neutral": 34,
+    "negative": 0,
+    "newSources": 0,
+    "riskRaw": "STT Vấn đề Mô tả Ngày phát hiện lần đầu (ước tính) Trạng thái hôm nay",
+    "riskLevel": "green",
+    "riskNote": ""
+  },
+  {
+    "date": "2026-08-21",
+    "total": 62,
+    "positive": 27,
+    "neutral": 35,
+    "negative": 0,
+    "newSources": 0,
+    "riskRaw": "STT Vấn đề Mô tả Ngày phát hiện lần đầu (ước tính) Trạng thái hôm nay",
+    "riskLevel": "green",
+    "riskNote": ""
+  },
+  {
+    "date": "2026-08-22",
+    "total": 62,
+    "positive": 27,
+    "neutral": 35,
+    "negative": 0,
+    "newSources": 0,
+    "riskRaw": "STT Vấn đề Mô tả Ngày phát hiện lần đầu (ước tính) Trạng thái hôm nay",
+    "riskLevel": "green",
+    "riskNote": ""
+  },
+  {
+    "date": "2026-08-23",
+    "total": 61,
+    "positive": 27,
+    "neutral": 34,
+    "negative": 0,
+    "newSources": 0,
+    "riskRaw": "STT Vấn đề Mô tả Ngày phát hiện lần đầu (ước tính) Trạng thái hôm nay",
+    "riskLevel": "green",
+    "riskNote": ""
+  },
+  {
+    "date": "2026-08-24",
+    "total": 47,
+    "positive": 19,
+    "neutral": 28,
+    "negative": 0,
+    "newSources": 0,
+    "riskRaw": "✅ Không phát hiện — không có bằng chứng cụ thể về lừa đảo, thanh tra Sở Y tế, báo điều tra hay cơ sở giả mạo mang tên Seryn.",
+    "riskLevel": "green",
+    "riskNote": ""
+  },
+  {
+    "date": "2026-08-26",
+    "total": 35,
+    "positive": 15,
+    "neutral": 20,
+    "negative": 0,
+    "newSources": 0,
+    "riskRaw": "KHÔNG — không phát hiện bằng chứng lừa đảo/thanh tra/báo điều tra/cơ sở giả mạo nào liên quan Seryn",
+    "riskLevel": "green",
+    "riskNote": ""
+  },
+  {
+    "date": "2026-08-28",
+    "total": 35,
+    "positive": 16,
+    "neutral": 19,
+    "negative": 0,
+    "newSources": 1,
+    "riskRaw": "KHÔNG — không phát hiện bằng chứng lừa đảo/thanh tra/báo điều tra/cơ sở giả mạo nào liên quan Seryn",
+    "riskLevel": "green",
+    "riskNote": ""
+  },
+  {
+    "date": "2026-08-29",
+    "total": 35,
+    "positive": 16,
+    "neutral": 19,
+    "negative": 0,
+    "newSources": 0,
+    "riskRaw": "KHÔNG — không phát hiện bằng chứng lừa đảo/thanh tra/báo điều tra/cơ sở giả mạo nào nhắc đến Seryn Clinic trong đợt rà soát hôm nay",
+    "riskLevel": "green",
+    "riskNote": ""
+  },
+  {
+    "date": "2026-08-30",
+    "total": 35,
+    "positive": 16,
+    "neutral": 19,
+    "negative": 0,
+    "newSources": 0,
+    "riskRaw": "KHÔNG — không phát hiện bằng chứng lừa đảo/thanh tra/báo điều tra/cơ sở giả mạo nào nhắc đến Seryn Clinic trong đợt rà soát hôm nay",
+    "riskLevel": "green",
+    "riskNote": ""
+  },
+  {
+    "date": "2026-08-31",
+    "total": 35,
+    "positive": 16,
+    "neutral": 19,
+    "negative": 0,
+    "newSources": 0,
+    "riskRaw": "KHÔNG — không phát hiện bằng chứng lừa đảo/thanh tra/báo điều tra/cơ sở giả mạo nào nhắc đến Seryn Clinic trong đợt rà soát hôm nay",
+    "riskLevel": "green",
+    "riskNote": ""
   }
 ]
