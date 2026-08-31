@@ -22543,20 +22543,11 @@
     },
     {
       "date": "2026-08-31",
-      "title": "Phòng khám Seryn Việt Nam (Facebook, ID 100094769671762, chưa xác minh chính chủ)",
+      "title": "Phòng khám Seryn Việt Nam (Facebook, ID 100094769671762, đã xác nhận chính chủ - bổ sung 2026-08-31)",
       "url": "https://www.facebook.com/p/Ph%C3%B2ng-kh%C3%A1m-Seryn-100094769671762/",
       "domain": "facebook.com",
       "type": "Mạng xã hội",
-      "sentiment": "neutral",
-      "isNew": false
-    },
-    {
-      "date": "2026-08-31",
-      "title": "Lại Minh Hiếu - Phòng khám Seryn Việt Nam (Facebook ID 61551700769618)",
-      "url": "https://www.facebook.com/61551700769618?locale=lt_LT",
-      "domain": "facebook.com",
-      "type": "Mạng xã hội",
-      "sentiment": "neutral",
+      "sentiment": "positive",
       "isNew": false
     },
     {
@@ -22732,15 +22723,6 @@
     },
     {
       "date": "2026-08-31",
-      "title": "Seren Klinik (Istanbul) - Trustpilot (tên gần giống, KHÔNG phải Seryn)",
-      "url": "https://www.trustpilot.com/review/serenklinik.com",
-      "domain": "trustpilot.com",
-      "type": "Nhầm lẫn",
-      "sentiment": "neutral",
-      "isNew": false
-    },
-    {
-      "date": "2026-08-31",
       "title": "Điều gì giúp Seryn Clinic nổi bật - TheThaoVanHoa (Top 10 Thương hiệu dẫn đầu VN 2026)",
       "url": "https://thethaovanhoa.vn/dieu-gi-giup-seryn-clinic-noi-bat-giua-thi-truong-lam-dep-dang-bao-hoa-20260515100741387.htm",
       "domain": "thethaovanhoa.vn",
@@ -22777,29 +22759,11 @@
     },
     {
       "date": "2026-08-31",
-      "title": "Google trả về chủ yếu Viện thẩm mỹ Mega Gangnam tại 454 Xã Đàn (không liên quan Seryn, KHÔNG cùng thương hiệu)",
-      "url": "https://www.webtretho.com/f/phau-thuat-tham-my/mega-gangnam-454-xa-dan-lua-dao",
-      "domain": "webtretho.com",
-      "type": "Ghi chú đối chiếu",
-      "sentiment": "neutral",
-      "isNew": false
-    },
-    {
-      "date": "2026-08-31",
       "title": "Seryn - Clinexa Việt Nam, phòng khám 454 Xã Đàn, P. Văn Miếu - Quốc Tử Giám",
       "url": "https://seryn.vn/",
       "domain": "seryn.vn",
       "type": "Website chính thức",
       "sentiment": "positive",
-      "isNew": false
-    },
-    {
-      "date": "2026-08-31",
-      "title": "Tóm tắt AI: mô tả '68 Dương Đình Nghệ, Cầu Giấy' và '45 Xã Đàn' (lệch định dạng so với địa chỉ xác nhận 454 Xã Đàn) — chưa xác minh, carry-forward",
-      "url": "-",
-      "domain": "",
-      "type": "Ghi chú đối chiếu",
-      "sentiment": "neutral",
       "isNew": false
     },
     {

@@ -10,19 +10,11 @@
       "isNew": false
     },
     {
-      "title": "Phòng khám Seryn Việt Nam (Facebook, ID 100094769671762, chưa xác minh chính chủ)",
+      "title": "Phòng khám Seryn Việt Nam (Facebook, ID 100094769671762, đã xác nhận chính chủ - bổ sung 2026-08-31)",
       "url": "https://www.facebook.com/p/Ph%C3%B2ng-kh%C3%A1m-Seryn-100094769671762/",
       "domain": "facebook.com",
       "type": "Mạng xã hội",
-      "sentiment": "neutral",
-      "isNew": false
-    },
-    {
-      "title": "Lại Minh Hiếu - Phòng khám Seryn Việt Nam (Facebook ID 61551700769618)",
-      "url": "https://www.facebook.com/61551700769618?locale=lt_LT",
-      "domain": "facebook.com",
-      "type": "Mạng xã hội",
-      "sentiment": "neutral",
+      "sentiment": "positive",
       "isNew": false
     },
     {
@@ -178,14 +170,6 @@
       "isNew": false
     },
     {
-      "title": "Seren Klinik (Istanbul) - Trustpilot (tên gần giống, KHÔNG phải Seryn)",
-      "url": "https://www.trustpilot.com/review/serenklinik.com",
-      "domain": "trustpilot.com",
-      "type": "Nhầm lẫn",
-      "sentiment": "neutral",
-      "isNew": false
-    },
-    {
       "title": "Điều gì giúp Seryn Clinic nổi bật - TheThaoVanHoa (Top 10 Thương hiệu dẫn đầu VN 2026)",
       "url": "https://thethaovanhoa.vn/dieu-gi-giup-seryn-clinic-noi-bat-giua-thi-truong-lam-dep-dang-bao-hoa-20260515100741387.htm",
       "domain": "thethaovanhoa.vn",
@@ -218,27 +202,11 @@
       "isNew": false
     },
     {
-      "title": "Google trả về chủ yếu Viện thẩm mỹ Mega Gangnam tại 454 Xã Đàn (không liên quan Seryn, KHÔNG cùng thương hiệu)",
-      "url": "https://www.webtretho.com/f/phau-thuat-tham-my/mega-gangnam-454-xa-dan-lua-dao",
-      "domain": "webtretho.com",
-      "type": "Ghi chú đối chiếu",
-      "sentiment": "neutral",
-      "isNew": false
-    },
-    {
       "title": "Seryn - Clinexa Việt Nam, phòng khám 454 Xã Đàn, P. Văn Miếu - Quốc Tử Giám",
       "url": "https://seryn.vn/",
       "domain": "seryn.vn",
       "type": "Website chính thức",
       "sentiment": "positive",
-      "isNew": false
-    },
-    {
-      "title": "Tóm tắt AI: mô tả '68 Dương Đình Nghệ, Cầu Giấy' và '45 Xã Đàn' (lệch định dạng so với địa chỉ xác nhận 454 Xã Đàn) — chưa xác minh, carry-forward",
-      "url": "-",
-      "domain": "",
-      "type": "Ghi chú đối chiếu",
-      "sentiment": "neutral",
       "isNew": false
     },
     {
@@ -286,26 +254,10 @@
     {
       "platform": "Facebook",
       "account": "",
-      "url": "https://www.facebook.com/61551700769618?locale=lt_LT",
-      "accountType": "",
-      "sentiment": "Trung tính",
-      "note": "Carry-forward, không có trong danh sách kênh xác nhận"
-    },
-    {
-      "platform": "Facebook",
-      "account": "",
       "url": "https://www.facebook.com/p/Ph%C3%B2ng-kh%C3%A1m-Seryn-100094769671762/",
       "accountType": "",
-      "sentiment": "Trung tính",
-      "note": "Carry-forward, không có trong danh sách kênh xác nhận"
-    },
-    {
-      "platform": "Facebook",
-      "account": "",
-      "url": "-",
-      "accountType": "",
-      "sentiment": "Trung tính",
-      "note": "Loại khỏi phạm vi giám sát (vòng lọc 1) — không chứa đúng từ 'Seryn'"
+      "sentiment": "Tích cực",
+      "note": "Có trong danh sách kênh chính chủ đã xác nhận (bổ sung 2026-08-31)"
     },
     {
       "platform": "TikTok",
@@ -447,14 +399,6 @@
   "alerts": [
     {
       "level": "",
-      "type": "Chênh lệch mô tả địa chỉ chi nhánh Hà Nội",
-      "source": "",
-      "date": "Trước 2026-07-27 (carry-forward nhiều đợt)",
-      "summary": "Địa chỉ xác nhận: 454 Xã Đàn (GPHĐ 4903/HNO-GPHĐ, CTCP Clinexa Việt Nam). Một số tóm tắt AI/bài PR cũ ghi '45 Xã Đàn' (thiếu số 4) — chênh lệch định dạng, không phải bằng chứng gian dối.",
-      "action": ""
-    },
-    {
-      "level": "",
       "type": "Trùng tên 'Thanh Xuân' trên Facebook",
       "source": "",
       "date": "Trước 2026-07-27; nhiều ID phát hiện qua các đợt",
@@ -471,26 +415,18 @@
     },
     {
       "level": "",
-      "type": "Địa chỉ chi nhánh Hà Nội thứ 2 chưa xác minh",
-      "source": "",
-      "date": "2026-08-09",
-      "summary": "Tầng 18 tòa VNTA, 68 Dương Đình Nghệ, Cầu Giấy, Hà Nội — tiếp tục xuất hiện trong tóm tắt AI, chưa có xác nhận chính thức từ khách.",
-      "action": ""
-    },
-    {
-      "level": "",
-      "type": "Trang FB 'Phòng khám Seryn VN' & 'Lại Minh Hiếu - PK Seryn VN' chưa xác minh",
-      "source": "",
-      "date": "Trước 2026-07-27",
-      "summary": "ID 100094769671762 và 61551700769618 — không có trong danh sách kênh xác nhận.",
-      "action": ""
-    },
-    {
-      "level": "",
       "type": "Kênh YouTube 'Seryn' (ID UCeEzpEo_w43NYHPOjIWnmJw) chưa rõ danh tính",
       "source": "",
       "date": "2026-08-26",
       "summary": "Phát hiện lần đầu 26/08 trong SERP 'Seryn Clinic' site:youtube.com; không xuất hiện lại trong SERP hôm nay (như các ngày 28-30/08).",
+      "action": ""
+    },
+    {
+      "level": "",
+      "type": "Cập nhật dữ liệu theo yêu cầu khách hàng (2026-08-31)",
+      "source": "",
+      "date": "2026-08-31",
+      "summary": "Xác nhận FB ID 100094769671762 là kênh chính chủ (chuyển Tích cực); FB ID 61551700769618 không còn tồn tại (loại khỏi theo dõi); loại khỏi thống kê các kết quả không liên quan thương hiệu: Viện thẩm mỹ Mega Gangnam tại 454 Xã Đàn (địa chỉ cũ, không cùng thương hiệu), tóm tắt AI về '68 Dương Đình Nghệ'/'45 Xã Đàn' (lệch định dạng, chưa xác minh), và kết quả tên gần giống Seren Klinik; áp dụng quy tắc chỉ tính nguồn khớp chính xác tên 'Seryn' cho các báo cáo tổng hợp kể từ nay.",
       "action": ""
     }
   ],
@@ -536,6 +472,18 @@
       "step": "Bước 6 - Upload Google Sheets",
       "result": "Fail 6.1+6.2 (Google Drive MCP không kết nối trong phiên này) → 6.3 fallback (local + CSV)",
       "note": "err: no Google Drive MCP tool available in session"
+    },
+    {
+      "time": "--:--",
+      "step": "Bước 7 - Cập nhật thủ công theo yêu cầu khách hàng",
+      "result": "OK — bổ sung kênh FB xác nhận (100094769671762), loại FB không còn tồn tại (61551700769618), loại kết quả không liên quan thương hiệu (Mega Gangnam, tóm tắt AI 68 Dương Đình Nghệ/45 Xã Đàn, Seren Klinik); cập nhật project memory (confirmed-channels, classification-criteria) và tài liệu tiêu chí (docx)",
+      "note": "-"
+    },
+    {
+      "time": "--:--",
+      "step": "Bước 8 - Rebuild bảng báo cáo (theo yêu cầu khách hàng)",
+      "result": "OK — tạo lại toàn bộ workbook từ dữ liệu đã hiệu chỉnh để đảm bảo định dạng nhất quán, thay thế file cũ",
+      "note": "-"
     }
   ]
 }
