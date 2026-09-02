@@ -13310,5 +13310,261 @@
       "note": "",
       "mainSources": ""
     }
+  ],
+  "2026-09-01": [
+    {
+      "brand": "Lavender By Chang",
+      "badNews": 5,
+      "newArticles": 2,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Tái phạm nhiều năm liên tục, mới phát sinh nợ BHXH (02/2026) và tin đồn lừa đảo.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Bệnh viện thẩm mỹ Kangnam",
+      "badNews": 5,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Sự cố y khoa nghiêm trọng không báo cáo đúng quy định, bác sĩ bị tước chứng chỉ.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thanh Hằng Beauty Medi",
+      "badNews": 5,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Nghi án buôn lậu thuốc, quảng cáo thuốc trái phép, nhiều bác sĩ không phép.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ KangJin Sejung",
+      "badNews": 4,
+      "newArticles": 3,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Nhiều lần tái phạm quảng cáo/nhân sự, một số cơ sở tại các tỉnh bị đóng cửa.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Seoul",
+      "badNews": 3,
+      "newArticles": 2,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Nhiều thương hiệu con (Seoul Center, Seoul ID, Saigon Seoul) đều có vi phạm/đình chỉ.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Ngọc Dung",
+      "badNews": 3,
+      "newArticles": 2,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "Có tiền sử xử phạt và nợ BHXH; tin tức gần đây tích cực.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Bally",
+      "badNews": 3,
+      "newArticles": 1,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "Nhiều lần cung cấp dịch vụ xâm lấn (filler) vượt phạm vi giấy phép.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Xuân Hương",
+      "badNews": 2,
+      "newArticles": 2,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "Có cơ sở trùng tên bị đình chỉ tại Tiền Giang, cần xác minh liên hệ với chuỗi chính.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Hongkong",
+      "badNews": 1,
+      "newArticles": 1,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "Cung cấp dịch vụ laser chưa được cấp phép.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Dr. Hải Lê",
+      "badNews": 0,
+      "newArticles": 3,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không phát hiện tin xấu; vừa được Bộ Y tế cấp phép bệnh viện chuyên khoa.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Thu Cúc",
+      "badNews": 0,
+      "newArticles": 2,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không phát hiện tin xấu trong đợt tra cứu này.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Dr. Thái Hà",
+      "badNews": 0,
+      "newArticles": 1,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không có dữ liệu đáng chú ý trong đợt tra cứu này.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VITA Clinic",
+      "badNews": 0,
+      "newArticles": 1,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không có dữ liệu đáng chú ý trong đợt tra cứu này.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VietCharm",
+      "badNews": 0,
+      "newArticles": 0,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không có dữ liệu đáng chú ý trong đợt tra cứu này.",
+      "mainSources": ""
+    }
+  ],
+  "2026-09-02": [
+    {
+      "brand": "Bệnh viện thẩm mỹ Kangnam",
+      "badNews": 3,
+      "newArticles": 0,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thanh Hằng Beauty Medi",
+      "badNews": 3,
+      "newArticles": 0,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Seoul",
+      "badNews": 3,
+      "newArticles": 0,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ KangJin Sejung",
+      "badNews": 3,
+      "newArticles": 0,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Lavender By Chang",
+      "badNews": 2,
+      "newArticles": 1,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Ngọc Dung",
+      "badNews": 2,
+      "newArticles": 0,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Bally",
+      "badNews": 2,
+      "newArticles": 0,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Thu Cúc",
+      "badNews": 1,
+      "newArticles": 2,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Xuân Hương",
+      "badNews": 1,
+      "newArticles": 1,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Hongkong",
+      "badNews": 1,
+      "newArticles": 0,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VITA Clinic",
+      "badNews": 0,
+      "newArticles": 1,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Dr. Thái Hà",
+      "badNews": 0,
+      "newArticles": 0,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VietCharm",
+      "badNews": 0,
+      "newArticles": 0,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Dr. Hải Lê",
+      "badNews": 0,
+      "newArticles": 0,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "",
+      "mainSources": ""
+    }
   ]
 }

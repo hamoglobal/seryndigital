@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-01",
+  "date": "2026-09-02",
   "topSources": [
     {
       "title": "Seryn Clinic: Phòng Khám Đa Khoa Seryn (Website chính thức)",
@@ -34,11 +34,11 @@
       "isNew": false
     },
     {
-      "title": "Review viện thẩm mỹ SERYN: Có thật sự tốt như lời đồn? - Blog seryn.vn",
-      "url": "https://seryn.vn/blog-detail/review-vien-tham-my-seryn/",
-      "domain": "seryn.vn",
-      "type": "Website - Blog",
-      "sentiment": "positive",
+      "title": "Phòng Khám Đa Khoa Seryn - DeepAI Profile (directory tự động)",
+      "url": "https://deepai.org/profile/serynclinic",
+      "domain": "deepai.org",
+      "type": "Directory",
+      "sentiment": "neutral",
       "isNew": false
     },
     {
@@ -66,15 +66,7 @@
       "isNew": false
     },
     {
-      "title": "Phòng Khám Đa Khoa Seryn - DeepAI Profile (directory tự động)",
-      "url": "https://deepai.org/profile/serynclinic",
-      "domain": "deepai.org",
-      "type": "Directory",
-      "sentiment": "neutral",
-      "isNew": false
-    },
-    {
-      "title": "Phòng Khám Đa Khoa Seryn - DeepAI Profile (trùng lặp, carry-forward)",
+      "title": "Phòng Khám Đa Khoa Seryn - DeepAI Profile (trùng lặp)",
       "url": "https://deepai.org/profile/serynclinic",
       "domain": "deepai.org",
       "type": "Directory",
@@ -90,6 +82,14 @@
       "isNew": false
     },
     {
+      "title": "Thanh Xuân - Phòng khám Seryn Việt Nam (Facebook, carry-forward, chưa xác minh)",
+      "url": "https://www.facebook.com/profile.php",
+      "domain": "facebook.com",
+      "type": "Mạng xã hội",
+      "sentiment": "neutral",
+      "isNew": false
+    },
+    {
       "title": "Khi trẻ hóa không phải chuyện của làn da - Dep.com.vn",
       "url": "https://dep.com.vn/khi-tre-hoa-khong-phai-chuyen-cua-lan-da/",
       "domain": "dep.com.vn",
@@ -101,14 +101,6 @@
       "title": "Điều gì giúp Seryn Clinic nổi bật - TheThaoVanHoa (Top10 Thương hiệu dẫn đầu VN 2026)",
       "url": "https://thethaovanhoa.vn/dieu-gi-giup-seryn-clinic-noi-bat-giua-thi-truong-lam-dep-dang-bao-hoa-20260515100741387.htm",
       "domain": "thethaovanhoa.vn",
-      "type": "Báo chí PR",
-      "sentiment": "positive",
-      "isNew": false
-    },
-    {
-      "title": "Bác sĩ CKI Vũ Trung Hiếu: một nếp nhăn khách hàng nhìn thấy... - Dep.com.vn",
-      "url": "https://dep.com.vn/bac-si-cki-vu-trung-hieu-mot-nep-nhan-khach-hang-nhin-thay-doi-khi-chi-la-phan-noi-cua-su-lao-hoa/",
-      "domain": "dep.com.vn",
       "type": "Báo chí PR",
       "sentiment": "positive",
       "isNew": false
@@ -162,6 +154,14 @@
       "isNew": false
     },
     {
+      "title": "Trustpilot 'Seren Klinik' (Istanbul) — KHÔNG liên quan Seryn Clinic VN, ghi chú phân biệt thương hiệu",
+      "url": "https://www.trustpilot.com/review/serenklinik.com",
+      "domain": "trustpilot.com",
+      "type": "Ghi chú phân biệt thương hiệu",
+      "sentiment": "neutral",
+      "isNew": false
+    },
+    {
       "title": "Không tìm thấy bài viết tiêu cực/lừa đảo/thanh tra nào nhắc đến Seryn Clinic",
       "url": "-",
       "domain": "",
@@ -178,23 +178,23 @@
       "isNew": false
     },
     {
-      "title": "Phòng Khám Đa Khoa Seryn - DeepAI Profile (trùng lặp)",
-      "url": "https://deepai.org/profile/serynclinic",
-      "domain": "deepai.org",
-      "type": "Directory",
-      "sentiment": "neutral",
-      "isNew": false
-    },
-    {
-      "title": "Điều gì giúp Seryn Clinic nổi bật - YAN.vn (đăng lại, trùng lặp)",
-      "url": "https://www.yan.vn/dieu-gi-giup-seryn-clinic-noi-bat-giua-thi-truong-lam-dep-dang-bao-hoa-333818.html",
-      "domain": "yan.vn",
-      "type": "Báo chí PR",
+      "title": "Review làm đẹp tại thẩm mỹ SERYN - Blog seryn.vn",
+      "url": "https://seryn.vn/blog-detail/review-lam-dep-tai-tham-my-seryn/",
+      "domain": "seryn.vn",
+      "type": "Website - Blog",
       "sentiment": "positive",
       "isNew": false
     },
     {
-      "title": "Điều gì giúp Seryn Clinic nổi bật - TheThaoVanHoa (trùng lặp)",
+      "title": "Review làm đẹp tại thẩm mỹ SERYN - Blog seryn.vn (trùng lặp)",
+      "url": "https://seryn.vn/blog-detail/review-lam-dep-tai-tham-my-seryn/",
+      "domain": "seryn.vn",
+      "type": "Website - Blog",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "title": "Điều gì giúp Seryn Clinic nổi bật - TheThaoVanHoa (trùng lặp, Top10 Thương hiệu)",
       "url": "https://thethaovanhoa.vn/dieu-gi-giup-seryn-clinic-noi-bat-giua-thi-truong-lam-dep-dang-bao-hoa-20260515100741387.htm",
       "domain": "thethaovanhoa.vn",
       "type": "Báo chí PR",
@@ -202,7 +202,7 @@
       "isNew": false
     },
     {
-      "title": "Seryn - Clinexa Việt Nam, phòng khám 454 Xã Đàn, P. Văn Miếu - Quốc Tử Giám",
+      "title": "Seryn Clinic - Clinexa Việt Nam, phòng khám 454 Xã Đàn (seryn.vn)",
       "url": "https://seryn.vn/",
       "domain": "seryn.vn",
       "type": "Website chính thức",
@@ -210,7 +210,7 @@
       "isNew": false
     },
     {
-      "title": "Seryn Clinic - Clinexa Việt Nam, mô hình đa chuyên khoa trẻ hóa",
+      "title": "Seryn Clinic - Clinexa Việt Nam, mô hình đa chuyên khoa trẻ hóa (seryn.vn)",
       "url": "https://seryn.vn/",
       "domain": "seryn.vn",
       "type": "Website chính thức",
@@ -218,7 +218,7 @@
       "isNew": false
     },
     {
-      "title": "Hội đồng Y khoa SERYN Clinic - Eva.vn (đăng lại) + seryn.vn",
+      "title": "Hội đồng Y khoa SERYN Clinic - Eva.vn (đăng lại)",
       "url": "https://eva.vn/bi-quyet-lam-dep/hoi-dong-y-khoa-seryn-clinic-tien-phong-mo-goc-nhin-moi-trong-tre-hoa-lan-da-tai-viet-nam-c280a664272.html",
       "domain": "eva.vn",
       "type": "Báo chí PR",
@@ -265,7 +265,7 @@
       "url": "https://www.facebook.com/61550128392717?locale=en_GB",
       "accountType": "",
       "sentiment": "Trung tính",
-      "note": "KHÔNG có trong danh sách kênh chính chủ đã xác nhận; tên gần giống trang KOL đã xác nhận (61550115911294) và trang đã gỡ (61551700769618) — cần khách xác minh nội bộ trước khi phân loại chính thức"
+      "note": "Carry-forward từ 01/09 — vẫn KHÔNG có trong danh sách kênh chính chủ đã xác nhận; chờ khách xác minh nội bộ"
     },
     {
       "platform": "TikTok",
@@ -278,7 +278,7 @@
     {
       "platform": "YouTube",
       "account": "",
-      "url": "https://www.youtube.com/channel/UCojQ10-ZUGAt4hOpbMqaIZA/videos",
+      "url": "https://www.youtube.com/channel/UCojQ10-ZUGAt4hOpbMqaIZA",
       "accountType": "",
       "sentiment": "Tích cực",
       "note": "Kênh YouTube chính thức"
@@ -286,10 +286,10 @@
     {
       "platform": "YouTube",
       "account": "",
-      "url": "https://www.youtube.com/channel/UCeEzpEo_w43NYHPOjIWnmJw/videos",
+      "url": "-",
       "accountType": "",
       "sentiment": "Trung tính",
-      "note": "Carry-forward từ 26/08 — không xuất hiện 27/08-31/08, tái xuất hiện hôm nay; giữ mức Trung tính, chưa xác minh, không nâng cấp"
+      "note": "Carry-forward — vắng mặt trong đợt rà soát hôm nay, giữ nguyên mức theo dõi"
     },
     {
       "platform": "Facebook",
@@ -434,15 +434,15 @@
       "type": "Kênh YouTube 'Seryn' (ID UCeEzpEo_w43NYHPOjIWnmJw) chưa rõ danh tính",
       "source": "",
       "date": "2026-08-26",
-      "summary": "Tái xuất hiện hôm nay trong SERP 'Seryn Clinic' site:youtube.com sau khi vắng mặt từ 27/08 đến 31/08.",
+      "summary": "KHÔNG tái xuất hiện trong đợt rà soát hôm nay (từng tái xuất hiện 01/09 sau khi vắng mặt 27/08-31/08).",
       "action": ""
     },
     {
       "level": "",
-      "type": "MỚI: Facebook 'Chuyên gia sắc đẹp Lại Minh Hiếu - Seryn Việt Nam' (ID 61550128392717)",
+      "type": "Facebook 'Chuyên gia sắc đẹp Lại Minh Hiếu - Seryn Việt Nam' (ID 61550128392717)",
       "source": "",
-      "date": "2026-09-01 (hôm nay)",
-      "summary": "Trang mới phát hiện hôm nay, tên gần giống trang KOL nội bộ đã xác nhận (61550115911294) và trang đã gỡ trước đó (61551700769618) — KHÔNG có trong danh sách kênh chính chủ. Có thể là (a) trang trùng lặp/nhân bản của KOL, (b) trang cũ đổi tên, hoặc (c) mạo danh — cần khách xác minh trực tiếp.",
+      "date": "2026-09-01",
+      "summary": "Phát hiện lần đầu 01/09/2026, tên gần giống trang KOL đã xác nhận (61550115911294) và trang đã gỡ (61551700769618) — KHÔNG có trong danh sách kênh chính chủ. Cần khách xác minh trực tiếp.",
       "action": ""
     },
     {
@@ -450,7 +450,7 @@
       "type": "Mega Gangnam tại 454 Xã Đàn / tóm tắt AI '45 Xã Đàn'",
       "source": "",
       "date": "2026-08-31 (quy tắc áp dụng)",
-      "summary": "Tiếp tục xuất hiện trong SERP nhưng đã xác nhận không liên quan thương hiệu Seryn (địa chỉ/thương hiệu khác) — loại khỏi thống kê theo quy tắc 2026-08-31.",
+      "summary": "Tiếp tục xuất hiện trong SERP nhưng đã xác nhận không liên quan thương hiệu Seryn — loại khỏi thống kê theo quy tắc 2026-08-31.",
       "action": ""
     }
   ],
@@ -470,19 +470,19 @@
     {
       "time": "--:--",
       "step": "Bước 3 - Phân tích rủi ro",
-      "result": "OK — không phát hiện Cảnh báo Đỏ; 1 nguồn mới (FB 61550128392717) so với hôm qua",
+      "result": "OK — không phát hiện Cảnh báo Đỏ; 0 nguồn mới so với hôm qua",
       "note": "-"
     },
     {
       "time": "--:--",
       "step": "Bước 4 - So sánh báo cáo trước",
-      "result": "OK — so sánh với 2026-08-31, không có khoảng trống dữ liệu",
+      "result": "OK — so sánh với 2026-09-01, không có khoảng trống dữ liệu",
       "note": "-"
     },
     {
       "time": "--:--",
       "step": "Bước 5 - Tạo Excel",
-      "result": "OK — Bao_cao_Seryn_Monitoring_2026-09-01.xlsx",
+      "result": "OK — Bao_cao_Seryn_Monitoring_2026-09-02.xlsx",
       "note": "D:\\Seryn Digital\\Seryn Digital\\"
     },
     {
@@ -494,8 +494,20 @@
     {
       "time": "--:--",
       "step": "Bước 6 - Upload Google Sheets",
-      "result": "Fail 6.1+6.2 (không có Google Drive MCP tool khả dụng trong phiên) → 6.3 fallback (local + CSV)",
-      "note": "err: no Google Drive MCP tool available in session"
+      "result": "Xem trạng thái trong chat",
+      "note": "-"
+    },
+    {
+      "time": "--:--",
+      "step": "Ghi chú lịch sử",
+      "result": "FB 'Lại Minh Hiếu' (ID 61551700769618) đã được khách xác nhận không còn tồn tại (31/08) — không carry-forward như cảnh báo hoạt động, chỉ lưu vết lịch sử tại đây",
+      "note": "-"
+    },
+    {
+      "time": "08:11",
+      "step": "Bước 6 - Upload Google Sheets",
+      "result": "Fail 6.1+6.2 (Google Drive MCP không được kết nối trong phiên này) → 6.3 local only",
+      "note": "Không có MCP Google Drive nào khả dụng trong session hiện tại"
     }
   ]
 }
