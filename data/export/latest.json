@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-02",
+  "date": "2026-09-03",
   "topSources": [
     {
       "title": "Seryn Clinic: Phòng Khám Đa Khoa Seryn (Website chính thức)",
@@ -130,6 +130,14 @@
       "isNew": false
     },
     {
+      "title": "Tóm tắt AI nêu địa chỉ Hà Nội lệch định dạng '68 Dương Đình Nghệ, Cầu Giấy' — loại khỏi thống kê theo quy tắc 2026-08-31",
+      "url": "-",
+      "domain": "",
+      "type": "Ghi chú phân biệt địa chỉ",
+      "sentiment": "neutral",
+      "isNew": false
+    },
+    {
       "title": "Trẻ hóa không đến từ skincare thông thường - VietnamNet",
       "url": "https://vietnamnet.vn/tre-hoa-khong-den-tu-skincare-thong-thuong-su-that-phai-dep-it-biet-2503099.html",
       "domain": "vietnamnet.vn",
@@ -170,14 +178,6 @@
       "isNew": false
     },
     {
-      "title": "Điều gì giúp Seryn Clinic nổi bật - YAN.vn (đăng lại)",
-      "url": "https://www.yan.vn/dieu-gi-giup-seryn-clinic-noi-bat-giua-thi-truong-lam-dep-dang-bao-hoa-333818.html",
-      "domain": "yan.vn",
-      "type": "Báo chí PR",
-      "sentiment": "positive",
-      "isNew": false
-    },
-    {
       "title": "Review làm đẹp tại thẩm mỹ SERYN - Blog seryn.vn",
       "url": "https://seryn.vn/blog-detail/review-lam-dep-tai-tham-my-seryn/",
       "domain": "seryn.vn",
@@ -186,23 +186,31 @@
       "isNew": false
     },
     {
-      "title": "Review làm đẹp tại thẩm mỹ SERYN - Blog seryn.vn (trùng lặp)",
-      "url": "https://seryn.vn/blog-detail/review-lam-dep-tai-tham-my-seryn/",
+      "title": "Review viện thẩm mỹ SERYN: Có thật sự tốt như lời đồn? - Blog seryn.vn",
+      "url": "https://seryn.vn/blog-detail/review-vien-tham-my-seryn/",
       "domain": "seryn.vn",
       "type": "Website - Blog",
       "sentiment": "positive",
       "isNew": false
     },
     {
-      "title": "Điều gì giúp Seryn Clinic nổi bật - TheThaoVanHoa (trùng lặp, Top10 Thương hiệu)",
-      "url": "https://thethaovanhoa.vn/dieu-gi-giup-seryn-clinic-noi-bat-giua-thi-truong-lam-dep-dang-bao-hoa-20260515100741387.htm",
-      "domain": "thethaovanhoa.vn",
-      "type": "Báo chí PR",
-      "sentiment": "positive",
+      "title": "Mega Gangnam tại 454 Xã Đàn — thương hiệu khác, không liên quan Seryn, loại khỏi thống kê",
+      "url": "https://congdongthammy.net/mega-gangnam-454-xa-dan-dia-chi-lam-dep-uy-tin-tai-ha-noi/",
+      "domain": "congdongthammy.net",
+      "type": "Ghi chú phân biệt địa chỉ",
+      "sentiment": "neutral",
       "isNew": false
     },
     {
-      "title": "Seryn Clinic - Clinexa Việt Nam, phòng khám 454 Xã Đàn (seryn.vn)",
+      "title": "Mega Gangnam bị Sở Y tế Hà Nội xử phạt quảng cáo — không liên quan Seryn, loại khỏi thống kê",
+      "url": "https://phapluat.tuoitrethudo.vn/cong-ty-quoc-te-mega-gangnam-bi-xu-phat-do-vi-pham-quang-cao-87665.html",
+      "domain": "phapluat.tuoitrethudo.vn",
+      "type": "Ghi chú phân biệt thương hiệu",
+      "sentiment": "neutral",
+      "isNew": false
+    },
+    {
+      "title": "Seryn Clinic - Clinexa Việt Nam, phòng khám Hà Nội (seryn.vn)",
       "url": "https://seryn.vn/",
       "domain": "seryn.vn",
       "type": "Website chính thức",
@@ -268,6 +276,14 @@
       "note": "Carry-forward từ 01/09 — vẫn KHÔNG có trong danh sách kênh chính chủ đã xác nhận; chờ khách xác minh nội bộ"
     },
     {
+      "platform": "Facebook",
+      "account": "",
+      "url": "https://www.facebook.com/61551700769618?locale=lt_LT",
+      "accountType": "",
+      "sentiment": "Trung tính",
+      "note": "Đã xác nhận KHÔNG còn tồn tại (31/08) — chỉ ghi chú lịch sử, KHÔNG tính là cảnh báo hoạt động"
+    },
+    {
       "platform": "TikTok",
       "account": "",
       "url": "-",
@@ -289,7 +305,7 @@
       "url": "-",
       "accountType": "",
       "sentiment": "Trung tính",
-      "note": "Carry-forward — vắng mặt trong đợt rà soát hôm nay, giữ nguyên mức theo dõi"
+      "note": "Carry-forward — tiếp tục vắng mặt trong đợt rà soát hôm nay, giữ nguyên mức theo dõi"
     },
     {
       "platform": "Facebook",
@@ -434,7 +450,7 @@
       "type": "Kênh YouTube 'Seryn' (ID UCeEzpEo_w43NYHPOjIWnmJw) chưa rõ danh tính",
       "source": "",
       "date": "2026-08-26",
-      "summary": "KHÔNG tái xuất hiện trong đợt rà soát hôm nay (từng tái xuất hiện 01/09 sau khi vắng mặt 27/08-31/08).",
+      "summary": "KHÔNG tái xuất hiện trong đợt rà soát hôm nay (vắng mặt liên tục từ 02/09).",
       "action": ""
     },
     {
@@ -447,7 +463,7 @@
     },
     {
       "level": "",
-      "type": "Mega Gangnam tại 454 Xã Đàn / tóm tắt AI '45 Xã Đàn'",
+      "type": "Mega Gangnam tại 454 Xã Đàn / tóm tắt AI địa chỉ lệch định dạng ('45 Xã Đàn', '68 Dương Đình Nghệ, Cầu Giấy')",
       "source": "",
       "date": "2026-08-31 (quy tắc áp dụng)",
       "summary": "Tiếp tục xuất hiện trong SERP nhưng đã xác nhận không liên quan thương hiệu Seryn — loại khỏi thống kê theo quy tắc 2026-08-31.",
@@ -470,26 +486,26 @@
     {
       "time": "--:--",
       "step": "Bước 3 - Phân tích rủi ro",
-      "result": "OK — không phát hiện Cảnh báo Đỏ; 0 nguồn mới so với hôm qua",
+      "result": "OK — không phát hiện Cảnh báo Đỏ; 0 nguồn mới so với hôm qua (02/09)",
       "note": "-"
     },
     {
       "time": "--:--",
       "step": "Bước 4 - So sánh báo cáo trước",
-      "result": "OK — so sánh với 2026-09-01, không có khoảng trống dữ liệu",
+      "result": "OK — so sánh với 2026-09-02, không có khoảng trống dữ liệu",
       "note": "-"
     },
     {
       "time": "--:--",
       "step": "Bước 5 - Tạo Excel",
-      "result": "OK — Bao_cao_Seryn_Monitoring_2026-09-02.xlsx",
-      "note": "D:\\Seryn Digital\\Seryn Digital\\"
+      "result": "OK — Bao_cao_Seryn_Monitoring_2026-09-03.xlsx",
+      "note": "D:\\\\Seryn Digital\\\\Seryn Digital\\\\"
     },
     {
       "time": "--:--",
       "step": "Bước 5b - Copy vào ingest",
       "result": "Xem trạng thái trong chat",
-      "note": "D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\"
+      "note": "D:\\\\APP Seryn\\\\seryn-digital-app\\\\reports\\\\incoming\\\\"
     },
     {
       "time": "--:--",
@@ -498,16 +514,10 @@
       "note": "-"
     },
     {
-      "time": "--:--",
-      "step": "Ghi chú lịch sử",
-      "result": "FB 'Lại Minh Hiếu' (ID 61551700769618) đã được khách xác nhận không còn tồn tại (31/08) — không carry-forward như cảnh báo hoạt động, chỉ lưu vết lịch sử tại đây",
-      "note": "-"
-    },
-    {
-      "time": "08:11",
+      "time": "08:09",
       "step": "Bước 6 - Upload Google Sheets",
-      "result": "Fail 6.1+6.2 (Google Drive MCP không được kết nối trong phiên này) → 6.3 local only",
-      "note": "Không có MCP Google Drive nào khả dụng trong session hiện tại"
+      "result": "Fail 6.1+6.2 (không có Google Drive MCP nào kết nối trong phiên này) → 6.3 local only",
+      "note": "Không tìm thấy MCP Google Drive khả dụng trong session hiện tại (ToolSearch không trả về công cụ nào)"
     }
   ]
 }
