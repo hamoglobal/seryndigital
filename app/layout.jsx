@@ -1,4 +1,5 @@
 import './globals.css';
+import AuthProvider from '@/components/AuthProvider';
 
 export const metadata = {
   title: 'Seryn Digital — AI AUTO RESEARCH',
@@ -8,7 +9,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="vi">
-      <body>{children}</body>
+      <body>
+        <AuthProvider>{children}</AuthProvider>
+      </body>
     </html>
   );
 }

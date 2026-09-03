@@ -19,6 +19,43 @@ Open http://localhost:3000 — `data/seryn.db` already ships pre-seeded with
 the actual report archive. No `npm run seed` needed unless you're setting this
 up somewhere that archive isn't reachable (see below).
 
+## Đăng nhập Google & phân quyền
+
+Toàn bộ app (trừ `/login`) giờ yêu cầu đăng nhập bằng tài khoản Google — chặn
+ở `middleware.js`. Vai trò của mỗi người (`pending` / `viewer` / `admin`)
+được lưu ở `data/export/users.json` (không phải trong SQLite, vì `seryn.db`
+bị build lại từ đầu ở mỗi lần deploy — xem `scripts/import-json.mjs`). Mỗi
+lần admin đổi quyền cho ai, `lib/gitSync.js` sẽ tự commit + push file này lên
+GitHub ngay để không bị mất khi Render deploy lại.
+
+**Thiết lập Google OAuth (một lần, làm thủ công trên Google Cloud Console):**
+
+1. Vào https://console.cloud.google.com/apis/credentials, tạo (hoặc dùng lại)
+   một project, bật **OAuth consent screen** (loại "External" là được, không
+   cần publish nếu chỉ dùng nội bộ — nhớ thêm các email sẽ đăng nhập vào mục
+   "Test users" nếu consent screen còn ở chế độ Testing).
+2. Tạo **OAuth client ID** → Application type: **Web application**.
+3. **Authorized redirect URIs**, thêm cả hai:
+   - `https://seryndigital.onrender.com/api/auth/callback/google` (production)
+   - `http://localhost:3000/api/auth/callback/google` (chạy local)
+4. Copy **Client ID** và **Client secret**.
+
+**Biến môi trường cần thêm** (Render → service → Environment, và/hoặc
+`.env.local` khi chạy local — file này đã nằm trong `.gitignore`):
+
+```
+GOOGLE_CLIENT_ID=...          # từ bước trên
+GOOGLE_CLIENT_SECRET=...      # từ bước trên
+NEXTAUTH_URL=https://seryndigital.onrender.com   # URL công khai của app (local: http://localhost:3000)
+NEXTAUTH_SECRET=...           # chuỗi ngẫu nhiên, tạo bằng: openssl rand -base64 32
+ADMIN_EMAILS=marketinghamoglobal@gmail.com,dungnc@seryn.vn,dungnc.marketing@gmail.com   # tự động thành admin ngay lần đăng nhập đầu tiên
+```
+
+Người dùng mới đăng nhập Google lần đầu (không có trong `ADMIN_EMAILS`) sẽ
+thấy màn hình "Đang chờ admin duyệt" (`/pending`) cho tới khi một admin vào
+trang **Admin** (menu trên cùng, chỉ admin mới thấy) và chọn quyền `Viewer`
+hoặc `Admin` cho họ.
+
 ## Where the data comes from
 
 There's already a separate scheduled task (**`seryn-brand-monitoring-daily`**,
