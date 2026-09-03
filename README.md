@@ -49,7 +49,23 @@ GOOGLE_CLIENT_SECRET=...      # từ bước trên
 NEXTAUTH_URL=https://seryndigital.onrender.com   # URL công khai của app (local: http://localhost:3000)
 NEXTAUTH_SECRET=...           # chuỗi ngẫu nhiên, tạo bằng: openssl rand -base64 32
 ADMIN_EMAILS=marketinghamoglobal@gmail.com,dungnc@seryn.vn,dungnc.marketing@gmail.com   # tự động thành admin ngay lần đăng nhập đầu tiên
+GITHUB_PAT=...          # QUAN TRỌNG — xem cảnh báo bên dưới
 ```
+
+**Vì sao `GITHUB_PAT` bắt buộc:** `data/export/users.json` (nơi lưu quyền
+từng user) chỉ nằm trên ổ đĩa tạm của container Render — mỗi lần deploy lại,
+container cũ bị huỷ và container mới được build lại từ đúng những gì có
+trong Git, không hơn. `lib/gitSync.js` tự commit + push file này lên GitHub
+mỗi khi có user mới đăng nhập hoặc admin đổi quyền, để lần deploy sau vẫn
+còn dữ liệu — nhưng nó cần một GitHub Personal Access Token để làm việc đó.
+Token đó đã có sẵn ở `.ssh/github_pat.txt` trên máy chạy pipeline hằng ngày,
+nhưng file đó nằm trong `.gitignore` (cố tình — không muốn token lọt vào
+Docker image qua Git) nên **không có mặt trên container Render**. Thiếu
+`GITHUB_PAT`, mọi thay đổi quyền chỉ tồn tại tới lần deploy kế tiếp rồi mất
+sạch — admin cấp quyền Viewer cho ai hôm nay, mai deploy lại người đó về
+lại "Chờ duyệt". Lấy giá trị token từ file `.ssh/github_pat.txt` trong thư
+mục project (mở bằng Notepad, copy nguyên chuỗi bắt đầu bằng `github_pat_`)
+và dán làm giá trị `GITHUB_PAT` trên Render.
 
 Người dùng mới đăng nhập Google lần đầu (không có trong `ADMIN_EMAILS`) sẽ
 thấy màn hình "Đang chờ admin duyệt" (`/pending`) cho tới khi một admin vào
