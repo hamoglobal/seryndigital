@@ -1,9 +1,10 @@
 'use client';
 
 // components/TopNav.jsx
-// Shared top navigation bar. Base menu is "Seryn Digital" (this dashboard,
-// "/") and "Đối Thủ" (the competitor-monitoring page, "/doi-thu"); an
-// "Admin" item appears only for signed-in users with role 'admin'.
+// Shared top navigation bar. Menu is "Seryn Digital" (this dashboard, "/")
+// and "Đối Thủ" (the competitor-monitoring page, "/doi-thu"). A separate
+// "Admin" button sits on the far right, apart from that menu group — it
+// only renders for signed-in users with role 'admin'.
 // `statusSlot` lets each page render its own right-aligned status pill
 // (e.g. the current risk-level indicator) without duplicating the nav markup.
 // The right side also shows the signed-in user's avatar + a sign-out button.
@@ -20,7 +21,7 @@ export default function TopNav({ statusSlot }) {
   const pathname = usePathname();
   const { data: session } = useSession();
   const isAdmin = session?.user?.role === 'admin';
-  const navItems = isAdmin ? [...NAV_ITEMS, { href: '/admin', label: 'Admin' }] : NAV_ITEMS;
+  const adminActive = pathname === '/admin';
 
   return (
     <div style={{ position: 'sticky', top: 0, zIndex: 30, background: 'rgba(251,246,241,0.85)', backdropFilter: 'blur(12px)', borderBottom: '1px solid var(--border-subtle)' }}>
@@ -32,7 +33,7 @@ export default function TopNav({ statusSlot }) {
             <span style={{ fontFamily: 'var(--font-sans)', fontSize: 13, fontWeight: 600, color: 'var(--text-brand)', letterSpacing: '0.02em' }}>digital</span>
           </div>
           <nav style={{ display: 'flex', gap: 2, background: 'var(--ivory-200)', padding: 4, borderRadius: 'var(--radius-pill)' }}>
-            {navItems.map(item => {
+            {NAV_ITEMS.map(item => {
               const active = pathname === item.href;
               return (
                 <Link key={item.href} href={item.href} style={{
@@ -49,6 +50,18 @@ export default function TopNav({ statusSlot }) {
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: 14, flexWrap: 'wrap' }}>
           {statusSlot}
+          {isAdmin && (
+            <Link href="/admin" style={{
+              textDecoration: 'none', padding: '8px 18px', borderRadius: 'var(--radius-pill)',
+              fontFamily: 'var(--font-sans)', fontSize: 'var(--text-sm)', fontWeight: 600,
+              border: '1px solid var(--border-default)',
+              background: adminActive ? 'var(--seryn-navy)' : 'transparent',
+              color: adminActive ? '#FFFFFF' : 'var(--seryn-navy)',
+              transition: 'all var(--dur-fast) var(--ease-out)',
+            }}>
+              Admin
+            </Link>
+          )}
           {session?.user && (
             <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
               {session.user.image ? (
