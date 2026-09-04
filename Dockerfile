@@ -2,6 +2,16 @@
 # (no native/C++ build step needed for the DB layer).
 FROM node:22-slim
 
+# lib/gitSync.js shells out to the `git` binary at runtime (to push role
+# changes / users.json to GitHub so they survive the next deploy). The
+# node:22-slim base image does NOT include git, so without this the git-sync
+# call fails silently with ENOENT on every push attempt (caught and only
+# logged to console.error, so it looked like nothing was wrong). ca-certificates
+# is required too, or the HTTPS clone/push to github.com fails TLS verification.
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends git ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+
 WORKDIR /app
 
 # Install deps first (better layer caching)
