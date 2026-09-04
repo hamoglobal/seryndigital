@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-03",
+  "date": "2026-09-04",
   "topSources": [
     {
       "title": "Seryn Clinic: Phòng Khám Đa Khoa Seryn (Website chính thức)",
@@ -22,14 +22,6 @@
       "url": "https://www.youtube.com/channel/UCojQ10-ZUGAt4hOpbMqaIZA/about",
       "domain": "youtube.com",
       "type": "Mạng xã hội",
-      "sentiment": "positive",
-      "isNew": false
-    },
-    {
-      "title": "Nguyễn Ngọc Vinh - Trang chuyên gia (seryn.vn)",
-      "url": "https://seryn.vn/expert/nguyen-ngoc-vinh/",
-      "domain": "seryn.vn",
-      "type": "Website chính thức",
       "sentiment": "positive",
       "isNew": false
     },
@@ -74,11 +66,11 @@
       "isNew": false
     },
     {
-      "title": "Phòng Khám Đa Khoa SERYN - YouTube (trùng lặp)",
-      "url": "https://www.youtube.com/channel/UCojQ10-ZUGAt4hOpbMqaIZA",
-      "domain": "youtube.com",
-      "type": "Mạng xã hội",
-      "sentiment": "positive",
+      "title": "Phòng Khám Đa Khoa Seryn - TimPhongKham.vn (directory)",
+      "url": "https://timphongkham.vn/clinics/15247-phong-kham-da-khoa-seryn",
+      "domain": "timphongkham.vn",
+      "type": "Directory",
+      "sentiment": "neutral",
       "isNew": false
     },
     {
@@ -98,7 +90,7 @@
       "isNew": false
     },
     {
-      "title": "Điều gì giúp Seryn Clinic nổi bật - TheThaoVanHoa (Top10 Thương hiệu dẫn đầu VN 2026)",
+      "title": "Điều gì giúp Seryn Clinic nổi bật - TheThaoVanHoa/YAN (Top10 Thương hiệu dẫn đầu VN 2026)",
       "url": "https://thethaovanhoa.vn/dieu-gi-giup-seryn-clinic-noi-bat-giua-thi-truong-lam-dep-dang-bao-hoa-20260515100741387.htm",
       "domain": "thethaovanhoa.vn",
       "type": "Báo chí PR",
@@ -106,7 +98,7 @@
       "isNew": false
     },
     {
-      "title": "Trẻ hóa gương mặt: liệu trình riêng lẻ - AFamily.vn",
+      "title": "Trẻ hóa gương mặt: liệu trình riêng lẻ - AFamily.vn / ThanhNienViet.vn",
       "url": "https://afamily.vn/tre-hoa-guong-mat-vi-sao-nhung-lieu-trinh-rieng-le-khong-con-duoc-ua-chuong-236260318171908185.chn",
       "domain": "afamily.vn",
       "type": "Báo chí PR",
@@ -130,7 +122,7 @@
       "isNew": false
     },
     {
-      "title": "Tóm tắt AI nêu địa chỉ Hà Nội lệch định dạng '68 Dương Đình Nghệ, Cầu Giấy' — loại khỏi thống kê theo quy tắc 2026-08-31",
+      "title": "Tóm tắt AI nêu địa chỉ Hà Nội lệch định dạng '68 Dương Đình Nghệ, Cầu Giấy' — loại khỏi thống kê theo quy tắc 2026-08-31/2026-09-03",
       "url": "-",
       "domain": "",
       "type": "Ghi chú phân biệt địa chỉ",
@@ -194,18 +186,18 @@
       "isNew": false
     },
     {
-      "title": "Mega Gangnam tại 454 Xã Đàn — thương hiệu khác, không liên quan Seryn, loại khỏi thống kê",
-      "url": "https://congdongthammy.net/mega-gangnam-454-xa-dan-dia-chi-lam-dep-uy-tin-tai-ha-noi/",
-      "domain": "congdongthammy.net",
-      "type": "Ghi chú phân biệt địa chỉ",
+      "title": "Mega Gangnam tại 454 Xã Đàn — thương hiệu khác, không liên quan Seryn, loại khỏi thống kê (theo yêu cầu 2026-09-03)",
+      "url": "-",
+      "domain": "",
+      "type": "Ghi chú phân biệt địa chỉ (loại trừ)",
       "sentiment": "neutral",
       "isNew": false
     },
     {
-      "title": "Mega Gangnam bị Sở Y tế Hà Nội xử phạt quảng cáo — không liên quan Seryn, loại khỏi thống kê",
-      "url": "https://phapluat.tuoitrethudo.vn/cong-ty-quoc-te-mega-gangnam-bi-xu-phat-do-vi-pham-quang-cao-87665.html",
-      "domain": "phapluat.tuoitrethudo.vn",
-      "type": "Ghi chú phân biệt thương hiệu",
+      "title": "Mega Gangnam bị Sở Y tế Hà Nội xử phạt quảng cáo — không liên quan Seryn, loại hoàn toàn khỏi báo cáo",
+      "url": "-",
+      "domain": "",
+      "type": "Ghi chú phân biệt thương hiệu (loại trừ)",
       "sentiment": "neutral",
       "isNew": false
     },
@@ -238,6 +230,14 @@
       "url": "https://seryn.vn/",
       "domain": "seryn.vn",
       "type": "Website chính thức",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "title": "Bác sĩ CKI Vũ Trung Hiếu — phỏng vấn chuyên gia - Tạp chí Đẹp",
+      "url": "https://dep.com.vn/bac-si-cki-vu-trung-hieu-mot-nep-nhan-khach-hang-nhin-thay-doi-khi-chi-la-phan-noi-cua-su-lao-hoa/",
+      "domain": "dep.com.vn",
+      "type": "Báo chí PR",
       "sentiment": "positive",
       "isNew": false
     }
@@ -305,7 +305,7 @@
       "url": "-",
       "accountType": "",
       "sentiment": "Trung tính",
-      "note": "Carry-forward — tiếp tục vắng mặt trong đợt rà soát hôm nay, giữ nguyên mức theo dõi"
+      "note": "Carry-forward — tiếp tục vắng mặt trong đợt rà soát hôm nay"
     },
     {
       "platform": "Facebook",
@@ -465,8 +465,8 @@
       "level": "",
       "type": "Mega Gangnam tại 454 Xã Đàn / tóm tắt AI địa chỉ lệch định dạng ('45 Xã Đàn', '68 Dương Đình Nghệ, Cầu Giấy')",
       "source": "",
-      "date": "2026-08-31 (quy tắc áp dụng)",
-      "summary": "Tiếp tục xuất hiện trong SERP nhưng đã xác nhận không liên quan thương hiệu Seryn — loại khỏi thống kê theo quy tắc 2026-08-31.",
+      "date": "2026-08-31 (quy tắc áp dụng); loại hoàn toàn từ 2026-09-03",
+      "summary": "Tiếp tục xuất hiện trong SERP nhưng đã xác nhận không liên quan thương hiệu Seryn — loại hoàn toàn khỏi thống kê theo yêu cầu khách 2026-09-03.",
       "action": ""
     }
   ],
@@ -474,7 +474,7 @@
     {
       "time": "--:--",
       "step": "Bước 1 - Google Search",
-      "result": "OK — 15/15 từ khóa hoàn tất",
+      "result": "OK — 16/16 từ khóa hoàn tất",
       "note": "-"
     },
     {
@@ -486,38 +486,32 @@
     {
       "time": "--:--",
       "step": "Bước 3 - Phân tích rủi ro",
-      "result": "OK — không phát hiện Cảnh báo Đỏ; 0 nguồn mới so với hôm qua (02/09)",
+      "result": "OK — không phát hiện Cảnh báo Đỏ; 0 nguồn mới so với hôm qua (03/09)",
       "note": "-"
     },
     {
       "time": "--:--",
       "step": "Bước 4 - So sánh báo cáo trước",
-      "result": "OK — so sánh với 2026-09-02, không có khoảng trống dữ liệu",
+      "result": "OK — so sánh với 2026-09-03, không có khoảng trống dữ liệu (không cần TẠO BÙ)",
       "note": "-"
     },
     {
       "time": "--:--",
       "step": "Bước 5 - Tạo Excel",
-      "result": "OK — Bao_cao_Seryn_Monitoring_2026-09-03.xlsx",
-      "note": "D:\\\\Seryn Digital\\\\Seryn Digital\\\\"
+      "result": "OK — Bao_cao_Seryn_Monitoring_2026-09-04.xlsx",
+      "note": "D:\\Seryn Digital\\Seryn Digital\\"
     },
     {
       "time": "--:--",
       "step": "Bước 5b - Copy vào ingest",
       "result": "Xem trạng thái trong chat",
-      "note": "D:\\\\APP Seryn\\\\seryn-digital-app\\\\reports\\\\incoming\\\\"
+      "note": "D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\"
     },
     {
       "time": "--:--",
       "step": "Bước 6 - Upload Google Sheets",
       "result": "Xem trạng thái trong chat",
       "note": "-"
-    },
-    {
-      "time": "08:09",
-      "step": "Bước 6 - Upload Google Sheets",
-      "result": "Fail 6.1+6.2 (không có Google Drive MCP nào kết nối trong phiên này) → 6.3 local only",
-      "note": "Không tìm thấy MCP Google Drive khả dụng trong session hiện tại (ToolSearch không trả về công cụ nào)"
     }
   ]
 }
