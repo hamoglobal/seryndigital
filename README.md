@@ -49,6 +49,7 @@ GOOGLE_CLIENT_SECRET=...      # từ bước trên
 NEXTAUTH_URL=https://seryndigital.onrender.com   # URL công khai của app (local: http://localhost:3000)
 NEXTAUTH_SECRET=...           # chuỗi ngẫu nhiên, tạo bằng: openssl rand -base64 32
 ADMIN_EMAILS=marketinghamoglobal@gmail.com,dungnc@seryn.vn,dungnc.marketing@gmail.com   # tự động thành admin ngay lần đăng nhập đầu tiên
+VIEWER_EMAILS=chungnv@seryn.vn,atlv@seryn.vn   # tự động được cấp quyền xem (Viewer) ngay lần đăng nhập đầu tiên
 GITHUB_PAT=...          # QUAN TRỌNG — xem cảnh báo bên dưới
 ```
 
@@ -67,10 +68,14 @@ lại "Chờ duyệt". Lấy giá trị token từ file `.ssh/github_pat.txt` tr
 mục project (mở bằng Notepad, copy nguyên chuỗi bắt đầu bằng `github_pat_`)
 và dán làm giá trị `GITHUB_PAT` trên Render.
 
-Người dùng mới đăng nhập Google lần đầu (không có trong `ADMIN_EMAILS`) sẽ
-thấy màn hình "Đang chờ admin duyệt" (`/pending`) cho tới khi một admin vào
-trang **Admin** (menu trên cùng, chỉ admin mới thấy) và chọn quyền `Viewer`
-hoặc `Admin` cho họ.
+Người dùng mới đăng nhập Google lần đầu, nếu không nằm trong `ADMIN_EMAILS`
+hoặc `VIEWER_EMAILS`, sẽ thấy màn hình "Đang chờ admin duyệt" (`/pending`)
+cho tới khi một admin vào trang **Admin** (menu trên cùng, chỉ admin mới
+thấy) và chọn quyền `Viewer` hoặc `Admin` cho họ. Email trong `ADMIN_EMAILS`
+tự động thành `Admin`, email trong `VIEWER_EMAILS` tự động thành `Viewer`
+(xem được dashboard ngay, không có trang Admin) — ngay từ lần đăng nhập
+đầu tiên, và được tự khôi phục lại đúng quyền ở mỗi lần đăng nhập sau nếu
+vì lý do gì đó bị reset về "Chờ duyệt".
 
 ## Where the data comes from
 
