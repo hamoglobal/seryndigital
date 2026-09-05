@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-04",
+  "date": "2026-09-05",
   "topSources": [
     {
       "title": "Seryn Clinic: Phòng Khám Đa Khoa Seryn (Website chính thức)",
@@ -66,19 +66,19 @@
       "isNew": false
     },
     {
-      "title": "Phòng Khám Đa Khoa Seryn - TimPhongKham.vn (directory)",
-      "url": "https://timphongkham.vn/clinics/15247-phong-kham-da-khoa-seryn",
-      "domain": "timphongkham.vn",
-      "type": "Directory",
-      "sentiment": "neutral",
-      "isNew": false
+      "title": "Hội đồng Y khoa SERYN Clinic tiên phong - Arttimes.vn (đăng lại/syndicate)",
+      "url": "https://arttimes.vn/nhip-cau-doanh-nghiep/hoi-dong-y-khoa-seryn-clinic-tien-phong-mo-goc-nhin-moi-trong-tre-hoa-lan-da-tai-viet-nam-c56a75643.html",
+      "domain": "arttimes.vn",
+      "type": "Báo chí PR",
+      "sentiment": "positive",
+      "isNew": true
     },
     {
-      "title": "Thanh Xuân - Phòng khám Seryn Việt Nam (Facebook, carry-forward, chưa xác minh)",
-      "url": "https://www.facebook.com/profile.php",
-      "domain": "facebook.com",
-      "type": "Mạng xã hội",
-      "sentiment": "neutral",
+      "title": "Đội ngũ y bác sĩ - SERYN (website)",
+      "url": "https://seryn.vn/experts/doi-ngu-y-bac-si/",
+      "domain": "seryn.vn",
+      "type": "Website chính thức",
+      "sentiment": "positive",
       "isNew": false
     },
     {
@@ -98,7 +98,7 @@
       "isNew": false
     },
     {
-      "title": "Trẻ hóa gương mặt: liệu trình riêng lẻ - AFamily.vn / ThanhNienViet.vn",
+      "title": "Trẻ hóa gương mặt: liệu trình riêng lẻ - AFamily.vn",
       "url": "https://afamily.vn/tre-hoa-guong-mat-vi-sao-nhung-lieu-trinh-rieng-le-khong-con-duoc-ua-chuong-236260318171908185.chn",
       "domain": "afamily.vn",
       "type": "Báo chí PR",
@@ -119,14 +119,6 @@
       "domain": "linkedin.com",
       "type": "Mạng xã hội - LinkedIn",
       "sentiment": "positive",
-      "isNew": false
-    },
-    {
-      "title": "Tóm tắt AI nêu địa chỉ Hà Nội lệch định dạng '68 Dương Đình Nghệ, Cầu Giấy' — loại khỏi thống kê theo quy tắc 2026-08-31/2026-09-03",
-      "url": "-",
-      "domain": "",
-      "type": "Ghi chú phân biệt địa chỉ",
-      "sentiment": "neutral",
       "isNew": false
     },
     {
@@ -202,6 +194,14 @@
       "isNew": false
     },
     {
+      "title": "Thuốc 'Seryn' (hỗ trợ trí nhớ) trên Vinmec/TrungTamThuoc/MuaThuoc.vn — sản phẩm dược phẩm không liên quan, không tính rủi ro",
+      "url": "https://www.vinmec.com/vie/bai-viet/cong-dung-thuoc-seryn-vi",
+      "domain": "vinmec.com",
+      "type": "Ghi chú phân biệt sản phẩm",
+      "sentiment": "neutral",
+      "isNew": false
+    },
+    {
       "title": "Seryn Clinic - Clinexa Việt Nam, phòng khám Hà Nội (seryn.vn)",
       "url": "https://seryn.vn/",
       "domain": "seryn.vn",
@@ -249,7 +249,7 @@
       "url": "https://www.facebook.com/profile.php",
       "accountType": "",
       "sentiment": "Trung tính",
-      "note": "Carry-forward — vụ trùng tên 'Thanh Xuân', không có trong danh sách kênh chính chủ đã xác nhận"
+      "note": "Carry-forward — trang đã xác nhận không còn tồn tại (03/09), tiếp tục hiện trong SERP do cache"
     },
     {
       "platform": "Facebook",
@@ -270,18 +270,10 @@
     {
       "platform": "Facebook",
       "account": "",
-      "url": "https://www.facebook.com/61550128392717?locale=en_GB",
-      "accountType": "",
-      "sentiment": "Trung tính",
-      "note": "Carry-forward từ 01/09 — vẫn KHÔNG có trong danh sách kênh chính chủ đã xác nhận; chờ khách xác minh nội bộ"
-    },
-    {
-      "platform": "Facebook",
-      "account": "",
       "url": "https://www.facebook.com/61551700769618?locale=lt_LT",
       "accountType": "",
       "sentiment": "Trung tính",
-      "note": "Đã xác nhận KHÔNG còn tồn tại (31/08) — chỉ ghi chú lịch sử, KHÔNG tính là cảnh báo hoạt động"
+      "note": "Đã xác nhận KHÔNG còn tồn tại (31/08) — chỉ ghi chú lịch sử, KHÔNG tính là hoạt động"
     },
     {
       "platform": "TikTok",
@@ -433,8 +425,8 @@
       "level": "",
       "type": "Trùng tên 'Thanh Xuân' trên Facebook",
       "source": "",
-      "date": "Trước 2026-07-27; nhiều ID phát hiện qua các đợt",
-      "summary": "Các trang/profile gắn tên 'Thanh Xuân' + Seryn — KHÔNG có trong danh sách kênh chính chủ đã xác nhận.",
+      "date": "Trước 2026-07-27",
+      "summary": "Các trang/profile gắn tên 'Thanh Xuân' + Seryn — KHÔNG có trong danh sách kênh chính chủ đã xác nhận; trang đã xác nhận không còn tồn tại (03/09) nhưng tiếp tục hiện trong SERP do cache.",
       "action": ""
     },
     {
@@ -463,10 +455,18 @@
     },
     {
       "level": "",
-      "type": "Mega Gangnam tại 454 Xã Đàn / tóm tắt AI địa chỉ lệch định dạng ('45 Xã Đàn', '68 Dương Đình Nghệ, Cầu Giấy')",
+      "type": "Mega Gangnam tại 454 Xã Đàn / mô tả địa chỉ lệch định dạng ('45 Xã Đàn', '68 Dương Đình Nghệ, Cầu Giấy')",
       "source": "",
-      "date": "2026-08-31 (quy tắc áp dụng); loại hoàn toàn từ 2026-09-03",
-      "summary": "Tiếp tục xuất hiện trong SERP nhưng đã xác nhận không liên quan thương hiệu Seryn — loại hoàn toàn khỏi thống kê theo yêu cầu khách 2026-09-03.",
+      "date": "2026-08-31 (quy tắc áp dụng)",
+      "summary": "Tiếp tục xuất hiện trong SERP/tóm tắt AI nhưng đã xác nhận không liên quan thương hiệu Seryn — loại hoàn toàn khỏi thống kê theo yêu cầu khách 2026-09-03.",
+      "action": ""
+    },
+    {
+      "level": "",
+      "type": "Thuốc 'Seryn' (Vinmec/TrungTamThuoc/MuaThuoc.vn)",
+      "source": "",
+      "date": "Trước 2026-07",
+      "summary": "Sản phẩm dược phẩm hỗ trợ trí nhớ trùng tên thương hiệu — không liên quan đến Seryn Clinic, chỉ ghi chú phân biệt.",
       "action": ""
     }
   ],
@@ -486,19 +486,19 @@
     {
       "time": "--:--",
       "step": "Bước 3 - Phân tích rủi ro",
-      "result": "OK — không phát hiện Cảnh báo Đỏ; 0 nguồn mới so với hôm qua (03/09)",
+      "result": "OK — không phát hiện Cảnh báo Đỏ; 1 nguồn mới so với hôm qua (Arttimes.vn)",
       "note": "-"
     },
     {
       "time": "--:--",
       "step": "Bước 4 - So sánh báo cáo trước",
-      "result": "OK — so sánh với 2026-09-03, không có khoảng trống dữ liệu (không cần TẠO BÙ)",
+      "result": "OK — so sánh với 2026-09-04, không có khoảng trống dữ liệu (không cần TẠO BÙ)",
       "note": "-"
     },
     {
       "time": "--:--",
       "step": "Bước 5 - Tạo Excel",
-      "result": "OK — Bao_cao_Seryn_Monitoring_2026-09-04.xlsx",
+      "result": "OK — Bao_cao_Seryn_Monitoring_2026-09-05.xlsx",
       "note": "D:\\Seryn Digital\\Seryn Digital\\"
     },
     {
@@ -512,6 +512,12 @@
       "step": "Bước 6 - Upload Google Sheets",
       "result": "Xem trạng thái trong chat",
       "note": "-"
+    },
+    {
+      "time": "08:12",
+      "step": "Bước 6 - Upload Google Sheets",
+      "result": "Fail 6.1+6.2 → 6.3 local only",
+      "note": "err: Google Drive MCP không được cấu hình/kết nối trong phiên này (không tìm thấy tool create_file/search_files)"
     }
   ]
 }
