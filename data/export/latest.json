@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-05",
+  "date": "2026-09-06",
   "topSources": [
     {
       "title": "Seryn Clinic: Phòng Khám Đa Khoa Seryn (Website chính thức)",
@@ -29,6 +29,14 @@
       "title": "Phòng Khám Đa Khoa Seryn - DeepAI Profile (directory tự động)",
       "url": "https://deepai.org/profile/serynclinic",
       "domain": "deepai.org",
+      "type": "Directory",
+      "sentiment": "neutral",
+      "isNew": false
+    },
+    {
+      "title": "Phòng Khám Đa Khoa Seryn - TimPhongKham.vn (directory)",
+      "url": "https://timphongkham.vn/clinics/15247-phong-kham-da-khoa-seryn",
+      "domain": "timphongkham.vn",
       "type": "Directory",
       "sentiment": "neutral",
       "isNew": false
@@ -71,7 +79,7 @@
       "domain": "arttimes.vn",
       "type": "Báo chí PR",
       "sentiment": "positive",
-      "isNew": true
+      "isNew": false
     },
     {
       "title": "Đội ngũ y bác sĩ - SERYN (website)",
@@ -194,7 +202,7 @@
       "isNew": false
     },
     {
-      "title": "Thuốc 'Seryn' (hỗ trợ trí nhớ) trên Vinmec/TrungTamThuoc/MuaThuoc.vn — sản phẩm dược phẩm không liên quan, không tính rủi ro",
+      "title": "Thuốc 'Seryn' (hỗ trợ trí nhớ) trên Vinmec/TrungTamThuoc — sản phẩm dược phẩm không liên quan, không tính rủi ro",
       "url": "https://www.vinmec.com/vie/bai-viet/cong-dung-thuoc-seryn-vi",
       "domain": "vinmec.com",
       "type": "Ghi chú phân biệt sản phẩm",
@@ -276,6 +284,14 @@
       "note": "Đã xác nhận KHÔNG còn tồn tại (31/08) — chỉ ghi chú lịch sử, KHÔNG tính là hoạt động"
     },
     {
+      "platform": "Facebook",
+      "account": "",
+      "url": "https://www.facebook.com/61550128392717?locale=en_GB",
+      "accountType": "",
+      "sentiment": "Trung tính",
+      "note": "Carry-forward từ 01/09 — tên gần giống trang KOL đã xác nhận, KHÔNG có trong danh sách kênh chính chủ, chờ khách xác minh"
+    },
+    {
       "platform": "TikTok",
       "account": "",
       "url": "-",
@@ -290,14 +306,6 @@
       "accountType": "",
       "sentiment": "Tích cực",
       "note": "Kênh YouTube chính thức"
-    },
-    {
-      "platform": "YouTube",
-      "account": "",
-      "url": "-",
-      "accountType": "",
-      "sentiment": "Trung tính",
-      "note": "Carry-forward — tiếp tục vắng mặt trong đợt rà soát hôm nay"
     },
     {
       "platform": "Facebook",
@@ -463,7 +471,7 @@
     },
     {
       "level": "",
-      "type": "Thuốc 'Seryn' (Vinmec/TrungTamThuoc/MuaThuoc.vn)",
+      "type": "Thuốc 'Seryn' (Vinmec/TrungTamThuoc)",
       "source": "",
       "date": "Trước 2026-07",
       "summary": "Sản phẩm dược phẩm hỗ trợ trí nhớ trùng tên thương hiệu — không liên quan đến Seryn Clinic, chỉ ghi chú phân biệt.",
@@ -486,38 +494,32 @@
     {
       "time": "--:--",
       "step": "Bước 3 - Phân tích rủi ro",
-      "result": "OK — không phát hiện Cảnh báo Đỏ; 1 nguồn mới so với hôm qua (Arttimes.vn)",
+      "result": "OK — không phát hiện Cảnh báo Đỏ; không có nguồn mới so với hôm qua",
       "note": "-"
     },
     {
       "time": "--:--",
       "step": "Bước 4 - So sánh báo cáo trước",
-      "result": "OK — so sánh với 2026-09-04, không có khoảng trống dữ liệu (không cần TẠO BÙ)",
+      "result": "OK — so sánh với 2026-09-05, không có khoảng trống dữ liệu (không cần TẠO BÙ)",
       "note": "-"
     },
     {
       "time": "--:--",
       "step": "Bước 5 - Tạo Excel",
-      "result": "OK — Bao_cao_Seryn_Monitoring_2026-09-05.xlsx",
+      "result": "OK — Bao_cao_Seryn_Monitoring_2026-09-06.xlsx",
       "note": "D:\\Seryn Digital\\Seryn Digital\\"
     },
     {
-      "time": "--:--",
+      "time": "08:12",
       "step": "Bước 5b - Copy vào ingest",
-      "result": "Xem trạng thái trong chat",
+      "result": "OK — verify fuse mount + diff byte-identical (xlsx + csv)",
       "note": "D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\"
     },
     {
-      "time": "--:--",
-      "step": "Bước 6 - Upload Google Sheets",
-      "result": "Xem trạng thái trong chat",
-      "note": "-"
-    },
-    {
-      "time": "08:12",
+      "time": "08:13",
       "step": "Bước 6 - Upload Google Sheets",
       "result": "Fail 6.1+6.2 → 6.3 local only",
-      "note": "err: Google Drive MCP không được cấu hình/kết nối trong phiên này (không tìm thấy tool create_file/search_files)"
+      "note": "err: Google Drive MCP không được cấu hình/kết nối trong phiên này (không tìm thấy tool create_file/search_files) — dừng sau kiểm tra, không retry quá 2 lần theo quy trình"
     }
   ]
 }

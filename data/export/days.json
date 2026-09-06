@@ -1230,5 +1230,16 @@
     "riskRaw": "KHÔNG — không phát hiện bằng chứng lừa đảo/thanh tra/báo điều tra/cơ sở giả mạo nào nhắc đến Seryn Clinic trong đợt rà soát hôm nay",
     "riskLevel": "green",
     "riskNote": ""
+  },
+  {
+    "date": "2026-09-06",
+    "total": 58,
+    "positive": 32,
+    "neutral": 26,
+    "negative": 0,
+    "newSources": 0,
+    "riskRaw": "KHÔNG — không phát hiện bằng chứng lừa đảo/thanh tra/báo điều tra/cơ sở giả mạo nào nhắc đến Seryn Clinic trong đợt rà soát hôm nay",
+    "riskLevel": "green",
+    "riskNote": ""
   }
 ]
