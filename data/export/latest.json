@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-07",
+  "date": "2026-09-08",
   "topSources": [
     {
       "title": "Seryn Clinic: Phòng Khám Đa Khoa Seryn (Website chính thức)",
@@ -226,7 +226,7 @@
       "isNew": false
     },
     {
-      "title": "Seryn Clinic - Clinexa Việt Nam, phòng khám Hà Nội (seryn.vn)",
+      "title": "Seryn Clinic - Clinexa Việt Nam, phòng khám Hà Nội (seryn.vn; AI tóm tắt ghi nhầm '68 Dương Đình Nghệ, Cầu Giấy' — lỗi tóm tắt, không phải cơ sở mới)",
       "url": "https://seryn.vn/",
       "domain": "seryn.vn",
       "type": "Website chính thức",
@@ -274,14 +274,6 @@
       "accountType": "",
       "sentiment": "Trung tính",
       "note": "Carry-forward — trang đã xác nhận không còn tồn tại (03/09), chỉ ghi chú lịch sử"
-    },
-    {
-      "platform": "Facebook",
-      "account": "",
-      "url": "https://www.facebook.com/p/Chuy%C3%AAn-gia-s%E1%BA%AFc-%C4%91%E1%BA%B9p-L%E1%BA%A1i-Minh-Hi%E1%BA%BFu-Seryn-Clinic-61550115911294/",
-      "accountType": "",
-      "sentiment": "Tích cực",
-      "note": "Có trong danh sách kênh chính chủ đã xác nhận (KOL nội bộ)"
     },
     {
       "platform": "Facebook",
@@ -474,15 +466,15 @@
       "type": "Facebook 'Chuyên gia sắc đẹp Lại Minh Hiếu - Seryn Việt Nam' (ID 61550128392717)",
       "source": "",
       "date": "2026-09-01",
-      "summary": "Phát hiện lần đầu 01/09/2026, tên gần giống trang KOL đã xác nhận (ID 61550115911294) — cần khách xác nhận đây có phải cùng một người/trang chính chủ hay là trang khác",
+      "summary": "Tái xuất hiện hôm nay, tên gần giống trang KOL đã xác nhận (ID 61550115911294) — cần khách xác nhận đây có phải cùng một người/trang chính chủ hay là trang khác",
       "action": ""
     },
     {
       "level": "",
-      "type": "Mega Gangnam tại 454 Xã Đàn / mô tả địa chỉ lệch định dạng ('45 Xã Đàn')",
+      "type": "Mega Gangnam tại 454 Xã Đàn / mô tả địa chỉ lệch định dạng ('45 Xã Đàn', '68 Dương Đình Nghệ')",
       "source": "",
       "date": "2026-08-31 (quy tắc áp dụng)",
-      "summary": "Thương hiệu khác không liên quan đến Seryn — đã loại hoàn toàn khỏi thống kê theo yêu cầu khách (2026-09-03). Riêng lỗi AI tóm tắt ghi '45 Xã Đàn' thay vì '454 Xã Đàn' cho chính Seryn Hà Nội chỉ là lỗi rút gọn số của mô hình tóm tắt, không phải nguồn/địa chỉ mới",
+      "summary": "Thương hiệu khác không liên quan đến Seryn — đã loại hoàn toàn khỏi thống kê theo yêu cầu khách (2026-09-03). Các lỗi AI tóm tắt ghi sai địa chỉ Hà Nội của chính Seryn chỉ là lỗi rút gọn của mô hình tóm tắt, không phải nguồn/địa chỉ mới",
       "action": ""
     },
     {
@@ -504,43 +496,43 @@
   ],
   "activityLog": [
     {
-      "time": "08:10",
+      "time": "",
       "step": "Bước 1 - Google Search",
       "result": "OK — 16/16 từ khóa hoàn tất",
       "note": "-"
     },
     {
-      "time": "08:10",
+      "time": "",
       "step": "Bước 2 - MXH Search",
       "result": "OK — 6 từ khóa × 3 nền tảng (18 lượt) hoàn tất",
       "note": "-"
     },
     {
-      "time": "08:10",
+      "time": "",
       "step": "Bước 3 - Phân tích rủi ro",
-      "result": "OK — không phát hiện Cảnh báo Đỏ; không có nguồn mới so với 2026-09-06",
+      "result": "OK — không phát hiện Cảnh báo Đỏ; không có nguồn mới so với 2026-09-07",
       "note": "-"
     },
     {
-      "time": "08:10",
+      "time": "",
       "step": "Bước 4 - So sánh báo cáo trước",
-      "result": "OK — so sánh với 2026-09-06, không có khoảng trống dữ liệu (không cần TẠO BÙ)",
+      "result": "OK — so sánh với 2026-09-07, không có khoảng trống dữ liệu (không cần TẠO BÙ)",
       "note": "-"
     },
     {
-      "time": "08:10",
+      "time": "",
       "step": "Bước 5 - Tạo Excel",
-      "result": "OK — Bao_cao_Seryn_Monitoring_2026-09-07.xlsx",
+      "result": "OK — Bao_cao_Seryn_Monitoring_2026-09-08.xlsx",
       "note": "D:\\Seryn Digital\\Seryn Digital\\"
     },
     {
-      "time": "08:10",
+      "time": "08:09",
       "step": "Bước 5b - Copy vào ingest",
       "result": "OK — verify fuse mount + diff byte-identical (xlsx + csv)",
       "note": "D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\"
     },
     {
-      "time": "08:10",
+      "time": "08:09",
       "step": "Bước 6 - Upload Google Sheets",
       "result": "Fail 6.1+6.2 → 6.3 local only",
       "note": "err: Không có Google Drive/Sheets MCP nào được kết nối trong phiên này (không tìm thấy tool create_file/search_files)"
