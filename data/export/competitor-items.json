@@ -39850,5 +39850,889 @@
       "domain": "",
       "channel": ""
     }
+  ],
+  "2026-09-08": [
+    {
+      "brand": "Viện thẩm mỹ KangJin Sejung",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Nhiều lần bị Thanh tra Sở Y tế TP.HCM xử phạt vì quảng cáo sai sự thật, không đảm bảo giấy phép hoạt động (từng bị phạt 44 triệu đồng, 61 triệu đồng ở các thời điểm khác nhau); quyết định gần đây (06-06-2024) phạt 30 triệu đồng đối với Kangjin Việt Nam chi nhánh Điện Biên Phủ. Tại Đà Nẵng, Công ty Kangzin bị phạt 320 triệu đồng cho 5 vi phạm trong lĩnh vực y tế và môi trường.",
+      "itemDate": "08-09-2026",
+      "url": "https://sohuutritue.net.vn/tham-my-vien-kangjin-tiep-tuc-bi-xu-phat-d149698.html",
+      "domain": "sohuutritue.net.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ KangJin Sejung",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Các cơ sở Viện thẩm mỹ Kangzin tại nhiều tỉnh thành bị đóng cửa hàng loạt vì sai phạm.",
+      "itemDate": "08-09-2026",
+      "url": "https://daibieunhandan.vn/cac-co-so-vien-tham-my-kangzin-tai-nhieu-tinh-thanh-bi-dong-cua-hang-loat-vi-sai-pham-post347126.html",
+      "domain": "daibieunhandan.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ KangJin Sejung",
+      "type": "new_article",
+      "title": "",
+      "summary": "Không phát hiện bài viết mới/tin tức nổi bật hôm nay ngoài các bài PR định kỳ về thương hiệu (giải thưởng, tài trợ chương trình truyền hình).",
+      "itemDate": "08-09-2026",
+      "url": "https://kangjinsejung.com.vn/",
+      "domain": "kangjinsejung.com.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thanh Hằng Beauty Medi",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Từng bị Sở Y tế Hà Nội xử phạt do sử dụng hàng loạt bác sĩ không phép hành nghề tại cơ sở.",
+      "itemDate": "08-09-2026",
+      "url": "https://giaoduc.net.vn/hang-loat-bac-si-khong-phep-thanh-hang-beauty-medi-qua-coi-thuong-phap-luat-post167753.gd",
+      "domain": "giaoduc.net.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thanh Hằng Beauty Medi",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Bị Sở Y tế xử phạt do vi phạm trong khám chữa bệnh; quảng cáo dịch vụ thẩm mỹ vùng kín chưa được cơ quan có thẩm quyền phê duyệt nội dung, quảng cáo phóng đại chất lượng dịch vụ.",
+      "itemDate": "08-09-2026",
+      "url": "https://suckhoeviet.org.vn/tham-my-thanh-hang-beauty-medi-bi-so-y-te-xu-phat-do-vi-pham-trong-kham-chua-benh-801.html",
+      "domain": "suckhoeviet.org.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thanh Hằng Beauty Medi",
+      "type": "new_article",
+      "title": "",
+      "summary": "Không phát hiện bài viết mới đáng chú ý hôm nay; các tin gần nhất chủ yếu là PR khai trương chi nhánh và chương trình khuyến mãi từ các kỳ trước.",
+      "itemDate": "08-09-2026",
+      "url": "https://dantri.com.vn/kinh-doanh/kham-pha-co-so-moi-cua-de-che-lam-dep-thanh-hang-beauty-medi-20231006070027378.htm",
+      "domain": "dantri.com.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Lavender By Chang",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Liên tục bị Thanh tra Sở Y tế TP.HCM xử phạt nhiều lần (2016, 2018, 2019, 2021, 2023, 2024). Vi phạm gần nhất (tháng 7/2024): ghi sai tên khoa trên giấy phép hành nghề, quảng cáo dịch vụ chưa được duyệt nội dung, người hành nghề chưa đăng ký hành nghề theo quy định.",
+      "itemDate": "08-09-2026",
+      "url": "https://thuongtruong.com.vn/news/tham-my-vien-lavender-by-chang-tiep-tuc-bi-xu-phat-vi-nhieu-vi-pham-123801.html",
+      "domain": "thuongtruong.com.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Lavender By Chang",
+      "type": "new_article",
+      "title": "",
+      "summary": "Cập nhật công nghệ làm đẹp mới: Nanocell Diamond (5 công nghệ tích hợp) và Ultherapy Prime (nâng cơ, rút ngắn thời gian điều trị, hiệu quả kéo dài hơn 2 năm).",
+      "itemDate": "08-09-2026",
+      "url": "https://vnexpress.net/lavender-by-chang-cap-nhat-nhieu-cong-nghe-lam-dep-moi-4751982.html",
+      "domain": "vnexpress.net",
+      "channel": ""
+    },
+    {
+      "brand": "Bệnh viện thẩm mỹ Kangnam",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Hai bác sĩ tại Bệnh viện Thẩm mỹ Kangnam Sài Gòn bị tước chứng chỉ hành nghề (tổng cộng 4 tháng) sau quyết định xử phạt hành chính của Sở Y tế TP.HCM.",
+      "itemDate": "08-09-2026",
+      "url": "https://thuonghieucongluan.com.vn/tp-ho-chi-minh-2-bac-si-benh-vien-tham-my-kangnam-sai-gon-bi-tuoc-chung-chi-hanh-nghe-a182586.html",
+      "domain": "thuonghieucongluan.com.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Bệnh viện thẩm mỹ Kangnam",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Bệnh viện Thẩm mỹ Kangnam Sài Gòn bị phản ánh 'ém' thông tin về sự cố y khoa nghiêm trọng (một khách hàng nguy kịch trong lúc hút mỡ) mà không báo cáo cơ quan chức năng.",
+      "itemDate": "08-09-2026",
+      "url": "https://daibieunhandan.vn/tp-ho-chi-minh-benh-vien-tham-my-kangnam-sai-gon-em-thong-tin-ve-su-co-y-khoa-nghiem-trong-10340983.html",
+      "domain": "daibieunhandan.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Bệnh viện thẩm mỹ Kangnam",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Bệnh viện thẩm mỹ Kangnam Hà Nội bị xử phạt 45 triệu đồng do quảng cáo khám chữa bệnh khi chưa được cơ quan nhà nước có thẩm quyền duyệt nội dung.",
+      "itemDate": "08-09-2026",
+      "url": "https://thuongtruong.com.vn/news/benh-vien-tham-my-kangnam-ha-noi-bi-xu-phat-45-trieu-dong-do-vi-pham-quang-cao-90317.html",
+      "domain": "thuongtruong.com.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Bệnh viện thẩm mỹ Kangnam",
+      "type": "new_article",
+      "title": "",
+      "summary": "Kangnam hiện vận hành 9 cơ sở tại 8 tỉnh/thành (3 bệnh viện, 6 phòng khám); vừa đầu tư hệ thống máy hút mỡ công nghệ mới trị giá khoảng 20 tỷ đồng.",
+      "itemDate": "08-09-2026",
+      "url": "https://vnexpress.net/benh-vien-tham-my-kangnam-nang-cao-kiem-soat-an-toan-4021078.html",
+      "domain": "vnexpress.net",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Xuân Hương",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Cơ sở thẩm mỹ Xuân Hương tại Mỹ Tho, Tiền Giang (chủ Hoàng Thị Thương) bị buộc dừng hoạt động: phát hiện kim/ống tiêm đã qua sử dụng, sản phẩm làm đẹp tiêm không hóa đơn chứng từ, chưa đăng ký kinh doanh và không có chứng chỉ hành nghề phun xăm.",
+      "itemDate": "08-09-2026",
+      "url": "https://tuoitre.vn/dung-hoat-dong-co-so-kinh-doanh-tham-my-xuan-huong-o-my-tho-20250526085936039.htm",
+      "domain": "tuoitre.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Xuân Hương",
+      "type": "new_article",
+      "title": "",
+      "summary": "Diễn viên/người mẫu Hoàng Xuân khai trương chi nhánh mới tại 221 Khâm Thiên, Hà Nội; triển khai chương trình khuyến mãi nhân dịp 2/9.",
+      "itemDate": "08-09-2026",
+      "url": "https://vienthammyxuanhuong.com.vn/gioi-thieu/",
+      "domain": "vienthammyxuanhuong.com.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Bally",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Thẩm mỹ Bally có dấu hiệu vi phạm Luật Quảng cáo khi tự nhận 'số 1 Việt Nam' về trẻ hóa da; từng thực hiện dịch vụ xâm lấn trái quy định (tiêm filler, tạo cằm Vline) khi chưa được cấp phép.",
+      "itemDate": "08-09-2026",
+      "url": "https://thuongtruong.com.vn/news/tham-my-bally-vi-pham-luat-quang-cao-tu-thoi-phong-ve-chat-luong-dich-vu-7508.html",
+      "domain": "thuongtruong.com.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Bally",
+      "type": "new_article",
+      "title": "",
+      "summary": "Chuyển giao công nghệ Thermage Ultra phiên bản mới từ Mỹ về Việt Nam, quảng bá hiệu quả nâng cơ trẻ hóa gấp 5 lần, rút ngắn thời gian trị liệu một nửa.",
+      "itemDate": "08-09-2026",
+      "url": "https://vietnamnet.vn/tham-my-quoc-te-bally-day-manh-dau-tu-cong-nghe-hien-dai-2346026.html",
+      "domain": "vietnamnet.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Dr. Hải Lê",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Không phát hiện tin xấu / xử phạt liên quan trực tiếp đến Viện thẩm mỹ y khoa Dr. Hải Lê trong kết quả tìm kiếm hôm nay (lưu ý có thương hiệu khác tên gần giống là 'Dr. Vinh Lê' từng bị phạt 106 triệu đồng, không cùng thương hiệu).",
+      "itemDate": "08-09-2026",
+      "url": "https://drhaile.vn/",
+      "domain": "drhaile.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Dr. Hải Lê",
+      "type": "new_article",
+      "title": "",
+      "summary": "Bệnh viện Tạo hình Thẩm mỹ Dr. Hải Lê tổ chức lễ công bố được cấp phép hoạt động chính thức theo mô hình bệnh viện chuyên khoa (Giấy phép số 418/BYT-GPHĐ).",
+      "itemDate": "08-09-2026",
+      "url": "https://tuoitre.vn/benh-vien-tao-hinh-tham-my-dr-hai-le-chinh-thuc-di-vao-hoat-dong-20260324164539872.htm",
+      "domain": "tuoitre.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Ngọc Dung",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Chi nhánh Thẩm mỹ viện Ngọc Dung (Nguyễn Thái Học) bị Sở Y tế TP.HCM xử phạt 94 triệu đồng và tước quyền sử dụng giấy phép hoạt động 3 tháng do hồ sơ bệnh án không đầy đủ, cung cấp dịch vụ vượt phạm vi cho phép trong giấy phép hành nghề.",
+      "itemDate": "08-09-2026",
+      "url": "https://tuoitrethudo.vn/chi-nhanh-tham-my-vien-ngoc-dung-bi-phat-94-trieu-dong-tuoc-quyen-su-dung-giay-phep-3-thang-210733.html",
+      "domain": "tuoitrethudo.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Ngọc Dung",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Có phản ánh Thẩm mỹ viện Ngọc Dung có dấu hiệu vượt quá phạm vi cho phép, thực hiện nhiều thủ thuật phẫu thuật xâm lấn chưa được cơ quan quản lý phê duyệt.",
+      "itemDate": "08-09-2026",
+      "url": "https://kiemsat.vn/tham-my-vien-ngoc-dung-nhung-nghi-van-trong-giay-phep-hoat-dong-63448.html",
+      "domain": "kiemsat.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Ngọc Dung",
+      "type": "new_article",
+      "title": "",
+      "summary": "Hệ thống Ngọc Dung nhận giải Top 5 thương hiệu thẩm mỹ uy tín hàng đầu châu Á tại Diễn đàn Kinh tế châu Á - Thái Bình Dương (Bắc Kinh).",
+      "itemDate": "08-09-2026",
+      "url": "https://thammyvienngocdung.com/",
+      "domain": "thammyvienngocdung.com",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VietCharm",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Không phát hiện tin xấu / xử phạt liên quan trực tiếp đến Thẩm mỹ viện VietCharm trong kết quả tìm kiếm hôm nay.",
+      "itemDate": "08-09-2026",
+      "url": "https://vietcharm.com.vn/",
+      "domain": "vietcharm.com.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VietCharm",
+      "type": "new_article",
+      "title": "",
+      "summary": "Không phát hiện tin xấu / bài viết mới đáng chú ý; chỉ có thông tin giới thiệu doanh nghiệp và cơ sở vật chất (hơn 20 năm hoạt động).",
+      "itemDate": "08-09-2026",
+      "url": "https://www.facebook.com/VietCharmBeauty/",
+      "domain": "facebook.com",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Dr. Thái Hà",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Không phát hiện tin xấu / xử phạt liên quan trực tiếp đến Phòng khám Da liễu Thẩm mỹ Dr. Thái Hà trong kết quả tìm kiếm hôm nay.",
+      "itemDate": "08-09-2026",
+      "url": "https://drthaiha.vn/",
+      "domain": "drthaiha.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Dr. Thái Hà",
+      "type": "new_article",
+      "title": "",
+      "summary": "Không phát hiện tin xấu / bài viết mới đáng chú ý hôm nay; chỉ có thông tin giới thiệu chuyên môn TS.BS Vũ Thái Hà và cơ sở vật chất.",
+      "itemDate": "08-09-2026",
+      "url": "https://thaihaclinic.vn/",
+      "domain": "thaihaclinic.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VITA Clinic",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Không phát hiện tin xấu / xử phạt liên quan trực tiếp đến VITA Clinic trong kết quả tìm kiếm hôm nay.",
+      "itemDate": "08-09-2026",
+      "url": "https://vitaclinic.vn/vi",
+      "domain": "vitaclinic.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VITA Clinic",
+      "type": "new_article",
+      "title": "",
+      "summary": "Không phát hiện bài viết mới đáng chú ý hôm nay; thông tin gần nhất là PR mở rộng hệ thống (12 cơ sở tại TP.HCM, Hà Nội, Đà Nẵng) và đầu tư công nghệ chống lão hóa.",
+      "itemDate": "08-09-2026",
+      "url": "https://vnexpress.net/vita-clinic-mo-rong-he-thong-lam-dep-dau-tu-cong-nghe-4995927.html",
+      "domain": "vnexpress.net",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ Hongkong",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Cơ sở Thẩm mỹ Hồng Kông (51 Hàng Gà, Hoàn Kiếm, Hà Nội) bị phản ánh thực hiện dịch vụ laser dù chưa được Sở Y tế Hà Nội cấp phép phòng khám da liễu; đại diện Sở Y tế Hà Nội xác nhận chưa cấp phép cho cơ sở này.",
+      "itemDate": "08-09-2026",
+      "url": "https://suckhoeviet.org.vn/tham-my-hong-kong-51-hang-ga-ha-noi-ngang-nhien-thuc-hien-dich-vu-khong-duoc-cap-phep-khach-hang-can-than-trong-3680.html",
+      "domain": "suckhoeviet.org.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ Hongkong",
+      "type": "new_article",
+      "title": "",
+      "summary": "Không phát hiện bài viết mới đáng chú ý hôm nay; thông tin gần nhất là bài giới thiệu thương hiệu 30 năm hoạt động, định hướng 'làm đẹp xanh, không dao kéo'.",
+      "itemDate": "08-09-2026",
+      "url": "https://giadinh.suckhoedoisong.vn/tham-my-vien-hong-kong-30-nam-mot-tam-nhin-di-truoc-don-dau-lam-dep-xanh-va-noi-khong-voi-dao-keo-172240709084523805.htm",
+      "domain": "giadinh.suckhoedoisong.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ Seoul",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Lưu ý: tên 'Thẩm mỹ Seoul' trùng với nhiều chuỗi khác nhau (Seoul Center, Seoul ID, Seoul Spa, New Seoul). Seoul ID tại Biên Hòa bị phạt 87,5 triệu đồng và đình chỉ hoạt động 18 tháng (20/11/2024 - 20/05/2026) do khám chữa bệnh và kinh doanh mỹ phẩm không phép.",
+      "itemDate": "08-09-2026",
+      "url": "https://daibieunhandan.vn/dong-nai-tham-my-seoul-id-o-bien-hoa-bi-dinh-chi-18-thang-phat-gan-90-trieu-dong-post397440.html",
+      "domain": "daibieunhandan.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ Seoul",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Seoul Center từng bị phạt 49 triệu đồng vì quảng cáo dịch vụ 'chui'; sau đó bị phạt thêm 30 triệu đồng vì dùng từ 'nhất', 'number one' không có căn cứ hợp pháp. Seoul Spa (Công ty DNG) bị phạt 35 triệu đồng vì quảng cáo chưa được duyệt nội dung.",
+      "itemDate": "08-09-2026",
+      "url": "https://thuongtruong.com.vn/news/tham-my-quoc-te-seoul-center-tiep-tuc-bi-xu-phat-vi-vi-pham-ve-quang-cao-128953.html",
+      "domain": "thuongtruong.com.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ Seoul",
+      "type": "new_article",
+      "title": "",
+      "summary": "Seoul Center tổ chức lễ chuyển giao 2 công nghệ mới và các hội thảo giới thiệu công nghệ Meso không kim tại Quận 10, Gò Vấp, Thủ Đức.",
+      "itemDate": "08-09-2026",
+      "url": "https://seoulcenter.vn/tin-tuc/seoul-center-co-tot-khong",
+      "domain": "seoulcenter.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ Thu Cúc",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Không phát hiện tin xấu / xử phạt liên quan trực tiếp đến hệ thống Thẩm mỹ/Bệnh viện Thu Cúc trong kết quả tìm kiếm hôm nay.",
+      "itemDate": "08-09-2026",
+      "url": "https://thammythucuc.vn/",
+      "domain": "thammythucuc.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ Thu Cúc",
+      "type": "new_article",
+      "title": "",
+      "summary": "Hệ thống Y tế Thu Cúc TCI khai trương Phòng khám Đa khoa Quốc tế Thu Cúc TCI Hải Phòng, cơ sở thứ 5 trong hệ thống.",
+      "itemDate": "08-09-2026",
+      "url": "https://benhvienthucuc.vn/",
+      "domain": "benhvienthucuc.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ Thu Cúc",
+      "type": "new_article",
+      "title": "",
+      "summary": "Thẩm mỹ Thu Cúc tổ chức sự kiện sinh nhật 27 năm với 2.700 ưu đãi liệu trình làm đẹp tại Bệnh viện và Thu Cúc Mega Beauty Center Hà Nội.",
+      "itemDate": "08-09-2026",
+      "url": "https://thammythucuc.vn/",
+      "domain": "thammythucuc.vn",
+      "channel": ""
+    }
+  ],
+  "2026-09-09": [
+    {
+      "brand": "Viện thẩm mỹ KangJin Sejung",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Bị Thanh tra Sở Y tế TP.HCM phạt 57 triệu đồng do người hành nghề không đăng ký hành nghề, ghi sổ khám bệnh không đầy đủ, quảng cáo dịch vụ đặc biệt chưa được xác nhận nội dung.",
+      "itemDate": "09-09-2026",
+      "url": "https://sohuutritue.net.vn/tham-my-vien-kangjin-tiep-tuc-bi-xu-phat-d149698.html",
+      "domain": "sohuutritue.net.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ KangJin Sejung",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Trước đó (03/2021) từng bị phạt 44 triệu đồng vì quảng cáo dịch vụ đặc biệt chưa xác nhận và biển hiệu thiếu thông tin theo quy định.",
+      "itemDate": "09-09-2026",
+      "url": "https://sohuutritue.net.vn/tham-my-vien-kangjin-tiep-tuc-bi-xu-phat-d149698.html",
+      "domain": "sohuutritue.net.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ KangJin Sejung",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Tháng 11/2020 từng bị phạt 35 triệu đồng cùng lỗi quảng cáo dịch vụ đặc biệt chưa xác nhận nội dung và biển hiệu vi phạm.",
+      "itemDate": "09-09-2026",
+      "url": "https://sohuutritue.net.vn/tham-my-vien-kangjin-tiep-tuc-bi-xu-phat-d149698.html",
+      "domain": "sohuutritue.net.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ KangJin Sejung",
+      "type": "new_article",
+      "title": "",
+      "summary": "KangJin tham gia nhiều tọa đàm trẻ hóa da quốc tế, quảng bá đội ngũ bác sĩ và công nghệ.",
+      "itemDate": "09-09-2026",
+      "url": "https://vov.vn/doanh-nghiep/thong-tin-doanh-nghiep/vien-tham-my-kangjin-tham-gia-nhieu-toa-dam-tre-hoa-da-quoc-te-post1135562.vov",
+      "domain": "vov.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ KangJin Sejung",
+      "type": "new_article",
+      "title": "",
+      "summary": "KangJin hướng đến chinh phục thị trường trẻ hóa châu Á.",
+      "itemDate": "09-09-2026",
+      "url": "https://dantri.com.vn/suc-khoe/vien-tham-my-kangjin-huong-den-chinh-phuc-thi-truong-tre-hoa-chau-a-20241114215531218.htm",
+      "domain": "dantri.com.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ KangJin Sejung",
+      "type": "new_article",
+      "title": "",
+      "summary": "Nhiều phụ nữ 'lột xác' sau chương trình làm đẹp tài trợ bởi KangJin.",
+      "itemDate": "09-09-2026",
+      "url": "https://vnexpress.net/nhieu-phu-nu-lot-xac-sau-chuong-trinh-lam-dep-cua-vien-tham-my-kangjin-4773130.html",
+      "domain": "vnexpress.net",
+      "channel": ""
+    },
+    {
+      "brand": "Thanh Hằng Beauty Medi",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Sử dụng hàng loạt bác sĩ nước ngoài (Mỹ, Hàn Quốc, Singapore) hành nghề khi chưa được Sở Y tế Hà Nội cấp phép.",
+      "itemDate": "09-09-2026",
+      "url": "https://giaoduc.net.vn/hang-loat-bac-si-khong-phep-thanh-hang-beauty-medi-qua-coi-thuong-phap-luat-post167753.gd",
+      "domain": "giaoduc.net.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thanh Hằng Beauty Medi",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Quảng cáo dịch vụ 'trẻ hóa/vùng kín' chưa được Sở Y tế Hà Nội phê duyệt; sử dụng bác sĩ Hàn Quốc thực hiện phẫu thuật ngoài phạm vi cho phép.",
+      "itemDate": "09-09-2026",
+      "url": "https://laodong.vn/xa-hoi/thanh-hang-beauty-medi-va-meijibio-bien-minh-cho-sai-pham-tiem-te-bao-goc-1312577.ldo",
+      "domain": "laodong.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thanh Hằng Beauty Medi",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Bị nêu tên trong bài viết yêu cầu Sở Y tế kiểm tra sai phạm, xử nghiêm.",
+      "itemDate": "09-09-2026",
+      "url": "https://tieudungvietnam.vn/danh-gia-san-pham/tham-my-vien/tham-my-thanh-hang-beauty-medi-so-y-te-can-kiem-tra-sai-pham-xu-nghiem-a110801.html",
+      "domain": "tieudungvietnam.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thanh Hằng Beauty Medi",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Bà chủ hệ thống (Đặng Thanh Hằng) và công ty vận hành có tình hình tài chính yếu, âm vốn chủ sở hữu, nợ vay lớn.",
+      "itemDate": "09-09-2026",
+      "url": "https://ngaynay.vn/ba-chu-he-thong-thanh-hang-beauty-medi-doi-dien-voi-nhieu-khoan-vay-nang-ne-post151706.html",
+      "domain": "ngaynay.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thanh Hằng Beauty Medi",
+      "type": "new_article",
+      "title": "",
+      "summary": "Khánh thành chi nhánh mới tại Park Hyatt Saigon (miền Nam).",
+      "itemDate": "09-09-2026",
+      "url": "https://dantri.com.vn/kinh-doanh/kham-pha-co-so-moi-cua-de-che-lam-dep-thanh-hang-beauty-medi-20231006070027378.htm",
+      "domain": "dantri.com.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thanh Hằng Beauty Medi",
+      "type": "new_article",
+      "title": "",
+      "summary": "Trụ sở mới của Đặng Thanh Hằng tại 36 Tuệ Tĩnh, Hà Nội, diện tích 3.000m².",
+      "itemDate": "09-09-2026",
+      "url": "https://vietnamfinance.vn/thanh-hang-beauty-medi-dep-va-y-nghia-trong-tung-hoat-dong-d118821.html",
+      "domain": "vietnamfinance.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Lavender By Chang",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Bị Thanh tra Sở Y tế TP.HCM phạt 57 triệu đồng (cơ sở 61 Trương Định, Q.3) do ghi tên khoa không đúng hồ sơ, quảng cáo dịch vụ đặc biệt chưa xác nhận nội dung, người hành nghề chưa đăng ký.",
+      "itemDate": "09-09-2026",
+      "url": "https://tuoitrethudo.vn/quang-cao-lo-vien-tham-my-lavender-by-chang-tiep-tuc-bi-xu-phat-276191.html",
+      "domain": "tuoitrethudo.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Lavender By Chang",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Từng bị phạt 45 triệu đồng vì quảng cáo không phép (khoảng 06/2023).",
+      "itemDate": "09-09-2026",
+      "url": "https://kenh14.vn/vien-tham-my-lavender-by-chang-lien-tuc-bi-so-y-te-tphcm-xu-phat-21525042907354422.chn",
+      "domain": "kenh14.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Lavender By Chang",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Bị phạt 30 triệu đồng vì dùng từ ngữ quảng cáo 'tốt nhất', 'duy nhất', 'số một' không có căn cứ hợp pháp.",
+      "itemDate": "09-09-2026",
+      "url": "https://suckhoeviet.org.vn/vien-tham-my-lavender-by-chang-bi-xu-phat-30-trieu-dong-do-quang-cao-lo-17862.html",
+      "domain": "suckhoeviet.org.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Lavender By Chang",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Từng bị phạt 40 triệu đồng (khoảng 03/2021) vì quảng cáo sản phẩm/dịch vụ chưa được cơ quan nhà nước xác nhận.",
+      "itemDate": "09-09-2026",
+      "url": "https://taichinhdoanhnghiep.net.vn/vien-tham-my-lavender-by-chang-bi-xu-phat-vi-quang-cao-sai-phep-d19548.html",
+      "domain": "taichinhdoanhnghiep.net.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Lavender By Chang",
+      "type": "new_article",
+      "title": "",
+      "summary": "Nhận giải 'Top 1 Thermage Asia Pacific' và 'Best Asia-Pacific Ultherapy Treatment Clinic'; ra mắt phương pháp Expert Lifting; cập nhật xu hướng phục hồi tóc bằng công nghệ tế bào gốc.",
+      "itemDate": "09-09-2026",
+      "url": "https://lavenderbychang.com/lavender-by-chang-hair-and-nail/",
+      "domain": "lavenderbychang.com",
+      "channel": ""
+    },
+    {
+      "brand": "Bệnh viện thẩm mỹ Kangnam",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Bệnh nhân gặp biến chứng nguy kịch sau phẫu thuật hút mỡ/tạo hình thành bụng tại BV Kangnam Sài Gòn (29/06/2024); bệnh viện không báo cáo sự cố y khoa theo quy định, bị Sở Y tế TP.HCM yêu cầu rút kinh nghiệm và tạm ngưng phẫu thuật với bác sĩ liên quan.",
+      "itemDate": "09-09-2026",
+      "url": "https://dantri.com.vn/suc-khoe/vu-cap-cuu-sau-hut-mo-bv-kangnam-sai-gon-khong-bao-cao-su-co-theo-quy-dinh-20240703123257000.htm",
+      "domain": "dantri.com.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Bệnh viện thẩm mỹ Kangnam",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Một phụ nữ 61 tuổi tử vong sau cấy mỡ ngực tại BV Kangnam Sài Gòn (20/04/2022), chuyển cấp cứu Bệnh viện Chợ Rẫy nhưng không qua khỏi.",
+      "itemDate": "09-09-2026",
+      "url": "https://thuonghieucongluan.com.vn/cay-mo-nguc-tai-benh-vien-tham-my-kangnam-sai-gon-mot-phu-nu-tu-vong-a169514.html",
+      "domain": "thuonghieucongluan.com.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Bệnh viện thẩm mỹ Kangnam",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Sau vụ tử vong trên, 2 bác sĩ bị xử phạt hành chính 2 triệu đồng/người và bị tước chứng chỉ hành nghề 2 tháng vì lập hồ sơ bệnh án không đầy đủ.",
+      "itemDate": "09-09-2026",
+      "url": "https://thuonghieucongluan.com.vn/tp-ho-chi-minh-2-bac-si-benh-vien-tham-my-kangnam-sai-gon-bi-tuoc-chung-chi-hanh-nghe-a182586.html",
+      "domain": "thuonghieucongluan.com.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Bệnh viện thẩm mỹ Kangnam",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Trường hợp bệnh nhân tử vong (2019) sau phẫu thuật căng da mặt tại Kangnam quận 3, do khó thở, phù môi, tím tái.",
+      "itemDate": "09-09-2026",
+      "url": "https://phapluatplus.baophapluat.vn/benh-vien-tham-my-kangnam-lien-tuc-xay-ra-su-co-gay-tu-vong-trong-phau-thuat-53530.html",
+      "domain": "phapluatplus.baophapluat.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Bệnh viện thẩm mỹ Kangnam",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Kangnam Hà Nội bị phạt 45 triệu đồng vì quảng cáo khám chữa bệnh chưa được cơ quan nhà nước xác nhận nội dung.",
+      "itemDate": "09-09-2026",
+      "url": "https://thuongtruong.com.vn/news/benh-vien-tham-my-kangnam-ha-noi-bi-xu-phat-45-trieu-dong-do-vi-pham-quang-cao-90317.html",
+      "domain": "thuongtruong.com.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Bệnh viện thẩm mỹ Kangnam",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Kangnam Hà Nội trước đó từng bị phạt 15 triệu đồng vì quảng cáo trái phép.",
+      "itemDate": "09-09-2026",
+      "url": "https://tuoitre.vn/xu-phat-tham-my-vien-kangnam-15-trieu-dong-vi-quang-cao-trai-phep-977854.htm",
+      "domain": "tuoitre.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Bệnh viện thẩm mỹ Kangnam",
+      "type": "new_article",
+      "title": "",
+      "summary": "Bài viết về vai trò chăm sóc hậu phẫu tại BV Thẩm mỹ Kangnam (nội dung quảng bá).",
+      "itemDate": "09-09-2026",
+      "url": "https://daibieunhandan.vn/cham-soc-hau-phau-mat-xich-quan-trong-trong-hanh-trinh-tham-my-10340983.html",
+      "domain": "daibieunhandan.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Bệnh viện thẩm mỹ Kangnam",
+      "type": "new_article",
+      "title": "",
+      "summary": "Hiện Kangnam vận hành 9 cơ sở tại 8 tỉnh/thành (3 bệnh viện thẩm mỹ, 6 viện thẩm mỹ); đầu tư máy hút mỡ trị giá 20 tỷ đồng.",
+      "itemDate": "09-09-2026",
+      "url": "https://benhvienthammykangnam.com.vn/tin-tuc/",
+      "domain": "benhvienthammykangnam.com.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Xuân Hương",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Sở Y tế Tiền Giang buộc dừng hoạt động cơ sở 'thẩm mỹ Xuân Hương' tại Mỹ Tho do chưa đăng ký kinh doanh, không có chứng chỉ hành nghề, phát hiện vật tư tiêm chích không hóa đơn. LƯU Ý: có thể là cơ sở nhỏ lẻ trùng tên, chưa xác nhận cùng hệ thống thương hiệu chính.",
+      "itemDate": "09-09-2026",
+      "url": "https://tuoitre.vn/dung-hoat-dong-co-so-kinh-doanh-tham-my-xuan-huong-o-my-tho-20250526085936039.htm",
+      "domain": "tuoitre.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Xuân Hương",
+      "type": "new_article",
+      "title": "",
+      "summary": "Viện Thẩm mỹ Xuân Hương khai trương cơ sở mới tại Hà Nội; ra mắt công nghệ trẻ hóa da mới.",
+      "itemDate": "09-09-2026",
+      "url": "https://vienthammyxuanhuong.com.vn/bao-ngoi-sao-cham-toi-ve-dep-hoan-hao-perfect-beauty-dau-an-ra-mat-dien-mao-moi-va-cong-nghe-tre-hoa-dot-pha-tai-vien-tham-my-xuan-huong/",
+      "domain": "vienthammyxuanhuong.com.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Xuân Hương",
+      "type": "new_article",
+      "title": "",
+      "summary": "Chủ tịch Viện Thẩm mỹ Xuân Hương công tác quốc tế, cập nhật công nghệ tại Thượng Hải, Bangkok.",
+      "itemDate": "09-09-2026",
+      "url": "https://suckhoeviet.org.vn/chu-tich-vien-tham-my-xuan-huong-cong-tac-quoc-te-cap-nhat-cong-nghe-tham-my-tu-thuong-hai-den-bangkok-27042.html",
+      "domain": "suckhoeviet.org.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Bally",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Tự quảng cáo 'số 1 Việt Nam', 'xuất sắc nhất' mà không có tài liệu chứng minh, có dấu hiệu vi phạm Luật Quảng cáo 2012.",
+      "itemDate": "09-09-2026",
+      "url": "https://thuongtruong.com.vn/news/tham-my-bally-vi-pham-luat-quang-cao-tu-thoi-phong-ve-chat-luong-dich-vu-7508.html",
+      "domain": "thuongtruong.com.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Bally",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Nghi vấn Bally có phòng khám nhưng thực hiện dịch vụ xâm lấn (tiêm filler, tạo cằm) vượt phạm vi cấp phép; đề nghị Sở Y tế Hà Nội kiểm tra.",
+      "itemDate": "09-09-2026",
+      "url": "https://conglyxahoi.net.vn/doi-song/tham-my-quoc-te-bally-thuc-hien-dich-vu-lam-dep-trai-quy-dinh-16692.html",
+      "domain": "conglyxahoi.net.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Bally",
+      "type": "new_article",
+      "title": "",
+      "summary": "Thẩm mỹ Quốc tế Bally đẩy mạnh đầu tư công nghệ hiện đại (Ultherapy, Thermage FLX 6.0, Ai Face JP...).",
+      "itemDate": "09-09-2026",
+      "url": "https://vietnamnet.vn/tham-my-quoc-te-bally-day-manh-dau-tu-cong-nghe-hien-dai-2346026.html",
+      "domain": "vietnamnet.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Bally",
+      "type": "new_article",
+      "title": "",
+      "summary": "Thẩm mỹ Quốc tế Bally đi đầu trong cải tiến công nghệ làm đẹp.",
+      "itemDate": "09-09-2026",
+      "url": "https://danviet.vn/tham-my-quoc-te-bally-di-dau-trong-cai-tien-cong-nghe-lam-dep-20241126144621713-d1197058.html",
+      "domain": "danviet.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Dr. Hải Lê",
+      "type": "new_article",
+      "title": "",
+      "summary": "Không phát hiện tin xấu / vi phạm pháp lý / tai biến y khoa đáng chú ý liên quan trực tiếp đến thương hiệu này trong đợt tra cứu.",
+      "itemDate": "09-09-2026",
+      "url": "-",
+      "domain": "",
+      "channel": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Dr. Hải Lê",
+      "type": "new_article",
+      "title": "",
+      "summary": "Bệnh viện Tạo hình Thẩm mỹ Dr.Hải Lê tổ chức lễ công bố quyết định cấp phép hoạt động theo mô hình bệnh viện, có đại diện Bộ Y tế tham dự.",
+      "itemDate": "09-09-2026",
+      "url": "https://tuoitre.vn/benh-vien-tao-hinh-tham-my-dr-hai-le-chinh-thuc-di-vao-hoat-dong-20260324164539872.htm",
+      "domain": "tuoitre.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Dr. Hải Lê",
+      "type": "new_article",
+      "title": "",
+      "summary": "Bác sĩ Hải Lê tham dự hội nghị APS 2026 (Hàn Quốc), thúc đẩy chuẩn hóa thẩm mỹ theo định hướng y khoa.",
+      "itemDate": "09-09-2026",
+      "url": "https://drhaile.vn/bac-si-hai-le-tham-du-aps-2026-tai-han-quoc-thuc-day-chuan-hoa-tham-my-theo-dinh-huong-y-khoa/",
+      "domain": "drhaile.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Ngọc Dung",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Chi nhánh Nguyễn Thái Học (Q.1, TP.HCM) bị Thanh tra Sở Y tế TP.HCM phạt 94 triệu đồng; tước giấy phép hoạt động khám chữa bệnh 3 tháng; tước chứng chỉ hành nghề người phụ trách chuyên môn 2 tháng.",
+      "itemDate": "09-09-2026",
+      "url": "https://thuongtruong.com.vn/news/tham-my-vien-ngoc-dung-bi-xu-phat-94-trieu-dong-tuoc-giay-phep-hoat-dong-93008.html",
+      "domain": "thuongtruong.com.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Ngọc Dung",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Bị nêu tên trong danh sách doanh nghiệp nợ bảo hiểm xã hội.",
+      "itemDate": "09-09-2026",
+      "url": "https://doanhnghiepthuonghieu.vn/tham-my-ngoc-dung-angel-beauty-no-bao-hiem-xa-hoi-nhieu-doanh-nghiep-bi-xu-phat-p51705.html",
+      "domain": "doanhnghiepthuonghieu.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Ngọc Dung",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Bị khách hàng tố cáo dịch vụ dỏm, phải trả lại tiền.",
+      "itemDate": "09-09-2026",
+      "url": "https://vietnambizforum.vn/bi-khach-hang-to-cao-dich-vu-dom-tham-my-vien-ngoc-dung-voi-vang-tra-lai-tien-a244.html",
+      "domain": "vietnambizforum.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Ngọc Dung",
+      "type": "new_article",
+      "title": "",
+      "summary": "26 năm Thẩm mỹ viện Ngọc Dung đồng hành phái nữ Việt.",
+      "itemDate": "09-09-2026",
+      "url": "https://vnexpress.net/26-nam-tham-my-vien-ngoc-dung-dong-hanh-phai-nu-viet-4777056.html",
+      "domain": "vnexpress.net",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VietCharm",
+      "type": "new_article",
+      "title": "",
+      "summary": "Không phát hiện tin xấu / bài viết mới đáng chú ý nào liên quan đến thương hiệu trong đợt tra cứu này (kết quả tìm kiếm chỉ có trang giới thiệu/danh bạ doanh nghiệp).",
+      "itemDate": "09-09-2026",
+      "url": "-",
+      "domain": "",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Dr. Thái Hà",
+      "type": "new_article",
+      "title": "",
+      "summary": "Không phát hiện tin xấu / vi phạm pháp lý / tai biến y khoa liên quan trực tiếp đến thương hiệu trong đợt tra cứu này.",
+      "itemDate": "09-09-2026",
+      "url": "-",
+      "domain": "",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Dr. Thái Hà",
+      "type": "new_article",
+      "title": "",
+      "summary": "TS.BS Vũ Thái Hà là diễn giả đặc biệt tại sự kiện 'Key to the Unknown' của Dermafirm, giới thiệu công nghệ Exosome không xâm lấn.",
+      "itemDate": "09-09-2026",
+      "url": "https://labodermafirm.vn/blogs/news/ts-bac-si-vu-thai-ha-dien-gia-dac-biet-cua-su-kien-key-to-the-unkn",
+      "domain": "labodermafirm.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VITA Clinic",
+      "type": "new_article",
+      "title": "",
+      "summary": "Không phát hiện tin xấu / vi phạm pháp lý / tai biến y khoa liên quan đến thương hiệu trong đợt tra cứu này.",
+      "itemDate": "09-09-2026",
+      "url": "-",
+      "domain": "",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VITA Clinic",
+      "type": "new_article",
+      "title": "",
+      "summary": "VITA Clinic tổ chức sự kiện 'Mùa hè vui vẻ - Chia sẻ yêu thương' cùng VinaCapital Foundation cho 400 bệnh nhi tại Bệnh viện Nhi Đồng 2.",
+      "itemDate": "09-09-2026",
+      "url": "https://thuonghieucongluan.com.vn/mua-he-vui-ve-chia-se-yeu-thuong-cho-400-benh-nhi-va-gia-dinh-tai-benh-vien-nhi-dong-2-a195675.html",
+      "domain": "thuonghieucongluan.com.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VITA Clinic",
+      "type": "new_article",
+      "title": "",
+      "summary": "VITA Clinic mở rộng hệ thống làm đẹp, đầu tư công nghệ, hiện có 10 phòng khám da liễu thẩm mỹ và 4 trung tâm chăm sóc sức khỏe chủ động.",
+      "itemDate": "09-09-2026",
+      "url": "https://vnexpress.net/vita-clinic-mo-rong-he-thong-lam-dep-dau-tu-cong-nghe-4995927.html",
+      "domain": "vnexpress.net",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ Hongkong",
+      "type": "bad_news",
+      "title": "",
+      "summary": "'Thẩm mỹ Hồng Kông' (51 Hàng Gà, Hoàn Kiếm, Hà Nội) bị phản ánh thực hiện dịch vụ laser trị nám dù KHÔNG được Sở Y tế Hà Nội cấp phép phòng khám da liễu; nhân sự không phải bác sĩ da liễu vẫn thực hiện cho khách hàng.",
+      "itemDate": "09-09-2026",
+      "url": "https://suckhoeviet.org.vn/tham-my-hong-kong-51-hang-ga-ha-noi-ngang-nhien-thuc-hien-dich-vu-khong-duoc-cap-phep-khach-hang-can-than-trong-3680.html",
+      "domain": "suckhoeviet.org.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ Seoul",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Cơ sở 'Seoul ID' tại Biên Hòa, Đồng Nai bị phạt 87,5 triệu đồng và đình chỉ hoạt động khám chữa bệnh 18 tháng do hoạt động trái phép, quảng cáo khám chữa bệnh chưa có giấy phép, kinh doanh mỹ phẩm không rõ nguồn gốc.",
+      "itemDate": "09-09-2026",
+      "url": "https://daibieunhandan.vn/dong-nai-tham-my-seoul-id-o-bien-hoa-bi-dinh-chi-18-thang-phat-gan-90-trieu-dong-post397440.html",
+      "domain": "daibieunhandan.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ Seoul",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Một thẩm mỹ viện gắn nhãn liên quan 'Seoul Center' bị phạt 49 triệu đồng vì ghi sai tên khoa/phòng và quảng cáo dịch vụ đặc biệt chưa phép; từng bị phạt 30 triệu (2023) và 25 triệu (2020) vì vi phạm tương tự.",
+      "itemDate": "09-09-2026",
+      "url": "https://thuongtruong.com.vn/news/tham-my-quoc-te-seoul-center-tiep-tuc-bi-xu-phat-vi-vi-pham-ve-quang-cao-128953.html",
+      "domain": "thuongtruong.com.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ Seoul",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Chủ hệ thống 'Seoul Spa' bị Sở Y tế TP.HCM xử phạt 35 triệu đồng do quảng cáo sản phẩm/dịch vụ khi chưa được cơ quan có thẩm quyền xác nhận nội dung.",
+      "itemDate": "09-09-2026",
+      "url": "https://taichinhdoanhnghiep.net.vn/chu-so-huu-he-thong-tham-my-vien-seoul-spa-bi-so-y-te-tphcm-xu-phat-d9872.html",
+      "domain": "taichinhdoanhnghiep.net.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ Seoul",
+      "type": "new_article",
+      "title": "",
+      "summary": "'Seoul Center' công bố diễn viên Quỳnh Lam làm Đại sứ thương hiệu năm 2026, đồng hành chương trình 'Điều Ước của Mẹ'.",
+      "itemDate": "09-09-2026",
+      "url": "https://eva.vn/bi-quyet-lam-dep/dien-vien-quynh-lam-dong-hanh-cung-seoul-center-viet-tiep-cau-chuyen-y-nghia-dieu-uoc-cua-me-c280a663619.html",
+      "domain": "eva.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ Thu Cúc",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Nhà thuốc thuộc Bệnh viện Thẩm mỹ Thu Cúc (1B Yết Kiêu, Hoàn Kiếm, Hà Nội) bị Sở Y tế Hà Nội xử phạt 4 triệu đồng do niêm yết giá bán lẻ thuốc không đầy đủ.",
+      "itemDate": "09-09-2026",
+      "url": "https://daibieunhandan.vn/xu-phat-nha-thuoc-benh-vien-tham-my-thu-cuc-benh-vien-da-khoa-tam-anh-cung-nhieu-don-vi-sai-pham-post313129.html",
+      "domain": "daibieunhandan.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ Thu Cúc",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Cựu nhân viên thu ngân của Bệnh viện Thẩm mỹ Thu Cúc bị tuyên án 10 năm tù vì 'Lạm dụng tín nhiệm chiếm đoạt tài sản' - chiếm đoạt hơn 2,7 tỷ đồng tiền thu của khách hàng để đánh bạc online (vụ án cá nhân nhân viên, không phải sai phạm của thương hiệu, nhưng có thể ảnh hưởng uy tín).",
+      "itemDate": "09-09-2026",
+      "url": "https://hanoimoi.vn/chiem-doat-tien-cua-benh-vien-tham-my-thu-cuc-de-choi-co-bac-653076.html",
+      "domain": "hanoimoi.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ Thu Cúc",
+      "type": "new_article",
+      "title": "",
+      "summary": "Thu Cúc kỷ niệm hành trình 29 năm phát triển hệ thống thẩm mỹ.",
+      "itemDate": "09-09-2026",
+      "url": "https://vnexpress.net/hanh-trinh-29-nam-phat-trien-cua-he-thong-tham-my-thu-cuc-4905537.html",
+      "domain": "vnexpress.net",
+      "channel": ""
+    }
   ]
 }
