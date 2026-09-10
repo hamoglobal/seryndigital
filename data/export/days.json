@@ -1274,5 +1274,16 @@
     "riskRaw": "Mục theo dõi Mô tả Lần đầu phát hiện Trạng thái hôm nay ",
     "riskLevel": "red",
     "riskNote": ""
+  },
+  {
+    "date": "2026-09-10",
+    "total": 21,
+    "positive": 15,
+    "neutral": 6,
+    "negative": 0,
+    "newSources": 1,
+    "riskRaw": "XANH - AN TOÀN",
+    "riskLevel": "green",
+    "riskNote": ""
   }
 ]
