@@ -1307,5 +1307,16 @@
     "riskRaw": "KHÔNG CÓ — không phát hiện bằng chứng lừa đảo, thanh tra Sở Y tế, báo điều tra, hoặc cơ sở giả mạo mang tên Seryn.",
     "riskLevel": "green",
     "riskNote": ""
+  },
+  {
+    "date": "2026-09-13",
+    "total": 34,
+    "positive": 22,
+    "neutral": 12,
+    "negative": 0,
+    "newSources": 0,
+    "riskRaw": "KHÔNG CÓ — không phát hiện bằng chứng lừa đảo, thanh tra Sở Y tế, báo điều tra, hoặc cơ sở giả mạo mang tên Seryn.",
+    "riskLevel": "green",
+    "riskNote": ""
   }
 ]
