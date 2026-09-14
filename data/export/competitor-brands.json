@@ -14846,5 +14846,133 @@
       "note": "Không phát hiện tin xấu / bài viết mới đáng chú ý liên quan trực tiếp đến thương hiệu trong kết quả tra cứu hôm nay (kết quả tìm kiếm chủ yếu trả về nội dung không liên quan, ví dụ sự kiện giải trí 'Việt Charm Show').",
       "mainSources": ""
     }
+  ],
+  "2026-09-13": [
+    {
+      "brand": "Bệnh viện thẩm mỹ Kangnam",
+      "badNews": 4,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Seoul",
+      "badNews": 4,
+      "newArticles": 0,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "Lưu ý: kết quả tìm kiếm trả về nhiều thương hiệu khác nhau có chữ 'Seoul' (Seoul Center, Seoul ID, New Seoul, Seoul Spa) — cần xác minh cơ sở nào trùng với thương hiệu 'Thẩm mỹ Seoul' đang theo dõi để tránh nhầm lẫn.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ KangJin Sejung",
+      "badNews": 4,
+      "newArticles": 0,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Lavender By Chang",
+      "badNews": 3,
+      "newArticles": 1,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Ngọc Dung",
+      "badNews": 3,
+      "newArticles": 0,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Xuân Hương",
+      "badNews": 3,
+      "newArticles": 0,
+      "riskLevel": "high",
+      "riskRaw": "Cao",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thanh Hằng Beauty Medi",
+      "badNews": 2,
+      "newArticles": 2,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Bally",
+      "badNews": 2,
+      "newArticles": 0,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Dr. Hải Lê",
+      "badNews": 1,
+      "newArticles": 1,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Hongkong",
+      "badNews": 0,
+      "newArticles": 0,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không tìm thấy tin xử phạt/vi phạm pháp lý hoặc bài viết mới đáng chú ý nhắc riêng tới 'Thẩm mỹ Hongkong' trong đợt tra cứu này.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Thu Cúc",
+      "badNews": 0,
+      "newArticles": 0,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không tìm thấy tin xử phạt/vi phạm pháp lý hoặc bài viết mới đáng chú ý nhắc riêng tới Thẩm mỹ Thu Cúc trong đợt tra cứu này (kết quả tìm kiếm chủ yếu trả về tin của Bệnh viện Thẩm mỹ Khơ Thị và các cơ sở khác).",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Dr. Thái Hà",
+      "badNews": 0,
+      "newArticles": 0,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không tìm thấy tin xử phạt/vi phạm pháp lý hoặc bài viết mới đáng chú ý nhắc riêng tới 'Dr. Thái Hà' trong đợt tra cứu này. Ghi nhận có cơ sở cùng khu vực tên gần giống 'Phòng khám Da liễu Thẩm mỹ Thái Hà' (do TS.BS Vũ Thái Hà phụ trách) nhưng không có báo cáo vi phạm — cần xác minh thêm để tránh nhầm lẫn thương hiệu.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VITA Clinic",
+      "badNews": 0,
+      "newArticles": 0,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không tìm thấy tin xử phạt/vi phạm pháp lý hoặc bài viết mới đáng chú ý nhắc riêng tới VITA Clinic trong đợt tra cứu này.",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VietCharm",
+      "badNews": 0,
+      "newArticles": 0,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không tìm thấy tin xử phạt/vi phạm pháp lý hoặc bài viết mới đáng chú ý nhắc riêng tới VietCharm trong đợt tra cứu này (kết quả tìm kiếm chủ yếu trả về tin của các thẩm mỹ viện khác như Khơ Thị). Khuyến nghị theo dõi thêm.",
+      "mainSources": ""
+    }
   ]
 }
