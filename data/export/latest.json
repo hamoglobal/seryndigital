@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-14",
+  "date": "2026-09-15",
   "topSources": [
     {
       "title": "Seryn Clinic: Phòng Khám Đa Khoa Seryn (Website chính thức)",
@@ -32,6 +32,14 @@
       "type": "Ghi chú phân biệt sản phẩm",
       "sentiment": "neutral",
       "isNew": false
+    },
+    {
+      "title": "Phòng Khám Đa Khoa SERYN - YouTube (kênh mới phát hiện, chưa xác nhận sở hữu)",
+      "url": "https://www.youtube.com/channel/UCojQ10-ZUGAt4hOpbMqaIZA",
+      "domain": "youtube.com",
+      "type": "Mạng xã hội - YouTube",
+      "sentiment": "neutral",
+      "isNew": true
     },
     {
       "title": "Trải nghiệm trẻ hóa da cao cấp tại Seryn Clinic - VietnamNet",
@@ -186,7 +194,7 @@
       "isNew": false
     },
     {
-      "title": "Trustpilot 'Seren Klinik' (Istanbul) — KHÔNG liên quan Seryn VN, nha khoa/thẩm mỹ Thổ Nhĩ Kỳ tên gần giống, loại khỏi rủi ro",
+      "title": "Trustpilot 'Seren Klinik' (Istanbul) — KHÔNG liên quan Seryn VN, thương hiệu nha khoa Thổ Nhĩ Kỳ tên gần giống, loại khỏi rủi ro",
       "url": "https://www.trustpilot.com/review/serenklinik.com",
       "domain": "trustpilot.com",
       "type": "Ghi chú phân biệt thương hiệu",
@@ -242,7 +250,7 @@
       "isNew": false
     },
     {
-      "title": "Biến thể địa chỉ Hà Nội '68 Dương Đình Nghệ, Cầu Giấy' / '45 Xã Đàn' (AI tóm tắt Google lặp lại, lệch định dạng — đã xác nhận với khách địa chỉ đúng là 454 Xã Đàn, Clinexa Việt Nam)",
+      "title": "Biến thể địa chỉ Hà Nội '68 Dương Đình Nghệ, Cầu Giấy' (AI tóm tắt Google lặp lại, lệch định dạng — địa chỉ đúng là 454 Xã Đàn, Clinexa Việt Nam)",
       "url": "https://seryn.vn/",
       "domain": "seryn.vn",
       "type": "Ghi chú loại trừ",
@@ -277,101 +285,131 @@
   "social": [
     {
       "platform": "Facebook",
-      "account": "Phòng khám Seryn Việt Nam (ID 100094769671762) — kênh chính chủ, đã xác nhận",
-      "url": "https://www.facebook.com/p/Ph%C3%B2ng-kh%C3%A1m-Seryn-100094769671762/",
+      "account": "phongkhamserynvietnam / phongkhamdakhoaseryn + các fanpage/profile đã xác nhận sở hữu (17 kênh, xem danh sách xác nhận)",
+      "url": "Xem [[project-seryn-confirmed-channels]]",
       "accountType": "",
       "sentiment": "Tích cực",
-      "note": "Kênh Facebook chính thức đã xác nhận theo hồ sơ khách hàng, không đổi so với hôm qua"
+      "note": "Đã xác nhận sở hữu"
     },
     {
       "platform": "Facebook",
-      "account": "Thanh Xuân - Phòng khám Seryn Việt Nam (ID 61551500829974)",
-      "url": "https://www.facebook.com/profile.php/?id=61551500829974",
+      "account": "bsvutrunghieu.seryn / bacsivutrunghieu.seryn (bác sĩ Vũ Trung Hiếu, KOL nội bộ)",
+      "url": "facebook.com/bsvutrunghieu.seryn",
       "accountType": "",
-      "sentiment": "Trung tính",
-      "note": "Carry-forward, không đổi so với hôm qua — nghi vấn trùng tên, chưa đủ bằng chứng mạo danh"
-    },
-    {
-      "platform": "Facebook",
-      "account": "Thanh Xuân - Seryn Clinic Việt Nam (ID 61551825290264)",
-      "url": "https://www.facebook.com/profile.php/?id=61551825290264",
-      "accountType": "",
-      "sentiment": "Trung tính",
-      "note": "Carry-forward, không đổi so với hôm qua — cần khách xác minh"
-    },
-    {
-      "platform": "Facebook",
-      "account": "Lại Minh Hiếu - Phòng khám Seryn Việt Nam (ID 61551700769618)",
-      "url": "https://www.facebook.com/61551700769618?locale=lt_LT",
-      "accountType": "",
-      "sentiment": "Trung tính",
-      "note": "Carry-forward — chưa có bằng chứng mạo danh hay lừa đảo cụ thể"
-    },
-    {
-      "platform": "Facebook",
-      "account": "Chuyên gia sắc đẹp Lại Minh Hiếu - Seryn Clinic (ID 61550115911294)",
-      "url": "https://www.facebook.com/p/Chuy%C3%AAn-gia-s%E1%BA%AFc-%C4%91%E1%BA%B9p-L%E1%BA%A1i-Minh-Hi%E1%BA%BFu-Seryn-Clinic-61550115911294/",
-      "accountType": "",
-      "sentiment": "Trung tính",
-      "note": "Carry-forward, không đổi so với hôm qua"
-    },
-    {
-      "platform": "Facebook",
-      "account": "Chuyên gia sắc đẹp Lại Minh Hiếu - Seryn Việt Nam (ID 61550128392717)",
-      "url": "https://www.facebook.com/61550128392717?locale=en_GB",
-      "accountType": "",
-      "sentiment": "Trung tính",
-      "note": "Carry-forward, không đổi so với hôm qua"
+      "sentiment": "Tích cực",
+      "note": "Đã xác nhận (nhân sự/KOL)"
     },
     {
       "platform": "YouTube",
-      "account": "Phòng Khám Đa Khoa SERYN — kênh chính thức",
+      "account": "Phòng Khám Đa Khoa SERYN (MỚI — xuất hiện lặp lại trong nhiều tìm kiếm hôm nay)",
       "url": "https://www.youtube.com/channel/UCojQ10-ZUGAt4hOpbMqaIZA",
       "accountType": "",
+      "sentiment": "Trung tính (Mới)",
+      "note": "Chưa có trong danh sách xác nhận — cần khách xác nhận"
+    },
+    {
+      "platform": "LinkedIn",
+      "account": "SERYN (trang công ty chính thức)",
+      "url": "https://www.linkedin.com/company/serynvietnam",
+      "accountType": "",
       "sentiment": "Tích cực",
-      "note": "Kênh YouTube chính thức đã xác nhận, không đổi so với hôm qua"
+      "note": "Đã xác nhận sở hữu"
+    },
+    {
+      "platform": "Facebook",
+      "account": "Thanh Xuân - Phòng khám Seryn Việt Nam (ID 61551500829974) — MỚI, biến thể ID khác bản đã gỡ trước đây",
+      "url": "https://www.facebook.com/profile.php/?id=61551500829974",
+      "accountType": "",
+      "sentiment": "Trung tính (Mới)",
+      "note": "Chưa xác minh — carry-forward"
+    },
+    {
+      "platform": "Facebook",
+      "account": "Thanh Xuân - Seryn Clinic Việt Nam (ID 61551825290264) — MỚI, biến thể ID thứ 2 cùng mẫu tên trong ngày",
+      "url": "https://www.facebook.com/profile.php/?id=61551825290264",
+      "accountType": "",
+      "sentiment": "Trung tính (Mới)",
+      "note": "Chưa xác minh — carry-forward, theo dõi khả năng giả mạo lặp lại tên"
+    },
+    {
+      "platform": "Facebook",
+      "account": "Chuyên gia sắc đẹp Lại Minh Hiếu - Seryn Việt Nam (ID 61550128392717) — ID khác bản đã xác nhận sở hữu (61550115911294)",
+      "url": "https://www.facebook.com/61550128392717",
+      "accountType": "",
+      "sentiment": "Trung tính",
+      "note": "Chưa xác minh — carry-forward"
+    },
+    {
+      "platform": "Facebook",
+      "account": "Lại Minh Hiếu - Phòng khám Seryn Việt Nam (ID 61551700769618) — đã xác nhận với khách là không còn tồn tại (2026-08-31), vẫn còn trong cache tìm kiếm",
+      "url": "https://www.facebook.com/61551700769618",
+      "accountType": "",
+      "sentiment": "Trung tính (lịch sử)",
+      "note": "Đã xác nhận KHÔNG còn tồn tại — chỉ ghi nhận lịch sử"
     },
     {
       "platform": "TikTok",
-      "account": "Không tìm thấy kênh TikTok nào (chính thức hoặc mạo danh) mang tên 'Seryn'",
+      "account": "Không tìm thấy tài khoản TikTok chính thức hoặc mạo danh nào chứa đúng từ khóa 'Seryn' trong ngày",
       "url": "-",
       "accountType": "",
-      "sentiment": "Tích cực",
-      "note": "Kết quả rà soát — không phát hiện rủi ro trên TikTok hôm nay"
+      "sentiment": "Tích cực (không rủi ro)",
+      "note": "Không có kết quả trùng khớp"
     },
     {
-      "platform": "Facebook + TikTok + YouTube",
-      "account": "Không có trang/kênh mới nào khớp chính xác từ 'Seryn' ngoài các mục đã liệt kê ở trên",
+      "platform": "Đối chiếu thương hiệu trùng tên",
+      "account": "Sera Clinic, Serene Clinic, Sherlyn Clinic, Seren Klinik, Seorin Clinic, Serena Clinic (Facebook/TikTok/YouTube)",
       "url": "-",
       "accountType": "",
-      "sentiment": "Tích cực",
-      "note": "Rà soát các từ khóa còn lại × 3 nền tảng không phát hiện trang/kênh mới nào chứa đúng từ 'Seryn'. Chỉ xuất hiện các thương hiệu tên gần giống không liên quan (Seren/Sera/Sherlyn/Serene/Seorin/Serena/Sherie Clinic, ban nhạc 'Seryn' trên YouTube) — đã loại khỏi thống kê theo quy tắc."
+      "sentiment": "Trung tính (loại trừ)",
+      "note": "Không chứa đúng từ 'Seryn' → loại khỏi phạm vi giám sát"
     }
   ],
   "alerts": [
     {
-      "level": "Vàng",
-      "type": "Cụm 3 trang Facebook cá nhân 'Lại Minh Hiếu' gắn tên thương hiệu Seryn (3 ID)",
-      "source": "ID: 61551700769618, 61550115911294, 61550128392717",
-      "date": "2026-09-09 → 2026-09-14",
-      "summary": "",
-      "action": ""
-    },
-    {
-      "level": "Vàng",
-      "type": "Cụm 2 trang Facebook cá nhân 'Thanh Xuân' gắn tên thương hiệu Seryn (2 ID)",
-      "source": "ID: 61551500829974, 61551825290264",
-      "date": "2026-09-11 → 2026-09-14",
+      "level": "",
+      "type": "Không phát hiện Cảnh báo Đỏ nào trong ngày 2026-09-15 (không có phản ánh lừa đảo, không có tin thanh tra/xử phạt Sở Y tế, không có báo điều tra nêu đích danh, không có cơ sở giả mạo mang tên Seryn).",
+      "source": "",
+      "date": "2026-09-15",
       "summary": "",
       "action": ""
     }
   ],
   "activityLog": [
     {
+      "time": "08:08",
+      "step": "Tạo báo cáo Excel",
+      "result": "OK",
+      "note": "Bao_cao_Seryn_Monitoring_2026-09-15.xlsx (5 sheet)"
+    },
+    {
+      "time": "08:08",
+      "step": "Copy sang D:\\Seryn Digital\\Seryn Digital\\",
+      "result": "OK (diff xác nhận byte-identical)",
+      "note": "-"
+    },
+    {
+      "time": "08:09",
+      "step": "Copy sang incoming (BƯỚC 5b)",
+      "result": "OK (fuse mount xác nhận + diff byte-identical)",
+      "note": "/mnt/incoming/Bao_cao_Seryn_Monitoring_2026-09-15.xlsx"
+    },
+    {
       "time": "08:10",
-      "step": "Upload Drive",
-      "result": "Fail 6.1+6.2 → 6.3 local only",
-      "note": "err: Google Drive MCP không kết nối trong phiên này (chỉ có Gmail MCP khả dụng) — không thể truy cập Shared Drive 1BZHUDAl1fdPDGWWFxQHVVwJ3W3LZGEgv"
+      "step": "Upload Google Sheets (BƯỚC 6.1)",
+      "result": "Fail — Google Drive MCP không có trong phiên làm việc này (server không được kết nối)",
+      "note": "Không có tool create_file/search_files khả dụng"
+    },
+    {
+      "time": "08:10",
+      "step": "Upload Google Sheets (BƯỚC 6.2 My Drive fallback)",
+      "result": "Fail — cùng lý do, không có Google Drive MCP",
+      "note": "-"
+    },
+    {
+      "time": "08:10",
+      "step": "Fallback 6.3 (local + CSV)",
+      "result": "OK — CSV đã xuất và copy sang cả 2 thư mục",
+      "note": "Bao_cao_Seryn_Monitoring_2026-09-15.csv"
     }
   ]
 }
