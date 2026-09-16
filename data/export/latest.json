@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-15",
+  "date": "2026-09-16",
   "topSources": [
     {
       "title": "Seryn Clinic: Phòng Khám Đa Khoa Seryn (Website chính thức)",
@@ -26,7 +26,7 @@
       "isNew": false
     },
     {
-      "title": "Công dụng thuốc Seryn - Vinmec (sản phẩm khác, không liên quan)",
+      "title": "Công dụng thuốc Seryn - Vinmec (sản phẩm thuốc khác, không liên quan)",
       "url": "https://www.vinmec.com/vie/bai-viet/cong-dung-thuoc-seryn-vi",
       "domain": "vinmec.com",
       "type": "Ghi chú phân biệt sản phẩm",
@@ -34,12 +34,12 @@
       "isNew": false
     },
     {
-      "title": "Phòng Khám Đa Khoa SERYN - YouTube (kênh mới phát hiện, chưa xác nhận sở hữu)",
+      "title": "Phòng Khám Đa Khoa SERYN - YouTube (carry-forward, chưa xác nhận sở hữu)",
       "url": "https://www.youtube.com/channel/UCojQ10-ZUGAt4hOpbMqaIZA",
       "domain": "youtube.com",
       "type": "Mạng xã hội - YouTube",
       "sentiment": "neutral",
-      "isNew": true
+      "isNew": false
     },
     {
       "title": "Trải nghiệm trẻ hóa da cao cấp tại Seryn Clinic - VietnamNet",
@@ -82,6 +82,14 @@
       "isNew": false
     },
     {
+      "title": "Review viện thẩm mỹ SERYN: Có thật sự tốt như lời đồn? - Blog seryn.vn",
+      "url": "https://seryn.vn/blog-detail/review-vien-tham-my-seryn/",
+      "domain": "seryn.vn",
+      "type": "Website - Blog",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
       "title": "Seryn Clinic - Tin tức mới nhất 24h qua - VnExpress Tag (directory)",
       "url": "https://vnexpress.net/tag/seryn-clinic-1890677",
       "domain": "vnexpress.net",
@@ -90,11 +98,11 @@
       "isNew": false
     },
     {
-      "title": "Phòng Khám Đa Khoa Seryn - TimPhongKham.vn (directory)",
-      "url": "https://timphongkham.vn/clinics/15247-phong-kham-da-khoa-seryn",
-      "domain": "timphongkham.vn",
-      "type": "Directory",
-      "sentiment": "neutral",
+      "title": "Đội ngũ y bác sĩ - SERYN (website)",
+      "url": "https://seryn.vn/experts/doi-ngu-y-bac-si/",
+      "domain": "seryn.vn",
+      "type": "Website chính thức",
+      "sentiment": "positive",
       "isNew": false
     },
     {
@@ -154,19 +162,19 @@
       "isNew": false
     },
     {
-      "title": "Seryn (Online) - Elder Scrolls Wiki (nhân vật game, không liên quan)",
-      "url": "https://elderscrolls.fandom.com/wiki/Seryn_(Online)",
-      "domain": "elderscrolls.fandom.com",
-      "type": "Ghi chú phân biệt thương hiệu",
-      "sentiment": "neutral",
-      "isNew": false
-    },
-    {
       "title": "Trang tuyển dụng chính thức - SERYN (website)",
       "url": "https://seryn.vn/tuyen-dung/",
       "domain": "seryn.vn",
       "type": "Website chính thức",
       "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "title": "Seryn (Online) - Elder Scrolls Wiki (nhân vật game, không liên quan)",
+      "url": "https://elderscrolls.fandom.com/wiki/Seryn_(Online)",
+      "domain": "elderscrolls.fandom.com",
+      "type": "Ghi chú phân biệt thương hiệu",
+      "sentiment": "neutral",
       "isNew": false
     },
     {
@@ -194,7 +202,7 @@
       "isNew": false
     },
     {
-      "title": "Trustpilot 'Seren Klinik' (Istanbul) — KHÔNG liên quan Seryn VN, thương hiệu nha khoa Thổ Nhĩ Kỳ tên gần giống, loại khỏi rủi ro",
+      "title": "Trustpilot 'Seren Klinik' (Istanbul) — KHÔNG liên quan Seryn VN, nha khoa Thổ Nhĩ Kỳ tên gần giống, loại khỏi rủi ro",
       "url": "https://www.trustpilot.com/review/serenklinik.com",
       "domain": "trustpilot.com",
       "type": "Ghi chú phân biệt thương hiệu",
@@ -202,7 +210,7 @@
       "isNew": false
     },
     {
-      "title": "Không tìm thấy bài viết tiêu cực/lừa đảo/thanh tra nào nhắc đến Seryn Clinic",
+      "title": "Không tìm thấy bài viết tiêu cực/lừa đảo/thanh tra nào nhắc đến Seryn Clinic trong ngày",
       "url": "-",
       "domain": "",
       "type": "Kết quả rà soát",
@@ -210,18 +218,10 @@
       "isNew": false
     },
     {
-      "title": "Review viện thẩm mỹ SERYN: Có thật sự tốt như lời đồn? - Blog seryn.vn",
+      "title": "Review viện thẩm mỹ SERYN: Có thật sự tốt như lời đồn? (đăng lại)",
       "url": "https://seryn.vn/blog-detail/review-vien-tham-my-seryn/",
       "domain": "seryn.vn",
       "type": "Website - Blog",
-      "sentiment": "positive",
-      "isNew": false
-    },
-    {
-      "title": "Đội ngũ y bác sĩ - SERYN (website)",
-      "url": "https://seryn.vn/experts/doi-ngu-y-bac-si/",
-      "domain": "seryn.vn",
-      "type": "Website chính thức",
       "sentiment": "positive",
       "isNew": false
     },
@@ -250,7 +250,7 @@
       "isNew": false
     },
     {
-      "title": "Biến thể địa chỉ Hà Nội '68 Dương Đình Nghệ, Cầu Giấy' (AI tóm tắt Google lặp lại, lệch định dạng — địa chỉ đúng là 454 Xã Đàn, Clinexa Việt Nam)",
+      "title": "Biến thể địa chỉ Hà Nội '68 Dương Đình Nghệ, Cầu Giấy' / '45 Xã Đàn' (AI tóm tắt Google lặp lại, lệch định dạng — địa chỉ đúng là 454 Xã Đàn, Clinexa Việt Nam)",
       "url": "https://seryn.vn/",
       "domain": "seryn.vn",
       "type": "Ghi chú loại trừ",
@@ -301,10 +301,10 @@
     },
     {
       "platform": "YouTube",
-      "account": "Phòng Khám Đa Khoa SERYN (MỚI — xuất hiện lặp lại trong nhiều tìm kiếm hôm nay)",
+      "account": "Phòng Khám Đa Khoa SERYN (carry-forward từ 2026-09-15, vẫn xuất hiện lặp lại trong tìm kiếm hôm nay)",
       "url": "https://www.youtube.com/channel/UCojQ10-ZUGAt4hOpbMqaIZA",
       "accountType": "",
-      "sentiment": "Trung tính (Mới)",
+      "sentiment": "Trung tính (carry-forward)",
       "note": "Chưa có trong danh sách xác nhận — cần khách xác nhận"
     },
     {
@@ -317,18 +317,18 @@
     },
     {
       "platform": "Facebook",
-      "account": "Thanh Xuân - Phòng khám Seryn Việt Nam (ID 61551500829974) — MỚI, biến thể ID khác bản đã gỡ trước đây",
+      "account": "Thanh Xuân - Phòng khám Seryn Việt Nam (ID 61551500829974) — carry-forward từ 2026-09-15",
       "url": "https://www.facebook.com/profile.php/?id=61551500829974",
       "accountType": "",
-      "sentiment": "Trung tính (Mới)",
+      "sentiment": "Trung tính (carry-forward)",
       "note": "Chưa xác minh — carry-forward"
     },
     {
       "platform": "Facebook",
-      "account": "Thanh Xuân - Seryn Clinic Việt Nam (ID 61551825290264) — MỚI, biến thể ID thứ 2 cùng mẫu tên trong ngày",
+      "account": "Thanh Xuân - Seryn Clinic Việt Nam (ID 61551825290264) — carry-forward từ 2026-09-15",
       "url": "https://www.facebook.com/profile.php/?id=61551825290264",
       "accountType": "",
-      "sentiment": "Trung tính (Mới)",
+      "sentiment": "Trung tính (carry-forward)",
       "note": "Chưa xác minh — carry-forward, theo dõi khả năng giả mạo lặp lại tên"
     },
     {
@@ -336,7 +336,7 @@
       "account": "Chuyên gia sắc đẹp Lại Minh Hiếu - Seryn Việt Nam (ID 61550128392717) — ID khác bản đã xác nhận sở hữu (61550115911294)",
       "url": "https://www.facebook.com/61550128392717",
       "accountType": "",
-      "sentiment": "Trung tính",
+      "sentiment": "Trung tính (carry-forward)",
       "note": "Chưa xác minh — carry-forward"
     },
     {
@@ -357,7 +357,7 @@
     },
     {
       "platform": "Đối chiếu thương hiệu trùng tên",
-      "account": "Sera Clinic, Serene Clinic, Sherlyn Clinic, Seren Klinik, Seorin Clinic, Serena Clinic (Facebook/TikTok/YouTube)",
+      "account": "Sera Clinic, Serene Clinic, Sherlyn Clinic, Seren Klinik, Seorin Clinic, Serena Clinic, Seryn Armstrong (Facebook/TikTok/YouTube)",
       "url": "-",
       "accountType": "",
       "sentiment": "Trung tính (loại trừ)",
@@ -367,49 +367,55 @@
   "alerts": [
     {
       "level": "",
-      "type": "Không phát hiện Cảnh báo Đỏ nào trong ngày 2026-09-15 (không có phản ánh lừa đảo, không có tin thanh tra/xử phạt Sở Y tế, không có báo điều tra nêu đích danh, không có cơ sở giả mạo mang tên Seryn).",
+      "type": "Không phát hiện Cảnh báo Đỏ nào trong ngày 2026-09-16 (không có phản ánh lừa đảo, không có tin thanh tra/xử phạt Sở Y tế, không có báo điều tra nêu đích danh, không có cơ sở giả mạo mang tên Seryn).",
       "source": "",
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "summary": "",
       "action": ""
     }
   ],
   "activityLog": [
     {
-      "time": "08:08",
+      "time": "09:00",
       "step": "Tạo báo cáo Excel",
       "result": "OK",
-      "note": "Bao_cao_Seryn_Monitoring_2026-09-15.xlsx (5 sheet)"
+      "note": "Bao_cao_Seryn_Monitoring_2026-09-16.xlsx (5 sheet)"
     },
     {
-      "time": "08:08",
+      "time": "08:05",
+      "step": "Tạo báo cáo Excel",
+      "result": "OK",
+      "note": "Bao_cao_Seryn_Monitoring_2026-09-16.xlsx (5 sheet)"
+    },
+    {
+      "time": "08:10",
       "step": "Copy sang D:\\Seryn Digital\\Seryn Digital\\",
-      "result": "OK (diff xác nhận byte-identical)",
+      "result": "OK (fuse mount xác nhận + diff byte-identical)",
       "note": "-"
     },
     {
-      "time": "08:09",
+      "time": "08:11",
       "step": "Copy sang incoming (BƯỚC 5b)",
       "result": "OK (fuse mount xác nhận + diff byte-identical)",
-      "note": "/mnt/incoming/Bao_cao_Seryn_Monitoring_2026-09-15.xlsx"
+      "note": "/mnt/incoming/Bao_cao_Seryn_Monitoring_2026-09-16.xlsx"
     },
     {
-      "time": "08:10",
+      "time": "08:12",
       "step": "Upload Google Sheets (BƯỚC 6.1)",
-      "result": "Fail — Google Drive MCP không có trong phiên làm việc này (server không được kết nối)",
+      "result": "Fail — Google Drive MCP không có trong phiên làm việc này (server không được kết nối, giống 2026-09-15)",
       "note": "Không có tool create_file/search_files khả dụng"
     },
     {
-      "time": "08:10",
+      "time": "08:12",
       "step": "Upload Google Sheets (BƯỚC 6.2 My Drive fallback)",
       "result": "Fail — cùng lý do, không có Google Drive MCP",
       "note": "-"
     },
     {
-      "time": "08:10",
+      "time": "08:12",
       "step": "Fallback 6.3 (local + CSV)",
       "result": "OK — CSV đã xuất và copy sang cả 2 thư mục",
-      "note": "Bao_cao_Seryn_Monitoring_2026-09-15.csv"
+      "note": "Bao_cao_Seryn_Monitoring_2026-09-16.csv"
     }
   ]
 }
