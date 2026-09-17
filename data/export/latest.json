@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-16",
+  "date": "2026-09-17",
   "topSources": [
     {
       "title": "Seryn Clinic: Phòng Khám Đa Khoa Seryn (Website chính thức)",
@@ -66,8 +66,24 @@
       "isNew": false
     },
     {
-      "title": "Review làm đẹp tại thẩm mỹ SERYN - Blog seryn.vn",
-      "url": "https://seryn.vn/blog-detail/review-lam-dep-tai-tham-my-seryn/",
+      "title": "Đội ngũ y bác sĩ - SERYN (website)",
+      "url": "https://seryn.vn/experts/doi-ngu-y-bac-si/",
+      "domain": "seryn.vn",
+      "type": "Website chính thức",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "title": "Review thẩm mỹ viện SERYN: Bảng giá, Bác sĩ và Dịch vụ - Blog seryn.vn",
+      "url": "https://seryn.vn/blog-detail/review-tham-my-vien-seryn/",
+      "domain": "seryn.vn",
+      "type": "Website - Blog",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "title": "Review viện thẩm mỹ SERYN: Có thật sự tốt như lời đồn? - Blog seryn.vn",
+      "url": "https://seryn.vn/blog-detail/review-vien-tham-my-seryn/",
       "domain": "seryn.vn",
       "type": "Website - Blog",
       "sentiment": "positive",
@@ -82,26 +98,10 @@
       "isNew": false
     },
     {
-      "title": "Review viện thẩm mỹ SERYN: Có thật sự tốt như lời đồn? - Blog seryn.vn",
-      "url": "https://seryn.vn/blog-detail/review-vien-tham-my-seryn/",
-      "domain": "seryn.vn",
-      "type": "Website - Blog",
-      "sentiment": "positive",
-      "isNew": false
-    },
-    {
-      "title": "Seryn Clinic - Tin tức mới nhất 24h qua - VnExpress Tag (directory)",
-      "url": "https://vnexpress.net/tag/seryn-clinic-1890677",
-      "domain": "vnexpress.net",
-      "type": "Directory",
-      "sentiment": "neutral",
-      "isNew": false
-    },
-    {
-      "title": "Đội ngũ y bác sĩ - SERYN (website)",
-      "url": "https://seryn.vn/experts/doi-ngu-y-bac-si/",
-      "domain": "seryn.vn",
-      "type": "Website chính thức",
+      "title": "Hội đồng Y khoa SERYN Clinic tiên phong - Arttimes.vn (đăng lại)",
+      "url": "https://arttimes.vn/nhip-cau-doanh-nghiep/hoi-dong-y-khoa-seryn-clinic-tien-phong-mo-goc-nhin-moi-trong-tre-hoa-lan-da-tai-viet-nam-c56a75643.html",
+      "domain": "arttimes.vn",
+      "type": "Báo chí PR",
       "sentiment": "positive",
       "isNew": false
     },
@@ -130,9 +130,9 @@
       "isNew": false
     },
     {
-      "title": "Trẻ hóa gương mặt: liệu trình riêng lẻ - AFamily.vn",
-      "url": "https://afamily.vn/tre-hoa-guong-mat-vi-sao-nhung-lieu-trinh-rieng-le-khong-con-duoc-ua-chuong-236260318171908185.chn",
-      "domain": "afamily.vn",
+      "title": "Trẻ hóa gương mặt: liệu trình riêng lẻ - ThanhNienViet.vn",
+      "url": "https://thanhnienviet.vn/tre-hoa-guong-mat-vi-sao-nhung-lieu-trinh-rieng-le-khong-con-duoc-ua-chuong-209260318154118679.htm",
+      "domain": "thanhnienviet.vn",
       "type": "Báo chí PR",
       "sentiment": "positive",
       "isNew": false
@@ -168,6 +168,14 @@
       "type": "Website chính thức",
       "sentiment": "positive",
       "isNew": false
+    },
+    {
+      "title": "vietnam.vn/en — bản tiếng Anh đăng lại bài VietnamNet (aggregator, chưa xác nhận biên tập chính thức) — NGUỒN MỚI",
+      "url": "https://www.vietnam.vn/en/trai-nghiem-tre-hoa-da-cao-cap-tai-seryn-clinic",
+      "domain": "vietnam.vn",
+      "type": "Directory/Aggregator",
+      "sentiment": "neutral",
+      "isNew": true
     },
     {
       "title": "Seryn (Online) - Elder Scrolls Wiki (nhân vật game, không liên quan)",
@@ -218,8 +226,8 @@
       "isNew": false
     },
     {
-      "title": "Review viện thẩm mỹ SERYN: Có thật sự tốt như lời đồn? (đăng lại)",
-      "url": "https://seryn.vn/blog-detail/review-vien-tham-my-seryn/",
+      "title": "Review làm đẹp tại thẩm mỹ SERYN có tốt như lời đồn? - Blog seryn.vn",
+      "url": "https://seryn.vn/blog-detail/review-lam-dep-tai-tham-my-seryn/",
       "domain": "seryn.vn",
       "type": "Website - Blog",
       "sentiment": "positive",
@@ -234,7 +242,7 @@
       "isNew": false
     },
     {
-      "title": "Mega Gangnam 454 Xã Đàn — thương hiệu khác, không chứa từ 'Seryn' → loại khỏi phạm vi giám sát",
+      "title": "Mega Gangnam 454 Xã Đàn — thương hiệu khác, không chứa đúng từ 'Seryn' → loại khỏi phạm vi giám sát",
       "url": "-",
       "domain": "",
       "type": "Loại khỏi phạm vi",
@@ -300,8 +308,24 @@
       "note": "Đã xác nhận (nhân sự/KOL)"
     },
     {
+      "platform": "Facebook",
+      "account": "Chuyên gia sắc đẹp Lại Minh Hiếu - Seryn Clinic (ID 61550115911294) — kênh KOL đã xác nhận sở hữu",
+      "url": "https://www.facebook.com/profile.php?id=61550115911294",
+      "accountType": "",
+      "sentiment": "Tích cực",
+      "note": "Đã xác nhận sở hữu"
+    },
+    {
+      "platform": "Facebook",
+      "account": "Phòng khám Seryn Việt Nam (ID 100094769671762) — đã xác nhận sở hữu",
+      "url": "https://www.facebook.com/p/Ph%C3%B2ng-kh%C3%A1m-Seryn-100094769671762/",
+      "accountType": "",
+      "sentiment": "Tích cực",
+      "note": "Đã xác nhận sở hữu"
+    },
+    {
       "platform": "YouTube",
-      "account": "Phòng Khám Đa Khoa SERYN (carry-forward từ 2026-09-15, vẫn xuất hiện lặp lại trong tìm kiếm hôm nay)",
+      "account": "Phòng Khám Đa Khoa SERYN (carry-forward, vẫn xuất hiện lặp lại trong tìm kiếm hôm nay)",
       "url": "https://www.youtube.com/channel/UCojQ10-ZUGAt4hOpbMqaIZA",
       "accountType": "",
       "sentiment": "Trung tính (carry-forward)",
@@ -317,7 +341,7 @@
     },
     {
       "platform": "Facebook",
-      "account": "Thanh Xuân - Phòng khám Seryn Việt Nam (ID 61551500829974) — carry-forward từ 2026-09-15",
+      "account": "Thanh Xuân - Phòng khám Seryn Việt Nam (ID 61551500829974) — carry-forward",
       "url": "https://www.facebook.com/profile.php/?id=61551500829974",
       "accountType": "",
       "sentiment": "Trung tính (carry-forward)",
@@ -325,7 +349,7 @@
     },
     {
       "platform": "Facebook",
-      "account": "Thanh Xuân - Seryn Clinic Việt Nam (ID 61551825290264) — carry-forward từ 2026-09-15",
+      "account": "Thanh Xuân - Seryn Clinic Việt Nam (ID 61551825290264) — carry-forward, tiếp tục xuất hiện",
       "url": "https://www.facebook.com/profile.php/?id=61551825290264",
       "accountType": "",
       "sentiment": "Trung tính (carry-forward)",
@@ -357,65 +381,50 @@
     },
     {
       "platform": "Đối chiếu thương hiệu trùng tên",
-      "account": "Sera Clinic, Serene Clinic, Sherlyn Clinic, Seren Klinik, Seorin Clinic, Serena Clinic, Seryn Armstrong (Facebook/TikTok/YouTube)",
+      "account": "Sera Clinic, Serene Clinic, Sherie Clinic, Sherlyn Clinic, Seren Klinik, Seorin Clinic, Serena Clinic, Seryn Armstrong, Seryn Sounds (Facebook/TikTok/YouTube)",
       "url": "-",
       "accountType": "",
       "sentiment": "Trung tính (loại trừ)",
-      "note": "Không chứa đúng từ 'Seryn' → loại khỏi phạm vi giám sát"
+      "note": "Không chứa đúng từ 'Seryn' liên quan Seryn Clinic VN → loại khỏi phạm vi giám sát"
     }
   ],
-  "alerts": [
-    {
-      "level": "",
-      "type": "Không phát hiện Cảnh báo Đỏ nào trong ngày 2026-09-16 (không có phản ánh lừa đảo, không có tin thanh tra/xử phạt Sở Y tế, không có báo điều tra nêu đích danh, không có cơ sở giả mạo mang tên Seryn).",
-      "source": "",
-      "date": "2026-09-16",
-      "summary": "",
-      "action": ""
-    }
-  ],
+  "alerts": [],
   "activityLog": [
     {
-      "time": "09:00",
-      "step": "Tạo báo cáo Excel",
-      "result": "OK",
-      "note": "Bao_cao_Seryn_Monitoring_2026-09-16.xlsx (5 sheet)"
+      "time": "08:00",
+      "step": "Bước 1-2: Tìm kiếm Google + Mạng xã hội",
+      "result": "OK — 15 từ khóa Google, 6 từ khóa x 3 nền tảng MXH",
+      "note": "-"
     },
     {
-      "time": "08:05",
-      "step": "Tạo báo cáo Excel",
-      "result": "OK",
-      "note": "Bao_cao_Seryn_Monitoring_2026-09-16.xlsx (5 sheet)"
+      "time": "08:00",
+      "step": "Bước 3: Phân tích rủi ro",
+      "result": "OK — không phát hiện Cảnh báo Đỏ",
+      "note": "-"
+    },
+    {
+      "time": "08:00",
+      "step": "Bước 4: So sánh báo cáo trước",
+      "result": "OK — đối chiếu với 2026-09-16, 1 nguồn mới (vietnam.vn/en, Trung tính)",
+      "note": "-"
+    },
+    {
+      "time": "08:00",
+      "step": "Bước 5: Tạo file Excel",
+      "result": "OK — 5 sheet",
+      "note": "Bao_cao_Seryn_Monitoring_2026-09-17.xlsx"
     },
     {
       "time": "08:10",
-      "step": "Copy sang D:\\Seryn Digital\\Seryn Digital\\",
-      "result": "OK (fuse mount xác nhận + diff byte-identical)",
-      "note": "-"
+      "step": "Copy sang thư mục Ingest (Bước 5b)",
+      "result": "OK",
+      "note": "/incoming/Bao_cao_Seryn_Monitoring_2026-09-17.xlsx + .csv, xac nhan fuse mount + diff byte-identical"
     },
     {
       "time": "08:11",
-      "step": "Copy sang incoming (BƯỚC 5b)",
-      "result": "OK (fuse mount xác nhận + diff byte-identical)",
-      "note": "/mnt/incoming/Bao_cao_Seryn_Monitoring_2026-09-16.xlsx"
-    },
-    {
-      "time": "08:12",
-      "step": "Upload Google Sheets (BƯỚC 6.1)",
-      "result": "Fail — Google Drive MCP không có trong phiên làm việc này (server không được kết nối, giống 2026-09-15)",
-      "note": "Không có tool create_file/search_files khả dụng"
-    },
-    {
-      "time": "08:12",
-      "step": "Upload Google Sheets (BƯỚC 6.2 My Drive fallback)",
-      "result": "Fail — cùng lý do, không có Google Drive MCP",
-      "note": "-"
-    },
-    {
-      "time": "08:12",
-      "step": "Fallback 6.3 (local + CSV)",
-      "result": "OK — CSV đã xuất và copy sang cả 2 thư mục",
-      "note": "Bao_cao_Seryn_Monitoring_2026-09-16.csv"
+      "step": "Upload Drive (Bước 6)",
+      "result": "Fail 6.1+6.2 -> 6.3 local only",
+      "note": "err: khong co Google Drive MCP tool nao duoc ket noi trong session nay (khong tim thay create_file/search_files)"
     }
   ]
 }
