@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-18",
+  "date": "2026-09-19",
   "topSources": [
     {
       "title": "Seryn Clinic: Phòng Khám Đa Khoa Seryn (Website chính thức)",
@@ -98,7 +98,7 @@
       "isNew": false
     },
     {
-      "title": "Hội đồng Y khoa SERYN Clinic tiên phong - Arttimes.vn (đăng lại)",
+      "title": "Hội đồng Y khoa SERYN Clinic tiên phong - Arttimes.vn (đăng lại, carry-forward)",
       "url": "https://arttimes.vn/nhip-cau-doanh-nghiep/hoi-dong-y-khoa-seryn-clinic-tien-phong-mo-goc-nhin-moi-trong-tre-hoa-lan-da-tai-viet-nam-c56a75643.html",
       "domain": "arttimes.vn",
       "type": "Báo chí PR",
@@ -130,9 +130,17 @@
       "isNew": false
     },
     {
-      "title": "Trẻ hóa gương mặt: liệu trình riêng lẻ - AFamily.vn (đăng lại) [MỚI]",
+      "title": "Trẻ hóa gương mặt: liệu trình riêng lẻ - AFamily.vn (đăng lại)",
       "url": "https://afamily.vn/tre-hoa-guong-mat-vi-sao-nhung-lieu-trinh-rieng-le-khong-con-duoc-ua-chuong-236260318171908185.chn",
       "domain": "afamily.vn",
+      "type": "Báo chí PR",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "title": "Trẻ hóa gương mặt: liệu trình riêng lẻ - ThanhNienViet.vn (đăng lại) [MỚI]",
+      "url": "https://thanhnienviet.vn/tre-hoa-guong-mat-vi-sao-nhung-lieu-trinh-rieng-le-khong-con-duoc-ua-chuong-209260318154118679.htm",
+      "domain": "thanhnienviet.vn",
       "type": "Báo chí PR",
       "sentiment": "positive",
       "isNew": true
@@ -154,7 +162,7 @@
       "isNew": false
     },
     {
-      "title": "Trẻ Hoá Sera Core - landing page (website chính thức)",
+      "title": "Trẻ Hoá Sera Core - landing page (website chính thức, carry-forward)",
       "url": "https://seryn.vn/landing/2026/tre-hoa-sera-core.html",
       "domain": "seryn.vn",
       "type": "Website chính thức",
@@ -162,7 +170,7 @@
       "isNew": false
     },
     {
-      "title": "Trang tuyển dụng chính thức - SERYN (website)",
+      "title": "Trang tuyển dụng chính thức - SERYN (website, carry-forward)",
       "url": "https://seryn.vn/tuyen-dung/",
       "domain": "seryn.vn",
       "type": "Website chính thức",
@@ -174,14 +182,6 @@
       "url": "https://www.vietnam.vn/en/trai-nghiem-tre-hoa-da-cao-cap-tai-seryn-clinic",
       "domain": "vietnam.vn",
       "type": "Directory/Aggregator",
-      "sentiment": "neutral",
-      "isNew": false
-    },
-    {
-      "title": "Seryn (Online) - Elder Scrolls Wiki (nhân vật game, không liên quan)",
-      "url": "https://elderscrolls.fandom.com/wiki/Seryn_(Online)",
-      "domain": "elderscrolls.fandom.com",
-      "type": "Ghi chú phân biệt thương hiệu",
       "sentiment": "neutral",
       "isNew": false
     },
@@ -218,7 +218,7 @@
       "isNew": false
     },
     {
-      "title": "VnExpress Tag 'Seryn Clinic' — trang tổng hợp tin (directory tự động)",
+      "title": "VnExpress Tag 'Seryn Clinic' — trang tổng hợp tin (directory tự động, carry-forward)",
       "url": "https://vnexpress.net/tag/seryn-clinic-1890677",
       "domain": "vnexpress.net",
       "type": "Directory",
@@ -234,12 +234,12 @@
       "isNew": false
     },
     {
-      "title": "Môi nhiều nếp nhăn: Dưỡng mãi không hết? — Blog SERYN (bài mới) [MỚI]",
+      "title": "Môi nhiều nếp nhăn: Dưỡng mãi không hết? — Blog SERYN (carry-forward)",
       "url": "https://seryn.vn/blog-detail/moi-nhieu-nep-nhan/",
       "domain": "seryn.vn",
       "type": "Website - Blog",
       "sentiment": "positive",
-      "isNew": true
+      "isNew": false
     },
     {
       "title": "Không có nguồn hợp lệ chứa từ khóa 'Seryn' — kết quả trùng địa chỉ với thương hiệu khác (Mega Gangnam) đã loại trừ hoàn toàn theo yêu cầu khách (2026-09-03)",
@@ -258,7 +258,15 @@
       "isNew": false
     },
     {
-      "title": "Biến thể địa chỉ Hà Nội '68 Dương Đình Nghệ, Cầu Giấy' / '45 Xã Đàn' — không khớp định dạng đã xác nhận (454 Xã Đàn), loại khỏi thống kê",
+      "title": "Trung thu 2026: nghệ thuật trao tặng tại SERYN Clinic — Eva.vn (bài mới) [MỚI]",
+      "url": "https://eva.vn/bi-quyet-lam-dep/trung-thu-2026-khi-nghe-thuat-trao-tang-tro-thanh-mot-phan-cua-trai-nghiem-khach-hang-cao-cap-tai-seryn-clinic-c280a683118.html",
+      "domain": "eva.vn",
+      "type": "Báo chí PR",
+      "sentiment": "positive",
+      "isNew": true
+    },
+    {
+      "title": "Biến thể địa chỉ Hà Nội '68 Dương Đình Nghệ, Cầu Giấy' / '45 Xã Đàn' (Clinexa Việt Nam) — không khớp định dạng đã xác nhận, loại khỏi thống kê",
       "url": "https://seryn.vn/",
       "domain": "seryn.vn",
       "type": "Ghi chú loại trừ",
@@ -266,7 +274,7 @@
       "isNew": false
     },
     {
-      "title": "Trang chủ SERYN xác nhận mô hình đa chuyên khoa tại Hà Nội (Clinexa Việt Nam)",
+      "title": "Trang chủ SERYN xác nhận mô hình đa chuyên khoa tại Hà Nội (đơn vị vận hành khác - Clinexa)",
       "url": "https://seryn.vn/",
       "domain": "seryn.vn",
       "type": "Website chính thức",
@@ -394,45 +402,47 @@
       "accountType": "",
       "sentiment": "Loại trừ (N/A)",
       "note": "Không liên quan → loại trừ khỏi thống kê (theo quy tắc lọc tên trùng)"
+    },
+    {
+      "platform": "YouTube",
+      "account": "'Seryn' (UCeEzpEo_w43NYHPOjIWnmJw) — kênh mới xuất hiện khi tìm 'Seryn Clinic', nội dung/chủ sở hữu chưa rõ [MỚI]",
+      "url": "https://www.youtube.com/channel/UCeEzpEo_w43NYHPOjIWnmJw/videos",
+      "accountType": "",
+      "sentiment": "Trung tính (carry-forward mới)",
+      "note": "Chưa xác định liên quan — cần khách xác nhận"
     }
   ],
   "alerts": [],
   "activityLog": [
     {
-      "time": "08:00",
+      "time": "09:00",
       "step": "Bước 1-2: Tìm kiếm Google + Mạng xã hội",
-      "result": "OK — 15 từ khóa Google, 6 từ khóa x 3 nền tảng MXH (18 lượt tìm kiếm)",
-      "note": "-"
+      "result": "OK",
+      "note": "16 từ khóa Google + 18 lượt tìm site:facebook/tiktok/youtube — hoàn tất"
     },
     {
-      "time": "08:00",
-      "step": "Bước 3: Phân tích rủi ro",
-      "result": "OK — không phát hiện Cảnh báo Đỏ; áp dụng đúng quy tắc loại trừ Mega Gangnam & tên trùng",
-      "note": "-"
+      "time": "09:05",
+      "step": "Bước 3-4: Phân tích rủi ro + so sánh báo cáo trước",
+      "result": "OK",
+      "note": "So sánh với Bao_cao_Seryn_Monitoring_2026-09-18.xlsx — 3 nguồn mới, 0 cảnh báo đỏ"
     },
     {
-      "time": "08:00",
-      "step": "Bước 4: So sánh báo cáo trước",
-      "result": "OK — đối chiếu với 2026-09-17, 2 nguồn mới (AFamily.vn PR, seryn.vn blog moi-nhieu-nep-nhan)",
-      "note": "-"
-    },
-    {
-      "time": "08:00",
+      "time": "09:08",
       "step": "Bước 5: Tạo file Excel",
-      "result": "OK — 5 sheet",
-      "note": "Bao_cao_Seryn_Monitoring_2026-09-18.xlsx"
+      "result": "OK",
+      "note": "Bao_cao_Seryn_Monitoring_2026-09-19.xlsx — 5 sheet"
     },
     {
-      "time": "08:15",
-      "step": "Bước 5b: Copy sang thư mục Ingest",
-      "result": "OK — xác nhận fuse mount + diff byte-identical",
-      "note": "/incoming/Bao_cao_Seryn_Monitoring_2026-09-18.xlsx + .csv"
+      "time": "09:09",
+      "step": "Bước 5b: Copy file sang thư mục ingest",
+      "result": "Đang thực hiện — xem kết quả bên dưới sau khi copy",
+      "note": "D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\"
     },
     {
-      "time": "08:16",
-      "step": "Bước 6: Upload Google Sheets",
-      "result": "Fail 6.1+6.2 -> 6.3 local only",
-      "note": "err: khong co Google Drive MCP tool nao duoc ket noi trong session nay (chi co Gmail MCP)"
+      "time": "09:10",
+      "step": "Bước 6: Upload Google Sheets (Shared Drive)",
+      "result": "Fail 6.1+6.2 → 6.3 local only",
+      "note": "err: Google Drive MCP không khả dụng trong phiên này (server không được kết nối/cấu hình) — không thể thử create_file hay search_files. Đã dùng nhánh fallback 6.3: chỉ lưu local + xuất CSV."
     }
   ]
 }
