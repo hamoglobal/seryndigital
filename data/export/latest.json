@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-19",
+  "date": "2026-09-20",
   "topSources": [
     {
       "title": "Seryn Clinic: Phòng Khám Đa Khoa Seryn (Website chính thức)",
@@ -74,6 +74,14 @@
       "isNew": false
     },
     {
+      "title": "Review làm đẹp tại thẩm mỹ SERYN có tốt như lời đồn? - Blog (bài mới)",
+      "url": "https://seryn.vn/blog-detail/review-lam-dep-tai-tham-my-seryn/",
+      "domain": "seryn.vn",
+      "type": "Website - Blog",
+      "sentiment": "positive",
+      "isNew": true
+    },
+    {
       "title": "Review thẩm mỹ viện SERYN: Bảng giá, Bác sĩ và Dịch vụ - Blog",
       "url": "https://seryn.vn/blog-detail/review-tham-my-vien-seryn/",
       "domain": "seryn.vn",
@@ -138,12 +146,12 @@
       "isNew": false
     },
     {
-      "title": "Trẻ hóa gương mặt: liệu trình riêng lẻ - ThanhNienViet.vn (đăng lại) [MỚI]",
+      "title": "Trẻ hóa gương mặt: liệu trình riêng lẻ - ThanhNienViet.vn (đăng lại)",
       "url": "https://thanhnienviet.vn/tre-hoa-guong-mat-vi-sao-nhung-lieu-trinh-rieng-le-khong-con-duoc-ua-chuong-209260318154118679.htm",
       "domain": "thanhnienviet.vn",
       "type": "Báo chí PR",
       "sentiment": "positive",
-      "isNew": true
+      "isNew": false
     },
     {
       "title": "vietnamfinance.vn - Trang tổng hợp tin báo chí (seryn.vn/newspapers)",
@@ -183,6 +191,14 @@
       "domain": "vietnam.vn",
       "type": "Directory/Aggregator",
       "sentiment": "neutral",
+      "isNew": false
+    },
+    {
+      "title": "GitHub 'hamoglobal/seryndigital' — repo nội bộ đơn vị vận hành digital, không phải nguồn công khai về thương hiệu",
+      "url": "https://github.com/hamoglobal/seryndigital",
+      "domain": "github.com",
+      "type": "Ghi chú loại trừ (nội bộ)",
+      "sentiment": "unknown",
       "isNew": false
     },
     {
@@ -258,12 +274,12 @@
       "isNew": false
     },
     {
-      "title": "Trung thu 2026: nghệ thuật trao tặng tại SERYN Clinic — Eva.vn (bài mới) [MỚI]",
+      "title": "Trung thu 2026: nghệ thuật trao tặng tại SERYN Clinic — Eva.vn (carry-forward)",
       "url": "https://eva.vn/bi-quyet-lam-dep/trung-thu-2026-khi-nghe-thuat-trao-tang-tro-thanh-mot-phan-cua-trai-nghiem-khach-hang-cao-cap-tai-seryn-clinic-c280a683118.html",
       "domain": "eva.vn",
       "type": "Báo chí PR",
       "sentiment": "positive",
-      "isNew": true
+      "isNew": false
     },
     {
       "title": "Biến thể địa chỉ Hà Nội '68 Dương Đình Nghệ, Cầu Giấy' / '45 Xã Đàn' (Clinexa Việt Nam) — không khớp định dạng đã xác nhận, loại khỏi thống kê",
@@ -405,44 +421,44 @@
     },
     {
       "platform": "YouTube",
-      "account": "'Seryn' (UCeEzpEo_w43NYHPOjIWnmJw) — kênh mới xuất hiện khi tìm 'Seryn Clinic', nội dung/chủ sở hữu chưa rõ [MỚI]",
+      "account": "'Seryn' (UCeEzpEo_w43NYHPOjIWnmJw) — carry-forward ngày thứ 2, nội dung/chủ sở hữu vẫn chưa rõ",
       "url": "https://www.youtube.com/channel/UCeEzpEo_w43NYHPOjIWnmJw/videos",
       "accountType": "",
-      "sentiment": "Trung tính (carry-forward mới)",
+      "sentiment": "Trung tính (carry-forward)",
       "note": "Chưa xác định liên quan — cần khách xác nhận"
     }
   ],
   "alerts": [],
   "activityLog": [
     {
-      "time": "09:00",
+      "time": "08:00",
       "step": "Bước 1-2: Tìm kiếm Google + Mạng xã hội",
       "result": "OK",
       "note": "16 từ khóa Google + 18 lượt tìm site:facebook/tiktok/youtube — hoàn tất"
     },
     {
-      "time": "09:05",
+      "time": "08:05",
       "step": "Bước 3-4: Phân tích rủi ro + so sánh báo cáo trước",
       "result": "OK",
-      "note": "So sánh với Bao_cao_Seryn_Monitoring_2026-09-18.xlsx — 3 nguồn mới, 0 cảnh báo đỏ"
+      "note": "So sánh với Bao_cao_Seryn_Monitoring_2026-09-19.xlsx — 1 nguồn mới, 0 cảnh báo đỏ"
     },
     {
-      "time": "09:08",
+      "time": "08:08",
       "step": "Bước 5: Tạo file Excel",
       "result": "OK",
-      "note": "Bao_cao_Seryn_Monitoring_2026-09-19.xlsx — 5 sheet"
+      "note": "Bao_cao_Seryn_Monitoring_2026-09-20.xlsx — 5 sheet"
     },
     {
-      "time": "09:09",
+      "time": "08:09",
       "step": "Bước 5b: Copy file sang thư mục ingest",
-      "result": "Đang thực hiện — xem kết quả bên dưới sau khi copy",
+      "result": "OK",
       "note": "D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\"
     },
     {
-      "time": "09:10",
+      "time": "08:10",
       "step": "Bước 6: Upload Google Sheets (Shared Drive)",
       "result": "Fail 6.1+6.2 → 6.3 local only",
-      "note": "err: Google Drive MCP không khả dụng trong phiên này (server không được kết nối/cấu hình) — không thể thử create_file hay search_files. Đã dùng nhánh fallback 6.3: chỉ lưu local + xuất CSV."
+      "note": "err: Google Drive MCP không khả dụng trong phiên này (server không được kết nối/cấu hình, không tìm thấy tool create_file/search_files) — đã dùng nhánh fallback 6.3: chỉ lưu local + xuất CSV."
     }
   ]
 }
