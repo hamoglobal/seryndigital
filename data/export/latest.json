@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-20",
+  "date": "2026-09-21",
   "topSources": [
     {
       "title": "Seryn Clinic: Phòng Khám Đa Khoa Seryn (Website chính thức)",
@@ -74,12 +74,12 @@
       "isNew": false
     },
     {
-      "title": "Review làm đẹp tại thẩm mỹ SERYN có tốt như lời đồn? - Blog (bài mới)",
+      "title": "Review làm đẹp tại thẩm mỹ SERYN có tốt như lời đồn? - Blog",
       "url": "https://seryn.vn/blog-detail/review-lam-dep-tai-tham-my-seryn/",
       "domain": "seryn.vn",
       "type": "Website - Blog",
       "sentiment": "positive",
-      "isNew": true
+      "isNew": false
     },
     {
       "title": "Review thẩm mỹ viện SERYN: Bảng giá, Bác sĩ và Dịch vụ - Blog",
@@ -282,7 +282,7 @@
       "isNew": false
     },
     {
-      "title": "Biến thể địa chỉ Hà Nội '68 Dương Đình Nghệ, Cầu Giấy' / '45 Xã Đàn' (Clinexa Việt Nam) — không khớp định dạng đã xác nhận, loại khỏi thống kê",
+      "title": "Biến thể địa chỉ Hà Nội '45 Xã Đàn' (Clinexa Việt Nam, phòng khám da liễu SERYN) — không khớp định dạng đã xác nhận, loại khỏi thống kê",
       "url": "https://seryn.vn/",
       "domain": "seryn.vn",
       "type": "Ghi chú loại trừ",
@@ -310,6 +310,14 @@
       "url": "https://dep.com.vn/bac-si-cki-vu-trung-hieu-mot-nep-nhan-khach-hang-nhin-thay-doi-khi-chi-la-phan-noi-cua-su-lao-hoa/",
       "domain": "dep.com.vn",
       "type": "Báo chí PR",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "title": "Xác nhận GPHĐ 11149/HCM-GPHĐ, ĐKKD 0318527091, hotline 0906666206-0902666936 (seryn.vn, carry-forward)",
+      "url": "https://www.facebook.com/phongkhamserynvietnam",
+      "domain": "facebook.com",
+      "type": "Mạng xã hội - Facebook (xác nhận)",
       "sentiment": "positive",
       "isNew": false
     }
@@ -405,7 +413,7 @@
     },
     {
       "platform": "Đối chiếu thương hiệu trùng tên",
-      "account": "Seren Clinic (Chiang Mai/Phaya Thai/Istanbul), Sera Clinic, Sherie Clinic, Serene Clinic, Sherlyn Clinic, Seorin Clinic, Thẩm mỹ quốc tế Serena, Seeami, S-One, Selina...",
+      "account": "Seren Clinic (Chiang Mai/Istanbul), Sera Clinic, Sherie Clinic, Serene Clinic, Sherlyn Clinic, Seorin Clinic, Thẩm mỹ quốc tế Serena, Seeami, S-One, Selina...",
       "url": "-",
       "accountType": "",
       "sentiment": "Trung tính (loại trừ)",
@@ -421,7 +429,7 @@
     },
     {
       "platform": "YouTube",
-      "account": "'Seryn' (UCeEzpEo_w43NYHPOjIWnmJw) — carry-forward ngày thứ 2, nội dung/chủ sở hữu vẫn chưa rõ",
+      "account": "'Seryn' (UCeEzpEo_w43NYHPOjIWnmJw) — carry-forward ngày thứ 3, nội dung/chủ sở hữu vẫn chưa rõ",
       "url": "https://www.youtube.com/channel/UCeEzpEo_w43NYHPOjIWnmJw/videos",
       "accountType": "",
       "sentiment": "Trung tính (carry-forward)",
@@ -440,13 +448,13 @@
       "time": "08:05",
       "step": "Bước 3-4: Phân tích rủi ro + so sánh báo cáo trước",
       "result": "OK",
-      "note": "So sánh với Bao_cao_Seryn_Monitoring_2026-09-19.xlsx — 1 nguồn mới, 0 cảnh báo đỏ"
+      "note": "So sánh với Bao_cao_Seryn_Monitoring_2026-09-20.xlsx — 0 nguồn mới, 0 cảnh báo đỏ"
     },
     {
       "time": "08:08",
       "step": "Bước 5: Tạo file Excel",
       "result": "OK",
-      "note": "Bao_cao_Seryn_Monitoring_2026-09-20.xlsx — 5 sheet"
+      "note": "Bao_cao_Seryn_Monitoring_2026-09-21.xlsx — 5 sheet"
     },
     {
       "time": "08:09",
@@ -458,7 +466,7 @@
       "time": "08:10",
       "step": "Bước 6: Upload Google Sheets (Shared Drive)",
       "result": "Fail 6.1+6.2 → 6.3 local only",
-      "note": "err: Google Drive MCP không khả dụng trong phiên này (server không được kết nối/cấu hình, không tìm thấy tool create_file/search_files) — đã dùng nhánh fallback 6.3: chỉ lưu local + xuất CSV."
+      "note": "err: Google Drive MCP không khả dụng trong phiên này (không tìm thấy tool create_file/search_files cho Drive) — đã dùng nhánh fallback 6.3: chỉ lưu local + xuất CSV."
     }
   ]
 }
