@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "topSources": [
     {
       "title": "Seryn Clinic: Phòng Khám Đa Khoa Seryn (Website chính thức)",
@@ -146,14 +146,6 @@
       "isNew": false
     },
     {
-      "title": "Trẻ hóa gương mặt: liệu trình riêng lẻ - ThanhNienViet.vn (đăng lại)",
-      "url": "https://thanhnienviet.vn/tre-hoa-guong-mat-vi-sao-nhung-lieu-trinh-rieng-le-khong-con-duoc-ua-chuong-209260318154118679.htm",
-      "domain": "thanhnienviet.vn",
-      "type": "Báo chí PR",
-      "sentiment": "positive",
-      "isNew": false
-    },
-    {
       "title": "vietnamfinance.vn - Trang tổng hợp tin báo chí (seryn.vn/newspapers)",
       "url": "https://seryn.vn/newspapers/vietnamfinance-vn-en/",
       "domain": "seryn.vn",
@@ -175,22 +167,6 @@
       "domain": "seryn.vn",
       "type": "Website chính thức",
       "sentiment": "positive",
-      "isNew": false
-    },
-    {
-      "title": "Trang tuyển dụng chính thức - SERYN (website, carry-forward)",
-      "url": "https://seryn.vn/tuyen-dung/",
-      "domain": "seryn.vn",
-      "type": "Website chính thức",
-      "sentiment": "positive",
-      "isNew": false
-    },
-    {
-      "title": "vietnam.vn/en — bản tiếng Anh đăng lại bài VietnamNet (aggregator, carry-forward)",
-      "url": "https://www.vietnam.vn/en/trai-nghiem-tre-hoa-da-cao-cap-tai-seryn-clinic",
-      "domain": "vietnam.vn",
-      "type": "Directory/Aggregator",
-      "sentiment": "neutral",
       "isNew": false
     },
     {
@@ -250,15 +226,15 @@
       "isNew": false
     },
     {
-      "title": "Môi nhiều nếp nhăn: Dưỡng mãi không hết? — Blog SERYN (carry-forward)",
-      "url": "https://seryn.vn/blog-detail/moi-nhieu-nep-nhan/",
+      "title": "Điều gì giúp Seryn Clinic nổi bật giữa thị trường làm đẹp - Top 10 Thương hiệu VN 2026",
+      "url": "https://seryn.vn/",
       "domain": "seryn.vn",
-      "type": "Website - Blog",
+      "type": "Website chính thức / Giải thưởng",
       "sentiment": "positive",
       "isNew": false
     },
     {
-      "title": "Không có nguồn hợp lệ chứa từ khóa 'Seryn' — kết quả trùng địa chỉ với thương hiệu khác (Mega Gangnam) đã loại trừ hoàn toàn theo yêu cầu khách (2026-09-03)",
+      "title": "Không có nguồn hợp lệ chứa từ khóa 'Seryn' — trùng địa chỉ với thương hiệu khác (Mega Gangnam) đã loại trừ hoàn toàn theo yêu cầu khách (2026-09-03)",
       "url": "-",
       "domain": "",
       "type": "Loại trừ theo yêu cầu khách",
@@ -282,7 +258,7 @@
       "isNew": false
     },
     {
-      "title": "Biến thể địa chỉ Hà Nội '45 Xã Đàn' (Clinexa Việt Nam, phòng khám da liễu SERYN) — không khớp định dạng đã xác nhận, loại khỏi thống kê",
+      "title": "Biến thể địa chỉ Hà Nội '68 Dương Đình Nghệ, Cầu Giấy' (đơn vị vận hành khác) — không khớp định dạng đã xác nhận, loại khỏi thống kê",
       "url": "https://seryn.vn/",
       "domain": "seryn.vn",
       "type": "Ghi chú loại trừ",
@@ -290,11 +266,11 @@
       "isNew": false
     },
     {
-      "title": "Trang chủ SERYN xác nhận mô hình đa chuyên khoa tại Hà Nội (đơn vị vận hành khác - Clinexa)",
+      "title": "Biến thể địa chỉ Hà Nội '45 Xã Đàn' (Clinexa Việt Nam, phòng khám da liễu SERYN) — không khớp định dạng đã xác nhận, loại khỏi thống kê",
       "url": "https://seryn.vn/",
       "domain": "seryn.vn",
-      "type": "Website chính thức",
-      "sentiment": "positive",
+      "type": "Ghi chú loại trừ",
+      "sentiment": "unknown",
       "isNew": false
     },
     {
@@ -315,9 +291,9 @@
     },
     {
       "title": "Xác nhận GPHĐ 11149/HCM-GPHĐ, ĐKKD 0318527091, hotline 0906666206-0902666936 (seryn.vn, carry-forward)",
-      "url": "https://www.facebook.com/phongkhamserynvietnam",
-      "domain": "facebook.com",
-      "type": "Mạng xã hội - Facebook (xác nhận)",
+      "url": "https://seryn.vn/",
+      "domain": "seryn.vn",
+      "type": "Website chính thức (xác nhận)",
       "sentiment": "positive",
       "isNew": false
     }
@@ -429,7 +405,7 @@
     },
     {
       "platform": "YouTube",
-      "account": "'Seryn' (UCeEzpEo_w43NYHPOjIWnmJw) — carry-forward ngày thứ 3, nội dung/chủ sở hữu vẫn chưa rõ",
+      "account": "'Seryn' (UCeEzpEo_w43NYHPOjIWnmJw) — carry-forward ngày thứ 4, nội dung/chủ sở hữu vẫn chưa rõ",
       "url": "https://www.youtube.com/channel/UCeEzpEo_w43NYHPOjIWnmJw/videos",
       "accountType": "",
       "sentiment": "Trung tính (carry-forward)",
@@ -448,19 +424,19 @@
       "time": "08:05",
       "step": "Bước 3-4: Phân tích rủi ro + so sánh báo cáo trước",
       "result": "OK",
-      "note": "So sánh với Bao_cao_Seryn_Monitoring_2026-09-20.xlsx — 0 nguồn mới, 0 cảnh báo đỏ"
+      "note": "So sánh với Bao_cao_Seryn_Monitoring_2026-09-21.csv — 0 nguồn mới, 0 cảnh báo đỏ"
     },
     {
       "time": "08:08",
       "step": "Bước 5: Tạo file Excel",
       "result": "OK",
-      "note": "Bao_cao_Seryn_Monitoring_2026-09-21.xlsx — 5 sheet"
+      "note": "Bao_cao_Seryn_Monitoring_2026-09-22.xlsx — 5 sheet"
     },
     {
       "time": "08:09",
       "step": "Bước 5b: Copy file sang thư mục ingest",
       "result": "OK",
-      "note": "D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\"
+      "note": "D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\Bao_cao_Seryn_Monitoring_2026-09-22.xlsx (+ .csv)"
     },
     {
       "time": "08:10",
