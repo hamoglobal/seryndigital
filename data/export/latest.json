@@ -1,6 +1,14 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "topSources": [
+    {
+      "title": "Tiêu đề / Nguồn",
+      "url": "URL",
+      "domain": "",
+      "type": "Loại nội dung",
+      "sentiment": "unknown",
+      "isNew": false
+    },
     {
       "title": "Seryn Clinic: Phòng Khám Đa Khoa Seryn (Website chính thức)",
       "url": "https://seryn.vn/",
@@ -34,7 +42,7 @@
       "isNew": false
     },
     {
-      "title": "Phòng Khám Đa Khoa SERYN - YouTube (carry-forward, chưa xác nhận)",
+      "title": "Phòng Khám Đa Khoa SERYN - YouTube (carry-forward; footer seryn.vn có link YouTube @phongkhamdakhoaseryn — cần khách xác nhận có trùng kênh này)",
       "url": "https://www.youtube.com/channel/UCojQ10-ZUGAt4hOpbMqaIZA",
       "domain": "youtube.com",
       "type": "Mạng xã hội - YouTube",
@@ -234,7 +242,7 @@
       "isNew": false
     },
     {
-      "title": "Không có nguồn hợp lệ chứa từ khóa 'Seryn' — trùng địa chỉ với thương hiệu khác (Mega Gangnam) đã loại trừ hoàn toàn theo yêu cầu khách (2026-09-03)",
+      "title": "Mega Gangnam (454 Xã Đàn) tiếp tục bị loại trừ hoàn toàn theo yêu cầu khách (2026-09-03). LƯU Ý: footer seryn.vn hôm nay ghi 'Phòng khám CK Da liễu SERYN' (T1-2) & 'PK CK PTTM SERYN' (T3) tại 454 Xã Đàn, trực thuộc Clinexa Việt Nam, GPHĐ 4803/HNO-GPHĐ & 5001/HNO-GPHĐ — xem sheet Canh Bao, chờ khách xác nhận",
       "url": "-",
       "domain": "",
       "type": "Loại trừ theo yêu cầu khách",
@@ -296,9 +304,49 @@
       "type": "Website chính thức (xác nhận)",
       "sentiment": "positive",
       "isNew": false
+    },
+    {
+      "title": "Trẻ hoá da đa tầng là gì? Cách chọn liệu trình phù hợp - Blog seryn.vn (lần đầu ghi nhận trong báo cáo)",
+      "url": "https://seryn.vn/blog-detail/tre-hoa-da-da-tang-la-gi-cach-chon-lieu-trinh-phu-hop/",
+      "domain": "seryn.vn",
+      "type": "Website - Blog",
+      "sentiment": "positive",
+      "isNew": true
+    },
+    {
+      "title": "Trẻ hóa gương mặt: liệu trình riêng lẻ - ThanhNienViet.vn (đăng lại; tái xuất, đã ghi nhận 20-21/09)",
+      "url": "https://thanhnienviet.vn/tre-hoa-guong-mat-vi-sao-nhung-lieu-trinh-rieng-le-khong-con-duoc-ua-chuong-209260318154118679.htm",
+      "domain": "thanhnienviet.vn",
+      "type": "Báo chí PR",
+      "sentiment": "positive",
+      "isNew": true
+    },
+    {
+      "title": "Experience premium skin rejuvenation at Seryn Clinic - Vietnam.vn/en (đăng lại VietnamNet; tái xuất, đã ghi nhận 20-21/09)",
+      "url": "https://www.vietnam.vn/en/trai-nghiem-tre-hoa-da-cao-cap-tai-seryn-clinic",
+      "domain": "vietnam.vn",
+      "type": "Báo chí PR (bản tiếng Anh)",
+      "sentiment": "positive",
+      "isNew": true
+    },
+    {
+      "title": "'Seryn (Online)' - The Elder Scrolls Wiki (nhân vật game, trùng tên, không liên quan; tái xuất)",
+      "url": "https://elderscrolls.fandom.com/wiki/Seryn_(Online)",
+      "domain": "elderscrolls.fandom.com",
+      "type": "Ghi chú phân biệt thương hiệu",
+      "sentiment": "neutral",
+      "isNew": true
     }
   ],
   "social": [
+    {
+      "platform": "Nền tảng",
+      "account": "Tên trang / Kênh",
+      "url": "URL",
+      "accountType": "",
+      "sentiment": "Đánh giá",
+      "note": "Trạng thái xác minh"
+    },
     {
       "platform": "Facebook",
       "account": "phongkhamserynvietnam / phongkhamdakhoaseryn + các fanpage/profile đã xác nhận khác (17 URL)",
@@ -333,11 +381,11 @@
     },
     {
       "platform": "YouTube",
-      "account": "Phòng Khám Đa Khoa SERYN (carry-forward, vẫn xuất hiện lặp lại)",
+      "account": "Phòng Khám Đa Khoa SERYN (carry-forward, xuất hiện lặp lại ở 6/6 từ khóa YouTube hôm nay)",
       "url": "https://www.youtube.com/channel/UCojQ10-ZUGAt4hOpbMqaIZA",
       "accountType": "",
       "sentiment": "Trung tính (carry-forward)",
-      "note": "Chưa có trong danh sách xác nhận — cần khách xác nhận"
+      "note": "Chưa có trong danh sách xác nhận — footer seryn.vn liên kết tới youtube.com/@phongkhamdakhoaseryn; đề nghị khách xác nhận handle này = UCojQ10…"
     },
     {
       "platform": "LinkedIn",
@@ -381,7 +429,7 @@
     },
     {
       "platform": "TikTok",
-      "account": "Không tìm thấy tài khoản TikTok chính thức hoặc mạo danh nào chứa đúng từ 'Seryn'",
+      "account": "Không tìm thấy qua WebSearch tài khoản TikTok nào chứa đúng từ 'Seryn' (footer seryn.vn liên kết tiktok.com/@serynclinic nhưng chưa được index)",
       "url": "-",
       "accountType": "",
       "sentiment": "Tích cực (không rủi ro)",
@@ -405,7 +453,7 @@
     },
     {
       "platform": "YouTube",
-      "account": "'Seryn' (UCeEzpEo_w43NYHPOjIWnmJw) — carry-forward ngày thứ 4, nội dung/chủ sở hữu vẫn chưa rõ",
+      "account": "'Seryn' (UCeEzpEo_w43NYHPOjIWnmJw) — carry-forward ngày thứ 5; KHÔNG xuất hiện trong kết quả tìm kiếm hôm nay",
       "url": "https://www.youtube.com/channel/UCeEzpEo_w43NYHPOjIWnmJw/videos",
       "accountType": "",
       "sentiment": "Trung tính (carry-forward)",
@@ -421,28 +469,34 @@
       "note": "16 từ khóa Google + 18 lượt tìm site:facebook/tiktok/youtube — hoàn tất"
     },
     {
-      "time": "08:05",
-      "step": "Bước 3-4: Phân tích rủi ro + so sánh báo cáo trước",
+      "time": "08:06",
+      "step": "Bước 3: Phân tích rủi ro",
       "result": "OK",
-      "note": "So sánh với Bao_cao_Seryn_Monitoring_2026-09-21.csv — 0 nguồn mới, 0 cảnh báo đỏ"
+      "note": "0 Cảnh báo Đỏ; 1 mục Vàng mới (tóm tắt AI không nguồn, từ khóa review); cập nhật mục Hà Nội theo footer seryn.vn"
     },
     {
       "time": "08:08",
-      "step": "Bước 5: Tạo file Excel",
+      "step": "Bước 4: So sánh báo cáo trước",
       "result": "OK",
-      "note": "Bao_cao_Seryn_Monitoring_2026-09-22.xlsx — 5 sheet"
-    },
-    {
-      "time": "08:09",
-      "step": "Bước 5b: Copy file sang thư mục ingest",
-      "result": "OK",
-      "note": "D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\Bao_cao_Seryn_Monitoring_2026-09-22.xlsx (+ .csv)"
+      "note": "So sánh với Bao_cao_Seryn_Monitoring_2026-09-22.xlsx/.csv — 4 nguồn mới (1 lần đầu, 3 tái xuất)"
     },
     {
       "time": "08:10",
+      "step": "Bước 5: Tạo file Excel",
+      "result": "OK",
+      "note": "Bao_cao_Seryn_Monitoring_2026-09-23.xlsx — 5 sheet (+ .csv)"
+    },
+    {
+      "time": "08:11",
+      "step": "Bước 5b: Copy file sang thư mục ingest",
+      "result": "OK",
+      "note": "D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\Bao_cao_Seryn_Monitoring_2026-09-23.xlsx (+ .csv)"
+    },
+    {
+      "time": "08:12",
       "step": "Bước 6: Upload Google Sheets (Shared Drive)",
       "result": "Fail 6.1+6.2 → 6.3 local only",
-      "note": "err: Google Drive MCP không khả dụng trong phiên này (không tìm thấy tool create_file/search_files cho Drive) — đã dùng nhánh fallback 6.3: chỉ lưu local + xuất CSV."
+      "note": "err: Google Drive MCP không khả dụng trong phiên này (ToolSearch không có tool create_file/search_files cho Drive) — dùng nhánh fallback 6.3: lưu local + xuất CSV."
     }
   ]
 }
