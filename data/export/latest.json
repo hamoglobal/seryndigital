@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-26",
+  "date": "2026-09-27",
   "topSources": [
     {
       "title": "Seryn Clinic: Phòng Khám Đa Khoa Seryn (Website chính thức)",
@@ -210,12 +210,12 @@
       "isNew": false
     },
     {
-      "title": "BS. CKI Vũ Trung Hiếu: \"Không phải mọi dấu hiệu tuổi tác đều cần được xóa đi\" - AFamily.vn (lần đầu ghi nhận)",
+      "title": "BS. CKI Vũ Trung Hiếu: \"Không phải mọi dấu hiệu tuổi tác đều cần được xóa đi\" - AFamily.vn (carry-forward, ghi nhận 25/09)",
       "url": "https://afamily.vn/bs-cki-vu-trung-hieu-khong-phai-moi-dau-hieu-tuoi-tac-deu-can-duoc-xoa-di-236260925124734892.chn",
       "domain": "afamily.vn",
       "type": "Báo chí PR",
       "sentiment": "positive",
-      "isNew": true
+      "isNew": false
     },
     {
       "title": "Review thẩm mỹ viện SERYN: Bảng giá, Bác sĩ và Dịch vụ - Blog",
@@ -242,7 +242,7 @@
       "isNew": false
     },
     {
-      "title": "Không tìm thấy bài viết tiêu cực/lừa đảo/thanh tra nào nhắc đến Seryn Clinic (kết quả khác: Johnson Clinic - HackMD, Americare Clinic - kinhtenet.vn/vietq.vn bị tước giấy phép, bài Báo Đồng Khởi Online chung về chiêu trò tư vấn sức khỏe lừa đảo — không nhắc Seryn)",
+      "title": "Không tìm thấy bài viết tiêu cực/lừa đảo/thanh tra nào nhắc đến Seryn Clinic (kết quả khác: Johnson Clinic - HackMD, Americare Clinic - kinhtenet.vn/vietq.vn bị tước giấy phép, bài Báo Văn Hóa Online chung về chiêu trò 'moi tiền' khách hàng từ dịch vụ thẩm mỹ — không nhắc Seryn)",
       "url": "-",
       "domain": "",
       "type": "Kết quả rà soát",
@@ -258,7 +258,7 @@
       "isNew": false
     },
     {
-      "title": "Mega Gangnam (454 Xã Đàn) tiếp tục bị loại trừ hoàn toàn theo yêu cầu khách (2026-09-03) — hôm nay index thêm congdongthammy.net, mapstore.vn, webtretho.com, about.me, trehoadamat.vn, laodong.vn. LƯU Ý: footer seryn.vn vẫn ghi 'Phòng khám CK Da liễu SERYN' (T1-2) & 'PK CK PTTM SERYN' (T3) tại 454 Xã Đàn, trực thuộc Clinexa Việt Nam, GPHĐ 4803/HNO-GPHĐ & 5001/HNO-GPHĐ — xem sheet Canh Bao, chờ khách xác nhận",
+      "title": "Mega Gangnam (454 Xã Đàn) tiếp tục bị loại trừ hoàn toàn theo yêu cầu khách (2026-09-03) — hôm nay index lại congdongthammy.net, mapstore.vn, webtretho.com, about.me, trehoadamat.vn. LƯU Ý: footer seryn.vn vẫn ghi 'Phòng khám CK Da liễu SERYN' (T1-2) & 'PK CK PTTM SERYN' (T3) tại 454 Xã Đàn, trực thuộc Clinexa Việt Nam, GPHĐ 4803/HNO-GPHĐ & 5001/HNO-GPHĐ — xem sheet Canh Bao, chờ khách xác nhận",
       "url": "-",
       "domain": "",
       "type": "Loại trừ theo yêu cầu khách",
@@ -461,7 +461,7 @@
     },
     {
       "platform": "Đối chiếu thương hiệu trùng tên",
-      "account": "Seren Clinic (Chiang Mai/Istanbul), Sera Clinic, Sherie Clinic, Serene Clinic, Sherlyn Clinic, Seorin Clinic, Sierra Clinic, Serena Clinic, Gangnam Seran Clinic, Serene Cosmetic Clinic, Thẩm mỹ quốc tế Serena, Seeami, S-One, Selina...",
+      "account": "Seren Clinic (Chiang Mai/Istanbul), Sera Clinic, Sherie Clinic, Serene Clinic, Sherlyn Clinic, Seorin Clinic, Sierra Clinic, Serena Clinic, Gangnam Seran Clinic, Serene Cosmetic Clinic, Thẩm mỹ quốc tế Serena, Seeami, Sone, Respet, Selina...",
       "url": "-",
       "accountType": "",
       "sentiment": "Trung tính (loại trừ)",
@@ -469,15 +469,15 @@
     },
     {
       "platform": "YouTube",
-      "account": "'Seryn Armstrong' — kênh YouTube cá nhân không liên quan (trùng tên, không phải Seryn Clinic)",
-      "url": "https://www.youtube.com/channel/UC7RskmGe-fQV4cpwtyvtcdw",
+      "account": "'SerynSounds' (@SerynSounds) — kênh nhạc/nghệ danh khác trùng tên (ban nhạc Seryn)",
+      "url": "https://www.youtube.com/@SerynSounds/videos",
       "accountType": "",
       "sentiment": "Loại trừ (N/A)",
       "note": "Không liên quan → loại trừ khỏi thống kê (theo quy tắc lọc tên trùng)"
     },
     {
       "platform": "YouTube",
-      "account": "'Seryn' (UCeEzpEo_w43NYHPOjIWnmJw) — carry-forward ngày thứ 8; TÁI XUẤT liên tiếp trong kết quả tìm kiếm hôm nay (site:youtube.com \"Seryn Clinic\")",
+      "account": "'Seryn' (UCeEzpEo_w43NYHPOjIWnmJw) — carry-forward ngày thứ 9; TÁI XUẤT liên tiếp trong kết quả tìm kiếm hôm nay (site:youtube.com \"Seryn Clinic\")",
       "url": "https://www.youtube.com/channel/UCeEzpEo_w43NYHPOjIWnmJw/videos",
       "accountType": "",
       "sentiment": "Trung tính (carry-forward)",
@@ -485,23 +485,7 @@
     },
     {
       "platform": "YouTube",
-      "account": "'Seryn - \"Nicotine\" (OFFICIAL AUDIO)' — ban nhạc Seryn (âm nhạc, trùng tên, không liên quan)",
-      "url": "https://www.youtube.com/watch?v=dquYnCJfNL8",
-      "accountType": "",
-      "sentiment": "Trung tính",
-      "note": "Không liên quan — thương hiệu khác trùng tên"
-    },
-    {
-      "platform": "YouTube",
-      "account": "'Seryn' / SerynSounds (@SerynSounds) — kênh nhạc/nghệ danh khác trùng tên",
-      "url": "https://www.youtube.com/@SerynSounds/videos",
-      "accountType": "",
-      "sentiment": "Trung tính",
-      "note": "Không liên quan — thương hiệu/kênh khác trùng tên (tương tự tiền lệ ban nhạc 'Seryn')"
-    },
-    {
-      "platform": "YouTube",
-      "account": "Playlist 'COMPLETE SERYN' — carry-forward ngày thứ 2, tái xuất hôm nay",
+      "account": "Playlist 'COMPLETE SERYN' — carry-forward ngày thứ 3, tái xuất hôm nay",
       "url": "https://www.youtube.com/playlist?list=PLXHkOptAP6i70B9_GMsep7l6LD8PCya10",
       "accountType": "",
       "sentiment": "Trung tính (carry-forward)",
@@ -511,7 +495,7 @@
   "alerts": [],
   "activityLog": [
     {
-      "time": "08:12",
+      "time": "08:11",
       "step": "Bước 1-2: Tìm kiếm Google + Mạng xã hội",
       "result": "OK",
       "note": "16 từ khóa Google + 18 lượt tìm site:facebook/tiktok/youtube — hoàn tất (34 lượt WebSearch)"
@@ -520,31 +504,31 @@
       "time": "08:14",
       "step": "Bước 3: Phân tích rủi ro",
       "result": "OK",
-      "note": "0 Cảnh báo Đỏ; cập nhật 3 mục carry-forward (YouTube UCeEzpEo ngày thứ 8; playlist COMPLETE SERYN ngày thứ 2; 3 biến thể Facebook Thanh Xuân/Lại Minh Hiếu — 2/3 tái xuất)"
+      "note": "0 Cảnh báo Đỏ; cập nhật 3 mục carry-forward (YouTube UCeEzpEo ngày thứ 9; playlist COMPLETE SERYN ngày thứ 3; 3 biến thể Facebook Thanh Xuân/Lại Minh Hiếu — 2/3 tái xuất)"
     },
     {
       "time": "08:15",
       "step": "Bước 4: So sánh báo cáo trước",
       "result": "OK",
-      "note": "So sánh với Bao_cao_Seryn_Monitoring_2026-09-25.xlsx — 1 nguồn mới (1 Tích cực: BS. CKI Vũ Trung Hiếu trên AFamily.vn)"
+      "note": "So sánh với Bao_cao_Seryn_Monitoring_2026-09-26.xlsx — 0 nguồn mới (58 nguồn hôm nay = 58 nguồn hôm qua, toàn bộ carry-forward)"
     },
     {
       "time": "08:16",
       "step": "Bước 5: Tạo file Excel",
       "result": "OK",
-      "note": "Bao_cao_Seryn_Monitoring_2026-09-26.xlsx — 5 sheet (+ .csv)"
+      "note": "Bao_cao_Seryn_Monitoring_2026-09-27.xlsx — 5 sheet (+ .csv)"
     },
     {
       "time": "08:17",
       "step": "Bước 5b: Copy file sang thư mục ingest",
       "result": "OK",
-      "note": "D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\Bao_cao_Seryn_Monitoring_2026-09-26.xlsx (+ .csv) — copy giữ nguyên bản gốc tại D:\\Seryn Digital\\Seryn Digital\\; đã xác minh cả 2 mount là fuse thật và MD5 khớp tuyệt đối giữa 2 nơi"
+      "note": "D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\Bao_cao_Seryn_Monitoring_2026-09-27.xlsx (+ .csv) — copy giữ nguyên bản gốc tại D:\\Seryn Digital\\Seryn Digital\\"
     },
     {
       "time": "08:19",
       "step": "Bước 6: Upload Google Sheets (Shared Drive)",
       "result": "OK 6.1",
-      "note": "search_files xác nhận folder Shared Drive truy cập được (owner = marketinghamoglobal@gmail.com) → create_file với parentId thành công ngay ở nhánh 6.1 (không cần workaround 6.2/6.3) → https://docs.google.com/spreadsheets/d/1Bp00dlpFWM3LGkCjmhG2-fyQ3kHWcAKcb_7qAqGjQ0c/edit"
+      "note": "search_files xác nhận folder Shared Drive truy cập được (owner = marketinghamoglobal@gmail.com) → create_file với parentId thành công ngay ở nhánh 6.1 (không cần workaround 6.2/6.3) → https://docs.google.com/spreadsheets/d/1EGc5tmo5VP_UxoqdEIL5_vIHBtVROYejd5VB35X8T4g/edit"
     }
   ]
 }
