@@ -1505,5 +1505,16 @@
     "riskRaw": "XANH - AN TOÀN",
     "riskLevel": "green",
     "riskNote": ""
+  },
+  {
+    "date": "2026-10-01",
+    "total": 20,
+    "positive": 15,
+    "neutral": 5,
+    "negative": 0,
+    "newSources": 0,
+    "riskRaw": "Rà soát 'lừa đảo phản ánh tiêu cực' + extended: không bài nào chứa 'Seryn'.",
+    "riskLevel": "green",
+    "riskNote": ""
   }
 ]
