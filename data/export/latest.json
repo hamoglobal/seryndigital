@@ -1,6 +1,14 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "topSources": [
+    {
+      "title": "Tiêu đề / Nguồn",
+      "url": "URL",
+      "domain": "",
+      "type": "Loại nội dung",
+      "sentiment": "unknown",
+      "isNew": false
+    },
     {
       "title": "Seryn Clinic: Phòng Khám Đa Khoa Seryn (website chính thức — WebFetch 02/10 xác nhận hoạt động)",
       "url": "https://seryn.vn/",
@@ -90,7 +98,7 @@
       "isNew": false
     },
     {
-      "title": "Xác nhận footer seryn.vn: 24 Nguyễn Bỉnh Khiêm, P. Tân Định; GPHĐ 11149/HCM-GPHĐ; Medpro Asia",
+      "title": "Xác nhận footer seryn.vn (WebFetch 03/10): 24 Nguyễn Bỉnh Khiêm, P. Tân Định; GPHĐ 11149/HCM-GPHĐ; Medpro Asia",
       "url": "https://seryn.vn/",
       "domain": "seryn.vn",
       "type": "Website chính thức (xác nhận)",
@@ -171,6 +179,14 @@
     }
   ],
   "social": [
+    {
+      "platform": "Nền tảng",
+      "account": "Tên trang / Kênh",
+      "url": "URL",
+      "accountType": "",
+      "sentiment": "Đánh giá",
+      "note": "Trạng thái xác minh"
+    },
     {
       "platform": "Facebook",
       "account": "Fanpage/profile đã xác nhận sở hữu + footer seryn.vn: facebook.com/people/Phòng-Khám-Đa-Khoa-Seryn",
@@ -263,9 +279,17 @@
   "alerts": [
     {
       "level": "",
+      "type": "⚠️ CẢNH BÁO ĐỎ: Không phát hiện Cảnh báo Đỏ nào ngày 2026-10-03",
+      "source": "-",
+      "date": "2026-10-03",
+      "summary": "",
+      "action": ""
+    },
+    {
+      "level": "",
       "type": "⚠️ CẢNH BÁO ĐỎ: Không phát hiện Cảnh báo Đỏ nào ngày 2026-10-02",
       "source": "-",
-      "date": "2026-10-02",
+      "date": "2026-10-03",
       "summary": "",
       "action": ""
     },
@@ -273,7 +297,7 @@
       "level": "",
       "type": "(Vàng carry-forward) YouTube 'Phòng Khám Đa Khoa SERYN' — tên khớp, chưa trong danh sách xác nhận",
       "source": "https://www.youtube.com/channel/UCojQ10-ZUGAt4hOpbMqaIZA",
-      "date": "2026-10-02",
+      "date": "2026-10-03",
       "summary": "",
       "action": ""
     },
@@ -281,7 +305,7 @@
       "level": "",
       "type": "(Vàng carry-forward) 3 biến thể FB (ID 61551500829974, 61551825290264, 61550128392717)",
       "source": "Xem sheet Mang Xa Hoi",
-      "date": "2026-10-02",
+      "date": "2026-10-03",
       "summary": "",
       "action": ""
     },
@@ -289,7 +313,7 @@
       "level": "",
       "type": "(Vàng carry-forward) YouTube 'Seryn' UCeEzpEo — chưa xác định liên quan",
       "source": "https://www.youtube.com/channel/UCeEzpEo_w43NYHPOjIWnmJw/videos",
-      "date": "2026-10-02",
+      "date": "2026-10-03",
       "summary": "",
       "action": ""
     },
@@ -297,7 +321,7 @@
       "level": "",
       "type": "(Vàng carry-forward) Playlist YouTube 'COMPLETE SERYN'",
       "source": "https://www.youtube.com/playlist?list=PLXHkOptAP6i70B9_GMsep7l6LD8PCya10",
-      "date": "2026-10-02",
+      "date": "2026-10-03",
       "summary": "",
       "action": ""
     },
@@ -305,47 +329,47 @@
       "level": "",
       "type": "(Vàng carry-forward) Hà Nội: footer seryn.vn ghi 2 PK tại 454 Xã Đàn (GPHĐ 4803/HNO-GPHĐ 25/03/2026 & 5001/HNO-GPHĐ 09/07/2026), chủ quản Clinexa Việt Nam (MST 0111119547)",
       "source": "https://seryn.vn/",
-      "date": "2026-10-02",
+      "date": "2026-10-03",
       "summary": "",
       "action": ""
     }
   ],
   "activityLog": [
     {
-      "time": "02/10 (UTC)",
+      "time": "03/10 (UTC)",
       "step": "Bước 1-2: Tìm kiếm",
       "result": "OK (SERP suy giảm)",
-      "note": "16 từ khóa Google + 18 lượt site: = 34 WebSearch standard: hầu hết không liên quan. Bổ sung 2 WebSearch extended + WebFetch seryn.vn."
+      "note": "16 từ khóa Google + 18 lượt site: = 34 WebSearch standard: không có nguồn Seryn Clinic. Bổ sung 2 extended + 2 WebFetch."
     },
     {
-      "time": "02/10 (UTC)",
+      "time": "03/10 (UTC)",
       "step": "Bước 3: Rủi ro",
       "result": "OK",
       "note": "0 Cảnh báo Đỏ."
     },
     {
-      "time": "02/10 (UTC)",
+      "time": "03/10 (UTC)",
       "step": "Bước 4: So sánh",
       "result": "OK",
-      "note": "So với Bao_cao_Seryn_Monitoring_2026-10-01.csv: 0 nguồn mới. Nguồn không xuất hiện giữ carry-forward."
+      "note": "So với Bao_cao_Seryn_Monitoring_2026-10-02.xlsx: 0 nguồn mới."
     },
     {
-      "time": "02/10 (UTC)",
+      "time": "03/10 (UTC)",
       "step": "Bước 5: Tạo Excel",
       "result": "OK",
-      "note": "Bao_cao_Seryn_Monitoring_2026-10-02.xlsx (+ .csv)"
+      "note": "Bao_cao_Seryn_Monitoring_2026-10-03.xlsx (+ .csv)"
     },
     {
-      "time": "02/10 (UTC)",
+      "time": "03/10 (UTC)",
       "step": "Bước 5b: Copy ingest",
       "result": "OK",
-      "note": "OK — đã copy sang D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\"
+      "note": "Đã copy sang D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\"
     },
     {
-      "time": "02/10 (UTC)",
+      "time": "03/10 (UTC)",
       "step": "Bước 6: Upload Drive",
-      "result": "OK",
-      "note": "OK 6.1 | https://docs.google.com/spreadsheets/d/1nBbTKRT1Xydtn3dU7DfyZ7WcYHNmVyxYF0cp6i185h4/edit (Shared Drive, bản rút gọn: Tong Quan/Top10/Canh Bao)"
+      "result": "OK 6.1",
+      "note": "https://docs.google.com/spreadsheets/d/1VJAK7b_Xx1q79tIVMZqCAeUtmjmxYkRgvuBWU6Vho-Y/edit (Shared Drive, bản rút gọn)"
     }
   ]
 }

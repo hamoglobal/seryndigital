@@ -32838,5 +32838,205 @@
       "sentiment": "positive",
       "isNew": false
     }
+  ],
+  "2026-10-03": [
+    {
+      "date": "2026-10-03",
+      "title": "Tiêu đề / Nguồn",
+      "url": "URL",
+      "domain": "",
+      "type": "Loại nội dung",
+      "sentiment": "unknown",
+      "isNew": false
+    },
+    {
+      "date": "2026-10-03",
+      "title": "Seryn Clinic: Phòng Khám Đa Khoa Seryn (website chính thức — WebFetch 02/10 xác nhận hoạt động)",
+      "url": "https://seryn.vn/",
+      "domain": "seryn.vn",
+      "type": "Website chính thức",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "date": "2026-10-03",
+      "title": "SERA CORE 7 Trong 1 (seryn.vn)",
+      "url": "https://seryn.vn/chi-tiet-dich-vu/sera-core/",
+      "domain": "seryn.vn",
+      "type": "Website chính thức",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "date": "2026-10-03",
+      "title": "Trẻ Hoá Sera Core (landing page)",
+      "url": "https://seryn.vn/landing/2026/tre-hoa-sera-core.html",
+      "domain": "seryn.vn",
+      "type": "Website - Landing",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "date": "2026-10-03",
+      "title": "Chuyên Khoa - SERYN",
+      "url": "https://seryn.vn/experts/chuyen-khoa/",
+      "domain": "seryn.vn",
+      "type": "Website chính thức",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "date": "2026-10-03",
+      "title": "Review thẩm mỹ viện SERYN: Bảng giá, Bác sĩ và Dịch vụ (blog seryn.vn)",
+      "url": "https://seryn.vn/blog-detail/review-tham-my-vien-seryn/",
+      "domain": "seryn.vn",
+      "type": "Website - Blog",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "date": "2026-10-03",
+      "title": "Review viện thẩm mỹ SERYN: Có thật sự tốt như lời đồn? (blog seryn.vn)",
+      "url": "https://seryn.vn/blog-detail/review-vien-tham-my-seryn/",
+      "domain": "seryn.vn",
+      "type": "Website - Blog",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "date": "2026-10-03",
+      "title": "Hội đồng Y khoa SERYN Clinic tiên phong... - Eva.vn",
+      "url": "https://eva.vn/bi-quyet-lam-dep/hoi-dong-y-khoa-seryn-clinic-tien-phong-mo-goc-nhin-moi-trong-tre-hoa-lan-da-tai-viet-nam-c280a664272.html",
+      "domain": "eva.vn",
+      "type": "Báo chí PR",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "date": "2026-10-03",
+      "title": "Khi trẻ hóa không phải chuyện của làn da - Tạp chí Đẹp",
+      "url": "https://dep.com.vn/khi-tre-hoa-khong-phai-chuyen-cua-lan-da/",
+      "domain": "dep.com.vn",
+      "type": "Báo chí PR",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "date": "2026-10-03",
+      "title": "Điều gì giúp Seryn Clinic nổi bật giữa thị trường làm đẹp đang bão hòa? - YAN",
+      "url": "https://www.yan.vn/dieu-gi-giup-seryn-clinic-noi-bat-giua-thi-truong-lam-dep-dang-bao-hoa-333818.html",
+      "domain": "yan.vn",
+      "type": "Báo chí PR",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "date": "2026-10-03",
+      "title": "VietnamNet — Trải nghiệm trẻ hóa da cao cấp tại Seryn Clinic (xuất hiện lại hôm nay)",
+      "url": "https://vietnamnet.vn/trai-nghiem-tre-hoa-da-cao-cap-tai-seryn-clinic-2529809.html",
+      "domain": "vietnamnet.vn",
+      "type": "Báo chí PR",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "date": "2026-10-03",
+      "title": "CB Insights 'SERYN' — hồ sơ công ty tự động",
+      "url": "https://www.cbinsights.com/company/seryn",
+      "domain": "cbinsights.com",
+      "type": "Directory",
+      "sentiment": "neutral",
+      "isNew": false
+    },
+    {
+      "date": "2026-10-03",
+      "title": "Xác nhận footer seryn.vn (WebFetch 03/10): 24 Nguyễn Bỉnh Khiêm, P. Tân Định; GPHĐ 11149/HCM-GPHĐ; Medpro Asia",
+      "url": "https://seryn.vn/",
+      "domain": "seryn.vn",
+      "type": "Website chính thức (xác nhận)",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "date": "2026-10-03",
+      "title": "Giải thưởng: 'Top 10 thương hiệu dẫn đầu Việt Nam' (nêu trên seryn.vn, không kiểm tra lại hôm nay)",
+      "url": "https://seryn.vn/",
+      "domain": "seryn.vn",
+      "type": "Website / Giải thưởng (carry-forward)",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "date": "2026-10-03",
+      "title": "VnExpress — Seryn Clinic chuẩn hóa quy trình thăm khám trẻ hóa da",
+      "url": "https://vnexpress.net/seryn-clinic-chuan-hoa-quy-trinh-tham-kham-tre-hoa-da-5048687.html",
+      "domain": "vnexpress.net",
+      "type": "Báo chí PR (carry-forward)",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "date": "2026-10-03",
+      "title": "TheThaoVanHoa — Điều gì giúp Seryn Clinic nổi bật",
+      "url": "https://thethaovanhoa.vn/dieu-gi-giup-seryn-clinic-noi-bat-giua-thi-truong-lam-dep-dang-bao-hoa-20260515100741387.htm",
+      "domain": "thethaovanhoa.vn",
+      "type": "Báo chí PR (carry-forward)",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "date": "2026-10-03",
+      "title": "Vietnam.vn/en — Experience premium skin rejuvenation at Seryn Clinic",
+      "url": "https://www.vietnam.vn/en/trai-nghiem-tre-hoa-da-cao-cap-tai-seryn-clinic",
+      "domain": "vietnam.vn",
+      "type": "Báo chí PR (carry-forward)",
+      "sentiment": "positive",
+      "isNew": false
+    },
+    {
+      "date": "2026-10-03",
+      "title": "DeepAI Profile — Phòng Khám Đa Khoa Seryn",
+      "url": "https://deepai.org/profile/serynclinic",
+      "domain": "deepai.org",
+      "type": "Directory (carry-forward)",
+      "sentiment": "neutral",
+      "isNew": false
+    },
+    {
+      "date": "2026-10-03",
+      "title": "VnExpress Tag 'Seryn Clinic'",
+      "url": "https://vnexpress.net/tag/seryn-clinic-1890677",
+      "domain": "vnexpress.net",
+      "type": "Directory (carry-forward)",
+      "sentiment": "neutral",
+      "isNew": false
+    },
+    {
+      "date": "2026-10-03",
+      "title": "TopCV — Công ty CP Quốc tế Medpro Asia",
+      "url": "https://www.topcv.vn/cong-ty/cong-ty-co-phan-quoc-te-medpro-asia/254685.html",
+      "domain": "topcv.vn",
+      "type": "Hồ sơ hành chính/tuyển dụng (carry-forward)",
+      "sentiment": "neutral",
+      "isNew": false
+    },
+    {
+      "date": "2026-10-03",
+      "title": "Thuốc Seryn — Vinmec (sản phẩm khác, không liên quan)",
+      "url": "https://www.vinmec.com/vie/bai-viet/cong-dung-thuoc-seryn-vi",
+      "domain": "vinmec.com",
+      "type": "Ghi chú phân biệt sản phẩm",
+      "sentiment": "neutral",
+      "isNew": false
+    },
+    {
+      "date": "2026-10-03",
+      "title": "Không có bài tiêu cực/lừa đảo/thanh tra nào chứa đúng từ 'Seryn' (standard + extended; kết quả khác: Nghệ An clinic... không nhắc Seryn)",
+      "url": "-",
+      "domain": "",
+      "type": "Kết quả rà soát",
+      "sentiment": "positive",
+      "isNew": false
+    }
   ]
 }
