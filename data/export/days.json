@@ -1538,5 +1538,16 @@
     "riskRaw": "Extended: không bài nào chứa 'Seryn' kèm bằng chứng tiêu cực.",
     "riskLevel": "green",
     "riskNote": ""
+  },
+  {
+    "date": "2026-10-06",
+    "total": 16,
+    "positive": 11,
+    "neutral": 5,
+    "negative": 0,
+    "newSources": 0,
+    "riskRaw": "XANH - AN TOÀN",
+    "riskLevel": "green",
+    "riskNote": ""
   }
 ]
