@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "topSources": [
     {
-      "title": "seryn.vn (footer, WebFetch 06/10)",
+      "title": "seryn.vn (footer, WebFetch 07/10)",
       "url": "https://seryn.vn/",
       "domain": "seryn.vn",
-      "type": "Website chính thức (xác nhận: HCM 24 Nguyễn Bỉnh Khiêm, GPHĐ 11149/HCM-GPHĐ cấp 29/09/2025, Medpro Asia; site cập nhật 24/09/2026)",
+      "type": "Website chính thức (xác nhận: HCM 24 Nguyễn Bỉnh Khiêm, GPHĐ 11149/HCM-GPHĐ cấp 29/09/2025, Medpro Asia; metadata cập nhật 24/09/2026)",
       "sentiment": "positive",
       "isNew": false
     },
     {
-      "title": "Sera Core / landing / Chuyên khoa / 2 blog review (seryn.vn)",
+      "title": "Sera Core / landing / Chuyên khoa / blog review (seryn.vn)",
       "url": "https://seryn.vn/",
       "domain": "seryn.vn",
       "type": "Website - trang con (carry-forward, không hiện trong SERP hôm nay)",
@@ -125,7 +125,7 @@
       "title": "Từ khóa 'lừa đảo phản ánh tiêu cực'",
       "url": "-",
       "domain": "",
-      "type": "Không có nguồn nào chứa đúng từ 'Seryn' kèm bằng chứng tiêu cực (kết quả: Trustpilot Serenova/Serenklinik/Serene, Nghệ An clinic — không phải Seryn)",
+      "type": "Không có nguồn nào chứa đúng từ 'Seryn' kèm bằng chứng tiêu cực (kết quả: Trustpilot Serenova/Serenklinik/Serene/Serinsey, Nghệ An clinic — không phải Seryn)",
       "sentiment": "positive",
       "isNew": false
     }
@@ -133,15 +133,15 @@
   "social": [
     {
       "platform": "Facebook",
-      "account": "Phòng Khám Đa Khoa Seryn (ID 100095083541326) — liên kết footer seryn.vn",
+      "account": "",
       "url": "https://www.facebook.com/people/Phòng-Khám-Đa-Khoa-Seryn/100095083541326/",
       "accountType": "",
       "sentiment": "Tích cực",
-      "note": "Footer seryn.vn xác nhận 06/10; không index qua 18 lượt site: (SERP suy giảm)"
+      "note": "Footer seryn.vn xác nhận 07/10; không index qua 18 lượt site: (SERP suy giảm)"
     },
     {
       "platform": "YouTube",
-      "account": "@phongkhamdakhoaseryn (footer seryn.vn)",
+      "account": "",
       "url": "https://www.youtube.com/@phongkhamdakhoaseryn",
       "accountType": "",
       "sentiment": "Trung tính",
@@ -149,7 +149,7 @@
     },
     {
       "platform": "TikTok",
-      "account": "@serynclinic (footer seryn.vn)",
+      "account": "",
       "url": "https://www.tiktok.com/@serynclinic",
       "accountType": "",
       "sentiment": "Tích cực",
@@ -157,7 +157,7 @@
     },
     {
       "platform": "LinkedIn",
-      "account": "SERYN (trang công ty) — carry-forward",
+      "account": "",
       "url": "https://www.linkedin.com/company/serynvietnam",
       "accountType": "",
       "sentiment": "Tích cực",
@@ -165,7 +165,7 @@
     },
     {
       "platform": "YouTube",
-      "account": "Phòng Khám Đa Khoa SERYN (carry-forward)",
+      "account": "",
       "url": "https://www.youtube.com/channel/UCojQ10-ZUGAt4hOpbMqaIZA",
       "accountType": "",
       "sentiment": "Trung tính",
@@ -173,7 +173,7 @@
     },
     {
       "platform": "Facebook",
-      "account": "Thanh Xuân - Phòng khám Seryn Việt Nam (ID 61551500829974)",
+      "account": "",
       "url": "https://www.facebook.com/profile.php/?id=61551500829974",
       "accountType": "",
       "sentiment": "Trung tính",
@@ -181,7 +181,7 @@
     },
     {
       "platform": "Facebook",
-      "account": "Thanh Xuân - Seryn Clinic Việt Nam (ID 61551825290264)",
+      "account": "",
       "url": "https://www.facebook.com/profile.php/?id=61551825290264",
       "accountType": "",
       "sentiment": "Trung tính",
@@ -189,7 +189,7 @@
     },
     {
       "platform": "Facebook",
-      "account": "Chuyên gia sắc đẹp Lại Minh Hiếu - Seryn Việt Nam (ID 61550128392717)",
+      "account": "",
       "url": "https://www.facebook.com/61550128392717",
       "accountType": "",
       "sentiment": "Trung tính",
@@ -197,7 +197,7 @@
     },
     {
       "platform": "YouTube",
-      "account": "'Seryn' UCeEzpEo_w43NYHPOjIWnmJw",
+      "account": "",
       "url": "https://www.youtube.com/channel/UCeEzpEo_w43NYHPOjIWnmJw/videos",
       "accountType": "",
       "sentiment": "Trung tính",
@@ -205,7 +205,7 @@
     },
     {
       "platform": "YouTube",
-      "account": "Playlist 'COMPLETE SERYN'",
+      "account": "",
       "url": "https://www.youtube.com/playlist?list=PLXHkOptAP6i70B9_GMsep7l6LD8PCya10",
       "accountType": "",
       "sentiment": "Trung tính",
@@ -213,93 +213,44 @@
     },
     {
       "platform": "Đối chiếu trùng tên",
-      "account": "Seren Klinik, Serenova, Serene, Serenity, Sera/Seran, Serenora, Serhyn, Serena, Sirene... (kết quả 06/10)",
+      "account": "",
       "url": "-",
       "accountType": "",
       "sentiment": "Loại trừ (N/A)",
       "note": "Không chứa đúng 'Seryn' — loại ở bước lọc từ khóa"
     }
   ],
-  "alerts": [
-    {
-      "level": "",
-      "type": "⚠️ CẢNH BÁO ĐỎ: Không phát hiện Cảnh báo Đỏ nào ngày 2026-10-06",
-      "source": "-",
-      "date": "-",
-      "summary": "",
-      "action": ""
-    },
-    {
-      "level": "",
-      "type": "(Vàng carry-forward) YouTube 'Phòng Khám Đa Khoa SERYN' — tên khớp, chưa xác nhận",
-      "source": "https://www.youtube.com/channel/UCojQ10-ZUGAt4hOpbMqaIZA",
-      "date": "2026-09-15",
-      "summary": "",
-      "action": ""
-    },
-    {
-      "level": "",
-      "type": "(Vàng carry-forward) 3 biến thể FB (ID 61551500829974, 61551825290264, 61550128392717)",
-      "source": "Xem sheet Mang Xa Hoi",
-      "date": "2026-08 → nay",
-      "summary": "",
-      "action": ""
-    },
-    {
-      "level": "",
-      "type": "(Vàng carry-forward) YouTube 'Seryn' UCeEzpEo",
-      "source": "https://www.youtube.com/channel/UCeEzpEo_w43NYHPOjIWnmJw/videos",
-      "date": "2026-09-19",
-      "summary": "",
-      "action": ""
-    },
-    {
-      "level": "",
-      "type": "(Vàng carry-forward) Playlist YouTube 'COMPLETE SERYN'",
-      "source": "https://www.youtube.com/playlist?list=PLXHkOptAP6i70B9_GMsep7l6LD8PCya10",
-      "date": "2026-09-25",
-      "summary": "",
-      "action": ""
-    },
-    {
-      "level": "",
-      "type": "(Vàng carry-forward) Hà Nội: 2 PK tại 454 Xã Đàn (GPHĐ 4803/HNO-GPHĐ 25/03/2026 & 5001/HNO-GPHĐ 09/07/2026), chủ quản Clinexa Việt Nam (MST 0111119547)",
-      "source": "https://seryn.vn/",
-      "date": "2026-09-17 → nay",
-      "summary": "",
-      "action": ""
-    }
-  ],
+  "alerts": [],
   "activityLog": [
     {
-      "time": "08:00",
+      "time": "08:12",
       "step": "Tìm kiếm Google",
       "result": "16 từ khóa WebSearch — chỉ CB Insights khớp 'Seryn'; SERP suy giảm, không có nguồn mới",
       "note": "-"
     },
     {
-      "time": "08:10",
+      "time": "08:20",
       "step": "Mạng xã hội",
       "result": "18 lượt site:facebook/tiktok/youtube — không kênh mới, không trùng 'Seryn'",
       "note": "-"
     },
     {
-      "time": "08:15",
+      "time": "08:24",
       "step": "Xác minh seryn.vn",
-      "result": "WebFetch OK — footer khớp thông tin xác nhận",
+      "result": "WebFetch OK — footer khớp thông tin xác nhận (HCM + 2 PK Hà Nội, cập nhật 24/09/2026)",
       "note": "https://seryn.vn/"
     },
     {
-      "time": "08:20",
+      "time": "08:26",
       "step": "So sánh báo cáo trước",
-      "result": "Đối chiếu 03/10 (không có báo cáo 04/10, 05/10 trong thư mục — KHÔNG tạo bù; ghi nhận là khoảng trống, suy luận không phải xác nhận thời gian thực)",
+      "result": "Đối chiếu 06/10 (hôm qua có báo cáo). Không có nguồn mới. Lưu ý: không có báo cáo 04/10, 05/10 (khoảng trống đã ghi nhận hôm qua, không tạo bù)",
       "note": "-"
     },
     {
-      "time": "08:25",
+      "time": "08:35",
       "step": "Upload Drive",
-      "result": "OK 6.1 (Shared Drive folder, CSV tự convert sang Google Sheet)",
-      "note": ""
+      "result": "OK 6.1 (Shared Drive folder; CSV tự convert sang Google Sheet)",
+      "note": "https://docs.google.com/spreadsheets/d/1XnQ6DiE4BqNHQqMa-1MPyzj4QvGjKhzjALJOStLvppc/edit"
     }
   ]
 }
