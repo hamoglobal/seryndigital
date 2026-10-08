@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "topSources": [
     {
-      "title": "seryn.vn (footer, WebFetch 07/10)",
+      "title": "seryn.vn (footer, WebFetch 08/10)",
       "url": "https://seryn.vn/",
       "domain": "seryn.vn",
       "type": "Website chính thức (xác nhận: HCM 24 Nguyễn Bỉnh Khiêm, GPHĐ 11149/HCM-GPHĐ cấp 29/09/2025, Medpro Asia; metadata cập nhật 24/09/2026)",
@@ -82,7 +82,7 @@
       "isNew": false
     },
     {
-      "title": "CB Insights 'SERYN' — hồ sơ tự động (xuất hiện trong 34/34 lượt tìm hôm nay)",
+      "title": "CB Insights 'SERYN' — hồ sơ tự động (xuất hiện trong gần như mọi lượt tìm hôm nay)",
       "url": "https://www.cbinsights.com/company/seryn",
       "domain": "cbinsights.com",
       "type": "Directory",
@@ -137,7 +137,7 @@
       "url": "https://www.facebook.com/people/Phòng-Khám-Đa-Khoa-Seryn/100095083541326/",
       "accountType": "",
       "sentiment": "Tích cực",
-      "note": "Footer seryn.vn xác nhận 07/10; không index qua 18 lượt site: (SERP suy giảm)"
+      "note": "Footer seryn.vn xác nhận 08/10; không index qua 18 lượt site: (SERP suy giảm)"
     },
     {
       "platform": "YouTube",
@@ -161,7 +161,7 @@
       "url": "https://www.linkedin.com/company/serynvietnam",
       "accountType": "",
       "sentiment": "Tích cực",
-      "note": "Đã xác nhận trước đó; không kiểm tra lại hôm nay"
+      "note": "Đã xác nhận trước đó; không kiểm tra lại hôm nay (footer seryn.vn không có link LinkedIn)"
     },
     {
       "platform": "YouTube",
@@ -220,7 +220,56 @@
       "note": "Không chứa đúng 'Seryn' — loại ở bước lọc từ khóa"
     }
   ],
-  "alerts": [],
+  "alerts": [
+    {
+      "level": "",
+      "type": "⚠️ CẢNH BÁO ĐỎ: Không phát hiện Cảnh báo Đỏ nào ngày 2026-10-08",
+      "source": "-",
+      "date": "-",
+      "summary": "",
+      "action": ""
+    },
+    {
+      "level": "",
+      "type": "(Vàng carry-forward) YouTube 'Phòng Khám Đa Khoa SERYN' — tên khớp, chưa xác nhận",
+      "source": "https://www.youtube.com/channel/UCojQ10-ZUGAt4hOpbMqaIZA",
+      "date": "2026-09-15",
+      "summary": "",
+      "action": ""
+    },
+    {
+      "level": "",
+      "type": "(Vàng carry-forward) 3 biến thể FB (ID 61551500829974, 61551825290264, 61550128392717)",
+      "source": "Xem sheet Mang Xa Hoi",
+      "date": "2026-08 → nay",
+      "summary": "",
+      "action": ""
+    },
+    {
+      "level": "",
+      "type": "(Vàng carry-forward) YouTube 'Seryn' UCeEzpEo",
+      "source": "https://www.youtube.com/channel/UCeEzpEo_w43NYHPOjIWnmJw/videos",
+      "date": "2026-09-19",
+      "summary": "",
+      "action": ""
+    },
+    {
+      "level": "",
+      "type": "(Vàng carry-forward) Playlist YouTube 'COMPLETE SERYN'",
+      "source": "https://www.youtube.com/playlist?list=PLXHkOptAP6i70B9_GMsep7l6LD8PCya10",
+      "date": "2026-09-25",
+      "summary": "",
+      "action": ""
+    },
+    {
+      "level": "",
+      "type": "(Vàng carry-forward) Hà Nội: 2 PK tại 454 Xã Đàn (GPHĐ 4803/HNO-GPHĐ 25/03/2026 & 5001/HNO-GPHĐ 09/07/2026), chủ quản Clinexa Việt Nam",
+      "source": "https://seryn.vn/",
+      "date": "2026-09-17 → nay",
+      "summary": "",
+      "action": ""
+    }
+  ],
   "activityLog": [
     {
       "time": "08:12",
@@ -237,20 +286,20 @@
     {
       "time": "08:24",
       "step": "Xác minh seryn.vn",
-      "result": "WebFetch OK — footer khớp thông tin xác nhận (HCM + 2 PK Hà Nội, cập nhật 24/09/2026)",
+      "result": "WebFetch OK — footer khớp thông tin xác nhận (HCM + 2 PK Hà Nội; metadata 24/09/2026)",
       "note": "https://seryn.vn/"
     },
     {
       "time": "08:26",
       "step": "So sánh báo cáo trước",
-      "result": "Đối chiếu 06/10 (hôm qua có báo cáo). Không có nguồn mới. Lưu ý: không có báo cáo 04/10, 05/10 (khoảng trống đã ghi nhận hôm qua, không tạo bù)",
+      "result": "Đối chiếu 07/10 (có báo cáo gốc hôm qua). Không có nguồn mới. Lưu ý: không có báo cáo 04/10, 05/10 (khoảng trống đã ghi nhận, không tạo bù)",
       "note": "-"
     },
     {
       "time": "08:35",
       "step": "Upload Drive",
       "result": "OK 6.1 (Shared Drive folder; CSV tự convert sang Google Sheet)",
-      "note": "https://docs.google.com/spreadsheets/d/1XnQ6DiE4BqNHQqMa-1MPyzj4QvGjKhzjALJOStLvppc/edit"
+      "note": "https://docs.google.com/spreadsheets/d/1Sh7_21LLbe8MuwO0hykGl4pZUikrlqY3s7F8_bcMRto/edit"
     }
   ]
 }
