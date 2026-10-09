@@ -1,132 +1,132 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "topSources": [
     {
-      "title": "seryn.vn (footer, WebFetch 08/10)",
+      "title": "seryn.vn (carry-forward, không hiện trong SERP hôm nay)",
       "url": "https://seryn.vn/",
       "domain": "seryn.vn",
-      "type": "Website chính thức (xác nhận: HCM 24 Nguyễn Bỉnh Khiêm, GPHĐ 11149/HCM-GPHĐ cấp 29/09/2025, Medpro Asia; metadata cập nhật 24/09/2026)",
-      "sentiment": "positive",
+      "type": "Tích cực",
+      "sentiment": "unknown",
       "isNew": false
     },
     {
-      "title": "Sera Core / landing / Chuyên khoa / blog review (seryn.vn)",
+      "title": "Website seryn.vn — trang con (Sera Core/landing/Chuyên khoa/blog)",
       "url": "https://seryn.vn/",
       "domain": "seryn.vn",
-      "type": "Website - trang con (carry-forward, không hiện trong SERP hôm nay)",
-      "sentiment": "positive",
+      "type": "Tích cực",
+      "sentiment": "unknown",
       "isNew": false
     },
     {
       "title": "VnExpress — Seryn Clinic chuẩn hóa quy trình thăm khám",
       "url": "https://vnexpress.net/seryn-clinic-chuan-hoa-quy-trinh-tham-kham-tre-hoa-da-5048687.html",
       "domain": "vnexpress.net",
-      "type": "Báo chí PR (carry-forward)",
-      "sentiment": "positive",
+      "type": "Tích cực",
+      "sentiment": "unknown",
       "isNew": false
     },
     {
       "title": "VietnamNet — Trải nghiệm trẻ hóa da cao cấp tại Seryn Clinic",
       "url": "https://vietnamnet.vn/trai-nghiem-tre-hoa-da-cao-cap-tai-seryn-clinic-2529809.html",
       "domain": "vietnamnet.vn",
-      "type": "Báo chí PR (carry-forward)",
-      "sentiment": "positive",
+      "type": "Tích cực",
+      "sentiment": "unknown",
       "isNew": false
     },
     {
       "title": "Eva.vn — Hội đồng Y khoa SERYN Clinic",
       "url": "https://eva.vn/bi-quyet-lam-dep/hoi-dong-y-khoa-seryn-clinic-tien-phong-mo-goc-nhin-moi-trong-tre-hoa-lan-da-tai-viet-nam-c280a664272.html",
       "domain": "eva.vn",
-      "type": "Báo chí PR (carry-forward)",
-      "sentiment": "positive",
+      "type": "Tích cực",
+      "sentiment": "unknown",
       "isNew": false
     },
     {
       "title": "Tạp chí Đẹp — Khi trẻ hóa không phải chuyện của làn da",
       "url": "https://dep.com.vn/khi-tre-hoa-khong-phai-chuyen-cua-lan-da/",
       "domain": "dep.com.vn",
-      "type": "Báo chí PR (carry-forward)",
-      "sentiment": "positive",
+      "type": "Tích cực",
+      "sentiment": "unknown",
       "isNew": false
     },
     {
       "title": "YAN — Điều gì giúp Seryn Clinic nổi bật",
       "url": "https://www.yan.vn/dieu-gi-giup-seryn-clinic-noi-bat-giua-thi-truong-lam-dep-dang-bao-hoa-333818.html",
       "domain": "yan.vn",
-      "type": "Báo chí PR (carry-forward)",
-      "sentiment": "positive",
+      "type": "Tích cực",
+      "sentiment": "unknown",
       "isNew": false
     },
     {
       "title": "TheThaoVanHoa — Điều gì giúp Seryn Clinic nổi bật",
       "url": "https://thethaovanhoa.vn/dieu-gi-giup-seryn-clinic-noi-bat-giua-thi-truong-lam-dep-dang-bao-hoa-20260515100741387.htm",
       "domain": "thethaovanhoa.vn",
-      "type": "Báo chí PR (carry-forward)",
-      "sentiment": "positive",
+      "type": "Tích cực",
+      "sentiment": "unknown",
       "isNew": false
     },
     {
       "title": "Vietnam.vn/en — Experience premium skin rejuvenation at Seryn Clinic",
       "url": "https://www.vietnam.vn/en/trai-nghiem-tre-hoa-da-cao-cap-tai-seryn-clinic",
       "domain": "vietnam.vn",
-      "type": "Báo chí PR (carry-forward)",
-      "sentiment": "positive",
+      "type": "Tích cực",
+      "sentiment": "unknown",
       "isNew": false
     },
     {
       "title": "Giải thưởng 'Top 10 thương hiệu dẫn đầu VN' (nêu trên seryn.vn)",
       "url": "https://seryn.vn/",
       "domain": "seryn.vn",
-      "type": "Giải thưởng (carry-forward)",
-      "sentiment": "positive",
+      "type": "Tích cực",
+      "sentiment": "unknown",
       "isNew": false
     },
     {
-      "title": "CB Insights 'SERYN' — hồ sơ tự động (xuất hiện trong gần như mọi lượt tìm hôm nay)",
+      "title": "CB Insights 'SERYN' — hồ sơ tự động (xuất hiện ở hầu hết các lượt tìm hôm nay)",
       "url": "https://www.cbinsights.com/company/seryn",
       "domain": "cbinsights.com",
-      "type": "Directory",
-      "sentiment": "neutral",
+      "type": "Trung tính",
+      "sentiment": "unknown",
       "isNew": false
     },
     {
       "title": "DeepAI Profile — Phòng Khám Đa Khoa Seryn",
       "url": "https://deepai.org/profile/serynclinic",
       "domain": "deepai.org",
-      "type": "Directory (carry-forward)",
-      "sentiment": "neutral",
+      "type": "Trung tính",
+      "sentiment": "unknown",
       "isNew": false
     },
     {
       "title": "VnExpress Tag 'Seryn Clinic'",
       "url": "https://vnexpress.net/tag/seryn-clinic-1890677",
       "domain": "vnexpress.net",
-      "type": "Directory (carry-forward)",
-      "sentiment": "neutral",
+      "type": "Trung tính",
+      "sentiment": "unknown",
       "isNew": false
     },
     {
       "title": "TopCV — Medpro Asia",
       "url": "https://www.topcv.vn/cong-ty/cong-ty-co-phan-quoc-te-medpro-asia/254685.html",
       "domain": "topcv.vn",
-      "type": "Hồ sơ tuyển dụng (carry-forward)",
-      "sentiment": "neutral",
+      "type": "Trung tính",
+      "sentiment": "unknown",
       "isNew": false
     },
     {
       "title": "Thuốc Seryn — Vinmec (sản phẩm khác, không liên quan)",
       "url": "https://www.vinmec.com/vie/bai-viet/cong-dung-thuoc-seryn-vi",
       "domain": "vinmec.com",
-      "type": "Phân biệt sản phẩm (carry-forward)",
-      "sentiment": "neutral",
+      "type": "Trung tính",
+      "sentiment": "unknown",
       "isNew": false
     },
     {
       "title": "Từ khóa 'lừa đảo phản ánh tiêu cực'",
       "url": "-",
       "domain": "",
-      "type": "Không có nguồn nào chứa đúng từ 'Seryn' kèm bằng chứng tiêu cực (kết quả: Trustpilot Serenova/Serenklinik/Serene/Serinsey, Nghệ An clinic — không phải Seryn)",
-      "sentiment": "positive",
+      "type": "Tích cực",
+      "sentiment": "unknown",
       "isNew": false
     }
   ],
@@ -137,7 +137,7 @@
       "url": "https://www.facebook.com/people/Phòng-Khám-Đa-Khoa-Seryn/100095083541326/",
       "accountType": "",
       "sentiment": "Tích cực",
-      "note": "Footer seryn.vn xác nhận 08/10; không index qua 18 lượt site: (SERP suy giảm)"
+      "note": "Carry-forward (footer seryn.vn 08/10); không index qua 18 lượt site: hôm nay"
     },
     {
       "platform": "YouTube",
@@ -161,7 +161,7 @@
       "url": "https://www.linkedin.com/company/serynvietnam",
       "accountType": "",
       "sentiment": "Tích cực",
-      "note": "Đã xác nhận trước đó; không kiểm tra lại hôm nay (footer seryn.vn không có link LinkedIn)"
+      "note": "Đã xác nhận trước đó; không kiểm tra lại hôm nay"
     },
     {
       "platform": "YouTube",
@@ -220,86 +220,31 @@
       "note": "Không chứa đúng 'Seryn' — loại ở bước lọc từ khóa"
     }
   ],
-  "alerts": [
-    {
-      "level": "",
-      "type": "⚠️ CẢNH BÁO ĐỎ: Không phát hiện Cảnh báo Đỏ nào ngày 2026-10-08",
-      "source": "-",
-      "date": "-",
-      "summary": "",
-      "action": ""
-    },
-    {
-      "level": "",
-      "type": "(Vàng carry-forward) YouTube 'Phòng Khám Đa Khoa SERYN' — tên khớp, chưa xác nhận",
-      "source": "https://www.youtube.com/channel/UCojQ10-ZUGAt4hOpbMqaIZA",
-      "date": "2026-09-15",
-      "summary": "",
-      "action": ""
-    },
-    {
-      "level": "",
-      "type": "(Vàng carry-forward) 3 biến thể FB (ID 61551500829974, 61551825290264, 61550128392717)",
-      "source": "Xem sheet Mang Xa Hoi",
-      "date": "2026-08 → nay",
-      "summary": "",
-      "action": ""
-    },
-    {
-      "level": "",
-      "type": "(Vàng carry-forward) YouTube 'Seryn' UCeEzpEo",
-      "source": "https://www.youtube.com/channel/UCeEzpEo_w43NYHPOjIWnmJw/videos",
-      "date": "2026-09-19",
-      "summary": "",
-      "action": ""
-    },
-    {
-      "level": "",
-      "type": "(Vàng carry-forward) Playlist YouTube 'COMPLETE SERYN'",
-      "source": "https://www.youtube.com/playlist?list=PLXHkOptAP6i70B9_GMsep7l6LD8PCya10",
-      "date": "2026-09-25",
-      "summary": "",
-      "action": ""
-    },
-    {
-      "level": "",
-      "type": "(Vàng carry-forward) Hà Nội: 2 PK tại 454 Xã Đàn (GPHĐ 4803/HNO-GPHĐ 25/03/2026 & 5001/HNO-GPHĐ 09/07/2026), chủ quản Clinexa Việt Nam",
-      "source": "https://seryn.vn/",
-      "date": "2026-09-17 → nay",
-      "summary": "",
-      "action": ""
-    }
-  ],
+  "alerts": [],
   "activityLog": [
     {
-      "time": "08:12",
+      "time": "08:10",
       "step": "Tìm kiếm Google",
       "result": "16 từ khóa WebSearch — chỉ CB Insights khớp 'Seryn'; SERP suy giảm, không có nguồn mới",
       "note": "-"
     },
     {
-      "time": "08:20",
+      "time": "08:18",
       "step": "Mạng xã hội",
       "result": "18 lượt site:facebook/tiktok/youtube — không kênh mới, không trùng 'Seryn'",
       "note": "-"
     },
     {
-      "time": "08:24",
-      "step": "Xác minh seryn.vn",
-      "result": "WebFetch OK — footer khớp thông tin xác nhận (HCM + 2 PK Hà Nội; metadata 24/09/2026)",
-      "note": "https://seryn.vn/"
-    },
-    {
-      "time": "08:26",
+      "time": "08:22",
       "step": "So sánh báo cáo trước",
-      "result": "Đối chiếu 07/10 (có báo cáo gốc hôm qua). Không có nguồn mới. Lưu ý: không có báo cáo 04/10, 05/10 (khoảng trống đã ghi nhận, không tạo bù)",
+      "result": "Đối chiếu 08/10 (có báo cáo gốc hôm qua). Không có nguồn mới.",
       "note": "-"
     },
     {
-      "time": "08:35",
+      "time": "08:25",
       "step": "Upload Drive",
       "result": "OK 6.1 (Shared Drive folder; CSV tự convert sang Google Sheet)",
-      "note": "https://docs.google.com/spreadsheets/d/1Sh7_21LLbe8MuwO0hykGl4pZUikrlqY3s7F8_bcMRto/edit"
+      "note": "https://docs.google.com/spreadsheets/d/1dZqNl3KR0Q3wLStYJkgRgPYUxOY0sfSutjnkfzc7URs/edit"
     }
   ]
 }
