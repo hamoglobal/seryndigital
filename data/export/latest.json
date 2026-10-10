@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-10",
   "topSources": [
     {
       "title": "seryn.vn (carry-forward, không hiện trong SERP hôm nay)",
@@ -137,7 +137,7 @@
       "url": "https://www.facebook.com/people/Phòng-Khám-Đa-Khoa-Seryn/100095083541326/",
       "accountType": "",
       "sentiment": "Tích cực",
-      "note": "Carry-forward (footer seryn.vn 08/10); không index qua 18 lượt site: hôm nay"
+      "note": "Carry-forward (footer seryn.vn (xác nhận 08/10)); không index qua 18 lượt site: hôm nay"
     },
     {
       "platform": "YouTube",
@@ -221,30 +221,5 @@
     }
   ],
   "alerts": [],
-  "activityLog": [
-    {
-      "time": "08:10",
-      "step": "Tìm kiếm Google",
-      "result": "16 từ khóa WebSearch — chỉ CB Insights khớp 'Seryn'; SERP suy giảm, không có nguồn mới",
-      "note": "-"
-    },
-    {
-      "time": "08:18",
-      "step": "Mạng xã hội",
-      "result": "18 lượt site:facebook/tiktok/youtube — không kênh mới, không trùng 'Seryn'",
-      "note": "-"
-    },
-    {
-      "time": "08:22",
-      "step": "So sánh báo cáo trước",
-      "result": "Đối chiếu 08/10 (có báo cáo gốc hôm qua). Không có nguồn mới.",
-      "note": "-"
-    },
-    {
-      "time": "08:25",
-      "step": "Upload Drive",
-      "result": "OK 6.1 (Shared Drive folder; CSV tự convert sang Google Sheet)",
-      "note": "https://docs.google.com/spreadsheets/d/1dZqNl3KR0Q3wLStYJkgRgPYUxOY0sfSutjnkfzc7URs/edit"
-    }
-  ]
+  "activityLog": []
 }
