@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "topSources": [
     {
       "title": "seryn.vn (carry-forward, không hiện trong SERP hôm nay)",
@@ -137,7 +137,7 @@
       "url": "https://www.facebook.com/people/Phòng-Khám-Đa-Khoa-Seryn/100095083541326/",
       "accountType": "",
       "sentiment": "Tích cực",
-      "note": "Carry-forward (footer seryn.vn (xác nhận 08/10)); không index qua 18 lượt site: hôm nay"
+      "note": "Carry-forward (footer seryn.vn 08/10); không index qua 18 lượt site: hôm nay"
     },
     {
       "platform": "YouTube",
@@ -220,6 +220,86 @@
       "note": "Không chứa đúng 'Seryn' — loại ở bước lọc từ khóa"
     }
   ],
-  "alerts": [],
-  "activityLog": []
+  "alerts": [
+    {
+      "level": "",
+      "type": "⚠️ CẢNH BÁO ĐỎ: Không phát hiện Cảnh báo Đỏ nào ngày 2026-10-11",
+      "source": "",
+      "date": "-",
+      "summary": "",
+      "action": ""
+    },
+    {
+      "level": "",
+      "type": "(Vàng carry-forward) YouTube 'Phòng Khám Đa Khoa SERYN' — tên khớp, chưa xác nhận",
+      "source": "",
+      "date": "2026-09-15",
+      "summary": "",
+      "action": ""
+    },
+    {
+      "level": "",
+      "type": "(Vàng carry-forward) 3 biến thể FB (ID 61551500829974, 61551825290264, 61550128392717)",
+      "source": "",
+      "date": "2026-08 → nay",
+      "summary": "",
+      "action": ""
+    },
+    {
+      "level": "",
+      "type": "(Vàng carry-forward) YouTube 'Seryn' UCeEzpEo",
+      "source": "",
+      "date": "2026-09-19",
+      "summary": "",
+      "action": ""
+    },
+    {
+      "level": "",
+      "type": "(Vàng carry-forward) Playlist YouTube 'COMPLETE SERYN'",
+      "source": "",
+      "date": "2026-09-25",
+      "summary": "",
+      "action": ""
+    },
+    {
+      "level": "",
+      "type": "(Vàng carry-forward) Hà Nội: 2 PK tại 454 Xã Đàn (GPHĐ 4803/HNO-GPHĐ & 5001/HNO-GPHĐ), chủ quản Clinexa Việt Nam — theo footer seryn.vn 08/10",
+      "source": "",
+      "date": "2026-09-17 → nay",
+      "summary": "",
+      "action": ""
+    }
+  ],
+  "activityLog": [
+    {
+      "time": "08:10",
+      "step": "Tìm kiếm Google",
+      "result": "16 từ khóa WebSearch — chỉ CB Insights khớp 'Seryn'; SERP suy giảm, không có nguồn mới",
+      "note": "-"
+    },
+    {
+      "time": "08:18",
+      "step": "Mạng xã hội",
+      "result": "18 lượt site:facebook/tiktok/youtube — không kênh mới, không trùng 'Seryn'",
+      "note": "-"
+    },
+    {
+      "time": "08:22",
+      "step": "So sánh báo cáo trước",
+      "result": "Đối chiếu 10/10 (có báo cáo gốc hôm qua). Không có nguồn mới.",
+      "note": "-"
+    },
+    {
+      "time": "08:25",
+      "step": "Upload Drive",
+      "result": "OK 6.1 (Shared Drive folder; CSV tự convert sang Google Sheet)",
+      "note": "https://docs.google.com/spreadsheets/d/1jhHEVNBsJaF9H2ZUiKQjWrAsNvdeDnFh8kELQAcd8ko/edit"
+    },
+    {
+      "time": "08:30",
+      "step": "Sao chép Ingest",
+      "result": "Sao chép .xlsx + .csv sang thư mục ingest (kết quả xác nhận trong báo cáo chat)",
+      "note": "D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\"
+    }
+  ]
 }
