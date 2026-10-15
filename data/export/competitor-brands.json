@@ -18814,5 +18814,133 @@
       "note": "Chưa phát hiện vi phạm đáng chú ý trong đợt tra cứu",
       "mainSources": ""
     }
+  ],
+  "2026-10-15": [
+    {
+      "brand": "Bệnh viện thẩm mỹ Kangnam",
+      "badNews": 2,
+      "newArticles": 0,
+      "riskLevel": "low",
+      "riskRaw": "Cần theo dõi",
+      "note": "Mega Kangnam Bình Định hoạt động không phép - chưa xác minh liên quan",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Thu Cúc",
+      "badNews": 2,
+      "newArticles": 0,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "Các vụ xử phạt Thu Cúc (chưa xác định ngày)",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thanh Hằng Beauty Medi",
+      "badNews": 1,
+      "newArticles": 2,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không có tin xấu",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VITA Clinic",
+      "badNews": 1,
+      "newArticles": 2,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không có tin xấu",
+      "mainSources": ""
+    },
+    {
+      "brand": "Lavender By Chang",
+      "badNews": 1,
+      "newArticles": 1,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không có tin xấu",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Ngọc Dung",
+      "badNews": 1,
+      "newArticles": 1,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "Phạt 94 triệu, tước giấy phép 3 tháng (2022 - tin cũ)",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Xuân Hương",
+      "badNews": 1,
+      "newArticles": 1,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không có tin xấu liên quan",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Dr. Hải Lê",
+      "badNews": 1,
+      "newArticles": 1,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Tin tích cực: được cấp phép bệnh viện 21-03-2026",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ KangJin Sejung",
+      "badNews": 1,
+      "newArticles": 1,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không có tin xấu",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Hongkong",
+      "badNews": 1,
+      "newArticles": 0,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không có dữ liệu liên quan",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Seoul",
+      "badNews": 1,
+      "newArticles": 0,
+      "riskLevel": "low",
+      "riskRaw": "Cần theo dõi",
+      "note": "Phương Đông Seoul bị đình chỉ - chưa xác minh liên quan",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Dr. Thái Hà",
+      "badNews": 1,
+      "newArticles": 0,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không có dữ liệu liên quan",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VietCharm",
+      "badNews": 1,
+      "newArticles": 0,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không có dữ liệu liên quan",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Bally",
+      "badNews": 1,
+      "newArticles": 0,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Không có dữ liệu liên quan",
+      "mainSources": ""
+    }
   ]
 }

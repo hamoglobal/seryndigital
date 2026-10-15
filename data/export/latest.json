@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "topSources": [
     {
       "title": "seryn.vn (carry-forward, không hiện trong SERP hôm nay)",
@@ -122,6 +122,14 @@
       "isNew": false
     },
     {
+      "title": "Ban nhạc Seryn (Nashville) — Dallas Observer/JamBase (thương hiệu khác, không liên quan)",
+      "url": "https://www.dallasobserver.com/music/seryn-continues-to-earn-praise-now-from-daytrotter-and-tattoo-artists-no-really-7062658/",
+      "domain": "dallasobserver.com",
+      "type": "Trung tính",
+      "sentiment": "unknown",
+      "isNew": true
+    },
+    {
       "title": "Từ khóa 'lừa đảo phản ánh tiêu cực'",
       "url": "-",
       "domain": "",
@@ -220,31 +228,80 @@
       "note": "Không chứa đúng 'Seryn' — loại ở bước lọc từ khóa"
     }
   ],
-  "alerts": [],
+  "alerts": [
+    {
+      "level": "",
+      "type": "⚠️ CẢNH BÁO ĐỎ: Không phát hiện Cảnh báo Đỏ nào ngày 2026-10-15",
+      "source": "-",
+      "date": "-",
+      "summary": "",
+      "action": ""
+    },
+    {
+      "level": "",
+      "type": "(Vàng carry-forward) YouTube 'Phòng Khám Đa Khoa SERYN' — tên khớp, chưa xác nhận",
+      "source": "https://www.youtube.com/channel/UCojQ10-ZUGAt4hOpbMqaIZA",
+      "date": "2026-09-15",
+      "summary": "",
+      "action": ""
+    },
+    {
+      "level": "",
+      "type": "(Vàng carry-forward) 3 biến thể FB (ID 61551500829974, 61551825290264, 61550128392717)",
+      "source": "Xem sheet Mang Xa Hoi",
+      "date": "2026-08 → nay",
+      "summary": "",
+      "action": ""
+    },
+    {
+      "level": "",
+      "type": "(Vàng carry-forward) YouTube 'Seryn' UCeEzpEo",
+      "source": "https://www.youtube.com/channel/UCeEzpEo_w43NYHPOjIWnmJw/videos",
+      "date": "2026-09-19",
+      "summary": "",
+      "action": ""
+    },
+    {
+      "level": "",
+      "type": "(Vàng carry-forward) Playlist YouTube 'COMPLETE SERYN'",
+      "source": "https://www.youtube.com/playlist?list=PLXHkOptAP6i70B9_GMsep7l6LD8PCya10",
+      "date": "2026-09-25",
+      "summary": "",
+      "action": ""
+    },
+    {
+      "level": "",
+      "type": "(Vàng carry-forward) Hà Nội: 2 PK tại 454 Xã Đàn (GPHĐ 4803/HNO-GPHĐ & 5001/HNO-GPHĐ), chủ quản Clinexa Việt Nam — theo footer seryn.vn",
+      "source": "https://seryn.vn/",
+      "date": "2026-09-17 → nay",
+      "summary": "",
+      "action": ""
+    }
+  ],
   "activityLog": [
     {
-      "time": "01:13 UTC",
+      "time": "UTC",
       "step": "Tìm kiếm Google",
-      "result": "16 từ khóa WebSearch — chỉ CB Insights khớp 'Seryn'; SERP suy giảm, không có nguồn mới",
+      "result": "16 từ khóa WebSearch — chỉ CB Insights khớp 'Seryn' liên quan; SERP suy giảm. 1 nguồn mới: ban nhạc Seryn (không liên quan) ở truy vấn 'seryn 454 xã đàn'",
       "note": "-"
     },
     {
-      "time": "01:13 UTC",
+      "time": "UTC",
       "step": "Mạng xã hội",
       "result": "18 lượt site:facebook/tiktok/youtube — không kênh mới, không trùng 'Seryn'",
       "note": "-"
     },
     {
-      "time": "01:13 UTC",
+      "time": "UTC",
       "step": "So sánh báo cáo trước",
-      "result": "Đối chiếu 13/10 (có báo cáo gốc hôm qua). Không có nguồn mới.",
+      "result": "Đối chiếu 14/10 (có báo cáo gốc hôm qua). 1 nguồn mới (Trung tính, không liên quan).",
       "note": "-"
     },
     {
       "time": "01:13 UTC",
       "step": "Upload Drive",
       "result": "OK 6.1 (Shared Drive folder; CSV tự convert sang Google Sheet)",
-      "note": "https://docs.google.com/spreadsheets/d/1eebHbYiHnB8fOchIZqRQZyjuLBYx-4QfrwEDffiSCT0/edit"
+      "note": "https://docs.google.com/spreadsheets/d/1Vy3_bFIdRu6uZy2DYIJm7n1kIN83dHJW9qeMavKG_vo/edit"
     },
     {
       "time": "01:13 UTC",
