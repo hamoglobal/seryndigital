@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "topSources": [
     {
       "title": "seryn.vn (carry-forward, không hiện trong SERP hôm nay)",
@@ -82,7 +82,7 @@
       "isNew": false
     },
     {
-      "title": "CB Insights 'SERYN' — hồ sơ tự động (xuất hiện ở hầu hết các lượt tìm hôm nay)",
+      "title": "CB Insights 'SERYN' — hồ sơ tự động (xuất hiện ở hầu hết các lượt tìm)",
       "url": "https://www.cbinsights.com/company/seryn",
       "domain": "cbinsights.com",
       "type": "Trung tính",
@@ -122,20 +122,28 @@
       "isNew": false
     },
     {
-      "title": "Ban nhạc Seryn (Nashville) — Dallas Observer/JamBase (thương hiệu khác, không liên quan)",
-      "url": "https://www.dallasobserver.com/music/seryn-continues-to-earn-praise-now-from-daytrotter-and-tattoo-artists-no-really-7062658/",
-      "domain": "dallasobserver.com",
-      "type": "Trung tính",
-      "sentiment": "unknown",
-      "isNew": true
-    },
-    {
       "title": "Từ khóa 'lừa đảo phản ánh tiêu cực'",
       "url": "-",
       "domain": "",
       "type": "Tích cực",
       "sentiment": "unknown",
       "isNew": false
+    },
+    {
+      "title": "Ban nhạc Seryn (Nashville) — Dallas Observer",
+      "url": "https://www.dallasobserver.com/music/seryn-continues-to-earn-praise-now-from-daytrotter-and-tattoo-artists-no-really-7062658/",
+      "domain": "dallasobserver.com",
+      "type": "Trung tính",
+      "sentiment": "unknown",
+      "isNew": false
+    },
+    {
+      "title": "Ban nhạc Seryn (Nashville) — JamBase 'seryn at new brookland tavern'",
+      "url": "https://www.jambase.com/show/seryn-at-new-brookland-tavern-20150902",
+      "domain": "jambase.com",
+      "type": "Trung tính",
+      "sentiment": "unknown",
+      "isNew": true
     }
   ],
   "social": [
@@ -231,7 +239,7 @@
   "alerts": [
     {
       "level": "",
-      "type": "⚠️ CẢNH BÁO ĐỎ: Không phát hiện Cảnh báo Đỏ nào ngày 2026-10-15",
+      "type": "⚠️ CẢNH BÁO ĐỎ: Không phát hiện Cảnh báo Đỏ nào ngày 2026-10-16",
       "source": "-",
       "date": "-",
       "summary": "",
@@ -282,7 +290,7 @@
     {
       "time": "UTC",
       "step": "Tìm kiếm Google",
-      "result": "16 từ khóa WebSearch — chỉ CB Insights khớp 'Seryn' liên quan; SERP suy giảm. 1 nguồn mới: ban nhạc Seryn (không liên quan) ở truy vấn 'seryn 454 xã đàn'",
+      "result": "16 từ khóa WebSearch — chỉ CB Insights khớp 'Seryn' liên quan; 1 nguồn mới: JamBase (ban nhạc Seryn, không liên quan)",
       "note": "-"
     },
     {
@@ -294,20 +302,20 @@
     {
       "time": "UTC",
       "step": "So sánh báo cáo trước",
-      "result": "Đối chiếu 14/10 (có báo cáo gốc hôm qua). 1 nguồn mới (Trung tính, không liên quan).",
+      "result": "Đối chiếu 15/10 (có báo cáo gốc). 1 nguồn mới (Trung tính, không liên quan).",
       "note": "-"
     },
     {
       "time": "01:13 UTC",
       "step": "Upload Drive",
-      "result": "OK 6.1 (Shared Drive folder; CSV tự convert sang Google Sheet)",
-      "note": "https://docs.google.com/spreadsheets/d/1Vy3_bFIdRu6uZy2DYIJm7n1kIN83dHJW9qeMavKG_vo/edit"
+      "result": "OK 6.1",
+      "note": "https://docs.google.com/spreadsheets/d/1xobmvFST_FOJbmUIIhsUkLgTCjKkcNvz-yxm36X9u4Q/edit"
     },
     {
-      "time": "01:13 UTC",
-      "step": "Sao chép Ingest",
-      "result": "Sao chép .xlsx + .csv sang thư mục ingest (OK)",
-      "note": "D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\"
+      "time": "01:15 UTC",
+      "step": "Copy ingest",
+      "result": "OK — sao chép sang D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\",
+      "note": "-"
     }
   ]
 }
