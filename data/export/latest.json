@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-17",
+  "date": "2026-10-18",
   "topSources": [
     {
       "title": "seryn.vn (carry-forward, không hiện trong SERP hôm nay)",
@@ -239,7 +239,7 @@
   "alerts": [
     {
       "level": "",
-      "type": "⚠️ CẢNH BÁO ĐỎ: Không phát hiện Cảnh báo Đỏ nào ngày 2026-10-17",
+      "type": "⚠️ CẢNH BÁO ĐỎ: Không phát hiện Cảnh báo Đỏ nào ngày 2026-10-18",
       "source": "-",
       "date": "-",
       "summary": "",
@@ -302,17 +302,17 @@
     {
       "time": "UTC",
       "step": "So sánh báo cáo trước",
-      "result": "Đối chiếu 16/10 (có báo cáo gốc). 0 nguồn mới.",
+      "result": "Đối chiếu 17/10 (có báo cáo gốc). 0 nguồn mới.",
       "note": "-"
     },
     {
-      "time": "01:13 UTC",
+      "time": "01:07 UTC",
       "step": "Upload Drive",
       "result": "OK 6.1",
-      "note": "https://docs.google.com/spreadsheets/d/1uvAIcKg5SZj3Brr8GR6aVDbZyTquOZ_1uH06B9jHYi8/edit"
+      "note": "https://docs.google.com/spreadsheets/d/1hPjXLaknGV-UU0IRYsLKsON9QTO3Gx2l1xGrRW5LWZQ/edit"
     },
     {
-      "time": "01:15 UTC",
+      "time": "01:07 UTC",
       "step": "Copy ingest",
       "result": "OK — sao chép sang D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\",
       "note": "-"
