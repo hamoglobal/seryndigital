@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-21",
   "topSources": [
     {
       "title": "seryn.vn (carry-forward, không hiện trong SERP hôm nay)",
@@ -144,6 +144,14 @@
       "type": "Trung tính",
       "sentiment": "unknown",
       "isNew": false
+    },
+    {
+      "title": "Ban nhạc Seryn (Nashville) — JamBase 'seryn at the mercy lounge'",
+      "url": "https://www.jambase.com/show/seryn-at-the-mercy-lounge-20151001",
+      "domain": "jambase.com",
+      "type": "Trung tính",
+      "sentiment": "unknown",
+      "isNew": true
     }
   ],
   "social": [
@@ -239,7 +247,7 @@
   "alerts": [
     {
       "level": "",
-      "type": "⚠️ CẢNH BÁO ĐỎ: Không phát hiện Cảnh báo Đỏ nào ngày 2026-10-19",
+      "type": "⚠️ CẢNH BÁO ĐỎ: Không phát hiện Cảnh báo Đỏ nào ngày 2026-10-21",
       "source": "-",
       "date": "-",
       "summary": "",
@@ -288,33 +296,33 @@
   ],
   "activityLog": [
     {
-      "time": "UTC",
+      "time": "01:07 UTC",
       "step": "Tìm kiếm Google",
-      "result": "16 từ khóa WebSearch — chỉ CB Insights khớp 'Seryn' liên quan; ban nhạc Seryn (Dallas Observer/JamBase) hiện lại ở 'seryn 454 xã đàn'; không nguồn mới",
+      "result": "16 từ khóa WebSearch — chỉ CB Insights khớp 'Seryn' liên quan; ban nhạc Seryn (Dallas Observer/JamBase, +1 URL JamBase mới) ở 'seryn 454 xã đàn'",
       "note": "-"
     },
     {
-      "time": "UTC",
+      "time": "01:07 UTC",
       "step": "Mạng xã hội",
       "result": "18 lượt site:facebook/tiktok/youtube — không kênh mới, không trùng 'Seryn'",
       "note": "-"
     },
     {
-      "time": "UTC",
+      "time": "01:07 UTC",
       "step": "So sánh báo cáo trước",
-      "result": "Đối chiếu 18/10 (có báo cáo gốc). 0 nguồn mới.",
+      "result": "Đối chiếu 20/10 (có báo cáo gốc). 1 nguồn mới (JamBase, không liên quan).",
       "note": "-"
     },
     {
-      "time": "01:06 UTC",
+      "time": "01:08 UTC",
       "step": "Upload Drive",
       "result": "OK 6.1",
-      "note": "https://docs.google.com/spreadsheets/d/1uCnjfBepDuxoD9RQDXTsKWWvjzT3M2kw7ZKtTGOEPas/edit"
+      "note": "https://docs.google.com/spreadsheets/d/1WlNSJXzjbWbg-4TqlshynasbLceI-0LQ2Y5At5dElP0/edit"
     },
     {
-      "time": "01:08 UTC",
+      "time": "01:09 UTC",
       "step": "Copy ingest",
-      "result": "OK — sao chép sang D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\",
+      "result": "OK - sao chép sang D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\",
       "note": "-"
     }
   ]
