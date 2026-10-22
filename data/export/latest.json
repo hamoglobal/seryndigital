@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "topSources": [
     {
       "title": "seryn.vn (carry-forward, không hiện trong SERP hôm nay)",
@@ -151,7 +151,7 @@
       "domain": "jambase.com",
       "type": "Trung tính",
       "sentiment": "unknown",
-      "isNew": true
+      "isNew": false
     }
   ],
   "social": [
@@ -247,7 +247,7 @@
   "alerts": [
     {
       "level": "",
-      "type": "⚠️ CẢNH BÁO ĐỎ: Không phát hiện Cảnh báo Đỏ nào ngày 2026-10-21",
+      "type": "⚠️ CẢNH BÁO ĐỎ: Không phát hiện Cảnh báo Đỏ nào ngày 2026-10-22",
       "source": "-",
       "date": "-",
       "summary": "",
@@ -296,34 +296,28 @@
   ],
   "activityLog": [
     {
-      "time": "01:07 UTC",
+      "time": "01:00 UTC",
       "step": "Tìm kiếm Google",
-      "result": "16 từ khóa WebSearch — chỉ CB Insights khớp 'Seryn' liên quan; ban nhạc Seryn (Dallas Observer/JamBase, +1 URL JamBase mới) ở 'seryn 454 xã đàn'",
+      "result": "16 từ khóa WebSearch — chỉ CB Insights khớp 'Seryn' liên quan; ban nhạc Seryn (Dallas Observer/JamBase New Brookland) hiện ở 'seryn 454 xã đàn'",
       "note": "-"
     },
     {
-      "time": "01:07 UTC",
+      "time": "01:00 UTC",
       "step": "Mạng xã hội",
       "result": "18 lượt site:facebook/tiktok/youtube — không kênh mới, không trùng 'Seryn'",
       "note": "-"
     },
     {
-      "time": "01:07 UTC",
+      "time": "01:01 UTC",
       "step": "So sánh báo cáo trước",
-      "result": "Đối chiếu 20/10 (có báo cáo gốc). 1 nguồn mới (JamBase, không liên quan).",
+      "result": "Đối chiếu 21/10 (có báo cáo gốc). 0 nguồn mới.",
       "note": "-"
     },
     {
-      "time": "01:08 UTC",
+      "time": "01:02 UTC",
       "step": "Upload Drive",
       "result": "OK 6.1",
-      "note": "https://docs.google.com/spreadsheets/d/1WlNSJXzjbWbg-4TqlshynasbLceI-0LQ2Y5At5dElP0/edit"
-    },
-    {
-      "time": "01:09 UTC",
-      "step": "Copy ingest",
-      "result": "OK - sao chép sang D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\",
-      "note": "-"
+      "note": "https://docs.google.com/spreadsheets/d/1XMoJc6Xd5ErQrwh_JE8VzR-j9I7pu1I3XyxkNV5T8Ds/edit"
     }
   ]
 }
