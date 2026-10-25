@@ -70272,5 +70272,257 @@
       "domain": "plo.vn",
       "channel": ""
     }
+  ],
+  "2026-10-25": [
+    {
+      "brand": "Viện thẩm mỹ KangJin Sejung",
+      "type": "new_article",
+      "title": "",
+      "summary": "Không phát hiện tin xấu / bài viết mới đáng chú ý",
+      "itemDate": "25-10-2026",
+      "url": "",
+      "domain": "",
+      "channel": ""
+    },
+    {
+      "brand": "Thanh Hằng Beauty Medi",
+      "type": "new_article",
+      "title": "",
+      "summary": "Thanh Hằng Beauty Medi - bài PR/lifestyle 'Thăng hoa với dạ tiệc 5 sao' (Zing News)",
+      "itemDate": "25-10-2026",
+      "url": "https://znews.vn/thang-hoa-voi-da-tiec-5-sao-cua-thanh-hang-beauty-medi-post1414026.html",
+      "domain": "znews.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thanh Hằng Beauty Medi",
+      "type": "new_article",
+      "title": "",
+      "summary": "Thanh Hằng Beauty Medi đầu tư 300 tỷ đồng mở rộng kinh doanh ở trung tâm Hà Nội (VOV)",
+      "itemDate": "25-10-2026",
+      "url": "https://vov.vn/doanh-nghiep/thong-tin-doanh-nghiep/thanh-hang-beauty-medi-dau-tu-300-ty-dong-mo-rong-kinh-doanh-o-trung-tam-ha-noi-post1062161.vov",
+      "domain": "vov.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Lavender By Chang",
+      "type": "new_article",
+      "title": "",
+      "summary": "Thông tin/đánh giá Thẩm mỹ viện Lavender By Chang (Hello Bacsi) và bài viết hỏi về uy tín/lừa đảo trên diễn đàn",
+      "itemDate": "25-10-2026",
+      "url": "https://hellobacsi.com/care/benh-vien/tham-my-vien-lavender-by-chang-2084",
+      "domain": "hellobacsi.com",
+      "channel": ""
+    },
+    {
+      "brand": "Bệnh viện thẩm mỹ Kangnam",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Mega Kangnam (Quy Nhơn, Bình Định) hoạt động không phép, bị phạt 50 triệu đồng, đình chỉ dịch vụ thẩm mỹ 24 tháng (cơ sở mang tên Kangnam; chưa xác nhận cùng hệ thống với Bệnh viện thẩm mỹ Kangnam)",
+      "itemDate": "25-10-2026",
+      "url": "https://lsvn.vn/binh-dinh-tham-my-vien-mega-kangnam-hoat-dong-khong-phep-1726213527-a147197.html",
+      "domain": "lsvn.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Bệnh viện thẩm mỹ Kangnam",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Khách hàng tử vong sau căng da mặt tại Bệnh viện thẩm mỹ Kangnam (vụ việc cũ, còn xuất hiện trong kết quả tìm kiếm)",
+      "itemDate": "25-10-2026",
+      "url": "https://vtcnews.vn/tim-tai-va-chet-sau-khi-cang-da-mat-o-benh-vien-tham-my-kangnam-d504357.html",
+      "domain": "vtcnews.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Bệnh viện thẩm mỹ Kangnam",
+      "type": "new_article",
+      "title": "",
+      "summary": "Xử phạt nhiều cá nhân, đơn vị vi phạm khám chữa bệnh TP.HCM - kết quả tìm kiếm liên quan Kangnam (cần kiểm tra có nhắc thương hiệu)",
+      "itemDate": "25-10-2026",
+      "url": "https://plo.vn/tphcm-xu-phat-nhieu-ca-nhan-don-vi-vi-pham-quy-dinh-kham-chua-benh-post702829.html",
+      "domain": "plo.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Bệnh viện thẩm mỹ Kangnam",
+      "type": "new_article",
+      "title": "",
+      "summary": "Khai trương Thẩm mỹ viện Kangnam Cali (Tuổi Trẻ)",
+      "itemDate": "25-10-2026",
+      "url": "https://tuoitre.vn/nld-phu-nu/cang-da-mat.html",
+      "domain": "tuoitre.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Bệnh viện thẩm mỹ Kangnam",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Thẩm mỹ viện/BV thẩm mỹ Kangnam: liên tiếp tử vong do phẫu thuật thẩm mỹ - Sở Y tế chỉ đạo khẩn (tổng hợp, cần kiểm tra mức độ nhắc tên)",
+      "itemDate": "25-10-2026",
+      "url": "https://baovanhoa.vn/y-te/lien-tiep-tu-vong-do-phau-thuat-tham-my-o tphcm-so-y-te-phai-chi-dao-khan-12632.html",
+      "domain": "baovanhoa.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Bệnh viện thẩm mỹ Kangnam",
+      "type": "new_article",
+      "title": "",
+      "summary": "Nhiều cá nhân, cơ sở thẩm mỹ bị phạt nặng và đình chỉ hoạt động (Znews, kết quả liên quan Kangnam)",
+      "itemDate": "25-10-2026",
+      "url": "https://znews.vn/nhieu-ca-nhan-co-so-tham-my-bi-phat-nang-va-dinh-chi-hoat-dong-post1514911.html",
+      "domain": "znews.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Xuân Hương",
+      "type": "new_article",
+      "title": "",
+      "summary": "Thương hiệu thẩm mỹ 30 năm tại Hà Nội có mặt ở TP.HCM - Thẩm mỹ viện Xuân Hương (Tuổi Trẻ)",
+      "itemDate": "25-10-2026",
+      "url": "https://tuoitre.vn/thuong-hieu-tham-my-30-nam-tai-ha-noi-da-co-mat-o-tp-hcm-20201126142839002.htm",
+      "domain": "tuoitre.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Xuân Hương",
+      "type": "new_article",
+      "title": "",
+      "summary": "Chủ tịch HĐQT Đặng Thị Xuân Hương - hành trình 30 năm Thẩm mỹ viện Xuân Hương (Doanh nhân & Pháp luật)",
+      "itemDate": "25-10-2026",
+      "url": "https://doanhnhan.baophapluat.vn/dang-thi-xuan-huong--chu-tich-hdqt-cong-ty-cp-tham-my-vien-xuan-huong-hanh-trinh-30-nam-lang-tham-toa-huong-37046.html",
+      "domain": "doanhnhan.baophapluat.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Bally",
+      "type": "new_article",
+      "title": "",
+      "summary": "Không phát hiện tin xấu / bài viết mới đáng chú ý",
+      "itemDate": "25-10-2026",
+      "url": "",
+      "domain": "",
+      "channel": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Dr. Hải Lê",
+      "type": "new_article",
+      "title": "",
+      "summary": "Bệnh viện tạo hình thẩm mỹ Dr. Hải Lê được Bộ Y tế cấp phép hoạt động mô hình bệnh viện",
+      "itemDate": "25-10-2026",
+      "url": "https://vtcnews.vn/benh-vien-tao-hinh-tham-my-dr-hai-le-duoc-cap-phep-hoat-dong-ar1008804.html",
+      "domain": "vtcnews.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Ngọc Dung",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Công ty TNHH Thẩm mỹ viện Ngọc Dung bị phạt 94 triệu đồng, tước giấy phép khám chữa bệnh 3 tháng (khám chữa bệnh vượt phạm vi, hồ sơ bệnh án chưa đầy đủ) - tin cũ còn hiển thị",
+      "itemDate": "25-10-2026",
+      "url": "https://doanhnghiephoinhap.vn/tuoc-giay-phep-hoat-dong-cua-cong-ty-y-te-shoubikai-va-tham-my-vien-ngoc-dung-1290.html",
+      "domain": "doanhnghiephoinhap.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Ngọc Dung",
+      "type": "new_article",
+      "title": "",
+      "summary": "Thẩm mỹ viện Ngọc Dung: review dịch vụ, bảng giá & công nghệ 2026 (Finhay)",
+      "itemDate": "25-10-2026",
+      "url": "https://www.finhay.com.vn/tham-my-vien-ngoc-dung",
+      "domain": "finhay.com.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VietCharm",
+      "type": "new_article",
+      "title": "",
+      "summary": "Chuyển cơ quan công an điều tra vi phạm của các cơ sở thẩm mỹ - kết quả liên quan VietCharm (cần kiểm tra nhắc tên)",
+      "itemDate": "25-10-2026",
+      "url": "https://znews.vn/chuyen-co-quan-cong-an-dieu-tra-vi-pham-cua-cac-co-so-tham-my-tai-pham-post1452288.html",
+      "domain": "znews.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VietCharm",
+      "type": "new_article",
+      "title": "",
+      "summary": "Danh bạ doanh nghiệp: Thẩm mỹ viện VietCharm (Yellow Pages)",
+      "itemDate": "25-10-2026",
+      "url": "https://yellowpages.vn/lgs/1187878815/tham-my-vien-vietcharm.html",
+      "domain": "yellowpages.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Dr. Thái Hà",
+      "type": "new_article",
+      "title": "",
+      "summary": "Không phát hiện tin xấu / bài viết mới đáng chú ý",
+      "itemDate": "25-10-2026",
+      "url": "",
+      "domain": "",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VITA Clinic",
+      "type": "new_article",
+      "title": "",
+      "summary": "Không phát hiện tin xấu / bài viết mới đáng chú ý",
+      "itemDate": "25-10-2026",
+      "url": "",
+      "domain": "",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ Hongkong",
+      "type": "new_article",
+      "title": "",
+      "summary": "Xử phạt nhiều cơ sở thẩm mỹ, khám chữa bệnh không phép tại TP.HCM - kết quả tìm kiếm 'Thẩm mỹ Hongkong' (không xác nhận nhắc tên thương hiệu)",
+      "itemDate": "25-10-2026",
+      "url": "https://thoibaotaichinhvietnam.vn/xu-phat-nhieu-co-so-tham-my-kham-chua-benh-khong-phep-tai-tp-ho-chi-minh-192584.html",
+      "domain": "thoibaotaichinhvietnam.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ Seoul",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Phòng khám Phương Đông Seoul bị đình chỉ, phạt 120 triệu đồng (TP.HCM) - thương hiệu có tên 'Seoul', chưa xác nhận là cùng đơn vị theo dõi",
+      "itemDate": "25-10-2026",
+      "url": "https://vtcnews.vn/tp-hcm-phong-kham-y-khoa-phuong-dong-seoul-bi-dinh-chi-phat-120-trieu-dong-ar844272.html",
+      "domain": "vtcnews.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ Thu Cúc",
+      "type": "bad_news",
+      "title": "",
+      "summary": "Công ty quản lý Phòng khám Đa khoa quốc tế Thu Cúc bị phạt 20 triệu đồng (không báo cáo ca nghi Covid-19, không tư vấn phòng bệnh truyền nhiễm) - tin cũ",
+      "itemDate": "25-10-2026",
+      "url": "https://baovanhoa.vn/phap-luat/cong-ty-quan-ly-phong-kham-da-khoa-quoc-te-thu-cuc-bi-xu-phat-20-trieu-dong-76630.html",
+      "domain": "baovanhoa.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ Thu Cúc",
+      "type": "new_article",
+      "title": "",
+      "summary": "Thu Cúc tự hào hành trình 26 năm vì phụ nữ Việt (PLO)",
+      "itemDate": "25-10-2026",
+      "url": "https://plo.vn/thu-cuc-tu-hao-hanh-trinh-26-nam-vi-phu-nu-viet-post692018.html",
+      "domain": "plo.vn",
+      "channel": ""
+    },
+    {
+      "brand": "Thẩm mỹ Thu Cúc",
+      "type": "new_article",
+      "title": "",
+      "summary": "Review Bệnh viện Thẩm mỹ Thu Cúc (Finhay)",
+      "itemDate": "25-10-2026",
+      "url": "https://www.finhay.com.vn/benh-vien-tham-my-thu-cuc",
+      "domain": "finhay.com.vn",
+      "channel": ""
+    }
   ]
 }

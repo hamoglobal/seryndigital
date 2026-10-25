@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "topSources": [
     {
       "title": "seryn.vn (carry-forward, không hiện trong SERP hôm nay)",
@@ -247,7 +247,7 @@
   "alerts": [
     {
       "level": "",
-      "type": "⚠️ CẢNH BÁO ĐỎ: Không phát hiện Cảnh báo Đỏ nào ngày 2026-10-24",
+      "type": "⚠️ CẢNH BÁO ĐỎ: Không phát hiện Cảnh báo Đỏ nào ngày 2026-10-25",
       "source": "-",
       "date": "-",
       "summary": "",
@@ -302,22 +302,28 @@
       "note": "-"
     },
     {
-      "time": "01:06 UTC",
+      "time": "01:07 UTC",
       "step": "Mạng xã hội",
       "result": "18 lượt site:facebook/tiktok/youtube — không kênh mới, không trùng 'Seryn'",
       "note": "-"
     },
     {
-      "time": "01:07 UTC",
+      "time": "01:09 UTC",
       "step": "So sánh báo cáo trước",
-      "result": "Đối chiếu 2026-10-23 (có báo cáo gốc). 0 nguồn mới.",
+      "result": "Đối chiếu 2026-10-24 (có báo cáo gốc). 0 nguồn mới.",
       "note": "-"
     },
     {
       "time": "01:12 UTC",
       "step": "Upload Drive",
       "result": "OK 6.1",
-      "note": "https://docs.google.com/spreadsheets/d/1XJ9U5NmSMHo3q5Jrg5Zo4RKlG80OTKI6xjb1YIZS6RY/edit"
+      "note": "https://docs.google.com/spreadsheets/d/1mAUScyBbnvt3BfEkt8V1gZgZclVz-QHuOg6MLrbPz0U/edit"
+    },
+    {
+      "time": "01:13 UTC",
+      "step": "Sao chép ingest",
+      "result": "OK 5b",
+      "note": "D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\"
     }
   ]
 }
