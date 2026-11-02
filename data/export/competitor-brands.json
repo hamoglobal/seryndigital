@@ -21118,5 +21118,133 @@
       "note": "Chưa phát hiện vi phạm đáng chú ý trong đợt tra cứu",
       "mainSources": ""
     }
+  ],
+  "2026-11-02": [
+    {
+      "brand": "Bệnh viện thẩm mỹ Kangnam",
+      "badNews": 4,
+      "newArticles": 0,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "Có sự cố y khoa/hồ sơ pháp lý cũ (2019, 2024); chưa thấy tin xấu mới trong kỳ",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Thu Cúc",
+      "badNews": 2,
+      "newArticles": 2,
+      "riskLevel": "low",
+      "riskRaw": "Thấp",
+      "note": "Các mức phạt nhỏ, tin cũ (2022)",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Ngọc Dung",
+      "badNews": 1,
+      "newArticles": 2,
+      "riskLevel": "medium",
+      "riskRaw": "Trung bình",
+      "note": "Bị phạt + đình chỉ giấy phép năm 2022; không thấy tin mới",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Seoul",
+      "badNews": 1,
+      "newArticles": 1,
+      "riskLevel": "low",
+      "riskRaw": "Thấp (cần đối chiếu)",
+      "note": "Kết quả phạt có thể thuộc đơn vị khác tên Seoul",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thanh Hằng Beauty Medi",
+      "badNews": 0,
+      "newArticles": 2,
+      "riskLevel": "low",
+      "riskRaw": "Không phát hiện",
+      "note": "Chưa thấy tin xấu trong top kết quả",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Xuân Hương",
+      "badNews": 0,
+      "newArticles": 2,
+      "riskLevel": "low",
+      "riskRaw": "Không phát hiện",
+      "note": "Chưa thấy tin xấu trong top kết quả",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Dr. Hải Lê",
+      "badNews": 0,
+      "newArticles": 2,
+      "riskLevel": "low",
+      "riskRaw": "Không phát hiện",
+      "note": "Chưa thấy tin xấu trong top kết quả",
+      "mainSources": ""
+    },
+    {
+      "brand": "Lavender By Chang",
+      "badNews": 0,
+      "newArticles": 1,
+      "riskLevel": "low",
+      "riskRaw": "Không phát hiện",
+      "note": "Chưa thấy tin xấu trong top kết quả",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VITA Clinic",
+      "badNews": 0,
+      "newArticles": 1,
+      "riskLevel": "low",
+      "riskRaw": "Không phát hiện",
+      "note": "Chưa thấy tin xấu trong top kết quả",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ Bally",
+      "badNews": 0,
+      "newArticles": 1,
+      "riskLevel": "low",
+      "riskRaw": "Không phát hiện",
+      "note": "Chưa thấy tin xấu trong top kết quả",
+      "mainSources": ""
+    },
+    {
+      "brand": "Viện thẩm mỹ KangJin Sejung",
+      "badNews": 0,
+      "newArticles": 1,
+      "riskLevel": "low",
+      "riskRaw": "Không phát hiện",
+      "note": "Chưa thấy tin xấu trong top kết quả",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ Hongkong",
+      "badNews": 0,
+      "newArticles": 0,
+      "riskLevel": "low",
+      "riskRaw": "Không phát hiện",
+      "note": "Chưa thấy tin xấu trong top kết quả",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện Dr. Thái Hà",
+      "badNews": 0,
+      "newArticles": 0,
+      "riskLevel": "low",
+      "riskRaw": "Không phát hiện",
+      "note": "Chưa thấy tin xấu trong top kết quả",
+      "mainSources": ""
+    },
+    {
+      "brand": "Thẩm mỹ viện VietCharm",
+      "badNews": 0,
+      "newArticles": 0,
+      "riskLevel": "low",
+      "riskRaw": "Không phát hiện",
+      "note": "Chưa thấy tin xấu trong top kết quả",
+      "mainSources": ""
+    }
   ]
 }
