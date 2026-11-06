@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "topSources": [
     {
       "title": "seryn.vn (carry-forward, không hiện trong SERP hôm nay)",
@@ -247,7 +247,7 @@
   "alerts": [
     {
       "level": "",
-      "type": "⚠️ CẢNH BÁO ĐỎ: Không phát hiện Cảnh báo Đỏ nào ngày 2026-11-05",
+      "type": "⚠️ CẢNH BÁO ĐỎ: Không phát hiện Cảnh báo Đỏ nào ngày 2026-11-06",
       "source": "-",
       "date": "-",
       "summary": "",
@@ -296,34 +296,34 @@
   ],
   "activityLog": [
     {
-      "time": "Chạy 2026-11-05",
+      "time": "Chạy 2026-11-06",
       "step": "Tìm kiếm Google",
       "result": "16 từ khóa WebSearch — chỉ CB Insights khớp 'Seryn' liên quan; ban nhạc Nashville (Dallas Observer, JamBase) hiện lại ở truy vấn 'seryn 454 xã đàn' (không liên quan)",
       "note": "-"
     },
     {
-      "time": "Chạy 2026-11-05",
+      "time": "Chạy 2026-11-06",
       "step": "Mạng xã hội",
       "result": "18 lượt site:facebook/tiktok/youtube — không kênh mới, không trùng đúng 'Seryn'",
       "note": "-"
     },
     {
-      "time": "Chạy 2026-11-05",
+      "time": "Chạy 2026-11-06",
       "step": "So sánh báo cáo trước",
-      "result": "Đối chiếu 2026-11-04 (có báo cáo gốc). 0 nguồn mới.",
+      "result": "Đối chiếu 2026-11-05 (có báo cáo gốc). 0 nguồn mới.",
       "note": "-"
     },
     {
-      "time": "Chạy 2026-11-05",
+      "time": "Chạy 2026-11-06",
       "step": "Sao chép ingest",
-      "result": "OK 5b (cp + so sánh byte)",
+      "result": "OK 5b",
       "note": "D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\"
     },
     {
-      "time": "Chạy 2026-11-05",
+      "time": "Chạy 2026-11-06",
       "step": "Upload Drive",
       "result": "OK 6.1",
-      "note": "https://docs.google.com/spreadsheets/d/1EctHX6OaCl3OqeI0TdJjPXMVcl7AP-4xxnAYtxANOtc/edit"
+      "note": "https://docs.google.com/spreadsheets/d/1ZLIJEUF4ZKjVASJFlDGSwZ3yJhhEQOAzg6KDEHp45Rg/edit"
     }
   ]
 }
