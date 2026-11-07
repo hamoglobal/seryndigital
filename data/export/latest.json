@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "topSources": [
     {
       "title": "seryn.vn (carry-forward, không hiện trong SERP hôm nay)",
@@ -82,7 +82,23 @@
       "isNew": false
     },
     {
-      "title": "CB Insights 'SERYN' — hồ sơ tự động (xuất hiện ở hầu hết các lượt tìm)",
+      "title": "Vinmec — tag 'seryn medicine' (thuốc Seryn, sản phẩm khác, không liên quan)",
+      "url": "https://vinmec.com/eng/tag/seryn-medicine-6931fce7",
+      "domain": "vinmec.com",
+      "type": "Trung tính",
+      "sentiment": "unknown",
+      "isNew": true
+    },
+    {
+      "title": "Vinmec — Công dụng thuốc Seryn (sản phẩm khác)",
+      "url": "https://www.vinmec.com/vie/bai-viet/cong-dung-thuoc-seryn-vi",
+      "domain": "vinmec.com",
+      "type": "Trung tính",
+      "sentiment": "unknown",
+      "isNew": false
+    },
+    {
+      "title": "CB Insights 'SERYN' — hồ sơ tự động",
       "url": "https://www.cbinsights.com/company/seryn",
       "domain": "cbinsights.com",
       "type": "Trung tính",
@@ -114,14 +130,6 @@
       "isNew": false
     },
     {
-      "title": "Thuốc Seryn — Vinmec (sản phẩm khác, không liên quan)",
-      "url": "https://www.vinmec.com/vie/bai-viet/cong-dung-thuoc-seryn-vi",
-      "domain": "vinmec.com",
-      "type": "Trung tính",
-      "sentiment": "unknown",
-      "isNew": false
-    },
-    {
       "title": "Từ khóa 'lừa đảo phản ánh tiêu cực'",
       "url": "-",
       "domain": "",
@@ -138,16 +146,8 @@
       "isNew": false
     },
     {
-      "title": "Ban nhạc Seryn (Nashville) — JamBase 'seryn at new brookland tavern'",
+      "title": "Ban nhạc Seryn (Nashville) — JamBase",
       "url": "https://www.jambase.com/show/seryn-at-new-brookland-tavern-20150902",
-      "domain": "jambase.com",
-      "type": "Trung tính",
-      "sentiment": "unknown",
-      "isNew": false
-    },
-    {
-      "title": "Ban nhạc Seryn (Nashville) — JamBase 'seryn at the mercy lounge'",
-      "url": "https://www.jambase.com/show/seryn-at-the-mercy-lounge-20151001",
       "domain": "jambase.com",
       "type": "Trung tính",
       "sentiment": "unknown",
@@ -247,7 +247,7 @@
   "alerts": [
     {
       "level": "",
-      "type": "⚠️ CẢNH BÁO ĐỎ: Không phát hiện Cảnh báo Đỏ nào ngày 2026-11-06",
+      "type": "⚠️ CẢNH BÁO ĐỎ: Không phát hiện Cảnh báo Đỏ nào ngày 2026-11-07",
       "source": "-",
       "date": "-",
       "summary": "",
@@ -296,34 +296,34 @@
   ],
   "activityLog": [
     {
-      "time": "Chạy 2026-11-06",
+      "time": "Chạy 2026-11-07",
       "step": "Tìm kiếm Google",
-      "result": "16 từ khóa WebSearch — chỉ CB Insights khớp 'Seryn' liên quan; ban nhạc Nashville (Dallas Observer, JamBase) hiện lại ở truy vấn 'seryn 454 xã đàn' (không liên quan)",
+      "result": "16 từ khóa WebSearch — không nguồn Seryn Clinic nào hiện; CB Insights vắng; Vinmec tag 'seryn medicine' (thuốc) là nguồn mới Trung tính",
       "note": "-"
     },
     {
-      "time": "Chạy 2026-11-06",
+      "time": "Chạy 2026-11-07",
       "step": "Mạng xã hội",
-      "result": "18 lượt site:facebook/tiktok/youtube — không kênh mới, không trùng đúng 'Seryn'",
+      "result": "18 lượt site:facebook/tiktok/youtube — không kênh mới, không trùng đúng 'Seryn' (trừ Vinmec tag thuốc)",
       "note": "-"
     },
     {
-      "time": "Chạy 2026-11-06",
+      "time": "Chạy 2026-11-07",
       "step": "So sánh báo cáo trước",
-      "result": "Đối chiếu 2026-11-05 (có báo cáo gốc). 0 nguồn mới.",
+      "result": "Đối chiếu 2026-11-06 (có báo cáo gốc). 1 nguồn mới (Trung tính).",
       "note": "-"
     },
     {
-      "time": "Chạy 2026-11-06",
+      "time": "Chạy 2026-11-07",
       "step": "Sao chép ingest",
       "result": "OK 5b",
       "note": "D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\"
     },
     {
-      "time": "Chạy 2026-11-06",
+      "time": "Chạy 2026-11-07",
       "step": "Upload Drive",
       "result": "OK 6.1",
-      "note": "https://docs.google.com/spreadsheets/d/1ZLIJEUF4ZKjVASJFlDGSwZ3yJhhEQOAzg6KDEHp45Rg/edit"
+      "note": "https://docs.google.com/spreadsheets/d/1lbWo4fqqZHKIALVJdUdPWx1mK9VF_GAJFOS0semTesQ/edit"
     }
   ]
 }
