@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "topSources": [
     {
       "title": "seryn.vn (carry-forward, không hiện trong SERP hôm nay)",
@@ -152,6 +152,14 @@
       "type": "Trung tính",
       "sentiment": "unknown",
       "isNew": false
+    },
+    {
+      "title": "UESP Wiki — 'Online:Seryn' (nhân vật game Elder Scrolls Online, không liên quan)",
+      "url": "https://app.uesp.net/wiki/Online:Seryn",
+      "domain": "app.uesp.net",
+      "type": "Trung tính",
+      "sentiment": "unknown",
+      "isNew": true
     }
   ],
   "social": [
@@ -161,7 +169,7 @@
       "url": "https://www.facebook.com/people/Phòng-Khám-Đa-Khoa-Seryn/100095083541326/",
       "accountType": "",
       "sentiment": "Tích cực",
-      "note": "Carry-forward (footer seryn.vn); không index qua 18 lượt site: hôm nay 18/11"
+      "note": "Carry-forward (footer seryn.vn); không index qua 18 lượt site: hôm nay 19/11"
     },
     {
       "platform": "YouTube",
@@ -247,7 +255,7 @@
   "alerts": [
     {
       "level": "",
-      "type": "⚠️ CẢNH BÁO ĐỎ: Không phát hiện Cảnh báo Đỏ nào ngày 2026-11-18",
+      "type": "⚠️ CẢNH BÁO ĐỎ: Không phát hiện Cảnh báo Đỏ nào ngày 2026-11-19",
       "source": "-",
       "date": "-",
       "summary": "",
@@ -296,31 +304,31 @@
   ],
   "activityLog": [
     {
-      "time": "2026-11-18",
+      "time": "2026-11-19",
       "step": "Tìm kiếm Google",
-      "result": "16 từ khóa WebSearch — không nguồn Seryn Clinic mới",
+      "result": "16 từ khóa WebSearch — 1 nguồn mới không liên quan (UESP game), không nguồn Seryn Clinic mới",
       "note": "-"
     },
     {
-      "time": "2026-11-18",
+      "time": "2026-11-19",
       "step": "Mạng xã hội",
       "result": "18 lượt site:facebook/tiktok/youtube — không kênh mới",
       "note": "-"
     },
     {
-      "time": "2026-11-18",
+      "time": "2026-11-19",
       "step": "So sánh báo cáo trước",
-      "result": "Đối chiếu 2026-11-17 (có báo cáo gốc). 0 nguồn mới.",
+      "result": "Đối chiếu 2026-11-18 (có báo cáo gốc). 1 nguồn mới (Trung tính).",
       "note": "-"
     },
     {
-      "time": "2026-11-18 01:06 UTC",
+      "time": "2026-11-19 01:06 UTC",
       "step": "Upload Drive",
       "result": "OK 6.1",
-      "note": "https://docs.google.com/spreadsheets/d/1PX4fsN4tsoUPMBFhF5RkfLl5AwwakfUw6pYX75ju4Js/edit"
+      "note": "https://docs.google.com/spreadsheets/d/1UWlE3rnhS3-z99wlGZ632d5WmX6k0lujc5ED8TID4E4/edit"
     },
     {
-      "time": "2026-11-18 01:07 UTC",
+      "time": "2026-11-19 01:07 UTC",
       "step": "Sao chép ingest",
       "result": "OK 5b (copy sang thư mục ingest)",
       "note": "D:\\APP Seryn\\seryn-digital-app\\reports\\incoming\\"
